@@ -1,0 +1,395 @@
+{
+  "candidates": 5568,
+  "cases": 116,
+  "central_objective": null,
+  "central_status": "not_run",
+  "checks": {
+    "construction": {
+      "coefficients": 12771,
+      "components": 15,
+      "empty_rows": 7,
+      "failed_empty_rows": [],
+      "rows": 2788,
+      "status": "PASS"
+    },
+    "ground_truth": {
+      "feasible": true,
+      "objective": "1066282068301787745104827/1250000000000000000000",
+      "omitted_observations": 0,
+      "selected_observations": 1856,
+      "violations": []
+    }
+  },
+  "component_candidate_sizes": [
+    435,
+    414,
+    363,
+    354,
+    366,
+    336,
+    414,
+    396,
+    396,
+    408,
+    363,
+    378,
+    393,
+    210,
+    342
+  ],
+  "component_case_sizes": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    4,
+    8
+  ],
+  "components": 15,
+  "construction_sequential_seconds": 0.11551379098091274,
+  "distributed_objective": null,
+  "distributed_status": "not_run",
+  "metadata": {
+    "active_numerical_model_sha256": "1b5087ff426a8d41bb1028faa7163e749ffa6b1ba9bc088ffa71be5777a5a30a",
+    "bridge_count": 101,
+    "candidate_count": 5568,
+    "candidate_order": "Case ID, start, end, observation ID, activity; all lexicographic except integer times.",
+    "case_count": 116,
+    "case_order": "Lexicographic case ID.",
+    "component_count": 15,
+    "component_diameters": [
+      6,
+      6,
+      6,
+      5,
+      6,
+      6,
+      6,
+      6,
+      5,
+      6,
+      5,
+      5,
+      6,
+      6,
+      3
+    ],
+    "component_sizes": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      4
+    ],
+    "components": [
+      {
+        "cases": [
+          "0",
+          "1",
+          "104",
+          "108",
+          "51",
+          "63",
+          "71",
+          "91"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "0",
+        "size": 8
+      },
+      {
+        "cases": [
+          "10",
+          "105",
+          "2",
+          "27",
+          "43",
+          "47",
+          "57",
+          "90"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "10",
+        "size": 8
+      },
+      {
+        "cases": [
+          "100",
+          "13",
+          "33",
+          "46",
+          "6",
+          "86",
+          "9",
+          "97"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "100",
+        "size": 8
+      },
+      {
+        "cases": [
+          "101",
+          "116",
+          "21",
+          "35",
+          "67",
+          "68",
+          "69",
+          "83"
+        ],
+        "diameter": 5,
+        "edge_count": 7,
+        "id": "101",
+        "size": 8
+      },
+      {
+        "cases": [
+          "102",
+          "23",
+          "28",
+          "40",
+          "5",
+          "50",
+          "53",
+          "85"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "102",
+        "size": 8
+      },
+      {
+        "cases": [
+          "103",
+          "115",
+          "25",
+          "37",
+          "62",
+          "75",
+          "79",
+          "93"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "103",
+        "size": 8
+      },
+      {
+        "cases": [
+          "106",
+          "31",
+          "44",
+          "49",
+          "59",
+          "73",
+          "80",
+          "88"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "106",
+        "size": 8
+      },
+      {
+        "cases": [
+          "107",
+          "15",
+          "32",
+          "41",
+          "70",
+          "74",
+          "77",
+          "87"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "107",
+        "size": 8
+      },
+      {
+        "cases": [
+          "109",
+          "114",
+          "22",
+          "29",
+          "56",
+          "64",
+          "66",
+          "76"
+        ],
+        "diameter": 5,
+        "edge_count": 7,
+        "id": "109",
+        "size": 8
+      },
+      {
+        "cases": [
+          "11",
+          "12",
+          "30",
+          "36",
+          "4",
+          "7",
+          "8",
+          "98"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "11",
+        "size": 8
+      },
+      {
+        "cases": [
+          "110",
+          "111",
+          "19",
+          "24",
+          "55",
+          "72",
+          "95",
+          "96"
+        ],
+        "diameter": 5,
+        "edge_count": 7,
+        "id": "110",
+        "size": 8
+      },
+      {
+        "cases": [
+          "112",
+          "14",
+          "16",
+          "20",
+          "48",
+          "60",
+          "78",
+          "99"
+        ],
+        "diameter": 5,
+        "edge_count": 7,
+        "id": "112",
+        "size": 8
+      },
+      {
+        "cases": [
+          "113",
+          "18",
+          "26",
+          "34",
+          "52",
+          "61",
+          "81",
+          "84"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "113",
+        "size": 8
+      },
+      {
+        "cases": [
+          "17",
+          "3",
+          "45",
+          "54",
+          "58",
+          "65",
+          "89",
+          "94"
+        ],
+        "diameter": 6,
+        "edge_count": 7,
+        "id": "17",
+        "size": 8
+      },
+      {
+        "cases": [
+          "39",
+          "42",
+          "82",
+          "92"
+        ],
+        "diameter": 3,
+        "edge_count": 3,
+        "id": "39",
+        "size": 4
+      }
+    ],
+    "constraint_subset_sweep": {
+      "hierarchy_and_ownership_unchanged": true,
+      "original_full_model_dataset_fingerprint": "1c49a87ce50648a337d6cdfece88fcc43e53d1b0ce79941b3252e6750c77a112",
+      "original_full_plan_sha256": "2c8fc3cc16a3f901ed8d043f69de072c54576fcf3a9a1d8e2bc62bc076a4ebf9",
+      "original_occurrence_bound_template_count": 32,
+      "original_prerequisite_template_count": 41,
+      "profile": "gt_support_3_prerequisites_2_count_bounds",
+      "selection": {
+        "occurrence_bounds": [
+          "occ_031",
+          "occ_021"
+        ],
+        "prerequisites": [
+          "pre_019",
+          "pre_036",
+          "pre_023"
+        ]
+      },
+      "selection_protocol_sha256": "ed7f41239f914c27787bd19b868374f711413da71f339fd7cc5f0675c72e7e5b"
+    },
+    "dataset_fingerprint": "1c49a87ce50648a337d6cdfece88fcc43e53d1b0ce79941b3252e6750c77a112",
+    "empty_case_ids": [],
+    "gt_score": "1066282068301787745104827/1250000000000000000000",
+    "input_folder": "/Users/henrikkirchmann/Documents/GPT MINEA/minea-ikea-evaluation/results/reference/full",
+    "input_hashes": {
+      "candidate_policy.json": "ce80e2563eca134f18b69d75ac5f29e9b7f7f7c537a799fef5937329663b9244",
+      "cases.csv": "3c67dbed6a405f9887075b9f78f5070d825b0402f5cff4d569ac115071dd796c",
+      "constraints.json": "c1177768c0355634d4307cde375a10bb0c544a8ffb08a84cc610d93ecad7b16b",
+      "ground_truth.csv": "57296c4286d203216b42a975f68d6d404c2ae82f054442ee72cadd24f68080df",
+      "uncertain_log.csv.gz": "dfbc6b1a7b3b36880e16c887bd98f4afef6e23d3c840059ea9c9a71d519d5af1"
+    },
+    "max_sources": 8,
+    "observation_count": 1856,
+    "occurrence_bound_template_count": 2,
+    "ownership_block_count": 1741,
+    "ownership_uses_full_plan": true,
+    "population_filter_applied": false,
+    "prerequisite_template_count": 3,
+    "score_convention": "Exact original JSON decimal tokens; no rounding or normalization.",
+    "seed": 0,
+    "source_candidate_counts": [
+      2787,
+      2781
+    ],
+    "source_coarsening_group_size": 4,
+    "source_count": 2,
+    "zero_lower_bound_convention": "Preserve templates; omit zero lower rows only during row construction."
+  },
+  "numerical_model_sha256": "1b5087ff426a8d41bb1028faa7163e749ffa6b1ba9bc088ffa71be5777a5a30a",
+  "source_candidate_counts": {
+    "0": 2787,
+    "1": 2781
+  },
+  "sources": 2
+}

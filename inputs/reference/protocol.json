@@ -1,0 +1,29 @@
+{
+  "created_utc": "20260919T042242_634887Z",
+  "source_repository": "https://github.com/henrikkirchmann/IKEA_ASM_UncertainEventLogs",
+  "source_commit": "f8403649a508584d661edee3b8fb0c231f6c7a78",
+  "python": "3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "arguments": {
+    "offline": true,
+    "accuracy_scope": "non_na",
+    "model": null,
+    "top_k": 3,
+    "candidate_policy": "top-k-gt",
+    "variant_coverage": 1.0,
+    "drop_empty_cases": true
+  },
+  "frames_per_second": 25,
+  "time_intervals": "Half-open, per-case frame coordinates.",
+  "score_policy": "Reuse mean frame probabilities, remove NA, keep 3 candidates with policy top-k-gt; ties by activity name; no renormalization or score changes. top-k-gt replaces the last retained candidate with GT if GT is absent.",
+  "mining_scope": "Entire chosen ground-truth cohort; not independent held-out process knowledge.",
+  "implementation_sha256": {
+    "run.py": "fd7a32d57475b88c9f7e8680b19cfc01c8291e8661f88958de4b2481be3e9bfd",
+    "verify.py": "e3774400d4cec870ef3c09994209ff65aa58c26244a4a0544bdd8ce461dcf92e",
+    "minea_ikea/__init__.py": "08233b4aa997c962b7babbc8307f2429c04fd0202acc3e7401263057e760af4d",
+    "minea_ikea/data.py": "5d23e5d9ae52a093c0a9816382405dd45654dc804adf4a18a7c3eb3d3dea9b22",
+    "minea_ikea/exports.py": "d051e044706c3c8f399793fd58868f3b61fb848fa11a7fe1c3aaaba2e9ce5e0d",
+    "minea_ikea/mining.py": "99c3342df4c1b918aa742728ad853b15c73a83cb14f4d9edd14e8b07d31bb308",
+    "source_manifest.json": "b4658c8d0ff99cd3b12fcaf9fa1c517cd3e4d9507c01f2d0845610554c7a61b8"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "component_interface_panel": [
+    {
+      "points": [
+        {
+          "components": 116,
+          "interface_variables": 0,
+          "maximum_component_interface": 0
+        },
+        {
+          "components": 58,
+          "interface_variables": 0,
+          "maximum_component_interface": 0
+        },
+        {
+          "components": 29,
+          "interface_variables": 0,
+          "maximum_component_interface": 0
+        },
+        {
+          "components": 15,
+          "interface_variables": 0,
+          "maximum_component_interface": 0
+        },
+        {
+          "components": 8,
+          "interface_variables": 0,
+          "maximum_component_interface": 0
+        },
+        {
+          "components": 4,
+          "interface_variables": 0,
+          "maximum_component_interface": 0
+        },
+        {
+          "components": 2,
+          "interface_variables": 0,
+          "maximum_component_interface": 0
+        },
+        {
+          "components": 1,
+          "interface_variables": 0,
+          "maximum_component_interface": 0
+        }
+      ],
+      "sources": 1
+    },
+    {
+      "points": [
+        {
+          "components": 116,
+          "interface_variables": 2331,
+          "maximum_component_interface": 35
+        },
+        {
+          "components": 58,
+          "interface_variables": 2331,
+          "maximum_component_interface": 63
+        },
+        {
+          "components": 29,
+          "interface_variables": 2331,
+          "maximum_component_interface": 115
+        },
+        {
+          "components": 15,
+          "interface_variables": 2331,
+          "maximum_component_interface": 195
+        },
+        {
+          "components": 8,
+          "interface_variables": 2331,
+          "maximum_component_interface": 351
+        },
+        {
+          "components": 4,
+          "interface_variables": 2331,
+          "maximum_component_interface": 652
+        },
+        {
+          "components": 2,
+          "interface_variables": 2331,
+          "maximum_component_interface": 1249
+        },
+        {
+          "components": 1,
+          "interface_variables": 2331,
+          "maximum_component_interface": 2331
+        }
+      ],
+      "sources": 2
+    },
+    {
+      "points": [
+        {
+          "components": 116,
+          "interface_variables": 2350,
+          "maximum_component_interface": 35
+        },
+        {
+          "components": 58,
+          "interface_variables": 2350,
+          "maximum_component_interface": 63
+        },
+        {
+          "components": 29,
+          "interface_variables": 2350,
+          "maximum_component_interface": 115
+        },
+        {
+          "components": 15,
+          "interface_variables": 2350,
+          "maximum_component_interface": 196
+        },
+        {
+          "components": 8,
+          "interface_variables": 2350,
+          "maximum_component_interface": 352
+        },
+        {
+          "components": 4,
+          "interface_variables": 2350,
+          "maximum_component_interface": 657
+        },
+        {
+          "components": 2,
+          "interface_variables": 2350,
+          "maximum_component_interface": 1261
+        },
+        {
+          "components": 1,
+          "interface_variables": 2350,
+          "maximum_component_interface": 2350
+        }
+      ],
+      "sources": 4
+    },
+    {
+      "points": [
+        {
+          "components": 116,
+          "interface_variables": 2359,
+          "maximum_component_interface": 35
+        },
+        {
+          "components": 58,
+          "interface_variables": 2359,
+          "maximum_component_interface": 63
+        },
+        {
+          "components": 29,
+          "interface_variables": 2359,
+          "maximum_component_interface": 115
+        },
+        {
+          "components": 15,
+          "interface_variables": 2359,
+          "maximum_component_interface": 196
+        },
+        {
+          "components": 8,
+          "interface_variables": 2359,
+          "maximum_component_interface": 352
+        },
+        {
+          "components": 4,
+          "interface_variables": 2359,
+          "maximum_component_interface": 664
+        },
+        {
+          "components": 2,
+          "interface_variables": 2359,
+          "maximum_component_interface": 1261
+        },
+        {
+          "components": 1,
+          "interface_variables": 2359,
+          "maximum_component_interface": 2359
+        }
+      ],
+      "sources": 8
+    }
+  ],
+  "coverage_groups": [
+    {
+      "members": [
+        "central",
+        "distributed_K1"
+      ],
+      "points": [
+        {
+          "cases_in_optimal_components": 116,
+          "components": 116,
+          "status": "optimal"
+        },
+        {
+          "cases_in_optimal_components": 116,
+          "components": 58,
+          "status": "optimal"
+        },
+        {
+          "cases_in_optimal_components": 116,
+          "components": 29,
+          "status": "optimal"
+        },
+        {
+          "cases_in_optimal_components": 116,
+          "components": 15,
+          "status": "optimal"
+        },
+        {
+          "cases_in_optimal_components": 116,
+          "components": 8,
+          "status": "optimal"
+        },
+        {
+          "cases_in_optimal_components": 116,
+          "components": 4,
+          "status": "optimal"
+        },
+        {
+          "cases_in_optimal_components": 116,
+          "components": 2,
+          "status": "optimal"
+        },
+        {
+          "cases_in_optimal_components": 116,
+          "components": 1,
+          "status": "optimal"
+        }
+      ]
+    },
+    {
+      "members": [
+        "distributed_K2",
+        "distributed_K4",
+        "distributed_K8"
+      ],
+      "points": [
+        {
+          "cases_in_optimal_components": 116,
+          "components": 116,
+          "status": "optimal"
+        },
+        {
+          "cases_in_optimal_components": 46,
+          "components": 58,
+          "status": "limited"
+        },
+        {
+          "cases_in_optimal_components": 8,
+          "components": 29,
+          "status": "limited"
+        },
+        {
+          "cases_in_optimal_components": 0,
+          "components": 15,
+          "status": "limited"
+        },
+        {
+          "cases_in_optimal_components": 0,
+          "components": 8,
+          "status": "limited"
+        },
+        {
+          "cases_in_optimal_components": 0,
+          "components": 4,
+          "status": "limited"
+        },
+        {
+          "cases_in_optimal_components": 0,
+          "components": 2,
+          "status": "limited"
+        },
+        {
+          "cases_in_optimal_components": 0,
+          "components": 1,
+          "status": "limited"
+        }
+      ]
+    }
+  ],
+  "scope": "Groups share plotted case coverage and completion status only; they can differ in time, work and solved-case identities."
+}

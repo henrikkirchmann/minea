@@ -1,0 +1,40 @@
+{
+  "components": 116,
+  "created_utc": "2026-09-19T05:45:26.761324+00:00",
+  "decision": "One bounded retry. Inspect exact completion, feasible incumbents and bounds before extending the experiment. No automatic follow-on grid.",
+  "distributed_node_limit": 100000,
+  "execution": "One fresh process, central then distributed; single-machine logical simulation. Peak RSS covers the whole process. Methods share the process and default solver context, so timings do not isolate distributed overhead.",
+  "ground_truth": "results/reference/full/ground_truth.csv",
+  "ground_truth_sha256": "57296c4286d203216b42a975f68d6d404c2ae82f054442ee72cadd24f68080df",
+  "interpretation": "A weaker constraint model selected after a limited full-model calibration; exploratory, not a speedup on the original optimization problem. Same fixed subset for both methods. All selected count lower bounds are zero and remain omitted by the unchanged encoder.",
+  "profile": "gt_support_3_prerequisites_2_count_bounds",
+  "ranking": "Within each family: descending support cases, descending support events, ascending template ID.",
+  "seconds_per_method": 300,
+  "seed": 0,
+  "selection": {
+    "occurrence_bounds": [
+      "occ_031",
+      "occ_021"
+    ],
+    "prerequisites": [
+      "pre_019",
+      "pre_036",
+      "pre_023"
+    ]
+  },
+  "source_instance": "results/benchmark_calibration/K2/seed0_K2_C116/instance.json.gz",
+  "source_instance_sha256": "70b167226699558e442b36e5614bb04c17613f8b2242572e01dde7ad0f769a4f",
+  "sources": 2,
+  "support": {
+    "occurrence_bounds": "GT cases/events containing an activity covered by the bound (positive occurrence).",
+    "prerequisites": "GT cases/events containing the trigger activity (nonvacuous activation)."
+  },
+  "unchanged_fields": [
+    "candidates",
+    "case_hosts",
+    "cases",
+    "given_rows",
+    "gt_selected",
+    "sources"
+  ]
+}

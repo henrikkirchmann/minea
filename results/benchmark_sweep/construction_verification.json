@@ -1,0 +1,204 @@
+{
+  "conditions": [
+    {
+      "condition": "seed0_K1_C116",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K1_C58",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K1_C29",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K1_C15",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K1_C8",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K1_C4",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K1_C2",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K1_C1",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K2_C116",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K2_C58",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K2_C29",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K2_C15",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K2_C8",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K2_C4",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K2_C2",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K2_C1",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K4_C116",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K4_C58",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K4_C29",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K4_C15",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K4_C8",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K4_C4",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K4_C2",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K4_C1",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K8_C116",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K8_C58",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K8_C29",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K8_C15",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K8_C8",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K8_C4",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K8_C2",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    },
+    {
+      "condition": "seed0_K8_C1",
+      "construction": "PASS",
+      "exhaustive_assignments_checked": 0,
+      "matching": {}
+    }
+  ],
+  "conditions_verified": 32,
+  "files_verified": 175,
+  "optimality_scope": "Small saved models are exhaustively enumerated. For larger models, saved Z3 optimality claims are trusted solver claims, not independently reproved optimality certificates. No solver or construction protocol was rerun.",
+  "plan_checks": {},
+  "plans_verified": 0,
+  "scope": "Offline standard-library verification of integrity, model equality, exact feasibility/objectives, witness certificates, bounds consistency, ownership, and logical counters; available transcripts are checked.",
+  "status": "PASS",
+  "study": "/Users/henrikkirchmann/Documents/GPT MINEA/minea-ikea-evaluation/results/benchmark_sweep/construction"
+}

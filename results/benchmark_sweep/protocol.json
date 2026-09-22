@@ -1,0 +1,253 @@
+{
+  "candidate_and_constraint_policy": "The fixed prepared candidates, exact scores and five GT-support-selected templates from the published reduced retry; original seed-0 full merge plan and ownership preserved.",
+  "central_reference": "One actual central run for each C at K=1, reused only after verifying identical numerical models across K. These are eight measurements, not 32 independent baseline runs. Each K retains its own measured construction and central-upload logical counts.",
+  "created_utc": "2026-09-19T06:00:18.890339+00:00",
+  "execution": "Sequential jobs; each matching method has its own fresh Python process and solver context. Construction and audits are outside matching time. No network or parallel speedup claim.",
+  "grid": {
+    "components": [
+      116,
+      58,
+      29,
+      15,
+      8,
+      4,
+      2,
+      1
+    ],
+    "seeds": [
+      0
+    ],
+    "sources": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "initial_incumbent": "None. GT is checked separately and never supplied as a warm start.",
+  "jobs": [
+    {
+      "condition": "seed0_K1_C58",
+      "id": "central_C58",
+      "method": "central"
+    },
+    {
+      "condition": "seed0_K2_C58",
+      "id": "distributed_K2_C58",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K1_C116",
+      "id": "central_C116",
+      "method": "central"
+    },
+    {
+      "condition": "seed0_K1_C116",
+      "id": "distributed_K1_C116",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K2_C116",
+      "id": "distributed_K2_C116",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K4_C116",
+      "id": "distributed_K4_C116",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K8_C116",
+      "id": "distributed_K8_C116",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K1_C58",
+      "id": "distributed_K1_C58",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K4_C58",
+      "id": "distributed_K4_C58",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K8_C58",
+      "id": "distributed_K8_C58",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K1_C29",
+      "id": "central_C29",
+      "method": "central"
+    },
+    {
+      "condition": "seed0_K1_C29",
+      "id": "distributed_K1_C29",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K2_C29",
+      "id": "distributed_K2_C29",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K4_C29",
+      "id": "distributed_K4_C29",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K8_C29",
+      "id": "distributed_K8_C29",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K1_C15",
+      "id": "central_C15",
+      "method": "central"
+    },
+    {
+      "condition": "seed0_K1_C15",
+      "id": "distributed_K1_C15",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K2_C15",
+      "id": "distributed_K2_C15",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K4_C15",
+      "id": "distributed_K4_C15",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K8_C15",
+      "id": "distributed_K8_C15",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K1_C8",
+      "id": "central_C8",
+      "method": "central"
+    },
+    {
+      "condition": "seed0_K1_C8",
+      "id": "distributed_K1_C8",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K2_C8",
+      "id": "distributed_K2_C8",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K4_C8",
+      "id": "distributed_K4_C8",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K8_C8",
+      "id": "distributed_K8_C8",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K1_C4",
+      "id": "central_C4",
+      "method": "central"
+    },
+    {
+      "condition": "seed0_K1_C4",
+      "id": "distributed_K1_C4",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K2_C4",
+      "id": "distributed_K2_C4",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K4_C4",
+      "id": "distributed_K4_C4",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K8_C4",
+      "id": "distributed_K8_C4",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K1_C2",
+      "id": "central_C2",
+      "method": "central"
+    },
+    {
+      "condition": "seed0_K1_C2",
+      "id": "distributed_K1_C2",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K2_C2",
+      "id": "distributed_K2_C2",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K4_C2",
+      "id": "distributed_K4_C2",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K8_C2",
+      "id": "distributed_K8_C2",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K1_C1",
+      "id": "central_C1",
+      "method": "central"
+    },
+    {
+      "condition": "seed0_K1_C1",
+      "id": "distributed_K1_C1",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K2_C1",
+      "id": "distributed_K2_C1",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K4_C1",
+      "id": "distributed_K4_C1",
+      "method": "distributed"
+    },
+    {
+      "condition": "seed0_K8_C1",
+      "id": "distributed_K8_C1",
+      "method": "distributed"
+    }
+  ],
+  "limits": "Each matching job receives 300 seconds. Distributed jobs additionally receive 100000 nodes. Cooperative limits may overrun briefly. An outer 390-second watchdog records an execution error rather than fabricating a solver result.",
+  "merged_check": "The first central C58 and distributed K2,C58 jobs are retained grid observations. A valid solver limit does not change the remaining grid, template selection, budgets, or traversal.",
+  "node_limit": 100000,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "producer_sha256": {
+    "benchmark.py": "d258d006d8177dabadd5b845d9dba33d6d291c177b87997f756c8bf61d7221ca",
+    "minea_ikea/__init__.py": "3382b0f1fa4bb31c31d30d6c643a1eb5c5d8993b04f394f4786143048b69e33a",
+    "minea_ikea/construction.py": "610436725695f391e9483a541405607320571166c3066218343dd6e859079de7",
+    "minea_ikea/data.py": "5d23e5d9ae52a093c0a9816382405dd45654dc804adf4a18a7c3eb3d3dea9b22",
+    "minea_ikea/exports.py": "d051e044706c3c8f399793fd58868f3b61fb848fa11a7fe1c3aaaba2e9ce5e0d",
+    "minea_ikea/instances.py": "d25174ebd79626eb8106f1ee6d425a052876722149c281460ff1289fdf0c76bc",
+    "minea_ikea/matching.py": "56423f04beebe7e797e74ecbcd72dd809eb7802bf918cf210c811e5eab772f5a",
+    "minea_ikea/mining.py": "99c3342df4c1b918aa742728ad853b15c73a83cb14f4d9edd14e8b07d31bb308",
+    "minea_ikea/reference.py": "9b924a40ad1f0f3daaadfc6dff0394b8fe96426c3e646f95d6700dc3fb084177",
+    "minea_ikea/solver.py": "da7b291df66daf04093ea72e09bc84236f7179b43438a2452853a28216ab47c4",
+    "requirements.txt": "1703fa4594abb913ce6971ca7b75af02ee086624280d0476491753764c32ec49",
+    "sweep.py": "95d0e4578f370ae2932877c26ee6f383ebd88a66dac6f47fe7c150459ba02c48",
+    "sweep_instances.py": "575003fc5759db53e336f6c90b1bd8ae7f9d1ede462a7286f1120768dbca06e4"
+  },
+  "python": "3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "replication": "One fixed seed and one run per matching job. Descriptive logical-work and completion study, without statistical or timing-speedup claims.",
+  "time_limit_seconds": 300,
+  "worker_watchdog_seconds": 390
+}

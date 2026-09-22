@@ -1,0 +1,911 @@
+{
+  "candidates": 5568,
+  "cases": 116,
+  "central_objective": null,
+  "central_status": "not_run",
+  "checks": {
+    "construction": {
+      "coefficients": 12685,
+      "components": 58,
+      "empty_rows": 7,
+      "failed_empty_rows": [],
+      "rows": 2745,
+      "status": "PASS"
+    },
+    "ground_truth": {
+      "feasible": true,
+      "objective": "1066282068301787745104827/1250000000000000000000",
+      "omitted_observations": 0,
+      "selected_observations": 1856,
+      "violations": []
+    }
+  },
+  "component_candidate_sizes": [
+    168,
+    87,
+    120,
+    87,
+    93,
+    102,
+    96,
+    66,
+    123,
+    108,
+    105,
+    87,
+    108,
+    111,
+    93,
+    84,
+    96,
+    84,
+    102,
+    114,
+    99,
+    96,
+    96,
+    96,
+    96,
+    90,
+    78,
+    75,
+    111,
+    87,
+    120,
+    90,
+    93,
+    96,
+    96,
+    69,
+    72,
+    96,
+    75,
+    108,
+    84,
+    114,
+    108,
+    90,
+    96,
+    87,
+    78,
+    87,
+    87,
+    87,
+    105,
+    105,
+    102,
+    99,
+    87,
+    102,
+    66,
+    111
+  ],
+  "component_case_sizes": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "components": 58,
+  "construction_sequential_seconds": 0.1147263339953497,
+  "distributed_objective": null,
+  "distributed_status": "not_run",
+  "metadata": {
+    "active_numerical_model_sha256": "6924458de638c60ff3fb38cfbe8a1768b7c97ccff3e6ee663f5ba5fa33bafbba",
+    "bridge_count": 58,
+    "candidate_count": 5568,
+    "candidate_order": "Case ID, start, end, observation ID, activity; all lexicographic except integer times.",
+    "case_count": 116,
+    "case_order": "Lexicographic case ID.",
+    "component_count": 58,
+    "component_diameters": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "component_sizes": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "components": [
+      {
+        "cases": [
+          "0",
+          "91"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "0",
+        "size": 2
+      },
+      {
+        "cases": [
+          "1",
+          "108"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "1",
+        "size": 2
+      },
+      {
+        "cases": [
+          "10",
+          "43"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "10",
+        "size": 2
+      },
+      {
+        "cases": [
+          "100",
+          "97"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "100",
+        "size": 2
+      },
+      {
+        "cases": [
+          "101",
+          "67"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "101",
+        "size": 2
+      },
+      {
+        "cases": [
+          "102",
+          "23"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "102",
+        "size": 2
+      },
+      {
+        "cases": [
+          "103",
+          "115"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "103",
+        "size": 2
+      },
+      {
+        "cases": [
+          "104",
+          "63"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "104",
+        "size": 2
+      },
+      {
+        "cases": [
+          "105",
+          "27"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "105",
+        "size": 2
+      },
+      {
+        "cases": [
+          "106",
+          "80"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "106",
+        "size": 2
+      },
+      {
+        "cases": [
+          "107",
+          "15"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "107",
+        "size": 2
+      },
+      {
+        "cases": [
+          "109",
+          "66"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "109",
+        "size": 2
+      },
+      {
+        "cases": [
+          "11",
+          "8"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "11",
+        "size": 2
+      },
+      {
+        "cases": [
+          "110",
+          "111"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "110",
+        "size": 2
+      },
+      {
+        "cases": [
+          "112",
+          "48"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "112",
+        "size": 2
+      },
+      {
+        "cases": [
+          "113",
+          "26"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "113",
+        "size": 2
+      },
+      {
+        "cases": [
+          "114",
+          "29"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "114",
+        "size": 2
+      },
+      {
+        "cases": [
+          "116",
+          "68"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "116",
+        "size": 2
+      },
+      {
+        "cases": [
+          "12",
+          "4"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "12",
+        "size": 2
+      },
+      {
+        "cases": [
+          "13",
+          "6"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "13",
+        "size": 2
+      },
+      {
+        "cases": [
+          "14",
+          "60"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "14",
+        "size": 2
+      },
+      {
+        "cases": [
+          "16",
+          "20"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "16",
+        "size": 2
+      },
+      {
+        "cases": [
+          "17",
+          "58"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "17",
+        "size": 2
+      },
+      {
+        "cases": [
+          "18",
+          "52"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "18",
+        "size": 2
+      },
+      {
+        "cases": [
+          "19",
+          "95"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "19",
+        "size": 2
+      },
+      {
+        "cases": [
+          "2",
+          "47"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "2",
+        "size": 2
+      },
+      {
+        "cases": [
+          "21",
+          "35"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "21",
+        "size": 2
+      },
+      {
+        "cases": [
+          "22",
+          "56"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "22",
+        "size": 2
+      },
+      {
+        "cases": [
+          "24",
+          "96"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "24",
+        "size": 2
+      },
+      {
+        "cases": [
+          "25",
+          "75"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "25",
+        "size": 2
+      },
+      {
+        "cases": [
+          "28",
+          "5"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "28",
+        "size": 2
+      },
+      {
+        "cases": [
+          "3",
+          "65"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "3",
+        "size": 2
+      },
+      {
+        "cases": [
+          "30",
+          "7"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "30",
+        "size": 2
+      },
+      {
+        "cases": [
+          "31",
+          "49"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "31",
+        "size": 2
+      },
+      {
+        "cases": [
+          "32",
+          "77"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "32",
+        "size": 2
+      },
+      {
+        "cases": [
+          "33",
+          "46"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "33",
+        "size": 2
+      },
+      {
+        "cases": [
+          "34",
+          "61"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "34",
+        "size": 2
+      },
+      {
+        "cases": [
+          "36",
+          "98"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "36",
+        "size": 2
+      },
+      {
+        "cases": [
+          "37",
+          "62"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "37",
+        "size": 2
+      },
+      {
+        "cases": [
+          "39",
+          "92"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "39",
+        "size": 2
+      },
+      {
+        "cases": [
+          "40",
+          "85"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "40",
+        "size": 2
+      },
+      {
+        "cases": [
+          "41",
+          "70"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "41",
+        "size": 2
+      },
+      {
+        "cases": [
+          "42",
+          "82"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "42",
+        "size": 2
+      },
+      {
+        "cases": [
+          "44",
+          "88"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "44",
+        "size": 2
+      },
+      {
+        "cases": [
+          "45",
+          "89"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "45",
+        "size": 2
+      },
+      {
+        "cases": [
+          "50",
+          "53"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "50",
+        "size": 2
+      },
+      {
+        "cases": [
+          "51",
+          "71"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "51",
+        "size": 2
+      },
+      {
+        "cases": [
+          "54",
+          "94"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "54",
+        "size": 2
+      },
+      {
+        "cases": [
+          "55",
+          "72"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "55",
+        "size": 2
+      },
+      {
+        "cases": [
+          "57",
+          "90"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "57",
+        "size": 2
+      },
+      {
+        "cases": [
+          "59",
+          "73"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "59",
+        "size": 2
+      },
+      {
+        "cases": [
+          "64",
+          "76"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "64",
+        "size": 2
+      },
+      {
+        "cases": [
+          "69",
+          "83"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "69",
+        "size": 2
+      },
+      {
+        "cases": [
+          "74",
+          "87"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "74",
+        "size": 2
+      },
+      {
+        "cases": [
+          "78",
+          "99"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "78",
+        "size": 2
+      },
+      {
+        "cases": [
+          "79",
+          "93"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "79",
+        "size": 2
+      },
+      {
+        "cases": [
+          "81",
+          "84"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "81",
+        "size": 2
+      },
+      {
+        "cases": [
+          "86",
+          "9"
+        ],
+        "diameter": 1,
+        "edge_count": 1,
+        "id": "86",
+        "size": 2
+      }
+    ],
+    "constraint_subset_sweep": {
+      "hierarchy_and_ownership_unchanged": true,
+      "original_full_model_dataset_fingerprint": "1c49a87ce50648a337d6cdfece88fcc43e53d1b0ce79941b3252e6750c77a112",
+      "original_full_plan_sha256": "2c8fc3cc16a3f901ed8d043f69de072c54576fcf3a9a1d8e2bc62bc076a4ebf9",
+      "original_occurrence_bound_template_count": 32,
+      "original_prerequisite_template_count": 41,
+      "profile": "gt_support_3_prerequisites_2_count_bounds",
+      "selection": {
+        "occurrence_bounds": [
+          "occ_031",
+          "occ_021"
+        ],
+        "prerequisites": [
+          "pre_019",
+          "pre_036",
+          "pre_023"
+        ]
+      },
+      "selection_protocol_sha256": "ed7f41239f914c27787bd19b868374f711413da71f339fd7cc5f0675c72e7e5b"
+    },
+    "dataset_fingerprint": "1c49a87ce50648a337d6cdfece88fcc43e53d1b0ce79941b3252e6750c77a112",
+    "empty_case_ids": [],
+    "gt_score": "1066282068301787745104827/1250000000000000000000",
+    "input_folder": "/Users/henrikkirchmann/Documents/GPT MINEA/minea-ikea-evaluation/results/reference/full",
+    "input_hashes": {
+      "candidate_policy.json": "ce80e2563eca134f18b69d75ac5f29e9b7f7f7c537a799fef5937329663b9244",
+      "cases.csv": "3c67dbed6a405f9887075b9f78f5070d825b0402f5cff4d569ac115071dd796c",
+      "constraints.json": "c1177768c0355634d4307cde375a10bb0c544a8ffb08a84cc610d93ecad7b16b",
+      "ground_truth.csv": "57296c4286d203216b42a975f68d6d404c2ae82f054442ee72cadd24f68080df",
+      "uncertain_log.csv.gz": "dfbc6b1a7b3b36880e16c887bd98f4afef6e23d3c840059ea9c9a71d519d5af1"
+    },
+    "max_sources": 8,
+    "observation_count": 1856,
+    "occurrence_bound_template_count": 2,
+    "ownership_block_count": 1741,
+    "ownership_uses_full_plan": true,
+    "population_filter_applied": false,
+    "prerequisite_template_count": 3,
+    "score_convention": "Exact original JSON decimal tokens; no rounding or normalization.",
+    "seed": 0,
+    "source_candidate_counts": [
+      2787,
+      2781
+    ],
+    "source_coarsening_group_size": 4,
+    "source_count": 2,
+    "zero_lower_bound_convention": "Preserve templates; omit zero lower rows only during row construction."
+  },
+  "numerical_model_sha256": "6924458de638c60ff3fb38cfbe8a1768b7c97ccff3e6ee663f5ba5fa33bafbba",
+  "source_candidate_counts": {
+    "0": 2787,
+    "1": 2781
+  },
+  "sources": 2
+}

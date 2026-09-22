@@ -1,0 +1,81 @@
+{
+  "scope": "Only the prepared-input files retained in this paper evaluation artifact; generated during curation, not the original full preparation manifest.",
+  "files": {
+    "candidate_replacements.csv": {
+      "sha256": "1166ee15ad92dcd50d467d8fc6f1cfdc290708dabad41579ecd43f3a6aba9e1d",
+      "bytes": 37677
+    },
+    "full/candidate_coverage.csv": {
+      "sha256": "f10e7d4fca456f83ea50ed5cb88f9ccf982172a9450ccef052bede14f1b140e0",
+      "bytes": 94498
+    },
+    "full/candidate_policy.json": {
+      "sha256": "ce80e2563eca134f18b69d75ac5f29e9b7f7f7c537a799fef5937329663b9244",
+      "bytes": 1170
+    },
+    "full/cases.csv": {
+      "sha256": "3c67dbed6a405f9887075b9f78f5070d825b0402f5cff4d569ac115071dd796c",
+      "bytes": 9924
+    },
+    "full/constraint_audit.json": {
+      "sha256": "9e192cb1508ba15bfae698c64b2d85e2049b08c86a2bec5d5484ee0120b6fa84",
+      "bytes": 1823817
+    },
+    "full/constraints.json": {
+      "sha256": "c1177768c0355634d4307cde375a10bb0c544a8ffb08a84cc610d93ecad7b16b",
+      "bytes": 24272
+    },
+    "full/ground_truth.csv": {
+      "sha256": "57296c4286d203216b42a975f68d6d404c2ae82f054442ee72cadd24f68080df",
+      "bytes": 209695
+    },
+    "full/ground_truth.xes": {
+      "sha256": "d866d2203ff23e01c028c9fc6408309e713c7ce7ad877291e7c7a6475dda800b",
+      "bytes": 834086
+    },
+    "full/occurrence_bounds.csv": {
+      "sha256": "8509186913d9992a12f7e1c519840433da4ddb7baafaa0ab345d93ec57bb6fe8",
+      "bytes": 82932
+    },
+    "full/occurrence_counts_by_case.csv": {
+      "sha256": "0bc5ecbe2af3b21788593189ab2ac9b1d918de7d99d814dd91e6f10275728bad",
+      "bytes": 15084
+    },
+    "full/prerequisite_witnesses.csv": {
+      "sha256": "697bf17154bcc809196d080e2dce40d0ce6b6d9f90e9846f8a9de74afae93757",
+      "bytes": 84599
+    },
+    "full/prerequisites.csv": {
+      "sha256": "d75c60bf747f7832d62ba03c19b37cca08a5780a15323bd831393628dd03a1f1",
+      "bytes": 8604
+    },
+    "full/uncertain_log.csv.gz": {
+      "sha256": "dfbc6b1a7b3b36880e16c887bd98f4afef6e23d3c840059ea9c9a71d519d5af1",
+      "bytes": 151170
+    },
+    "full/uncertain_log.xes.gz": {
+      "sha256": "09ba98f58a0b77fe29119f8101bf004d8d575c7e9a539bf0c8912864a83715ab",
+      "bytes": 192951
+    },
+    "model_selection.csv": {
+      "sha256": "8d7fcb149d66d456f95a85afde942706c00572e58b10650dad6b83e33c5e3aa7",
+      "bytes": 2045
+    },
+    "model_selection.json": {
+      "sha256": "317bf700280c18312c81bf89b3b84a64eb270d024ffdcfeb629cd85a2970e56f",
+      "bytes": 217138
+    },
+    "protocol.json": {
+      "sha256": "549bd967f826dfa77864ff15a14789498043d6acdbe83cc4babf828a24132798",
+      "bytes": 1656
+    },
+    "source_audit.json": {
+      "sha256": "436b502c82e927fe3d7f13901cb7d74c5f8ccb92d38c57a8eb3d90e45c35962f",
+      "bytes": 2218
+    },
+    "summary.json": {
+      "sha256": "b51455dd2dec34d28742672d296cf03d9510664f32c2beda99359cc43e7770ff",
+      "bytes": 3440
+    }
+  }
+}

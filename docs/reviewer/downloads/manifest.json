@@ -1,0 +1,132 @@
+{
+  "attribute_mapping": {
+    "activity": "concept:name",
+    "case_CSV": "case:concept:name",
+    "case_XES_trace": "concept:name",
+    "lifecycle:transition": "complete",
+    "score_payload": "probs_json",
+    "start_timestamp": "PM4Py convention; additional XES date attribute"
+  },
+  "download_adaptation": "Map frozen XES start time:timestamp to start_timestamp, end time:end_timestamp to completion time:timestamp, and scores_json to probs_json. No observation or score changes.",
+  "input_files": {
+    "inputs/reference/full/ground_truth.csv": {
+      "bytes": 209695,
+      "sha256": "57296c4286d203216b42a975f68d6d404c2ae82f054442ee72cadd24f68080df"
+    },
+    "inputs/reference/full/ground_truth.xes": {
+      "bytes": 834086,
+      "sha256": "d866d2203ff23e01c028c9fc6408309e713c7ce7ad877291e7c7a6475dda800b"
+    },
+    "inputs/reference/full/uncertain_log.csv.gz": {
+      "bytes": 151170,
+      "sha256": "dfbc6b1a7b3b36880e16c887bd98f4afef6e23d3c840059ea9c9a71d519d5af1"
+    },
+    "inputs/reference/full/uncertain_log.xes.gz": {
+      "bytes": 192951,
+      "sha256": "09ba98f58a0b77fe29119f8101bf004d8d575c7e9a539bf0c8912864a83715ab"
+    },
+    "inputs/reference/protocol.json": {
+      "bytes": 1656,
+      "sha256": "549bd967f826dfa77864ff15a14789498043d6acdbe83cc4babf828a24132798"
+    }
+  },
+  "output_files": {
+    "USAGE.txt": {
+      "bytes": 3477,
+      "role": "Import mapping, file roles, duration and case-relative-clock explanations.",
+      "sha256": "99db6238336043c3ee47d84543cb2319da73324babfb1d8cc1f498eb7889cccd"
+    },
+    "ground_truth.csv": {
+      "NA_activity_count": 0,
+      "all_frame_date_and_duration_conversions_exact": true,
+      "bytes": 328979,
+      "case_count": 116,
+      "event_rows": 1856,
+      "labels_match_source_field": "activity",
+      "no_GT_label_column": null,
+      "role": "GT events with standard case/activity/completion columns and PM4Py start_timestamp.",
+      "score_text_unchanged": null,
+      "sha256": "2936b25d165e15d3dccbac33be77fffe5a0211e22907d1cb1243d29da9db2253",
+      "source_order_and_identity_preserved": true,
+      "unique_event_ids": 1856
+    },
+    "ground_truth.xes": {
+      "bytes": 942007,
+      "case_count": 116,
+      "event_rows": 1856,
+      "identity_labels_and_frames_match_source_CSV": true,
+      "role": "GT XES with standard case/activity/completion attributes and PM4Py start_timestamp.",
+      "scores_payload_matches_source": false,
+      "sha256": "e0ce08fec5a02b61076da6b82472d9533e4d602a6e87b633a0dd2d536884ff80",
+      "timestamps_match_source_intervals": true
+    },
+    "ikea-asm-event-logs.zip": {
+      "bytes": 2152502,
+      "role": "Portable bundle of both CSVs, both XES files, and USAGE.txt.",
+      "sha256": "cbf00a599a1ec83800f28fccbfab8d8e6e31a40b82f71dc5f52e90e40afaecc2"
+    },
+    "uncertain_log.csv": {
+      "NA_activity_count": 0,
+      "all_frame_date_and_duration_conversions_exact": true,
+      "bytes": 683933,
+      "case_count": 116,
+      "event_rows": 1856,
+      "labels_match_source_field": "top_activity",
+      "no_GT_label_column": true,
+      "role": "Uncertain events with score-argmax activity and original probs_json payload, no GT label column.",
+      "score_text_unchanged": true,
+      "sha256": "7eb86607194417b5ff8bc51afa0771a37884b45d07d8212757b108d52d71bb5a",
+      "source_order_and_identity_preserved": true,
+      "unique_event_ids": 1856
+    },
+    "uncertain_log.xes.gz": {
+      "bytes": 193548,
+      "case_count": 116,
+      "event_rows": 1856,
+      "identity_labels_and_frames_match_source_CSV": true,
+      "role": "Uncertain XES with score-argmax activity and original scores as probs_json payload.",
+      "scores_payload_matches_source": true,
+      "sha256": "10d5a36053e2e59be0229e34adf502b9794a7a018e873a7cf044352195081f3e",
+      "timestamps_match_source_intervals": true
+    }
+  },
+  "producer": {
+    "bytes": 19075,
+    "file": "reviewer/event_logs.py",
+    "sha256": "9808dea0a1f8fe97344996a6c94a8bc97d035ff053a48d5eb6569ef9d26040e2"
+  },
+  "schema_version": 2,
+  "timing": {
+    "completion_attribute": "time:timestamp",
+    "end_semantics": "exclusive",
+    "frames_per_second": 25,
+    "milliseconds_per_frame": 40,
+    "scope": "Separate case-relative recording clocks; no observed intercase concurrency.",
+    "start_attribute": "start_timestamp",
+    "synthetic_epoch": "1970-01-01T00:00:00.000Z",
+    "timestamp_format": "ISO 8601 UTC, millisecond precision"
+  },
+  "validation": {
+    "GT_and_uncertain_observation_identity_equal": true,
+    "XES_observations_intervals_and_scores_preserved": true,
+    "ZIP_member_bytes_checked": true,
+    "all_CSV_rows_compared_to_source": true,
+    "cases_per_log": 116,
+    "events_per_log": 1856,
+    "no_matching_or_data_preparation_run": true,
+    "scope": "Source/export comparison and format checks. Consumer import checks are recorded separately in provenance/.",
+    "status": "PASS"
+  },
+  "zip": {
+    "compression": "stored; avoids compressor-version variation",
+    "member_date": "1980-01-01 00:00:00",
+    "members": [
+      "USAGE.txt",
+      "ground_truth.csv",
+      "ground_truth.xes",
+      "uncertain_log.csv",
+      "uncertain_log.xes.gz"
+    ],
+    "permissions": "0644"
+  }
+}

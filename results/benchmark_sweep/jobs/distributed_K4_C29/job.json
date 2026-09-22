@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "feasible": null,
+    "scope": "No complete matching returned"
+  },
+  "completed_utc": "2026-09-19T06:30:43.978413+00:00",
+  "condition": "seed0_K4_C29",
+  "execution_status": "complete",
+  "id": "distributed_K4_C29",
+  "method": "distributed",
+  "returncode": 0,
+  "started_utc": "2026-09-19T06:25:43.097271+00:00"
+}

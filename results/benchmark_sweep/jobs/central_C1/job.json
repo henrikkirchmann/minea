@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "feasible": true,
+    "objective": "5311131334359797710647/5000000000000000000",
+    "omitted_observations": 0,
+    "selected_observations": 1856,
+    "violations": []
+  },
+  "completed_utc": "2026-09-19T07:37:08.999537+00:00",
+  "condition": "seed0_K1_C1",
+  "execution_status": "complete",
+  "id": "central_C1",
+  "method": "central",
+  "returncode": 0,
+  "started_utc": "2026-09-19T07:36:42.204603+00:00"
+}

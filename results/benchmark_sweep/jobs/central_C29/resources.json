@@ -1,0 +1,11 @@
+{
+  "elapsed_seconds": 2.248635625001043,
+  "measurement": "resource.getrusage(RUSAGE_SELF)",
+  "peak_rss_bytes": 96616448,
+  "peak_rss_raw": 96616448,
+  "peak_rss_raw_unit": "bytes",
+  "platform": "darwin",
+  "scope": "One fresh method process: input loading, matching, feasibility audit and result serialization; excludes construction, other jobs and other applications. Matching elapsed_seconds is recorded separately in result.json.gz.",
+  "system_cpu_seconds": 0.05439,
+  "user_cpu_seconds": 2.22455
+}

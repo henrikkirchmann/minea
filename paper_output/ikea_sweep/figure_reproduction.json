@@ -1,0 +1,34 @@
+{
+  "checked_at_utc": "2026-09-21T07:06:45.979915+00:00",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python analyze_sweep.py --output <temporary-directory>",
+  "delivered_pdf_sha256": "3ba6f903866694195c190a965a24afe9475aefd7cc0b143df371fa93c25703a8",
+  "matching_jobs_verified": 40,
+  "pdf_content_stream_identical": true,
+  "pdf_image_count": 0,
+  "pdf_metadata_differences": [
+    "CreationDate",
+    "ModDate",
+    "trailer ID"
+  ],
+  "pdf_page_boxes_identical": true,
+  "pixel_comparison": {
+    "different_pixels": 0,
+    "maximum_render_dimension": 1600
+  },
+  "plot_data": "Individual component-interface values, coverage groups and scope match the current figure exactly; obsolete source-lookup ratios were removed.",
+  "reference": "Current manuscript Figure 3 PDF and numbers.tex retained when this standalone project was created.",
+  "regenerated_pdf_sha256": "4d830d1919380bbc75e9ca7171cf9075ff2aa32bd44b71593c525dab70f4447c",
+  "reporting_tests_passed": 14,
+  "retention_reason": "Keep the current manuscript PDF byte-for-byte; fresh regeneration has identical vector page content and rendered appearance, with different PDF timestamps and trailer ID.",
+  "scope": "Fresh offline verification and Figure 3 regeneration from the unchanged saved sweep; no matching rerun.",
+  "status": "PASS",
+  "unchanged_files": [
+    "construction.csv",
+    "matching.csv",
+    "components.csv",
+    "summary.json",
+    "numbers.tex",
+    "figures/ikea-overview.pgf"
+  ],
+  "within_model_component_comparisons": 932
+}

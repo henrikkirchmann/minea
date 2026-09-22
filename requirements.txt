@@ -1,0 +1,2 @@
+# Input preparation uses the standard library; matching uses exact rational Z3.
+z3-solver==4.15.4.0

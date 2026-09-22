@@ -1,0 +1,28 @@
+{
+  "arguments": {
+    "components": [
+      116,
+      58,
+      29,
+      15,
+      8,
+      4,
+      2,
+      1
+    ],
+    "construction_only": true,
+    "seeds": [
+      0
+    ],
+    "sources": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "trace": false
+  },
+  "created_utc": "2026-09-19T06:00:18.908058+00:00",
+  "execution": "Sequential jobs; each matching method has its own fresh Python process and solver context. Construction and audits are outside matching time. No network or parallel speedup claim.",
+  "scope": "Construction only; matcher outputs live in the parent jobs directory."
+}

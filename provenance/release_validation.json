@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-22T16:06:35.809037+00:00",
+  "scope": "File-by-file GitHub release curation and fresh offline verification; the recorded matching sweep was not rerun.",
+  "environment": {
+    "python": "3.11.9",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "file_audit": {
+    "original_files_reviewed": 540,
+    "original_bytes": 60413929,
+    "archived_files": [
+      {
+        "path": "provenance/context_sources_validation.json",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "d7bb52c1e4cb59e59e4382e945bc742507bd56ac76ae24b930b4b81f7ca9a181"
+      },
+      {
+        "path": "provenance/context_tests.log",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "e67053854e43168179ffeac0cecbe2abcf96d47f7af8604b934ae90b812b187c"
+      },
+      {
+        "path": "provenance/coupling_illustration_validation.json",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "2f91215ccd2ac88f1dff946f66baba92a24e7b25290cc8c3d47362bec1835556"
+      },
+      {
+        "path": "provenance/event_log_downloads_validation.json",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "3904d973e96ab8aefbbf910f135b85d340897ae6394661314a7ad758467da68b"
+      },
+      {
+        "path": "provenance/guide_refinement_validation.json",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "f9dfda47f50006920e962d677964548fe7d9f2918d53e610d8a6ef3d4fe4e4e7"
+      },
+      {
+        "path": "provenance/input_verification.json",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "101ae3dce29851ca9b5c5bea6c12ebc862db44a4591df64c40c32963f2a90e81"
+      },
+      {
+        "path": "provenance/preparation_comparison.json",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "a0c1ae40258e73c58ab6505a2c083f83f444071edba093cbcff822fb5cf1c3e7"
+      },
+      {
+        "path": "provenance/reviewer_tests.log",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "8d430eec88af342151eec20dfebb2ef38c2103ef074ad86c025cd4774f28f416"
+      },
+      {
+        "path": "provenance/reviewer_validation.json",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "51cdc088205ccf1d0300537499e81ffa08a043ecc4b900daf8e5c269f2726624"
+      },
+      {
+        "path": "provenance/setup_docs_tests.log",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "58a3b4d14c3a85b12cd1585bfacf81370cf822190529b74aac222e5395aa8732"
+      },
+      {
+        "path": "provenance/setup_documentation_validation.json",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "cc88287d8df90f8f9dfd4ec9f9341f4b443cc9f3fd64cfa44b4a9cd971961e64"
+      },
+      {
+        "path": "provenance/tests.log",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "b572621dbf443d384826de0f5b67d8c1214cad64884cc596d115512b97d4a2bb"
+      },
+      {
+        "path": "provenance/validation.json",
+        "decision": "archive",
+        "reason": "Superseded documentation/curation validation history; consolidated fresh release validation replaces it.",
+        "sha256": "f5ac36a3bde7b5266b3502bb1894d14855e8141780e8e005293ef7f7f34c1969"
+      },
+      {
+        "path": ".DS_Store",
+        "decision": "archive",
+        "reason": "macOS Finder metadata, not a project artifact.",
+        "sha256": "a284d24574822e20cd06244f8513ef3a5f31b6e825d999037032d2cc59d216af"
+      }
+    ],
+    "policy": "Retain the frozen sweep and all files consumed by reproduction, independent verification, manual review, figures or downloads. Archive superseded curation history and OS metadata.",
+    "per_retained_file_reason": "provenance/file_manifest.json",
+    "complete_before_cleanup_backup": "Kept outside the upload folder on the author machine.",
+    "retained_files": 528
+  },
+  "tests": {
+    "status": "PASS",
+    "count": 178,
+    "seconds": 10.746,
+    "command": "python -m unittest discover -s tests -v",
+    "log": "provenance/release_tests.log"
+  },
+  "prepared_inputs": {
+    "status": "PASS",
+    "hash_checked_files": 19,
+    "cohorts": {
+      "full": {
+        "cases": 116,
+        "events": 1856,
+        "candidates": 5568,
+        "gt_covered_observations": 1856,
+        "gt_candidate_coverage": 1.0,
+        "prerequisite_pairs_audited": 992,
+        "accepted_prerequisites": 41,
+        "occurrence_bounds": 32,
+        "witnesses": 834
+      }
+    },
+    "scope": "Export integrity, exact event/count semantics, witnesses, aligned scores and XES clocks. No raw model-inference reproduction."
+  },
+  "recorded_sweep": {
+    "status": "PASS",
+    "files_verified": 390,
+    "matching_jobs_verified": 40,
+    "central_measurements": 8,
+    "within_model_component_comparisons": 932,
+    "scope": "No optimizer or distributed constructor was rerun. Exact row feasibility, original score arithmetic, stored solver bounds and protocol accounting checked. Eight actual central measurements supply equivalent-model references, not 32 independent baseline observations.",
+    "optimality_scope": "Large-instance optimality relies on the recorded exact Z3 conclusions. Full node traces are disabled; saved final selections and certificate arithmetic are independently checked."
+  },
+  "figure_reproduction": {
+    "status": "PASS",
+    "command": "python analyze_sweep.py --input results/benchmark_sweep --output <temporary-folder>",
+    "byte_identical_to_retained_files": [
+      "construction.csv",
+      "matching.csv",
+      "components.csv",
+      "summary.json",
+      "numbers.tex",
+      "figures/ikea-overview.pgf"
+    ],
+    "rendered_PDF": {
+      "status": "PASS",
+      "dimensions": [
+        1600,
+        611
+      ],
+      "different_pixels": 0,
+      "scale_to": 1600
+    },
+    "retained_PDF_unchanged": true
+  },
+  "reviewer_guide_reproduction": {
+    "status": "PASS",
+    "command": "python review.py --output <temporary-folder>",
+    "data_figures_and_download_files_byte_identical": 25,
+    "Markdown_and_HTML_documents_identical_after_relative_link_normalization": 4
+  },
+  "coupling_illustration": {
+    "saved_example_semantics_checked": true,
+    "regenerated_SVG_identical": true,
+    "complete_recorded_endpoint_audit": "provenance/recorded_endpoint_audit.json"
+  },
+  "event_log_imports": {
+    "report": "provenance/standard_event_log_validation.json",
+    "all_four_download_hashes_rechecked": true,
+    "PM4Py_import_repeated_during_cleanup": false
+  },
+  "integrity": {
+    "protected_existing_files_unchanged": 470,
+    "recorded_sweep_files_unchanged": 391,
+    "core_algorithm_modules_unchanged": 9,
+    "local_document_links_and_fragments_checked": 256,
+    "nested_manifests_checked": {
+      "inputs/reference": 19,
+      "results/benchmark_sweep": 390,
+      "results/benchmark_sweep/preparation": 37,
+      "results/benchmark_sweep/construction": 175,
+      "paper_output/ikea_sweep": 13,
+      "docs/reviewer": 30
+    }
+  },
+  "limitations": [
+    "No full matching or timing rerun during cleanup.",
+    "Saved large-instance optimality relies on the exact solver; no independent formal proof replay.",
+    "Automated checks do not constitute completed author or reviewer manual review."
+  ]
+}

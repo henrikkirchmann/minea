@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-09-22T14:00:06.529588+00:00",
+  "scope": "Integration import checks against every frozen source observation; no matching or benchmark run.",
+  "environment": {
+    "pm4py": "2.7.23.8",
+    "pandas": "3.0.6",
+    "python": "3.11.9",
+    "isolated_temporary_environment": true,
+    "benchmark_environment_unchanged": true
+  },
+  "checks": {
+    "ground_truth.csv": {
+      "sha256": "2936b25d165e15d3dccbac33be77fffe5a0211e22907d1cb1243d29da9db2253",
+      "case_count": 116,
+      "event_count": 1856,
+      "all_case_ids_labels_and_intervals_equal_frozen_CSV": true,
+      "all_lifecycle_transitions_complete": true,
+      "original_score_payload_text_preserved": null,
+      "default_DFG_and_start_end_activity_counts_equal_manual_source": true,
+      "PM4Py_mean_service_times_equal_frame_durations": true,
+      "distinct_activity_count": 32,
+      "DFG_distinct_edges": 133
+    },
+    "ground_truth.xes": {
+      "sha256": "e0ce08fec5a02b61076da6b82472d9533e4d602a6e87b633a0dd2d536884ff80",
+      "case_count": 116,
+      "event_count": 1856,
+      "all_case_ids_labels_and_intervals_equal_frozen_CSV": true,
+      "all_lifecycle_transitions_complete": true,
+      "original_score_payload_text_preserved": null,
+      "default_DFG_and_start_end_activity_counts_equal_manual_source": true,
+      "PM4Py_mean_service_times_equal_frame_durations": true,
+      "distinct_activity_count": 32,
+      "DFG_distinct_edges": 133,
+      "legacy_EventLog_case_names_and_event_payloads_verified": true
+    },
+    "uncertain_log.csv": {
+      "sha256": "7eb86607194417b5ff8bc51afa0771a37884b45d07d8212757b108d52d71bb5a",
+      "case_count": 116,
+      "event_count": 1856,
+      "all_case_ids_labels_and_intervals_equal_frozen_CSV": true,
+      "all_lifecycle_transitions_complete": true,
+      "original_score_payload_text_preserved": true,
+      "default_DFG_and_start_end_activity_counts_equal_manual_source": true,
+      "PM4Py_mean_service_times_equal_frame_durations": true,
+      "distinct_activity_count": 22,
+      "DFG_distinct_edges": 142
+    },
+    "uncertain_log.xes.gz": {
+      "sha256": "10d5a36053e2e59be0229e34adf502b9794a7a018e873a7cf044352195081f3e",
+      "case_count": 116,
+      "event_count": 1856,
+      "all_case_ids_labels_and_intervals_equal_frozen_CSV": true,
+      "all_lifecycle_transitions_complete": true,
+      "original_score_payload_text_preserved": true,
+      "default_DFG_and_start_end_activity_counts_equal_manual_source": true,
+      "PM4Py_mean_service_times_equal_frame_durations": true,
+      "distinct_activity_count": 22,
+      "DFG_distinct_edges": 142,
+      "legacy_EventLog_case_names_and_event_payloads_verified": true
+    }
+  },
+  "notes": [
+    "CSV names match PM4Py defaults; no case/activity/timestamp mapping passed.",
+    "get_service_time explicitly selects start_timestamp for interval durations.",
+    "No interactive import into other event-log tools was performed."
+  ],
+  "tested_functions": [
+    "pandas.read_csv(path, dtype={'case:concept:name': str}) followed by pm4py.format_dataframe(df), with default field names",
+    "pm4py.read_xes(path), with default field names and importer",
+    "pm4py.read_xes(path, return_legacy_log_object=True, show_progress_bar=False)",
+    "pm4py.discover_dfg(df), with default case/activity/time fields",
+    "pm4py.get_service_time(df, start_timestamp_key='start_timestamp')"
+  ],
+  "frozen_source_files": {
+    "inputs/reference/full/ground_truth.csv": {
+      "sha256": "57296c4286d203216b42a975f68d6d404c2ae82f054442ee72cadd24f68080df",
+      "bytes": 209695
+    },
+    "inputs/reference/full/uncertain_log.csv.gz": {
+      "sha256": "dfbc6b1a7b3b36880e16c887bd98f4afef6e23d3c840059ea9c9a71d519d5af1",
+      "bytes": 151170
+    },
+    "inputs/reference/full/ground_truth.xes": {
+      "sha256": "d866d2203ff23e01c028c9fc6408309e713c7ce7ad877291e7c7a6475dda800b",
+      "bytes": 834086
+    },
+    "inputs/reference/full/uncertain_log.xes.gz": {
+      "sha256": "09ba98f58a0b77fe29119f8101bf004d8d575c7e9a539bf0c8912864a83715ab",
+      "bytes": 192951
+    }
+  },
+  "validation_script": {
+    "name": "verify_ikea_pm4py_import.py",
+    "sha256": "227abb7cc4bf66d13d3a52d05376f6fbf7650ad1e5535de0d9952d45a8a4b5c3"
+  },
+  "published_CSV_snippets": {
+    "ground_truth.csv": "Exact published pd.read_csv + default pm4py.format_dataframe snippet passed; string case IDs and both parsed timestamps.",
+    "uncertain_log.csv": "Exact published pd.read_csv + default pm4py.format_dataframe snippet passed; string case IDs and both parsed timestamps."
+  },
+  "frozen_experiment_and_descriptive_files_unchanged": 457,
+  "independent_export_regeneration": "All seven files byte-identical, including ZIP and manifest.",
+  "documentation": "Main README and generated guide updated; local Markdown links resolve."
+}

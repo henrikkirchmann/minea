@@ -1,0 +1,22 @@
+{
+  "analysis_script_sha256": "f15c34a0db517b9b68004513215309bc651102d147aeb895e4e0104f4b01da08",
+  "censoring": "Uniformly filled markers report optimal-component case coverage within the whole-log budget. Termination status and work counts remain in matching.csv; partial work is not extrapolated. Coverage depends on component order and unresolved cases can include unvisited components.",
+  "complete_matching_sweep": true,
+  "construction_manifest_sha256": "14b8ce7c2c34c877d94d3a0e46e807817cd0d56b483a91b925fc00fc6bcfd7b6",
+  "documentation": "https://matplotlib.org/stable/users/explain/text/pgf.html",
+  "figure_files": [
+    "figures/ikea-overview.pdf",
+    "figures/ikea-overview.pgf"
+  ],
+  "font_family": "Linux Libertine (same family as the ACM manuscript)",
+  "font_preamble": "\\usepackage[T1]{fontenc}\\usepackage{libertine}\\usepackage[libertine]{newtxmath}",
+  "matplotlib_version": "3.10.9",
+  "overview_grouping": "Panel (a) shows the arithmetic mean across two, four and eight sources, not repeated trials; their largest-interface values differ by at most 28 variables at any recorded component setting. Panel (b) groups only exactly equal per-component-setting case coverage and completion status; runtime and search work may differ. Individual component-interface values and group membership are in overview_data.json.",
+  "plot_source_sha256": {
+    "plot_sweep.py": "3e7766b3c65d7ff1ad770f8de2cdd2f7a4235c7de44a23b8ed93da81febafea4"
+  },
+  "renderer": "Python/Matplotlib with the PGF PDF backend",
+  "study": "results/benchmark_sweep",
+  "style": "Python/Matplotlib vector PDF; embedded manuscript Libertine fonts. Aligned axes show mean largest component interface and budgeted case coverage, with reversed log component axes and solid lines distinguished by color and marker shape.",
+  "vector_only": true
+}

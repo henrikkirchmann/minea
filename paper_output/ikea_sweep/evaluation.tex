@@ -1,0 +1,57 @@
+\section{Evaluation}
+\label{sec:evaluation}
+\input{figures/evaluation-ikea/numbers}
+
+We evaluate how the number of sources and constraints requiring more cases
+to be matched jointly affect the size of coordinated matching problems and the
+ability of B\&B to solve them within a fixed time budget.
+
+\paragraph{Setup.}
+We use IKEA ASM furniture-assembly data~\cite{benshabat2021ikea} and uncertain
+logs from our earlier work~\cite{kirchmann2026distributional}: 116 cases with
+1,856 observations, each with three classifier-scored candidates and a
+ground-truth (GT) label. We select three activity prerequisites and two
+occurrence bounds mined from GT and holding for every retained trace.
+
+The data provide neither distributed ownership nor inter-case dependencies.
+We vary the source count $K\in\{1,2,4,8\}$ and, separately, add
+source-local inter-case constraints that join cases into larger components:
+from 116 single-case components to one across eight settings. Candidates,
+scores and mined constraints stay fixed.
+
+The central baseline collects all candidates and scores and solves each
+component centrally. Each run processes components sequentially within a
+single 300\,s matching budget for the entire log on an M1 Pro (16\,GB).
+Code, settings and results: \url{https://github.com/henrikkirchmann/minea}.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\linewidth]{figures/evaluation-ikea/ikea-overview.pdf}
+\caption{(a) Mean largest component interface across $K=2,4,8$ (maximum
+difference: 28 variables).
+(b) Number of cases in components solved optimally within the log-wide
+300\,s budget. These counts are identical for $K=2,4,8$, shown as one line.}
+\Description{As constraints require more cases to be matched jointly, the mean largest component interface across two, four and eight sources grows from 35 to approximately 2,346.7 candidate decisions involved in constraints spanning sources. The source settings differ by at most 28 variables. Central and one-source matching have no inter-source matching interface and share the zero line. Two, four and eight sources have identical numbers of cases in components solved optimally within 300 seconds, shown as one solid line. Central and one-source matching finish all settings.}
+\label{fig:ikea-overview}
+\end{figure}
+
+\paragraph{Larger components need more joint decisions.}
+A component's interface contains the candidate decisions that sources must
+coordinate through shared constraints. Figure~\ref{fig:ikea-overview}a shows
+the largest number of these decisions in any component, averaged over two,
+four and eight sources.
+At two sources, joining 116 components into one raises this maximum from
+35 to 2,331, while the total stays 2,331. Across $K=2,4,8$, interface totals
+differ by at most 28 variables.
+
+\paragraph{Matching more cases jointly becomes harder.}
+With two, four and eight sources, B\&B optimally matches all 116 cases when
+each can be solved separately. When cases must be matched jointly in 58
+paired components, only 46 cases belong to components solved optimally;
+at 29 components this falls to eight, and at 15 or fewer to zero
+(Fig.~\ref{fig:ikea-overview}b).
+Every coupled multi-source run reaches 300\,s. Central and one-source matching
+finish all settings.
+
+This one-seed experiment uses GT assistance and in-sample constraints; it
+does not assess recognition accuracy or parallel performance.

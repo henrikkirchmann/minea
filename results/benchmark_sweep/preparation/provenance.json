@@ -1,0 +1,63 @@
+{
+  "component_counts": [
+    116,
+    58,
+    29,
+    15,
+    8,
+    4,
+    2,
+    1
+  ],
+  "ordering": "K in (1,2,4,8), then C in (116,58,29,15,8,4,2,1); input candidate, template and bridge order preserved. Matching ordering is unchanged and controlled by the existing runner.",
+  "original_full_model_dataset_fingerprint": "1c49a87ce50648a337d6cdfece88fcc43e53d1b0ce79941b3252e6750c77a112",
+  "plan_provenance": "Reuse the published original full-model plan without regenerating bridges, endpoints, witnesses, block placement or source coarsening.",
+  "prepared_input_folder": "/Users/henrikkirchmann/Documents/GPT MINEA/minea-ikea-evaluation/results/reference/full",
+  "prepared_input_hashes": {
+    "candidate_policy.json": "ce80e2563eca134f18b69d75ac5f29e9b7f7f7c537a799fef5937329663b9244",
+    "cases.csv": "3c67dbed6a405f9887075b9f78f5070d825b0402f5cff4d569ac115071dd796c",
+    "constraints.json": "c1177768c0355634d4307cde375a10bb0c544a8ffb08a84cc610d93ecad7b16b",
+    "ground_truth.csv": "57296c4286d203216b42a975f68d6d404c2ae82f054442ee72cadd24f68080df",
+    "uncertain_log.csv.gz": "dfbc6b1a7b3b36880e16c887bd98f4afef6e23d3c840059ea9c9a71d519d5af1"
+  },
+  "profile": "gt_support_3_prerequisites_2_count_bounds",
+  "scope": "One seed and a previously chosen weaker constraint model; not evidence about performance on the original 73-template model.",
+  "score_policy": "Exact original stored decimal strings; no normalization or rounding.",
+  "seed": 0,
+  "selection": {
+    "occurrence_bounds": [
+      "occ_031",
+      "occ_021"
+    ],
+    "prerequisites": [
+      "pre_019",
+      "pre_036",
+      "pre_023"
+    ]
+  },
+  "selection_provenance": "Freeze the same five templates selected for the exploratory retry; do not rerank by any sweep outcome.",
+  "source_counts": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "source_files": {
+    "calibration_instance": {
+      "path": "/Users/henrikkirchmann/Documents/GPT MINEA/minea-ikea-evaluation/results/benchmark_calibration/K2/seed0_K2_C116/instance.json.gz",
+      "sha256": "70b167226699558e442b36e5614bb04c17613f8b2242572e01dde7ad0f769a4f"
+    },
+    "plan": {
+      "path": "/Users/henrikkirchmann/Documents/GPT MINEA/minea-ikea-evaluation/results/benchmark_calibration/K2/plan_seed0.json.gz",
+      "sha256": "2c8fc3cc16a3f901ed8d043f69de072c54576fcf3a9a1d8e2bc62bc076a4ebf9"
+    },
+    "retry_instance": {
+      "path": "/Users/henrikkirchmann/Documents/GPT MINEA/minea-ikea-evaluation/results/benchmark_reduced_constraints/instance.json.gz",
+      "sha256": "477dcb67d4d496b3c4a015316ba942f2d15bebce0a012e7d52930f8317addf04"
+    },
+    "selection_protocol": {
+      "path": "/Users/henrikkirchmann/Documents/GPT MINEA/minea-ikea-evaluation/results/benchmark_reduced_constraints/selection_protocol.json",
+      "sha256": "ed7f41239f914c27787bd19b868374f711413da71f339fd7cc5f0675c72e7e5b"
+    }
+  }
+}

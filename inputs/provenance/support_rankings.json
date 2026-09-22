@@ -1,0 +1,1256 @@
+{
+  "occurrence_bounds": [
+    {
+      "id": "occ_031",
+      "support_cases": 87,
+      "support_events": 362,
+      "template": {
+        "activities": [
+          "spin leg"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_031",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 8
+      }
+    },
+    {
+      "id": "occ_021",
+      "support_cases": 87,
+      "support_events": 338,
+      "template": {
+        "activities": [
+          "pick up leg"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_021",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 5
+      }
+    },
+    {
+      "id": "occ_007",
+      "support_cases": 84,
+      "support_events": 88,
+      "template": {
+        "activities": [
+          "flip table"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_007",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 3
+      }
+    },
+    {
+      "id": "occ_001",
+      "support_cases": 72,
+      "support_events": 283,
+      "template": {
+        "activities": [
+          "align leg screw with table thread"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_001",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 5
+      }
+    },
+    {
+      "id": "occ_005",
+      "support_cases": 56,
+      "support_events": 57,
+      "template": {
+        "activities": [
+          "attach shelf to table"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_005",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 2
+      }
+    },
+    {
+      "id": "occ_023",
+      "support_cases": 54,
+      "support_events": 57,
+      "template": {
+        "activities": [
+          "pick up shelf"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_023",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 2
+      }
+    },
+    {
+      "id": "occ_032",
+      "support_cases": 41,
+      "support_events": 85,
+      "template": {
+        "activities": [
+          "tighten leg"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_032",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 5
+      }
+    },
+    {
+      "id": "occ_008",
+      "support_cases": 36,
+      "support_events": 36,
+      "template": {
+        "activities": [
+          "flip table top"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_008",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_029",
+      "support_cases": 34,
+      "support_events": 61,
+      "template": {
+        "activities": [
+          "rotate table"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_029",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 5
+      }
+    },
+    {
+      "id": "occ_024",
+      "support_cases": 29,
+      "support_events": 65,
+      "template": {
+        "activities": [
+          "pick up side panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_024",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 6
+      }
+    },
+    {
+      "id": "occ_009",
+      "support_cases": 29,
+      "support_events": 48,
+      "template": {
+        "activities": [
+          "insert drawer pin"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_009",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 3
+      }
+    },
+    {
+      "id": "occ_019",
+      "support_cases": 29,
+      "support_events": 33,
+      "template": {
+        "activities": [
+          "pick up bottom panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_019",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 3
+      }
+    },
+    {
+      "id": "occ_030",
+      "support_cases": 29,
+      "support_events": 32,
+      "template": {
+        "activities": [
+          "slide bottom of drawer"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_030",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 2
+      }
+    },
+    {
+      "id": "occ_004",
+      "support_cases": 28,
+      "support_events": 61,
+      "template": {
+        "activities": [
+          "attach drawer side panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_004",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 4
+      }
+    },
+    {
+      "id": "occ_022",
+      "support_cases": 27,
+      "support_events": 45,
+      "template": {
+        "activities": [
+          "pick up pin"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_022",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 3
+      }
+    },
+    {
+      "id": "occ_003",
+      "support_cases": 25,
+      "support_events": 27,
+      "template": {
+        "activities": [
+          "attach drawer back panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_003",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 2
+      }
+    },
+    {
+      "id": "occ_018",
+      "support_cases": 23,
+      "support_events": 32,
+      "template": {
+        "activities": [
+          "pick up back panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_018",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 3
+      }
+    },
+    {
+      "id": "occ_002",
+      "support_cases": 20,
+      "support_events": 42,
+      "template": {
+        "activities": [
+          "align side panel holes with front panel dowels"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_002",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 4
+      }
+    },
+    {
+      "id": "occ_026",
+      "support_cases": 20,
+      "support_events": 20,
+      "template": {
+        "activities": [
+          "position the drawer right side up"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_026",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_017",
+      "support_cases": 16,
+      "support_events": 23,
+      "template": {
+        "activities": [
+          "other"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_017",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 3
+      }
+    },
+    {
+      "id": "occ_020",
+      "support_cases": 12,
+      "support_events": 13,
+      "template": {
+        "activities": [
+          "pick up front panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_020",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 2
+      }
+    },
+    {
+      "id": "occ_011",
+      "support_cases": 8,
+      "support_events": 8,
+      "template": {
+        "activities": [
+          "lay down bottom panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_011",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_012",
+      "support_cases": 8,
+      "support_events": 8,
+      "template": {
+        "activities": [
+          "lay down front panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_012",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_025",
+      "support_cases": 8,
+      "support_events": 8,
+      "template": {
+        "activities": [
+          "pick up table top"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_025",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_016",
+      "support_cases": 6,
+      "support_events": 6,
+      "template": {
+        "activities": [
+          "lay down table top"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_016",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_027",
+      "support_cases": 4,
+      "support_events": 4,
+      "template": {
+        "activities": [
+          "push table"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_027",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_010",
+      "support_cases": 3,
+      "support_events": 4,
+      "template": {
+        "activities": [
+          "lay down back panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_010",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 2
+      }
+    },
+    {
+      "id": "occ_013",
+      "support_cases": 3,
+      "support_events": 3,
+      "template": {
+        "activities": [
+          "lay down leg"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_013",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_006",
+      "support_cases": 2,
+      "support_events": 3,
+      "template": {
+        "activities": [
+          "flip shelf"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_006",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 2
+      }
+    },
+    {
+      "id": "occ_014",
+      "support_cases": 2,
+      "support_events": 2,
+      "template": {
+        "activities": [
+          "lay down shelf"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_014",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_015",
+      "support_cases": 1,
+      "support_events": 1,
+      "template": {
+        "activities": [
+          "lay down side panel"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_015",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    },
+    {
+      "id": "occ_028",
+      "support_cases": 1,
+      "support_events": 1,
+      "template": {
+        "activities": [
+          "push table top"
+        ],
+        "applies_to": "each_retained_case",
+        "id": "occ_028",
+        "kind": "occurrence_bound",
+        "lower": 0,
+        "positive_minimum": false,
+        "upper": 1
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "pre_019",
+      "support_cases": 56,
+      "support_events": 57,
+      "template": {
+        "activated_cases": 56,
+        "activated_events": 57,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_019",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up leg"
+        ],
+        "trigger_activity": "attach shelf to table"
+      }
+    },
+    {
+      "id": "pre_036",
+      "support_cases": 56,
+      "support_events": 57,
+      "template": {
+        "activated_cases": 56,
+        "activated_events": 57,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_036",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "spin leg"
+        ],
+        "trigger_activity": "attach shelf to table"
+      }
+    },
+    {
+      "id": "pre_023",
+      "support_cases": 54,
+      "support_events": 57,
+      "template": {
+        "activated_cases": 54,
+        "activated_events": 57,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_023",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up leg"
+        ],
+        "trigger_activity": "pick up shelf"
+      }
+    },
+    {
+      "id": "pre_039",
+      "support_cases": 54,
+      "support_events": 57,
+      "template": {
+        "activated_cases": 54,
+        "activated_events": 57,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_039",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "spin leg"
+        ],
+        "trigger_activity": "pick up shelf"
+      }
+    },
+    {
+      "id": "pre_041",
+      "support_cases": 41,
+      "support_events": 85,
+      "template": {
+        "activated_cases": 41,
+        "activated_events": 85,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_041",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "spin leg"
+        ],
+        "trigger_activity": "tighten leg"
+      }
+    },
+    {
+      "id": "pre_014",
+      "support_cases": 29,
+      "support_events": 48,
+      "template": {
+        "activated_cases": 29,
+        "activated_events": 48,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_014",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up bottom panel"
+        ],
+        "trigger_activity": "insert drawer pin"
+      }
+    },
+    {
+      "id": "pre_028",
+      "support_cases": 29,
+      "support_events": 48,
+      "template": {
+        "activated_cases": 29,
+        "activated_events": 48,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_028",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up side panel"
+        ],
+        "trigger_activity": "insert drawer pin"
+      }
+    },
+    {
+      "id": "pre_035",
+      "support_cases": 29,
+      "support_events": 48,
+      "template": {
+        "activated_cases": 29,
+        "activated_events": 48,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_035",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "slide bottom of drawer"
+        ],
+        "trigger_activity": "insert drawer pin"
+      }
+    },
+    {
+      "id": "pre_017",
+      "support_cases": 29,
+      "support_events": 32,
+      "template": {
+        "activated_cases": 29,
+        "activated_events": 32,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_017",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up bottom panel"
+        ],
+        "trigger_activity": "slide bottom of drawer"
+      }
+    },
+    {
+      "id": "pre_033",
+      "support_cases": 29,
+      "support_events": 32,
+      "template": {
+        "activated_cases": 29,
+        "activated_events": 32,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_033",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up side panel"
+        ],
+        "trigger_activity": "slide bottom of drawer"
+      }
+    },
+    {
+      "id": "pre_006",
+      "support_cases": 27,
+      "support_events": 45,
+      "template": {
+        "activated_cases": 27,
+        "activated_events": 45,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_006",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "attach drawer side panel"
+        ],
+        "trigger_activity": "pick up pin"
+      }
+    },
+    {
+      "id": "pre_031",
+      "support_cases": 27,
+      "support_events": 45,
+      "template": {
+        "activated_cases": 27,
+        "activated_events": 45,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_031",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up side panel"
+        ],
+        "trigger_activity": "pick up pin"
+      }
+    },
+    {
+      "id": "pre_013",
+      "support_cases": 25,
+      "support_events": 27,
+      "template": {
+        "activated_cases": 25,
+        "activated_events": 27,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_013",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up bottom panel"
+        ],
+        "trigger_activity": "attach drawer back panel"
+      }
+    },
+    {
+      "id": "pre_027",
+      "support_cases": 25,
+      "support_events": 27,
+      "template": {
+        "activated_cases": 25,
+        "activated_events": 27,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_027",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up side panel"
+        ],
+        "trigger_activity": "attach drawer back panel"
+      }
+    },
+    {
+      "id": "pre_034",
+      "support_cases": 25,
+      "support_events": 27,
+      "template": {
+        "activated_cases": 25,
+        "activated_events": 27,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_034",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "slide bottom of drawer"
+        ],
+        "trigger_activity": "attach drawer back panel"
+      }
+    },
+    {
+      "id": "pre_026",
+      "support_cases": 20,
+      "support_events": 42,
+      "template": {
+        "activated_cases": 20,
+        "activated_events": 42,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_026",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up side panel"
+        ],
+        "trigger_activity": "align side panel holes with front panel dowels"
+      }
+    },
+    {
+      "id": "pre_016",
+      "support_cases": 20,
+      "support_events": 20,
+      "template": {
+        "activated_cases": 20,
+        "activated_events": 20,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_016",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up bottom panel"
+        ],
+        "trigger_activity": "position the drawer right side up"
+      }
+    },
+    {
+      "id": "pre_032",
+      "support_cases": 20,
+      "support_events": 20,
+      "template": {
+        "activated_cases": 20,
+        "activated_events": 20,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_032",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up side panel"
+        ],
+        "trigger_activity": "position the drawer right side up"
+      }
+    },
+    {
+      "id": "pre_015",
+      "support_cases": 8,
+      "support_events": 8,
+      "template": {
+        "activated_cases": 8,
+        "activated_events": 8,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_015",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up bottom panel"
+        ],
+        "trigger_activity": "lay down bottom panel"
+      }
+    },
+    {
+      "id": "pre_003",
+      "support_cases": 4,
+      "support_events": 4,
+      "template": {
+        "activated_cases": 4,
+        "activated_events": 4,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_003",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "align leg screw with table thread"
+        ],
+        "trigger_activity": "push table"
+      }
+    },
+    {
+      "id": "pre_024",
+      "support_cases": 4,
+      "support_events": 4,
+      "template": {
+        "activated_cases": 4,
+        "activated_events": 4,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_024",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up leg"
+        ],
+        "trigger_activity": "push table"
+      }
+    },
+    {
+      "id": "pre_040",
+      "support_cases": 4,
+      "support_events": 4,
+      "template": {
+        "activated_cases": 4,
+        "activated_events": 4,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_040",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "spin leg"
+        ],
+        "trigger_activity": "push table"
+      }
+    },
+    {
+      "id": "pre_011",
+      "support_cases": 3,
+      "support_events": 4,
+      "template": {
+        "activated_cases": 3,
+        "activated_events": 4,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_011",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up back panel"
+        ],
+        "trigger_activity": "lay down back panel"
+      }
+    },
+    {
+      "id": "pre_029",
+      "support_cases": 3,
+      "support_events": 4,
+      "template": {
+        "activated_cases": 3,
+        "activated_events": 4,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_029",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up side panel"
+        ],
+        "trigger_activity": "lay down back panel"
+      }
+    },
+    {
+      "id": "pre_021",
+      "support_cases": 3,
+      "support_events": 3,
+      "template": {
+        "activated_cases": 3,
+        "activated_events": 3,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_021",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up leg"
+        ],
+        "trigger_activity": "lay down leg"
+      }
+    },
+    {
+      "id": "pre_001",
+      "support_cases": 2,
+      "support_events": 3,
+      "template": {
+        "activated_cases": 2,
+        "activated_events": 3,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_001",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "align leg screw with table thread"
+        ],
+        "trigger_activity": "flip shelf"
+      }
+    },
+    {
+      "id": "pre_007",
+      "support_cases": 2,
+      "support_events": 3,
+      "template": {
+        "activated_cases": 2,
+        "activated_events": 3,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_007",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "flip table top"
+        ],
+        "trigger_activity": "flip shelf"
+      }
+    },
+    {
+      "id": "pre_020",
+      "support_cases": 2,
+      "support_events": 3,
+      "template": {
+        "activated_cases": 2,
+        "activated_events": 3,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_020",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up leg"
+        ],
+        "trigger_activity": "flip shelf"
+      }
+    },
+    {
+      "id": "pre_037",
+      "support_cases": 2,
+      "support_events": 3,
+      "template": {
+        "activated_cases": 2,
+        "activated_events": 3,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_037",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "spin leg"
+        ],
+        "trigger_activity": "flip shelf"
+      }
+    },
+    {
+      "id": "pre_002",
+      "support_cases": 2,
+      "support_events": 2,
+      "template": {
+        "activated_cases": 2,
+        "activated_events": 2,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_002",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "align leg screw with table thread"
+        ],
+        "trigger_activity": "lay down shelf"
+      }
+    },
+    {
+      "id": "pre_008",
+      "support_cases": 2,
+      "support_events": 2,
+      "template": {
+        "activated_cases": 2,
+        "activated_events": 2,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_008",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "flip table top"
+        ],
+        "trigger_activity": "lay down shelf"
+      }
+    },
+    {
+      "id": "pre_022",
+      "support_cases": 2,
+      "support_events": 2,
+      "template": {
+        "activated_cases": 2,
+        "activated_events": 2,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_022",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up leg"
+        ],
+        "trigger_activity": "lay down shelf"
+      }
+    },
+    {
+      "id": "pre_025",
+      "support_cases": 2,
+      "support_events": 2,
+      "template": {
+        "activated_cases": 2,
+        "activated_events": 2,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_025",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up shelf"
+        ],
+        "trigger_activity": "lay down shelf"
+      }
+    },
+    {
+      "id": "pre_038",
+      "support_cases": 2,
+      "support_events": 2,
+      "template": {
+        "activated_cases": 2,
+        "activated_events": 2,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_038",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "spin leg"
+        ],
+        "trigger_activity": "lay down shelf"
+      }
+    },
+    {
+      "id": "pre_004",
+      "support_cases": 1,
+      "support_events": 1,
+      "template": {
+        "activated_cases": 1,
+        "activated_events": 1,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_004",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "align side panel holes with front panel dowels"
+        ],
+        "trigger_activity": "lay down side panel"
+      }
+    },
+    {
+      "id": "pre_005",
+      "support_cases": 1,
+      "support_events": 1,
+      "template": {
+        "activated_cases": 1,
+        "activated_events": 1,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_005",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "attach drawer side panel"
+        ],
+        "trigger_activity": "lay down side panel"
+      }
+    },
+    {
+      "id": "pre_009",
+      "support_cases": 1,
+      "support_events": 1,
+      "template": {
+        "activated_cases": 1,
+        "activated_events": 1,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_009",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "lay down back panel"
+        ],
+        "trigger_activity": "lay down side panel"
+      }
+    },
+    {
+      "id": "pre_010",
+      "support_cases": 1,
+      "support_events": 1,
+      "template": {
+        "activated_cases": 1,
+        "activated_events": 1,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_010",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "lay down front panel"
+        ],
+        "trigger_activity": "lay down side panel"
+      }
+    },
+    {
+      "id": "pre_012",
+      "support_cases": 1,
+      "support_events": 1,
+      "template": {
+        "activated_cases": 1,
+        "activated_events": 1,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_012",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up back panel"
+        ],
+        "trigger_activity": "lay down side panel"
+      }
+    },
+    {
+      "id": "pre_018",
+      "support_cases": 1,
+      "support_events": 1,
+      "template": {
+        "activated_cases": 1,
+        "activated_events": 1,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_018",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up front panel"
+        ],
+        "trigger_activity": "lay down side panel"
+      }
+    },
+    {
+      "id": "pre_030",
+      "support_cases": 1,
+      "support_events": 1,
+      "template": {
+        "activated_cases": 1,
+        "activated_events": 1,
+        "active_in_all_cases": false,
+        "applies_to": "each_retained_case",
+        "condition": "predecessor.end_frame_exclusive <= trigger.start_frame",
+        "id": "pre_030",
+        "kind": "prerequisite",
+        "predecessor_activities": [
+          "pick up side panel"
+        ],
+        "trigger_activity": "lay down side panel"
+      }
+    }
+  ]
+}

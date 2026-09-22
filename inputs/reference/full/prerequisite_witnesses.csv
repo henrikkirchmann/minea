@@ -1,0 +1,835 @@
+constraint_id,case_id,predecessor,trigger,predecessor_event_id,trigger_event_id,predecessor_end_frame_exclusive,trigger_start_frame
+pre_001,22,align leg screw with table thread,flip shelf,case22:frames229-261,case22:frames3120-3165,261,3120
+pre_001,29,align leg screw with table thread,flip shelf,case29:frames312-350,case29:frames2082-2180,350,2082
+pre_001,29,align leg screw with table thread,flip shelf,case29:frames312-350,case29:frames2464-2533,350,2464
+pre_002,29,align leg screw with table thread,lay down shelf,case29:frames312-350,case29:frames2243-2297,350,2243
+pre_002,41,align leg screw with table thread,lay down shelf,case41:frames220-260,case41:frames2763-2839,260,2763
+pre_003,15,align leg screw with table thread,push table,case15:frames87-120,case15:frames827-853,120,827
+pre_003,17,align leg screw with table thread,push table,case17:frames183-263,case17:frames1112-1127,263,1112
+pre_003,5,align leg screw with table thread,push table,case5:frames220-267,case5:frames1332-1377,267,1332
+pre_003,64,align leg screw with table thread,push table,case64:frames185-226,case64:frames566-585,226,566
+pre_004,91,align side panel holes with front panel dowels,lay down side panel,case91:frames699-777,case91:frames1363-1378,777,1363
+pre_005,91,attach drawer side panel,lay down side panel,case91:frames777-859,case91:frames1363-1378,859,1363
+pre_006,100,attach drawer side panel,pick up pin,case100:frames496-593,case100:frames1563-1597,593,1563
+pre_006,100,attach drawer side panel,pick up pin,case100:frames496-593,case100:frames1658-1683,593,1658
+pre_006,102,attach drawer side panel,pick up pin,case102:frames102-224,case102:frames774-811,224,774
+pre_006,102,attach drawer side panel,pick up pin,case102:frames102-224,case102:frames851-883,224,851
+pre_006,103,attach drawer side panel,pick up pin,case103:frames275-348,case103:frames570-595,348,570
+pre_006,103,attach drawer side panel,pick up pin,case103:frames275-348,case103:frames1265-1310,348,1265
+pre_006,104,attach drawer side panel,pick up pin,case104:frames178-209,case104:frames788-808,209,788
+pre_006,104,attach drawer side panel,pick up pin,case104:frames178-209,case104:frames852-888,209,852
+pre_006,105,attach drawer side panel,pick up pin,case105:frames329-371,case105:frames968-1015,371,968
+pre_006,105,attach drawer side panel,pick up pin,case105:frames329-371,case105:frames1067-1096,371,1067
+pre_006,106,attach drawer side panel,pick up pin,case106:frames273-317,case106:frames1124-1148,317,1124
+pre_006,107,attach drawer side panel,pick up pin,case107:frames85-348,case107:frames1039-1073,348,1039
+pre_006,107,attach drawer side panel,pick up pin,case107:frames85-348,case107:frames1109-1165,348,1109
+pre_006,108,attach drawer side panel,pick up pin,case108:frames134-284,case108:frames2548-2591,284,2548
+pre_006,108,attach drawer side panel,pick up pin,case108:frames134-284,case108:frames2619-2649,284,2619
+pre_006,109,attach drawer side panel,pick up pin,case109:frames188-319,case109:frames1718-1739,319,1718
+pre_006,110,attach drawer side panel,pick up pin,case110:frames629-689,case110:frames2407-2685,689,2407
+pre_006,111,attach drawer side panel,pick up pin,case111:frames165-207,case111:frames784-823,207,784
+pre_006,112,attach drawer side panel,pick up pin,case112:frames120-224,case112:frames847-873,224,847
+pre_006,114,attach drawer side panel,pick up pin,case114:frames147-167,case114:frames1395-1464,167,1395
+pre_006,114,attach drawer side panel,pick up pin,case114:frames147-167,case114:frames1491-1544,167,1491
+pre_006,115,attach drawer side panel,pick up pin,case115:frames499-536,case115:frames1432-1461,536,1432
+pre_006,115,attach drawer side panel,pick up pin,case115:frames499-536,case115:frames1485-1526,536,1485
+pre_006,116,attach drawer side panel,pick up pin,case116:frames256-434,case116:frames1788-1827,434,1788
+pre_006,116,attach drawer side panel,pick up pin,case116:frames256-434,case116:frames1891-1952,434,1891
+pre_006,88,attach drawer side panel,pick up pin,case88:frames284-332,case88:frames1119-1167,332,1119
+pre_006,89,attach drawer side panel,pick up pin,case89:frames125-314,case89:frames904-984,314,904
+pre_006,90,attach drawer side panel,pick up pin,case90:frames73-175,case90:frames822-866,175,822
+pre_006,90,attach drawer side panel,pick up pin,case90:frames73-175,case90:frames938-968,175,938
+pre_006,91,attach drawer side panel,pick up pin,case91:frames777-859,case91:frames3646-3713,859,3646
+pre_006,92,attach drawer side panel,pick up pin,case92:frames292-318,case92:frames1011-1035,318,1011
+pre_006,92,attach drawer side panel,pick up pin,case92:frames292-318,case92:frames1084-1108,318,1084
+pre_006,93,attach drawer side panel,pick up pin,case93:frames339-416,case93:frames1542-1564,416,1542
+pre_006,93,attach drawer side panel,pick up pin,case93:frames339-416,case93:frames1602-1629,416,1602
+pre_006,94,attach drawer side panel,pick up pin,case94:frames173-208,case94:frames1231-1252,208,1231
+pre_006,94,attach drawer side panel,pick up pin,case94:frames173-208,case94:frames2189-2211,208,2189
+pre_006,95,attach drawer side panel,pick up pin,case95:frames298-436,case95:frames2334-2368,436,2334
+pre_006,95,attach drawer side panel,pick up pin,case95:frames298-436,case95:frames2431-2458,436,2431
+pre_006,96,attach drawer side panel,pick up pin,case96:frames205-308,case96:frames1799-1834,308,1799
+pre_006,97,attach drawer side panel,pick up pin,case97:frames106-453,case97:frames2385-2592,453,2385
+pre_006,98,attach drawer side panel,pick up pin,case98:frames129-208,case98:frames1584-1659,208,1584
+pre_006,98,attach drawer side panel,pick up pin,case98:frames129-208,case98:frames2546-2586,208,2546
+pre_006,98,attach drawer side panel,pick up pin,case98:frames129-208,case98:frames2643-2686,208,2643
+pre_006,99,attach drawer side panel,pick up pin,case99:frames280-365,case99:frames1020-1093,365,1020
+pre_006,99,attach drawer side panel,pick up pin,case99:frames280-365,case99:frames1138-1174,365,1138
+pre_007,22,flip table top,flip shelf,case22:frames4-166,case22:frames3120-3165,166,3120
+pre_007,29,flip table top,flip shelf,case29:frames193-275,case29:frames2082-2180,275,2082
+pre_007,29,flip table top,flip shelf,case29:frames193-275,case29:frames2464-2533,275,2464
+pre_008,29,flip table top,lay down shelf,case29:frames193-275,case29:frames2243-2297,275,2243
+pre_008,41,flip table top,lay down shelf,case41:frames27-188,case41:frames2763-2839,188,2763
+pre_009,91,lay down back panel,lay down side panel,case91:frames627-643,case91:frames1363-1378,643,1363
+pre_010,91,lay down front panel,lay down side panel,case91:frames339-411,case91:frames1363-1378,411,1363
+pre_011,91,pick up back panel,lay down back panel,case91:frames411-447,case91:frames627-643,447,627
+pre_011,91,pick up back panel,lay down back panel,case91:frames411-447,case91:frames2052-2103,447,2052
+pre_011,94,pick up back panel,lay down back panel,case94:frames396-433,case94:frames434-447,433,434
+pre_011,95,pick up back panel,lay down back panel,case95:frames713-765,case95:frames765-866,765,765
+pre_012,91,pick up back panel,lay down side panel,case91:frames411-447,case91:frames1363-1378,447,1363
+pre_013,100,pick up bottom panel,attach drawer back panel,case100:frames808-852,case100:frames1104-1563,852,1104
+pre_013,101,pick up bottom panel,attach drawer back panel,case101:frames456-477,case101:frames820-950,477,820
+pre_013,102,pick up bottom panel,attach drawer back panel,case102:frames356-390,case102:frames634-754,390,634
+pre_013,103,pick up bottom panel,attach drawer back panel,case103:frames611-688,case103:frames1082-1265,688,1082
+pre_013,104,pick up bottom panel,attach drawer back panel,case104:frames381-459,case104:frames620-788,459,620
+pre_013,105,pick up bottom panel,attach drawer back panel,case105:frames550-577,case105:frames872-968,577,872
+pre_013,107,pick up bottom panel,attach drawer back panel,case107:frames507-542,case107:frames762-1022,542,762
+pre_013,108,pick up bottom panel,attach drawer back panel,case108:frames1151-1221,case108:frames1429-2548,1221,1429
+pre_013,110,pick up bottom panel,attach drawer back panel,case110:frames1209-1313,case110:frames1836-2387,1313,1836
+pre_013,111,pick up bottom panel,attach drawer back panel,case111:frames418-470,case111:frames642-784,470,642
+pre_013,112,pick up bottom panel,attach drawer back panel,case112:frames377-489,case112:frames619-820,489,619
+pre_013,113,pick up bottom panel,attach drawer back panel,case113:frames570-600,case113:frames910-1130,600,910
+pre_013,113,pick up bottom panel,attach drawer back panel,case113:frames570-600,case113:frames2783-2933,600,2783
+pre_013,114,pick up bottom panel,attach drawer back panel,case114:frames286-343,case114:frames657-1395,343,657
+pre_013,115,pick up bottom panel,attach drawer back panel,case115:frames793-900,case115:frames1142-1432,900,1142
+pre_013,116,pick up bottom panel,attach drawer back panel,case116:frames834-887,case116:frames1502-1788,887,1502
+pre_013,88,pick up bottom panel,attach drawer back panel,case88:frames551-619,case88:frames944-1119,619,944
+pre_013,90,pick up bottom panel,attach drawer back panel,case90:frames340-420,case90:frames658-746,420,658
+pre_013,91,pick up bottom panel,attach drawer back panel,case91:frames2103-2119,case91:frames3029-3646,2119,3029
+pre_013,92,pick up bottom panel,attach drawer back panel,case92:frames485-543,case92:frames800-918,543,800
+pre_013,93,pick up bottom panel,attach drawer back panel,case93:frames617-666,case93:frames1002-1542,666,1002
+pre_013,94,pick up bottom panel,attach drawer back panel,case94:frames447-507,case94:frames831-1077,507,831
+pre_013,94,pick up bottom panel,attach drawer back panel,case94:frames447-507,case94:frames1931-2107,507,1931
+pre_013,95,pick up bottom panel,attach drawer back panel,case95:frames866-928,case95:frames1804-2334,928,1804
+pre_013,96,pick up bottom panel,attach drawer back panel,case96:frames696-731,case96:frames1709-1791,731,1709
+pre_013,97,pick up bottom panel,attach drawer back panel,case97:frames832-906,case97:frames1417-2385,906,1417
+pre_013,99,pick up bottom panel,attach drawer back panel,case99:frames535-634,case99:frames926-1020,634,926
+pre_014,100,pick up bottom panel,insert drawer pin,case100:frames808-852,case100:frames1597-1648,852,1597
+pre_014,100,pick up bottom panel,insert drawer pin,case100:frames808-852,case100:frames1683-1788,852,1683
+pre_014,101,pick up bottom panel,insert drawer pin,case101:frames456-477,case101:frames1087-1196,477,1087
+pre_014,102,pick up bottom panel,insert drawer pin,case102:frames356-390,case102:frames814-847,390,814
+pre_014,102,pick up bottom panel,insert drawer pin,case102:frames356-390,case102:frames888-919,390,888
+pre_014,103,pick up bottom panel,insert drawer pin,case103:frames611-688,case103:frames1310-1424,688,1310
+pre_014,104,pick up bottom panel,insert drawer pin,case104:frames381-459,case104:frames808-852,459,808
+pre_014,104,pick up bottom panel,insert drawer pin,case104:frames381-459,case104:frames888-936,459,888
+pre_014,105,pick up bottom panel,insert drawer pin,case105:frames550-577,case105:frames1015-1056,577,1015
+pre_014,105,pick up bottom panel,insert drawer pin,case105:frames550-577,case105:frames1096-1155,577,1096
+pre_014,106,pick up bottom panel,insert drawer pin,case106:frames491-526,case106:frames1148-1296,526,1148
+pre_014,107,pick up bottom panel,insert drawer pin,case107:frames507-542,case107:frames1073-1109,542,1073
+pre_014,107,pick up bottom panel,insert drawer pin,case107:frames507-542,case107:frames1165-1228,542,1165
+pre_014,108,pick up bottom panel,insert drawer pin,case108:frames1151-1221,case108:frames2591-2619,1221,2591
+pre_014,108,pick up bottom panel,insert drawer pin,case108:frames1151-1221,case108:frames2649-2694,1221,2649
+pre_014,109,pick up bottom panel,insert drawer pin,case109:frames94-131,case109:frames1739-1994,131,1739
+pre_014,110,pick up bottom panel,insert drawer pin,case110:frames1209-1313,case110:frames2685-2715,1313,2685
+pre_014,111,pick up bottom panel,insert drawer pin,case111:frames418-470,case111:frames823-964,470,823
+pre_014,112,pick up bottom panel,insert drawer pin,case112:frames377-489,case112:frames873-980,489,873
+pre_014,113,pick up bottom panel,insert drawer pin,case113:frames570-600,case113:frames1247-1388,600,1247
+pre_014,113,pick up bottom panel,insert drawer pin,case113:frames570-600,case113:frames2983-3153,600,2983
+pre_014,114,pick up bottom panel,insert drawer pin,case114:frames286-343,case114:frames1464-1491,343,1464
+pre_014,114,pick up bottom panel,insert drawer pin,case114:frames286-343,case114:frames1544-1620,343,1544
+pre_014,115,pick up bottom panel,insert drawer pin,case115:frames793-900,case115:frames1461-1485,900,1461
+pre_014,115,pick up bottom panel,insert drawer pin,case115:frames793-900,case115:frames1526-1561,900,1526
+pre_014,116,pick up bottom panel,insert drawer pin,case116:frames834-887,case116:frames1827-1877,887,1827
+pre_014,116,pick up bottom panel,insert drawer pin,case116:frames834-887,case116:frames1955-2069,887,1955
+pre_014,88,pick up bottom panel,insert drawer pin,case88:frames551-619,case88:frames1167-1296,619,1167
+pre_014,89,pick up bottom panel,insert drawer pin,case89:frames451-533,case89:frames984-1068,533,984
+pre_014,90,pick up bottom panel,insert drawer pin,case90:frames340-420,case90:frames886-927,420,886
+pre_014,90,pick up bottom panel,insert drawer pin,case90:frames340-420,case90:frames968-1021,420,968
+pre_014,91,pick up bottom panel,insert drawer pin,case91:frames2103-2119,case91:frames3713-3934,2119,3713
+pre_014,92,pick up bottom panel,insert drawer pin,case92:frames485-543,case92:frames1036-1077,543,1036
+pre_014,92,pick up bottom panel,insert drawer pin,case92:frames485-543,case92:frames1125-1161,543,1125
+pre_014,93,pick up bottom panel,insert drawer pin,case93:frames617-666,case93:frames1564-1602,666,1564
+pre_014,93,pick up bottom panel,insert drawer pin,case93:frames617-666,case93:frames1629-1723,666,1629
+pre_014,94,pick up bottom panel,insert drawer pin,case94:frames447-507,case94:frames2128-2165,507,2128
+pre_014,94,pick up bottom panel,insert drawer pin,case94:frames447-507,case94:frames2212-2266,507,2212
+pre_014,95,pick up bottom panel,insert drawer pin,case95:frames866-928,case95:frames2368-2431,928,2368
+pre_014,95,pick up bottom panel,insert drawer pin,case95:frames866-928,case95:frames2458-2524,928,2458
+pre_014,96,pick up bottom panel,insert drawer pin,case96:frames696-731,case96:frames1834-1868,731,1834
+pre_014,96,pick up bottom panel,insert drawer pin,case96:frames696-731,case96:frames1916-1950,731,1916
+pre_014,97,pick up bottom panel,insert drawer pin,case97:frames832-906,case97:frames2592-2979,906,2592
+pre_014,98,pick up bottom panel,insert drawer pin,case98:frames438-474,case98:frames1659-1824,474,1659
+pre_014,98,pick up bottom panel,insert drawer pin,case98:frames438-474,case98:frames2586-2643,474,2586
+pre_014,98,pick up bottom panel,insert drawer pin,case98:frames438-474,case98:frames2686-2744,474,2686
+pre_014,99,pick up bottom panel,insert drawer pin,case99:frames535-634,case99:frames1093-1138,634,1093
+pre_014,99,pick up bottom panel,insert drawer pin,case99:frames535-634,case99:frames1174-1266,634,1174
+pre_015,107,pick up bottom panel,lay down bottom panel,case107:frames507-542,case107:frames1228-1273,542,1228
+pre_015,109,pick up bottom panel,lay down bottom panel,case109:frames94-131,case109:frames131-145,131,131
+pre_015,112,pick up bottom panel,lay down bottom panel,case112:frames377-489,case112:frames980-1065,489,980
+pre_015,116,pick up bottom panel,lay down bottom panel,case116:frames834-887,case116:frames2072-2139,887,2072
+pre_015,90,pick up bottom panel,lay down bottom panel,case90:frames340-420,case90:frames1037-1068,420,1037
+pre_015,91,pick up bottom panel,lay down bottom panel,case91:frames2103-2119,case91:frames2427-2448,2119,2427
+pre_015,96,pick up bottom panel,lay down bottom panel,case96:frames696-731,case96:frames1966-2012,731,1966
+pre_015,97,pick up bottom panel,lay down bottom panel,case97:frames832-906,case97:frames2979-3322,906,2979
+pre_016,100,pick up bottom panel,position the drawer right side up,case100:frames808-852,case100:frames1797-1888,852,1797
+pre_016,101,pick up bottom panel,position the drawer right side up,case101:frames456-477,case101:frames1226-1283,477,1226
+pre_016,102,pick up bottom panel,position the drawer right side up,case102:frames356-390,case102:frames924-969,390,924
+pre_016,103,pick up bottom panel,position the drawer right side up,case103:frames611-688,case103:frames1424-1516,688,1424
+pre_016,104,pick up bottom panel,position the drawer right side up,case104:frames381-459,case104:frames936-1017,459,936
+pre_016,105,pick up bottom panel,position the drawer right side up,case105:frames550-577,case105:frames1176-1246,577,1176
+pre_016,106,pick up bottom panel,position the drawer right side up,case106:frames491-526,case106:frames1303-1423,526,1303
+pre_016,108,pick up bottom panel,position the drawer right side up,case108:frames1151-1221,case108:frames2694-2730,1221,2694
+pre_016,110,pick up bottom panel,position the drawer right side up,case110:frames1209-1313,case110:frames2715-2925,1313,2715
+pre_016,111,pick up bottom panel,position the drawer right side up,case111:frames418-470,case111:frames1032-1110,470,1032
+pre_016,113,pick up bottom panel,position the drawer right side up,case113:frames570-600,case113:frames640-700,600,640
+pre_016,114,pick up bottom panel,position the drawer right side up,case114:frames286-343,case114:frames1620-1672,343,1620
+pre_016,115,pick up bottom panel,position the drawer right side up,case115:frames793-900,case115:frames1561-1694,900,1561
+pre_016,88,pick up bottom panel,position the drawer right side up,case88:frames551-619,case88:frames1296-1432,619,1296
+pre_016,91,pick up bottom panel,position the drawer right side up,case91:frames2103-2119,case91:frames3934-4037,2119,3934
+pre_016,92,pick up bottom panel,position the drawer right side up,case92:frames485-543,case92:frames1311-1386,543,1311
+pre_016,93,pick up bottom panel,position the drawer right side up,case93:frames617-666,case93:frames1755-1837,666,1755
+pre_016,94,pick up bottom panel,position the drawer right side up,case94:frames447-507,case94:frames2282-2369,507,2282
+pre_016,95,pick up bottom panel,position the drawer right side up,case95:frames866-928,case95:frames2524-2683,928,2524
+pre_016,99,pick up bottom panel,position the drawer right side up,case99:frames535-634,case99:frames1266-1399,634,1266
+pre_017,100,pick up bottom panel,slide bottom of drawer,case100:frames808-852,case100:frames852-1062,852,852
+pre_017,101,pick up bottom panel,slide bottom of drawer,case101:frames456-477,case101:frames510-584,477,510
+pre_017,102,pick up bottom panel,slide bottom of drawer,case102:frames356-390,case102:frames414-581,390,414
+pre_017,103,pick up bottom panel,slide bottom of drawer,case103:frames611-688,case103:frames688-988,688,688
+pre_017,104,pick up bottom panel,slide bottom of drawer,case104:frames381-459,case104:frames459-576,459,459
+pre_017,105,pick up bottom panel,slide bottom of drawer,case105:frames550-577,case105:frames577-826,577,577
+pre_017,106,pick up bottom panel,slide bottom of drawer,case106:frames491-526,case106:frames546-714,526,546
+pre_017,106,pick up bottom panel,slide bottom of drawer,case106:frames491-526,case106:frames882-1124,526,882
+pre_017,107,pick up bottom panel,slide bottom of drawer,case107:frames507-542,case107:frames542-716,542,542
+pre_017,108,pick up bottom panel,slide bottom of drawer,case108:frames1151-1221,case108:frames1221-1429,1221,1221
+pre_017,109,pick up bottom panel,slide bottom of drawer,case109:frames94-131,case109:frames659-852,131,659
+pre_017,110,pick up bottom panel,slide bottom of drawer,case110:frames1209-1313,case110:frames1313-1567,1313,1313
+pre_017,111,pick up bottom panel,slide bottom of drawer,case111:frames418-470,case111:frames470-613,470,470
+pre_017,112,pick up bottom panel,slide bottom of drawer,case112:frames377-489,case112:frames489-577,489,489
+pre_017,113,pick up bottom panel,slide bottom of drawer,case113:frames570-600,case113:frames700-870,600,700
+pre_017,113,pick up bottom panel,slide bottom of drawer,case113:frames570-600,case113:frames2473-2703,600,2473
+pre_017,114,pick up bottom panel,slide bottom of drawer,case114:frames286-343,case114:frames343-483,343,343
+pre_017,115,pick up bottom panel,slide bottom of drawer,case115:frames793-900,case115:frames900-1079,900,900
+pre_017,116,pick up bottom panel,slide bottom of drawer,case116:frames834-887,case116:frames912-1374,887,912
+pre_017,88,pick up bottom panel,slide bottom of drawer,case88:frames551-619,case88:frames619-900,619,619
+pre_017,89,pick up bottom panel,slide bottom of drawer,case89:frames451-533,case89:frames533-662,533,533
+pre_017,90,pick up bottom panel,slide bottom of drawer,case90:frames340-420,case90:frames420-595,420,420
+pre_017,91,pick up bottom panel,slide bottom of drawer,case91:frames2103-2119,case91:frames2150-2391,2119,2150
+pre_017,91,pick up bottom panel,slide bottom of drawer,case91:frames2103-2119,case91:frames2643-2952,2119,2643
+pre_017,92,pick up bottom panel,slide bottom of drawer,case92:frames485-543,case92:frames544-706,543,544
+pre_017,93,pick up bottom panel,slide bottom of drawer,case93:frames617-666,case93:frames666-937,666,666
+pre_017,94,pick up bottom panel,slide bottom of drawer,case94:frames447-507,case94:frames508-737,507,508
+pre_017,95,pick up bottom panel,slide bottom of drawer,case95:frames866-928,case95:frames928-1742,928,928
+pre_017,96,pick up bottom panel,slide bottom of drawer,case96:frames696-731,case96:frames1137-1339,731,1137
+pre_017,97,pick up bottom panel,slide bottom of drawer,case97:frames832-906,case97:frames906-1333,906,906
+pre_017,98,pick up bottom panel,slide bottom of drawer,case98:frames438-474,case98:frames768-883,474,768
+pre_017,99,pick up bottom panel,slide bottom of drawer,case99:frames535-634,case99:frames634-875,634,634
+pre_018,91,pick up front panel,lay down side panel,case91:frames72-221,case91:frames1363-1378,221,1363
+pre_019,0,pick up leg,attach shelf to table,case0:frames183-204,case0:frames2858-3151,204,2858
+pre_019,1,pick up leg,attach shelf to table,case1:frames53-86,case1:frames2041-2400,86,2041
+pre_019,10,pick up leg,attach shelf to table,case10:frames58-110,case10:frames4120-4490,110,4120
+pre_019,11,pick up leg,attach shelf to table,case11:frames82-130,case11:frames2260-2623,130,2260
+pre_019,12,pick up leg,attach shelf to table,case12:frames197-224,case12:frames2693-2979,224,2693
+pre_019,13,pick up leg,attach shelf to table,case13:frames57-83,case13:frames2136-2290,83,2136
+pre_019,14,pick up leg,attach shelf to table,case14:frames59-96,case14:frames2178-2346,96,2178
+pre_019,15,pick up leg,attach shelf to table,case15:frames70-87,case15:frames1810-2001,87,1810
+pre_019,16,pick up leg,attach shelf to table,case16:frames150-198,case16:frames2364-2610,198,2364
+pre_019,17,pick up leg,attach shelf to table,case17:frames148-183,case17:frames2568-2850,183,2568
+pre_019,18,pick up leg,attach shelf to table,case18:frames160-188,case18:frames1960-2111,188,1960
+pre_019,19,pick up leg,attach shelf to table,case19:frames182-196,case19:frames3244-3511,196,3244
+pre_019,2,pick up leg,attach shelf to table,case2:frames75-104,case2:frames2483-2849,104,2483
+pre_019,20,pick up leg,attach shelf to table,case20:frames533-568,case20:frames2268-2474,568,2268
+pre_019,21,pick up leg,attach shelf to table,case21:frames40-90,case21:frames2538-2805,90,2538
+pre_019,22,pick up leg,attach shelf to table,case22:frames166-229,case22:frames3165-3529,229,3165
+pre_019,23,pick up leg,attach shelf to table,case23:frames69-97,case23:frames2091-2369,97,2091
+pre_019,24,pick up leg,attach shelf to table,case24:frames160-188,case24:frames2572-2708,188,2572
+pre_019,24,pick up leg,attach shelf to table,case24:frames160-188,case24:frames2932-3133,188,2932
+pre_019,25,pick up leg,attach shelf to table,case25:frames126-150,case25:frames2281-2601,150,2281
+pre_019,26,pick up leg,attach shelf to table,case26:frames164-203,case26:frames3568-4392,203,3568
+pre_019,27,pick up leg,attach shelf to table,case27:frames66-99,case27:frames2808-3232,99,2808
+pre_019,28,pick up leg,attach shelf to table,case28:frames74-98,case28:frames3163-3546,98,3163
+pre_019,29,pick up leg,attach shelf to table,case29:frames127-156,case29:frames2533-2858,156,2533
+pre_019,3,pick up leg,attach shelf to table,case3:frames468-513,case3:frames3556-3908,513,3556
+pre_019,30,pick up leg,attach shelf to table,case30:frames210-273,case30:frames2696-3193,273,2696
+pre_019,31,pick up leg,attach shelf to table,case31:frames275-330,case31:frames3453-3928,330,3453
+pre_019,32,pick up leg,attach shelf to table,case32:frames103-171,case32:frames2671-3163,171,2671
+pre_019,33,pick up leg,attach shelf to table,case33:frames57-97,case33:frames2108-2975,97,2108
+pre_019,34,pick up leg,attach shelf to table,case34:frames182-197,case34:frames3524-3810,197,3524
+pre_019,35,pick up leg,attach shelf to table,case35:frames16-45,case35:frames2859-3170,45,2859
+pre_019,36,pick up leg,attach shelf to table,case36:frames0-72,case36:frames3170-3747,72,3170
+pre_019,37,pick up leg,attach shelf to table,case37:frames48-72,case37:frames2059-2347,72,2059
+pre_019,39,pick up leg,attach shelf to table,case39:frames22-76,case39:frames3565-4128,76,3565
+pre_019,40,pick up leg,attach shelf to table,case40:frames223-251,case40:frames2174-2726,251,2174
+pre_019,41,pick up leg,attach shelf to table,case41:frames188-206,case41:frames3086-3454,206,3086
+pre_019,42,pick up leg,attach shelf to table,case42:frames275-314,case42:frames3603-4332,314,3603
+pre_019,43,pick up leg,attach shelf to table,case43:frames28-51,case43:frames2496-2766,51,2496
+pre_019,44,pick up leg,attach shelf to table,case44:frames702-775,case44:frames2572-3100,775,2572
+pre_019,45,pick up leg,attach shelf to table,case45:frames215-252,case45:frames2347-3142,252,2347
+pre_019,46,pick up leg,attach shelf to table,case46:frames46-103,case46:frames2212-2600,103,2212
+pre_019,47,pick up leg,attach shelf to table,case47:frames198-212,case47:frames3017-3649,212,3017
+pre_019,48,pick up leg,attach shelf to table,case48:frames56-112,case48:frames4043-4717,112,4043
+pre_019,49,pick up leg,attach shelf to table,case49:frames154-199,case49:frames2396-2748,199,2396
+pre_019,5,pick up leg,attach shelf to table,case5:frames180-220,case5:frames3411-3880,220,3411
+pre_019,50,pick up leg,attach shelf to table,case50:frames53-99,case50:frames2885-3107,99,2885
+pre_019,51,pick up leg,attach shelf to table,case51:frames94-138,case51:frames2174-2782,138,2174
+pre_019,52,pick up leg,attach shelf to table,case52:frames294-364,case52:frames3435-4146,364,3435
+pre_019,53,pick up leg,attach shelf to table,case53:frames178-219,case53:frames2709-2953,219,2709
+pre_019,54,pick up leg,attach shelf to table,case54:frames172-213,case54:frames2873-3172,213,2873
+pre_019,55,pick up leg,attach shelf to table,case55:frames48-79,case55:frames2428-3001,79,2428
+pre_019,56,pick up leg,attach shelf to table,case56:frames181-239,case56:frames2600-2988,239,2600
+pre_019,57,pick up leg,attach shelf to table,case57:frames55-84,case57:frames2675-3082,84,2675
+pre_019,6,pick up leg,attach shelf to table,case6:frames173-192,case6:frames2074-2406,192,2074
+pre_019,7,pick up leg,attach shelf to table,case7:frames179-200,case7:frames3392-3603,200,3392
+pre_019,8,pick up leg,attach shelf to table,case8:frames146-168,case8:frames2191-2320,168,2191
+pre_019,9,pick up leg,attach shelf to table,case9:frames73-136,case9:frames1962-2319,136,1962
+pre_020,22,pick up leg,flip shelf,case22:frames166-229,case22:frames3120-3165,229,3120
+pre_020,29,pick up leg,flip shelf,case29:frames127-156,case29:frames2082-2180,156,2082
+pre_020,29,pick up leg,flip shelf,case29:frames127-156,case29:frames2464-2533,156,2464
+pre_021,29,pick up leg,lay down leg,case29:frames127-156,case29:frames157-181,156,157
+pre_021,51,pick up leg,lay down leg,case51:frames94-138,case51:frames886-910,138,886
+pre_021,61,pick up leg,lay down leg,case61:frames55-94,case61:frames590-649,94,590
+pre_022,29,pick up leg,lay down shelf,case29:frames127-156,case29:frames2243-2297,156,2243
+pre_022,41,pick up leg,lay down shelf,case41:frames188-206,case41:frames2763-2839,206,2763
+pre_023,0,pick up leg,pick up shelf,case0:frames183-204,case0:frames2803-2858,204,2803
+pre_023,1,pick up leg,pick up shelf,case1:frames53-86,case1:frames1909-1978,86,1909
+pre_023,11,pick up leg,pick up shelf,case11:frames82-130,case11:frames2191-2260,130,2191
+pre_023,12,pick up leg,pick up shelf,case12:frames197-224,case12:frames2643-2693,224,2643
+pre_023,13,pick up leg,pick up shelf,case13:frames57-83,case13:frames2043-2095,83,2043
+pre_023,14,pick up leg,pick up shelf,case14:frames59-96,case14:frames2115-2178,96,2115
+pre_023,15,pick up leg,pick up shelf,case15:frames70-87,case15:frames1724-1781,87,1724
+pre_023,16,pick up leg,pick up shelf,case16:frames150-198,case16:frames2306-2364,198,2306
+pre_023,17,pick up leg,pick up shelf,case17:frames148-183,case17:frames2438-2568,183,2438
+pre_023,18,pick up leg,pick up shelf,case18:frames160-188,case18:frames1874-1903,188,1874
+pre_023,19,pick up leg,pick up shelf,case19:frames182-196,case19:frames3180-3244,196,3180
+pre_023,2,pick up leg,pick up shelf,case2:frames75-104,case2:frames2362-2483,104,2362
+pre_023,20,pick up leg,pick up shelf,case20:frames533-568,case20:frames2146-2268,568,2146
+pre_023,21,pick up leg,pick up shelf,case21:frames40-90,case21:frames2466-2538,90,2466
+pre_023,22,pick up leg,pick up shelf,case22:frames166-229,case22:frames2994-3120,229,2994
+pre_023,23,pick up leg,pick up shelf,case23:frames69-97,case23:frames1966-2091,97,1966
+pre_023,24,pick up leg,pick up shelf,case24:frames160-188,case24:frames2421-2572,188,2421
+pre_023,24,pick up leg,pick up shelf,case24:frames160-188,case24:frames2899-2932,188,2899
+pre_023,25,pick up leg,pick up shelf,case25:frames126-150,case25:frames2159-2281,150,2159
+pre_023,26,pick up leg,pick up shelf,case26:frames164-203,case26:frames3506-3568,203,3506
+pre_023,27,pick up leg,pick up shelf,case27:frames66-99,case27:frames2775-2808,99,2775
+pre_023,28,pick up leg,pick up shelf,case28:frames74-98,case28:frames3049-3159,98,3049
+pre_023,29,pick up leg,pick up shelf,case29:frames127-156,case29:frames2180-2223,156,2180
+pre_023,3,pick up leg,pick up shelf,case3:frames468-513,case3:frames3460-3556,513,3460
+pre_023,30,pick up leg,pick up shelf,case30:frames210-273,case30:frames2545-2696,273,2545
+pre_023,31,pick up leg,pick up shelf,case31:frames275-330,case31:frames3363-3453,330,3363
+pre_023,32,pick up leg,pick up shelf,case32:frames103-171,case32:frames2420-2671,171,2420
+pre_023,34,pick up leg,pick up shelf,case34:frames182-197,case34:frames2440-2548,197,2440
+pre_023,34,pick up leg,pick up shelf,case34:frames182-197,case34:frames3396-3509,197,3396
+pre_023,35,pick up leg,pick up shelf,case35:frames16-45,case35:frames2773-2859,45,2773
+pre_023,36,pick up leg,pick up shelf,case36:frames0-72,case36:frames3000-3170,72,3000
+pre_023,37,pick up leg,pick up shelf,case37:frames48-72,case37:frames1987-2059,72,1987
+pre_023,39,pick up leg,pick up shelf,case39:frames22-76,case39:frames3295-3565,76,3295
+pre_023,4,pick up leg,pick up shelf,case4:frames178-243,case4:frames2069-2220,243,2069
+pre_023,40,pick up leg,pick up shelf,case40:frames223-251,case40:frames2103-2174,251,2103
+pre_023,41,pick up leg,pick up shelf,case41:frames188-206,case41:frames2516-2579,206,2516
+pre_023,42,pick up leg,pick up shelf,case42:frames275-314,case42:frames3524-3603,314,3524
+pre_023,43,pick up leg,pick up shelf,case43:frames28-51,case43:frames2456-2496,51,2456
+pre_023,44,pick up leg,pick up shelf,case44:frames702-775,case44:frames2511-2572,775,2511
+pre_023,45,pick up leg,pick up shelf,case45:frames215-252,case45:frames2237-2347,252,2237
+pre_023,46,pick up leg,pick up shelf,case46:frames46-103,case46:frames2142-2172,103,2142
+pre_023,47,pick up leg,pick up shelf,case47:frames198-212,case47:frames2922-3017,212,2922
+pre_023,49,pick up leg,pick up shelf,case49:frames154-199,case49:frames2321-2396,199,2321
+pre_023,5,pick up leg,pick up shelf,case5:frames180-220,case5:frames3263-3411,220,3263
+pre_023,50,pick up leg,pick up shelf,case50:frames53-99,case50:frames1954-1999,99,1954
+pre_023,51,pick up leg,pick up shelf,case51:frames94-138,case51:frames1983-2091,138,1983
+pre_023,52,pick up leg,pick up shelf,case52:frames294-364,case52:frames3355-3435,364,3355
+pre_023,53,pick up leg,pick up shelf,case53:frames178-219,case53:frames2356-2445,219,2356
+pre_023,53,pick up leg,pick up shelf,case53:frames178-219,case53:frames2608-2709,219,2608
+pre_023,54,pick up leg,pick up shelf,case54:frames172-213,case54:frames2832-2873,213,2832
+pre_023,55,pick up leg,pick up shelf,case55:frames48-79,case55:frames2321-2428,79,2321
+pre_023,56,pick up leg,pick up shelf,case56:frames181-239,case56:frames2502-2600,239,2502
+pre_023,57,pick up leg,pick up shelf,case57:frames55-84,case57:frames2477-2552,84,2477
+pre_023,6,pick up leg,pick up shelf,case6:frames173-192,case6:frames1961-2051,192,1961
+pre_023,7,pick up leg,pick up shelf,case7:frames179-200,case7:frames3340-3391,200,3340
+pre_023,8,pick up leg,pick up shelf,case8:frames146-168,case8:frames2143-2191,168,2143
+pre_023,9,pick up leg,pick up shelf,case9:frames73-136,case9:frames1877-1962,136,1877
+pre_024,15,pick up leg,push table,case15:frames70-87,case15:frames827-853,87,827
+pre_024,17,pick up leg,push table,case17:frames148-183,case17:frames1112-1127,183,1112
+pre_024,5,pick up leg,push table,case5:frames180-220,case5:frames1332-1377,220,1332
+pre_024,64,pick up leg,push table,case64:frames158-185,case64:frames566-585,185,566
+pre_025,29,pick up shelf,lay down shelf,case29:frames2180-2223,case29:frames2243-2297,2223,2243
+pre_025,41,pick up shelf,lay down shelf,case41:frames2516-2579,case41:frames2763-2839,2579,2763
+pre_026,100,pick up side panel,align side panel holes with front panel dowels,case100:frames247-286,case100:frames286-496,286,286
+pre_026,100,pick up side panel,align side panel holes with front panel dowels,case100:frames247-286,case100:frames716-769,286,716
+pre_026,101,pick up side panel,align side panel holes with front panel dowels,case101:frames189-215,case101:frames216-287,215,216
+pre_026,101,pick up side panel,align side panel holes with front panel dowels,case101:frames189-215,case101:frames360-395,215,360
+pre_026,103,pick up side panel,align side panel holes with front panel dowels,case103:frames100-139,case103:frames139-275,139,139
+pre_026,103,pick up side panel,align side panel holes with front panel dowels,case103:frames100-139,case103:frames401-424,139,401
+pre_026,104,pick up side panel,align side panel holes with front panel dowels,case104:frames69-125,case104:frames125-178,125,125
+pre_026,104,pick up side panel,align side panel holes with front panel dowels,case104:frames69-125,case104:frames243-264,125,243
+pre_026,105,pick up side panel,align side panel holes with front panel dowels,case105:frames179-206,case105:frames294-329,206,294
+pre_026,105,pick up side panel,align side panel holes with front panel dowels,case105:frames179-206,case105:frames447-498,206,447
+pre_026,106,pick up side panel,align side panel holes with front panel dowels,case106:frames127-157,case106:frames166-273,157,166
+pre_026,106,pick up side panel,align side panel holes with front panel dowels,case106:frames127-157,case106:frames402-467,157,402
+pre_026,109,pick up side panel,align side panel holes with front panel dowels,case109:frames145-188,case109:frames1005-1603,188,1005
+pre_026,110,pick up side panel,align side panel holes with front panel dowels,case110:frames140-296,case110:frames583-629,296,583
+pre_026,110,pick up side panel,align side panel holes with front panel dowels,case110:frames140-296,case110:frames895-1005,296,895
+pre_026,111,pick up side panel,align side panel holes with front panel dowels,case111:frames43-78,case111:frames78-165,78,78
+pre_026,111,pick up side panel,align side panel holes with front panel dowels,case111:frames43-78,case111:frames242-384,78,242
+pre_026,113,pick up side panel,align side panel holes with front panel dowels,case113:frames173-210,case113:frames210-360,210,210
+pre_026,113,pick up side panel,align side panel holes with front panel dowels,case113:frames173-210,case113:frames400-520,210,400
+pre_026,113,pick up side panel,align side panel holes with front panel dowels,case113:frames173-210,case113:frames2153-2193,210,2153
+pre_026,113,pick up side panel,align side panel holes with front panel dowels,case113:frames173-210,case113:frames2343-2373,210,2343
+pre_026,114,pick up side panel,align side panel holes with front panel dowels,case114:frames57-112,case114:frames112-147,112,112
+pre_026,114,pick up side panel,align side panel holes with front panel dowels,case114:frames57-112,case114:frames222-262,112,222
+pre_026,115,pick up side panel,align side panel holes with front panel dowels,case115:frames78-137,case115:frames408-499,137,408
+pre_026,115,pick up side panel,align side panel holes with front panel dowels,case115:frames78-137,case115:frames582-642,137,582
+pre_026,88,pick up side panel,align side panel holes with front panel dowels,case88:frames76-151,case88:frames151-284,151,151
+pre_026,88,pick up side panel,align side panel holes with front panel dowels,case88:frames76-151,case88:frames372-459,151,372
+pre_026,89,pick up side panel,align side panel holes with front panel dowels,case89:frames70-125,case89:frames705-904,125,705
+pre_026,91,pick up side panel,align side panel holes with front panel dowels,case91:frames226-267,case91:frames699-777,267,699
+pre_026,91,pick up side panel,align side panel holes with front panel dowels,case91:frames226-267,case91:frames931-1152,267,931
+pre_026,91,pick up side panel,align side panel holes with front panel dowels,case91:frames226-267,case91:frames1378-1481,267,1378
+pre_026,91,pick up side panel,align side panel holes with front panel dowels,case91:frames226-267,case91:frames1574-1882,267,1574
+pre_026,92,pick up side panel,align side panel holes with front panel dowels,case92:frames128-174,case92:frames175-291,174,175
+pre_026,92,pick up side panel,align side panel holes with front panel dowels,case92:frames128-174,case92:frames358-407,174,358
+pre_026,93,pick up side panel,align side panel holes with front panel dowels,case93:frames126-322,case93:frames322-339,322,322
+pre_026,93,pick up side panel,align side panel holes with front panel dowels,case93:frames126-322,case93:frames486-547,322,486
+pre_026,94,pick up side panel,align side panel holes with front panel dowels,case94:frames64-91,case94:frames92-172,91,92
+pre_026,94,pick up side panel,align side panel holes with front panel dowels,case94:frames64-91,case94:frames241-317,91,241
+pre_026,95,pick up side panel,align side panel holes with front panel dowels,case95:frames24-73,case95:frames73-298,73,73
+pre_026,95,pick up side panel,align side panel holes with front panel dowels,case95:frames24-73,case95:frames523-637,73,523
+pre_026,98,pick up side panel,align side panel holes with front panel dowels,case98:frames54-119,case98:frames1164-1584,119,1164
+pre_026,98,pick up side panel,align side panel holes with front panel dowels,case98:frames54-119,case98:frames2101-2546,119,2101
+pre_027,100,pick up side panel,attach drawer back panel,case100:frames247-286,case100:frames1104-1563,286,1104
+pre_027,101,pick up side panel,attach drawer back panel,case101:frames189-215,case101:frames820-950,215,820
+pre_027,102,pick up side panel,attach drawer back panel,case102:frames42-102,case102:frames634-754,102,634
+pre_027,103,pick up side panel,attach drawer back panel,case103:frames100-139,case103:frames1082-1265,139,1082
+pre_027,104,pick up side panel,attach drawer back panel,case104:frames69-125,case104:frames620-788,125,620
+pre_027,105,pick up side panel,attach drawer back panel,case105:frames179-206,case105:frames872-968,206,872
+pre_027,107,pick up side panel,attach drawer back panel,case107:frames348-366,case107:frames762-1022,366,762
+pre_027,108,pick up side panel,attach drawer back panel,case108:frames106-134,case108:frames1429-2548,134,1429
+pre_027,110,pick up side panel,attach drawer back panel,case110:frames140-296,case110:frames1836-2387,296,1836
+pre_027,111,pick up side panel,attach drawer back panel,case111:frames43-78,case111:frames642-784,78,642
+pre_027,112,pick up side panel,attach drawer back panel,case112:frames55-108,case112:frames619-820,108,619
+pre_027,113,pick up side panel,attach drawer back panel,case113:frames173-210,case113:frames910-1130,210,910
+pre_027,113,pick up side panel,attach drawer back panel,case113:frames173-210,case113:frames2783-2933,210,2783
+pre_027,114,pick up side panel,attach drawer back panel,case114:frames57-112,case114:frames657-1395,112,657
+pre_027,115,pick up side panel,attach drawer back panel,case115:frames78-137,case115:frames1142-1432,137,1142
+pre_027,116,pick up side panel,attach drawer back panel,case116:frames75-117,case116:frames1502-1788,117,1502
+pre_027,88,pick up side panel,attach drawer back panel,case88:frames76-151,case88:frames944-1119,151,944
+pre_027,90,pick up side panel,attach drawer back panel,case90:frames175-229,case90:frames658-746,229,658
+pre_027,91,pick up side panel,attach drawer back panel,case91:frames226-267,case91:frames3029-3646,267,3029
+pre_027,92,pick up side panel,attach drawer back panel,case92:frames128-174,case92:frames800-918,174,800
+pre_027,93,pick up side panel,attach drawer back panel,case93:frames126-322,case93:frames1002-1542,322,1002
+pre_027,94,pick up side panel,attach drawer back panel,case94:frames64-91,case94:frames831-1077,91,831
+pre_027,94,pick up side panel,attach drawer back panel,case94:frames64-91,case94:frames1931-2107,91,1931
+pre_027,95,pick up side panel,attach drawer back panel,case95:frames24-73,case95:frames1804-2334,73,1804
+pre_027,96,pick up side panel,attach drawer back panel,case96:frames98-151,case96:frames1709-1791,151,1709
+pre_027,97,pick up side panel,attach drawer back panel,case97:frames84-106,case97:frames1417-2385,106,1417
+pre_027,99,pick up side panel,attach drawer back panel,case99:frames168-280,case99:frames926-1020,280,926
+pre_028,100,pick up side panel,insert drawer pin,case100:frames247-286,case100:frames1597-1648,286,1597
+pre_028,100,pick up side panel,insert drawer pin,case100:frames247-286,case100:frames1683-1788,286,1683
+pre_028,101,pick up side panel,insert drawer pin,case101:frames189-215,case101:frames1087-1196,215,1087
+pre_028,102,pick up side panel,insert drawer pin,case102:frames42-102,case102:frames814-847,102,814
+pre_028,102,pick up side panel,insert drawer pin,case102:frames42-102,case102:frames888-919,102,888
+pre_028,103,pick up side panel,insert drawer pin,case103:frames100-139,case103:frames1310-1424,139,1310
+pre_028,104,pick up side panel,insert drawer pin,case104:frames69-125,case104:frames808-852,125,808
+pre_028,104,pick up side panel,insert drawer pin,case104:frames69-125,case104:frames888-936,125,888
+pre_028,105,pick up side panel,insert drawer pin,case105:frames179-206,case105:frames1015-1056,206,1015
+pre_028,105,pick up side panel,insert drawer pin,case105:frames179-206,case105:frames1096-1155,206,1096
+pre_028,106,pick up side panel,insert drawer pin,case106:frames127-157,case106:frames1148-1296,157,1148
+pre_028,107,pick up side panel,insert drawer pin,case107:frames348-366,case107:frames1073-1109,366,1073
+pre_028,107,pick up side panel,insert drawer pin,case107:frames348-366,case107:frames1165-1228,366,1165
+pre_028,108,pick up side panel,insert drawer pin,case108:frames106-134,case108:frames2591-2619,134,2591
+pre_028,108,pick up side panel,insert drawer pin,case108:frames106-134,case108:frames2649-2694,134,2649
+pre_028,109,pick up side panel,insert drawer pin,case109:frames145-188,case109:frames1739-1994,188,1739
+pre_028,110,pick up side panel,insert drawer pin,case110:frames140-296,case110:frames2685-2715,296,2685
+pre_028,111,pick up side panel,insert drawer pin,case111:frames43-78,case111:frames823-964,78,823
+pre_028,112,pick up side panel,insert drawer pin,case112:frames55-108,case112:frames873-980,108,873
+pre_028,113,pick up side panel,insert drawer pin,case113:frames173-210,case113:frames1247-1388,210,1247
+pre_028,113,pick up side panel,insert drawer pin,case113:frames173-210,case113:frames2983-3153,210,2983
+pre_028,114,pick up side panel,insert drawer pin,case114:frames57-112,case114:frames1464-1491,112,1464
+pre_028,114,pick up side panel,insert drawer pin,case114:frames57-112,case114:frames1544-1620,112,1544
+pre_028,115,pick up side panel,insert drawer pin,case115:frames78-137,case115:frames1461-1485,137,1461
+pre_028,115,pick up side panel,insert drawer pin,case115:frames78-137,case115:frames1526-1561,137,1526
+pre_028,116,pick up side panel,insert drawer pin,case116:frames75-117,case116:frames1827-1877,117,1827
+pre_028,116,pick up side panel,insert drawer pin,case116:frames75-117,case116:frames1955-2069,117,1955
+pre_028,88,pick up side panel,insert drawer pin,case88:frames76-151,case88:frames1167-1296,151,1167
+pre_028,89,pick up side panel,insert drawer pin,case89:frames70-125,case89:frames984-1068,125,984
+pre_028,90,pick up side panel,insert drawer pin,case90:frames175-229,case90:frames886-927,229,886
+pre_028,90,pick up side panel,insert drawer pin,case90:frames175-229,case90:frames968-1021,229,968
+pre_028,91,pick up side panel,insert drawer pin,case91:frames226-267,case91:frames3713-3934,267,3713
+pre_028,92,pick up side panel,insert drawer pin,case92:frames128-174,case92:frames1036-1077,174,1036
+pre_028,92,pick up side panel,insert drawer pin,case92:frames128-174,case92:frames1125-1161,174,1125
+pre_028,93,pick up side panel,insert drawer pin,case93:frames126-322,case93:frames1564-1602,322,1564
+pre_028,93,pick up side panel,insert drawer pin,case93:frames126-322,case93:frames1629-1723,322,1629
+pre_028,94,pick up side panel,insert drawer pin,case94:frames64-91,case94:frames2128-2165,91,2128
+pre_028,94,pick up side panel,insert drawer pin,case94:frames64-91,case94:frames2212-2266,91,2212
+pre_028,95,pick up side panel,insert drawer pin,case95:frames24-73,case95:frames2368-2431,73,2368
+pre_028,95,pick up side panel,insert drawer pin,case95:frames24-73,case95:frames2458-2524,73,2458
+pre_028,96,pick up side panel,insert drawer pin,case96:frames98-151,case96:frames1834-1868,151,1834
+pre_028,96,pick up side panel,insert drawer pin,case96:frames98-151,case96:frames1916-1950,151,1916
+pre_028,97,pick up side panel,insert drawer pin,case97:frames84-106,case97:frames2592-2979,106,2592
+pre_028,98,pick up side panel,insert drawer pin,case98:frames54-119,case98:frames1659-1824,119,1659
+pre_028,98,pick up side panel,insert drawer pin,case98:frames54-119,case98:frames2586-2643,119,2586
+pre_028,98,pick up side panel,insert drawer pin,case98:frames54-119,case98:frames2686-2744,119,2686
+pre_028,99,pick up side panel,insert drawer pin,case99:frames168-280,case99:frames1093-1138,280,1093
+pre_028,99,pick up side panel,insert drawer pin,case99:frames168-280,case99:frames1174-1266,280,1174
+pre_029,91,pick up side panel,lay down back panel,case91:frames226-267,case91:frames627-643,267,627
+pre_029,91,pick up side panel,lay down back panel,case91:frames226-267,case91:frames2052-2103,267,2052
+pre_029,94,pick up side panel,lay down back panel,case94:frames64-91,case94:frames434-447,91,434
+pre_029,95,pick up side panel,lay down back panel,case95:frames24-73,case95:frames765-866,73,765
+pre_030,91,pick up side panel,lay down side panel,case91:frames226-267,case91:frames1363-1378,267,1363
+pre_031,100,pick up side panel,pick up pin,case100:frames247-286,case100:frames1563-1597,286,1563
+pre_031,100,pick up side panel,pick up pin,case100:frames247-286,case100:frames1658-1683,286,1658
+pre_031,102,pick up side panel,pick up pin,case102:frames42-102,case102:frames774-811,102,774
+pre_031,102,pick up side panel,pick up pin,case102:frames42-102,case102:frames851-883,102,851
+pre_031,103,pick up side panel,pick up pin,case103:frames100-139,case103:frames570-595,139,570
+pre_031,103,pick up side panel,pick up pin,case103:frames100-139,case103:frames1265-1310,139,1265
+pre_031,104,pick up side panel,pick up pin,case104:frames69-125,case104:frames788-808,125,788
+pre_031,104,pick up side panel,pick up pin,case104:frames69-125,case104:frames852-888,125,852
+pre_031,105,pick up side panel,pick up pin,case105:frames179-206,case105:frames968-1015,206,968
+pre_031,105,pick up side panel,pick up pin,case105:frames179-206,case105:frames1067-1096,206,1067
+pre_031,106,pick up side panel,pick up pin,case106:frames127-157,case106:frames1124-1148,157,1124
+pre_031,107,pick up side panel,pick up pin,case107:frames348-366,case107:frames1039-1073,366,1039
+pre_031,107,pick up side panel,pick up pin,case107:frames348-366,case107:frames1109-1165,366,1109
+pre_031,108,pick up side panel,pick up pin,case108:frames106-134,case108:frames2548-2591,134,2548
+pre_031,108,pick up side panel,pick up pin,case108:frames106-134,case108:frames2619-2649,134,2619
+pre_031,109,pick up side panel,pick up pin,case109:frames145-188,case109:frames1718-1739,188,1718
+pre_031,110,pick up side panel,pick up pin,case110:frames140-296,case110:frames2407-2685,296,2407
+pre_031,111,pick up side panel,pick up pin,case111:frames43-78,case111:frames784-823,78,784
+pre_031,112,pick up side panel,pick up pin,case112:frames55-108,case112:frames847-873,108,847
+pre_031,114,pick up side panel,pick up pin,case114:frames57-112,case114:frames1395-1464,112,1395
+pre_031,114,pick up side panel,pick up pin,case114:frames57-112,case114:frames1491-1544,112,1491
+pre_031,115,pick up side panel,pick up pin,case115:frames78-137,case115:frames1432-1461,137,1432
+pre_031,115,pick up side panel,pick up pin,case115:frames78-137,case115:frames1485-1526,137,1485
+pre_031,116,pick up side panel,pick up pin,case116:frames75-117,case116:frames1788-1827,117,1788
+pre_031,116,pick up side panel,pick up pin,case116:frames75-117,case116:frames1891-1952,117,1891
+pre_031,88,pick up side panel,pick up pin,case88:frames76-151,case88:frames1119-1167,151,1119
+pre_031,89,pick up side panel,pick up pin,case89:frames70-125,case89:frames904-984,125,904
+pre_031,90,pick up side panel,pick up pin,case90:frames175-229,case90:frames822-866,229,822
+pre_031,90,pick up side panel,pick up pin,case90:frames175-229,case90:frames938-968,229,938
+pre_031,91,pick up side panel,pick up pin,case91:frames226-267,case91:frames3646-3713,267,3646
+pre_031,92,pick up side panel,pick up pin,case92:frames128-174,case92:frames1011-1035,174,1011
+pre_031,92,pick up side panel,pick up pin,case92:frames128-174,case92:frames1084-1108,174,1084
+pre_031,93,pick up side panel,pick up pin,case93:frames126-322,case93:frames1542-1564,322,1542
+pre_031,93,pick up side panel,pick up pin,case93:frames126-322,case93:frames1602-1629,322,1602
+pre_031,94,pick up side panel,pick up pin,case94:frames64-91,case94:frames1231-1252,91,1231
+pre_031,94,pick up side panel,pick up pin,case94:frames64-91,case94:frames2189-2211,91,2189
+pre_031,95,pick up side panel,pick up pin,case95:frames24-73,case95:frames2334-2368,73,2334
+pre_031,95,pick up side panel,pick up pin,case95:frames24-73,case95:frames2431-2458,73,2431
+pre_031,96,pick up side panel,pick up pin,case96:frames98-151,case96:frames1799-1834,151,1799
+pre_031,97,pick up side panel,pick up pin,case97:frames84-106,case97:frames2385-2592,106,2385
+pre_031,98,pick up side panel,pick up pin,case98:frames54-119,case98:frames1584-1659,119,1584
+pre_031,98,pick up side panel,pick up pin,case98:frames54-119,case98:frames2546-2586,119,2546
+pre_031,98,pick up side panel,pick up pin,case98:frames54-119,case98:frames2643-2686,119,2643
+pre_031,99,pick up side panel,pick up pin,case99:frames168-280,case99:frames1020-1093,280,1020
+pre_031,99,pick up side panel,pick up pin,case99:frames168-280,case99:frames1138-1174,280,1138
+pre_032,100,pick up side panel,position the drawer right side up,case100:frames247-286,case100:frames1797-1888,286,1797
+pre_032,101,pick up side panel,position the drawer right side up,case101:frames189-215,case101:frames1226-1283,215,1226
+pre_032,102,pick up side panel,position the drawer right side up,case102:frames42-102,case102:frames924-969,102,924
+pre_032,103,pick up side panel,position the drawer right side up,case103:frames100-139,case103:frames1424-1516,139,1424
+pre_032,104,pick up side panel,position the drawer right side up,case104:frames69-125,case104:frames936-1017,125,936
+pre_032,105,pick up side panel,position the drawer right side up,case105:frames179-206,case105:frames1176-1246,206,1176
+pre_032,106,pick up side panel,position the drawer right side up,case106:frames127-157,case106:frames1303-1423,157,1303
+pre_032,108,pick up side panel,position the drawer right side up,case108:frames106-134,case108:frames2694-2730,134,2694
+pre_032,110,pick up side panel,position the drawer right side up,case110:frames140-296,case110:frames2715-2925,296,2715
+pre_032,111,pick up side panel,position the drawer right side up,case111:frames43-78,case111:frames1032-1110,78,1032
+pre_032,113,pick up side panel,position the drawer right side up,case113:frames173-210,case113:frames640-700,210,640
+pre_032,114,pick up side panel,position the drawer right side up,case114:frames57-112,case114:frames1620-1672,112,1620
+pre_032,115,pick up side panel,position the drawer right side up,case115:frames78-137,case115:frames1561-1694,137,1561
+pre_032,88,pick up side panel,position the drawer right side up,case88:frames76-151,case88:frames1296-1432,151,1296
+pre_032,91,pick up side panel,position the drawer right side up,case91:frames226-267,case91:frames3934-4037,267,3934
+pre_032,92,pick up side panel,position the drawer right side up,case92:frames128-174,case92:frames1311-1386,174,1311
+pre_032,93,pick up side panel,position the drawer right side up,case93:frames126-322,case93:frames1755-1837,322,1755
+pre_032,94,pick up side panel,position the drawer right side up,case94:frames64-91,case94:frames2282-2369,91,2282
+pre_032,95,pick up side panel,position the drawer right side up,case95:frames24-73,case95:frames2524-2683,73,2524
+pre_032,99,pick up side panel,position the drawer right side up,case99:frames168-280,case99:frames1266-1399,280,1266
+pre_033,100,pick up side panel,slide bottom of drawer,case100:frames247-286,case100:frames852-1062,286,852
+pre_033,101,pick up side panel,slide bottom of drawer,case101:frames189-215,case101:frames510-584,215,510
+pre_033,102,pick up side panel,slide bottom of drawer,case102:frames42-102,case102:frames414-581,102,414
+pre_033,103,pick up side panel,slide bottom of drawer,case103:frames100-139,case103:frames688-988,139,688
+pre_033,104,pick up side panel,slide bottom of drawer,case104:frames69-125,case104:frames459-576,125,459
+pre_033,105,pick up side panel,slide bottom of drawer,case105:frames179-206,case105:frames577-826,206,577
+pre_033,106,pick up side panel,slide bottom of drawer,case106:frames127-157,case106:frames546-714,157,546
+pre_033,106,pick up side panel,slide bottom of drawer,case106:frames127-157,case106:frames882-1124,157,882
+pre_033,107,pick up side panel,slide bottom of drawer,case107:frames348-366,case107:frames542-716,366,542
+pre_033,108,pick up side panel,slide bottom of drawer,case108:frames106-134,case108:frames1221-1429,134,1221
+pre_033,109,pick up side panel,slide bottom of drawer,case109:frames145-188,case109:frames659-852,188,659
+pre_033,110,pick up side panel,slide bottom of drawer,case110:frames140-296,case110:frames1313-1567,296,1313
+pre_033,111,pick up side panel,slide bottom of drawer,case111:frames43-78,case111:frames470-613,78,470
+pre_033,112,pick up side panel,slide bottom of drawer,case112:frames55-108,case112:frames489-577,108,489
+pre_033,113,pick up side panel,slide bottom of drawer,case113:frames173-210,case113:frames700-870,210,700
+pre_033,113,pick up side panel,slide bottom of drawer,case113:frames173-210,case113:frames2473-2703,210,2473
+pre_033,114,pick up side panel,slide bottom of drawer,case114:frames57-112,case114:frames343-483,112,343
+pre_033,115,pick up side panel,slide bottom of drawer,case115:frames78-137,case115:frames900-1079,137,900
+pre_033,116,pick up side panel,slide bottom of drawer,case116:frames75-117,case116:frames912-1374,117,912
+pre_033,88,pick up side panel,slide bottom of drawer,case88:frames76-151,case88:frames619-900,151,619
+pre_033,89,pick up side panel,slide bottom of drawer,case89:frames70-125,case89:frames533-662,125,533
+pre_033,90,pick up side panel,slide bottom of drawer,case90:frames175-229,case90:frames420-595,229,420
+pre_033,91,pick up side panel,slide bottom of drawer,case91:frames226-267,case91:frames2150-2391,267,2150
+pre_033,91,pick up side panel,slide bottom of drawer,case91:frames226-267,case91:frames2643-2952,267,2643
+pre_033,92,pick up side panel,slide bottom of drawer,case92:frames128-174,case92:frames544-706,174,544
+pre_033,93,pick up side panel,slide bottom of drawer,case93:frames126-322,case93:frames666-937,322,666
+pre_033,94,pick up side panel,slide bottom of drawer,case94:frames64-91,case94:frames508-737,91,508
+pre_033,95,pick up side panel,slide bottom of drawer,case95:frames24-73,case95:frames928-1742,73,928
+pre_033,96,pick up side panel,slide bottom of drawer,case96:frames98-151,case96:frames1137-1339,151,1137
+pre_033,97,pick up side panel,slide bottom of drawer,case97:frames84-106,case97:frames906-1333,106,906
+pre_033,98,pick up side panel,slide bottom of drawer,case98:frames54-119,case98:frames768-883,119,768
+pre_033,99,pick up side panel,slide bottom of drawer,case99:frames168-280,case99:frames634-875,280,634
+pre_034,100,slide bottom of drawer,attach drawer back panel,case100:frames852-1062,case100:frames1104-1563,1062,1104
+pre_034,101,slide bottom of drawer,attach drawer back panel,case101:frames510-584,case101:frames820-950,584,820
+pre_034,102,slide bottom of drawer,attach drawer back panel,case102:frames414-581,case102:frames634-754,581,634
+pre_034,103,slide bottom of drawer,attach drawer back panel,case103:frames688-988,case103:frames1082-1265,988,1082
+pre_034,104,slide bottom of drawer,attach drawer back panel,case104:frames459-576,case104:frames620-788,576,620
+pre_034,105,slide bottom of drawer,attach drawer back panel,case105:frames577-826,case105:frames872-968,826,872
+pre_034,107,slide bottom of drawer,attach drawer back panel,case107:frames542-716,case107:frames762-1022,716,762
+pre_034,108,slide bottom of drawer,attach drawer back panel,case108:frames1221-1429,case108:frames1429-2548,1429,1429
+pre_034,110,slide bottom of drawer,attach drawer back panel,case110:frames1313-1567,case110:frames1836-2387,1567,1836
+pre_034,111,slide bottom of drawer,attach drawer back panel,case111:frames470-613,case111:frames642-784,613,642
+pre_034,112,slide bottom of drawer,attach drawer back panel,case112:frames489-577,case112:frames619-820,577,619
+pre_034,113,slide bottom of drawer,attach drawer back panel,case113:frames700-870,case113:frames910-1130,870,910
+pre_034,113,slide bottom of drawer,attach drawer back panel,case113:frames700-870,case113:frames2783-2933,870,2783
+pre_034,114,slide bottom of drawer,attach drawer back panel,case114:frames343-483,case114:frames657-1395,483,657
+pre_034,115,slide bottom of drawer,attach drawer back panel,case115:frames900-1079,case115:frames1142-1432,1079,1142
+pre_034,116,slide bottom of drawer,attach drawer back panel,case116:frames912-1374,case116:frames1502-1788,1374,1502
+pre_034,88,slide bottom of drawer,attach drawer back panel,case88:frames619-900,case88:frames944-1119,900,944
+pre_034,90,slide bottom of drawer,attach drawer back panel,case90:frames420-595,case90:frames658-746,595,658
+pre_034,91,slide bottom of drawer,attach drawer back panel,case91:frames2150-2391,case91:frames3029-3646,2391,3029
+pre_034,92,slide bottom of drawer,attach drawer back panel,case92:frames544-706,case92:frames800-918,706,800
+pre_034,93,slide bottom of drawer,attach drawer back panel,case93:frames666-937,case93:frames1002-1542,937,1002
+pre_034,94,slide bottom of drawer,attach drawer back panel,case94:frames508-737,case94:frames831-1077,737,831
+pre_034,94,slide bottom of drawer,attach drawer back panel,case94:frames508-737,case94:frames1931-2107,737,1931
+pre_034,95,slide bottom of drawer,attach drawer back panel,case95:frames928-1742,case95:frames1804-2334,1742,1804
+pre_034,96,slide bottom of drawer,attach drawer back panel,case96:frames1137-1339,case96:frames1709-1791,1339,1709
+pre_034,97,slide bottom of drawer,attach drawer back panel,case97:frames906-1333,case97:frames1417-2385,1333,1417
+pre_034,99,slide bottom of drawer,attach drawer back panel,case99:frames634-875,case99:frames926-1020,875,926
+pre_035,100,slide bottom of drawer,insert drawer pin,case100:frames852-1062,case100:frames1597-1648,1062,1597
+pre_035,100,slide bottom of drawer,insert drawer pin,case100:frames852-1062,case100:frames1683-1788,1062,1683
+pre_035,101,slide bottom of drawer,insert drawer pin,case101:frames510-584,case101:frames1087-1196,584,1087
+pre_035,102,slide bottom of drawer,insert drawer pin,case102:frames414-581,case102:frames814-847,581,814
+pre_035,102,slide bottom of drawer,insert drawer pin,case102:frames414-581,case102:frames888-919,581,888
+pre_035,103,slide bottom of drawer,insert drawer pin,case103:frames688-988,case103:frames1310-1424,988,1310
+pre_035,104,slide bottom of drawer,insert drawer pin,case104:frames459-576,case104:frames808-852,576,808
+pre_035,104,slide bottom of drawer,insert drawer pin,case104:frames459-576,case104:frames888-936,576,888
+pre_035,105,slide bottom of drawer,insert drawer pin,case105:frames577-826,case105:frames1015-1056,826,1015
+pre_035,105,slide bottom of drawer,insert drawer pin,case105:frames577-826,case105:frames1096-1155,826,1096
+pre_035,106,slide bottom of drawer,insert drawer pin,case106:frames546-714,case106:frames1148-1296,714,1148
+pre_035,107,slide bottom of drawer,insert drawer pin,case107:frames542-716,case107:frames1073-1109,716,1073
+pre_035,107,slide bottom of drawer,insert drawer pin,case107:frames542-716,case107:frames1165-1228,716,1165
+pre_035,108,slide bottom of drawer,insert drawer pin,case108:frames1221-1429,case108:frames2591-2619,1429,2591
+pre_035,108,slide bottom of drawer,insert drawer pin,case108:frames1221-1429,case108:frames2649-2694,1429,2649
+pre_035,109,slide bottom of drawer,insert drawer pin,case109:frames659-852,case109:frames1739-1994,852,1739
+pre_035,110,slide bottom of drawer,insert drawer pin,case110:frames1313-1567,case110:frames2685-2715,1567,2685
+pre_035,111,slide bottom of drawer,insert drawer pin,case111:frames470-613,case111:frames823-964,613,823
+pre_035,112,slide bottom of drawer,insert drawer pin,case112:frames489-577,case112:frames873-980,577,873
+pre_035,113,slide bottom of drawer,insert drawer pin,case113:frames700-870,case113:frames1247-1388,870,1247
+pre_035,113,slide bottom of drawer,insert drawer pin,case113:frames700-870,case113:frames2983-3153,870,2983
+pre_035,114,slide bottom of drawer,insert drawer pin,case114:frames343-483,case114:frames1464-1491,483,1464
+pre_035,114,slide bottom of drawer,insert drawer pin,case114:frames343-483,case114:frames1544-1620,483,1544
+pre_035,115,slide bottom of drawer,insert drawer pin,case115:frames900-1079,case115:frames1461-1485,1079,1461
+pre_035,115,slide bottom of drawer,insert drawer pin,case115:frames900-1079,case115:frames1526-1561,1079,1526
+pre_035,116,slide bottom of drawer,insert drawer pin,case116:frames912-1374,case116:frames1827-1877,1374,1827
+pre_035,116,slide bottom of drawer,insert drawer pin,case116:frames912-1374,case116:frames1955-2069,1374,1955
+pre_035,88,slide bottom of drawer,insert drawer pin,case88:frames619-900,case88:frames1167-1296,900,1167
+pre_035,89,slide bottom of drawer,insert drawer pin,case89:frames533-662,case89:frames984-1068,662,984
+pre_035,90,slide bottom of drawer,insert drawer pin,case90:frames420-595,case90:frames886-927,595,886
+pre_035,90,slide bottom of drawer,insert drawer pin,case90:frames420-595,case90:frames968-1021,595,968
+pre_035,91,slide bottom of drawer,insert drawer pin,case91:frames2150-2391,case91:frames3713-3934,2391,3713
+pre_035,92,slide bottom of drawer,insert drawer pin,case92:frames544-706,case92:frames1036-1077,706,1036
+pre_035,92,slide bottom of drawer,insert drawer pin,case92:frames544-706,case92:frames1125-1161,706,1125
+pre_035,93,slide bottom of drawer,insert drawer pin,case93:frames666-937,case93:frames1564-1602,937,1564
+pre_035,93,slide bottom of drawer,insert drawer pin,case93:frames666-937,case93:frames1629-1723,937,1629
+pre_035,94,slide bottom of drawer,insert drawer pin,case94:frames508-737,case94:frames2128-2165,737,2128
+pre_035,94,slide bottom of drawer,insert drawer pin,case94:frames508-737,case94:frames2212-2266,737,2212
+pre_035,95,slide bottom of drawer,insert drawer pin,case95:frames928-1742,case95:frames2368-2431,1742,2368
+pre_035,95,slide bottom of drawer,insert drawer pin,case95:frames928-1742,case95:frames2458-2524,1742,2458
+pre_035,96,slide bottom of drawer,insert drawer pin,case96:frames1137-1339,case96:frames1834-1868,1339,1834
+pre_035,96,slide bottom of drawer,insert drawer pin,case96:frames1137-1339,case96:frames1916-1950,1339,1916
+pre_035,97,slide bottom of drawer,insert drawer pin,case97:frames906-1333,case97:frames2592-2979,1333,2592
+pre_035,98,slide bottom of drawer,insert drawer pin,case98:frames768-883,case98:frames1659-1824,883,1659
+pre_035,98,slide bottom of drawer,insert drawer pin,case98:frames768-883,case98:frames2586-2643,883,2586
+pre_035,98,slide bottom of drawer,insert drawer pin,case98:frames768-883,case98:frames2686-2744,883,2686
+pre_035,99,slide bottom of drawer,insert drawer pin,case99:frames634-875,case99:frames1093-1138,875,1093
+pre_035,99,slide bottom of drawer,insert drawer pin,case99:frames634-875,case99:frames1174-1266,875,1174
+pre_036,0,spin leg,attach shelf to table,case0:frames251-708,case0:frames2858-3151,708,2858
+pre_036,1,spin leg,attach shelf to table,case1:frames99-366,case1:frames2041-2400,366,2041
+pre_036,10,spin leg,attach shelf to table,case10:frames127-993,case10:frames4120-4490,993,4120
+pre_036,11,spin leg,attach shelf to table,case11:frames202-521,case11:frames2260-2623,521,2260
+pre_036,12,spin leg,attach shelf to table,case12:frames274-688,case12:frames2693-2979,688,2693
+pre_036,13,spin leg,attach shelf to table,case13:frames134-501,case13:frames2136-2290,501,2136
+pre_036,14,spin leg,attach shelf to table,case14:frames145-360,case14:frames2178-2346,360,2178
+pre_036,15,spin leg,attach shelf to table,case15:frames120-360,case15:frames1810-2001,360,1810
+pre_036,16,spin leg,attach shelf to table,case16:frames198-501,case16:frames2364-2610,501,2364
+pre_036,17,spin leg,attach shelf to table,case17:frames263-563,case17:frames2568-2850,563,2568
+pre_036,18,spin leg,attach shelf to table,case18:frames233-461,case18:frames1960-2111,461,1960
+pre_036,19,spin leg,attach shelf to table,case19:frames243-747,case19:frames3244-3511,747,3244
+pre_036,2,spin leg,attach shelf to table,case2:frames138-541,case2:frames2483-2849,541,2483
+pre_036,20,spin leg,attach shelf to table,case20:frames213-493,case20:frames2268-2474,493,2268
+pre_036,21,spin leg,attach shelf to table,case21:frames159-607,case21:frames2538-2805,607,2538
+pre_036,22,spin leg,attach shelf to table,case22:frames261-755,case22:frames3165-3529,755,3165
+pre_036,23,spin leg,attach shelf to table,case23:frames144-441,case23:frames2091-2369,441,2091
+pre_036,24,spin leg,attach shelf to table,case24:frames226-652,case24:frames2572-2708,652,2572
+pre_036,24,spin leg,attach shelf to table,case24:frames226-652,case24:frames2932-3133,652,2932
+pre_036,25,spin leg,attach shelf to table,case25:frames197-391,case25:frames2281-2601,391,2281
+pre_036,26,spin leg,attach shelf to table,case26:frames282-740,case26:frames3568-4392,740,3568
+pre_036,27,spin leg,attach shelf to table,case27:frames128-581,case27:frames2808-3232,581,2808
+pre_036,28,spin leg,attach shelf to table,case28:frames141-585,case28:frames3163-3546,585,3163
+pre_036,29,spin leg,attach shelf to table,case29:frames351-799,case29:frames2533-2858,799,2533
+pre_036,3,spin leg,attach shelf to table,case3:frames593-1006,case3:frames3556-3908,1006,3556
+pre_036,30,spin leg,attach shelf to table,case30:frames273-593,case30:frames2696-3193,593,2696
+pre_036,31,spin leg,attach shelf to table,case31:frames365-931,case31:frames3453-3928,931,3453
+pre_036,32,spin leg,attach shelf to table,case32:frames179-538,case32:frames2671-3163,538,2671
+pre_036,33,spin leg,attach shelf to table,case33:frames97-401,case33:frames2108-2975,401,2108
+pre_036,34,spin leg,attach shelf to table,case34:frames242-616,case34:frames3524-3810,616,3524
+pre_036,35,spin leg,attach shelf to table,case35:frames106-397,case35:frames2859-3170,397,2859
+pre_036,36,spin leg,attach shelf to table,case36:frames114-581,case36:frames3170-3747,581,3170
+pre_036,37,spin leg,attach shelf to table,case37:frames72-399,case37:frames2059-2347,399,2059
+pre_036,39,spin leg,attach shelf to table,case39:frames703-1050,case39:frames3565-4128,1050,3565
+pre_036,40,spin leg,attach shelf to table,case40:frames301-630,case40:frames2174-2726,630,2174
+pre_036,41,spin leg,attach shelf to table,case41:frames260-695,case41:frames3086-3454,695,3086
+pre_036,42,spin leg,attach shelf to table,case42:frames359-819,case42:frames3603-4332,819,3603
+pre_036,43,spin leg,attach shelf to table,case43:frames101-425,case43:frames2496-2766,425,2496
+pre_036,44,spin leg,attach shelf to table,case44:frames227-609,case44:frames2572-3100,609,2572
+pre_036,45,spin leg,attach shelf to table,case45:frames288-658,case45:frames2347-3142,658,2347
+pre_036,46,spin leg,attach shelf to table,case46:frames123-414,case46:frames2212-2600,414,2212
+pre_036,47,spin leg,attach shelf to table,case47:frames250-647,case47:frames3017-3649,647,3017
+pre_036,48,spin leg,attach shelf to table,case48:frames112-583,case48:frames4043-4717,583,4043
+pre_036,49,spin leg,attach shelf to table,case49:frames315-656,case49:frames2396-2748,656,2396
+pre_036,5,spin leg,attach shelf to table,case5:frames267-641,case5:frames3411-3880,641,3411
+pre_036,50,spin leg,attach shelf to table,case50:frames99-345,case50:frames2885-3107,345,2885
+pre_036,51,spin leg,attach shelf to table,case51:frames177-458,case51:frames2174-2782,458,2174
+pre_036,52,spin leg,attach shelf to table,case52:frames417-840,case52:frames3435-4146,840,3435
+pre_036,53,spin leg,attach shelf to table,case53:frames236-576,case53:frames2709-2953,576,2709
+pre_036,54,spin leg,attach shelf to table,case54:frames262-618,case54:frames2873-3172,618,2873
+pre_036,55,spin leg,attach shelf to table,case55:frames123-505,case55:frames2428-3001,505,2428
+pre_036,56,spin leg,attach shelf to table,case56:frames239-642,case56:frames2600-2988,642,2600
+pre_036,57,spin leg,attach shelf to table,case57:frames113-529,case57:frames2675-3082,529,2675
+pre_036,6,spin leg,attach shelf to table,case6:frames233-601,case6:frames2074-2406,601,2074
+pre_036,7,spin leg,attach shelf to table,case7:frames258-680,case7:frames3392-3603,680,3392
+pre_036,8,spin leg,attach shelf to table,case8:frames168-614,case8:frames2191-2320,614,2191
+pre_036,9,spin leg,attach shelf to table,case9:frames343-492,case9:frames1962-2319,492,1962
+pre_037,22,spin leg,flip shelf,case22:frames261-755,case22:frames3120-3165,755,3120
+pre_037,29,spin leg,flip shelf,case29:frames351-799,case29:frames2082-2180,799,2082
+pre_037,29,spin leg,flip shelf,case29:frames351-799,case29:frames2464-2533,799,2464
+pre_038,29,spin leg,lay down shelf,case29:frames351-799,case29:frames2243-2297,799,2243
+pre_038,41,spin leg,lay down shelf,case41:frames260-695,case41:frames2763-2839,695,2763
+pre_039,0,spin leg,pick up shelf,case0:frames251-708,case0:frames2803-2858,708,2803
+pre_039,1,spin leg,pick up shelf,case1:frames99-366,case1:frames1909-1978,366,1909
+pre_039,11,spin leg,pick up shelf,case11:frames202-521,case11:frames2191-2260,521,2191
+pre_039,12,spin leg,pick up shelf,case12:frames274-688,case12:frames2643-2693,688,2643
+pre_039,13,spin leg,pick up shelf,case13:frames134-501,case13:frames2043-2095,501,2043
+pre_039,14,spin leg,pick up shelf,case14:frames145-360,case14:frames2115-2178,360,2115
+pre_039,15,spin leg,pick up shelf,case15:frames120-360,case15:frames1724-1781,360,1724
+pre_039,16,spin leg,pick up shelf,case16:frames198-501,case16:frames2306-2364,501,2306
+pre_039,17,spin leg,pick up shelf,case17:frames263-563,case17:frames2438-2568,563,2438
+pre_039,18,spin leg,pick up shelf,case18:frames233-461,case18:frames1874-1903,461,1874
+pre_039,19,spin leg,pick up shelf,case19:frames243-747,case19:frames3180-3244,747,3180
+pre_039,2,spin leg,pick up shelf,case2:frames138-541,case2:frames2362-2483,541,2362
+pre_039,20,spin leg,pick up shelf,case20:frames213-493,case20:frames2146-2268,493,2146
+pre_039,21,spin leg,pick up shelf,case21:frames159-607,case21:frames2466-2538,607,2466
+pre_039,22,spin leg,pick up shelf,case22:frames261-755,case22:frames2994-3120,755,2994
+pre_039,23,spin leg,pick up shelf,case23:frames144-441,case23:frames1966-2091,441,1966
+pre_039,24,spin leg,pick up shelf,case24:frames226-652,case24:frames2421-2572,652,2421
+pre_039,24,spin leg,pick up shelf,case24:frames226-652,case24:frames2899-2932,652,2899
+pre_039,25,spin leg,pick up shelf,case25:frames197-391,case25:frames2159-2281,391,2159
+pre_039,26,spin leg,pick up shelf,case26:frames282-740,case26:frames3506-3568,740,3506
+pre_039,27,spin leg,pick up shelf,case27:frames128-581,case27:frames2775-2808,581,2775
+pre_039,28,spin leg,pick up shelf,case28:frames141-585,case28:frames3049-3159,585,3049
+pre_039,29,spin leg,pick up shelf,case29:frames351-799,case29:frames2180-2223,799,2180
+pre_039,3,spin leg,pick up shelf,case3:frames593-1006,case3:frames3460-3556,1006,3460
+pre_039,30,spin leg,pick up shelf,case30:frames273-593,case30:frames2545-2696,593,2545
+pre_039,31,spin leg,pick up shelf,case31:frames365-931,case31:frames3363-3453,931,3363
+pre_039,32,spin leg,pick up shelf,case32:frames179-538,case32:frames2420-2671,538,2420
+pre_039,34,spin leg,pick up shelf,case34:frames242-616,case34:frames2440-2548,616,2440
+pre_039,34,spin leg,pick up shelf,case34:frames242-616,case34:frames3396-3509,616,3396
+pre_039,35,spin leg,pick up shelf,case35:frames106-397,case35:frames2773-2859,397,2773
+pre_039,36,spin leg,pick up shelf,case36:frames114-581,case36:frames3000-3170,581,3000
+pre_039,37,spin leg,pick up shelf,case37:frames72-399,case37:frames1987-2059,399,1987
+pre_039,39,spin leg,pick up shelf,case39:frames703-1050,case39:frames3295-3565,1050,3295
+pre_039,4,spin leg,pick up shelf,case4:frames302-590,case4:frames2069-2220,590,2069
+pre_039,40,spin leg,pick up shelf,case40:frames301-630,case40:frames2103-2174,630,2103
+pre_039,41,spin leg,pick up shelf,case41:frames260-695,case41:frames2516-2579,695,2516
+pre_039,42,spin leg,pick up shelf,case42:frames359-819,case42:frames3524-3603,819,3524
+pre_039,43,spin leg,pick up shelf,case43:frames101-425,case43:frames2456-2496,425,2456
+pre_039,44,spin leg,pick up shelf,case44:frames227-609,case44:frames2511-2572,609,2511
+pre_039,45,spin leg,pick up shelf,case45:frames288-658,case45:frames2237-2347,658,2237
+pre_039,46,spin leg,pick up shelf,case46:frames123-414,case46:frames2142-2172,414,2142
+pre_039,47,spin leg,pick up shelf,case47:frames250-647,case47:frames2922-3017,647,2922
+pre_039,49,spin leg,pick up shelf,case49:frames315-656,case49:frames2321-2396,656,2321
+pre_039,5,spin leg,pick up shelf,case5:frames267-641,case5:frames3263-3411,641,3263
+pre_039,50,spin leg,pick up shelf,case50:frames99-345,case50:frames1954-1999,345,1954
+pre_039,51,spin leg,pick up shelf,case51:frames177-458,case51:frames1983-2091,458,1983
+pre_039,52,spin leg,pick up shelf,case52:frames417-840,case52:frames3355-3435,840,3355
+pre_039,53,spin leg,pick up shelf,case53:frames236-576,case53:frames2356-2445,576,2356
+pre_039,53,spin leg,pick up shelf,case53:frames236-576,case53:frames2608-2709,576,2608
+pre_039,54,spin leg,pick up shelf,case54:frames262-618,case54:frames2832-2873,618,2832
+pre_039,55,spin leg,pick up shelf,case55:frames123-505,case55:frames2321-2428,505,2321
+pre_039,56,spin leg,pick up shelf,case56:frames239-642,case56:frames2502-2600,642,2502
+pre_039,57,spin leg,pick up shelf,case57:frames113-529,case57:frames2477-2552,529,2477
+pre_039,6,spin leg,pick up shelf,case6:frames233-601,case6:frames1961-2051,601,1961
+pre_039,7,spin leg,pick up shelf,case7:frames258-680,case7:frames3340-3391,680,3340
+pre_039,8,spin leg,pick up shelf,case8:frames168-614,case8:frames2143-2191,614,2143
+pre_039,9,spin leg,pick up shelf,case9:frames343-492,case9:frames1877-1962,492,1877
+pre_040,15,spin leg,push table,case15:frames120-360,case15:frames827-853,360,827
+pre_040,17,spin leg,push table,case17:frames263-563,case17:frames1112-1127,563,1112
+pre_040,5,spin leg,push table,case5:frames267-641,case5:frames1332-1377,641,1332
+pre_040,64,spin leg,push table,case64:frames226-552,case64:frames566-585,552,566
+pre_041,0,spin leg,tighten leg,case0:frames251-708,case0:frames1774-1846,708,1774
+pre_041,1,spin leg,tighten leg,case1:frames99-366,case1:frames366-419,366,366
+pre_041,1,spin leg,tighten leg,case1:frames99-366,case1:frames1032-1052,366,1032
+pre_041,14,spin leg,tighten leg,case14:frames145-360,case14:frames360-597,360,360
+pre_041,15,spin leg,tighten leg,case15:frames120-360,case15:frames380-427,360,380
+pre_041,15,spin leg,tighten leg,case15:frames120-360,case15:frames516-533,360,516
+pre_041,15,spin leg,tighten leg,case15:frames120-360,case15:frames1135-1160,360,1135
+pre_041,15,spin leg,tighten leg,case15:frames120-360,case15:frames1500-1528,360,1500
+pre_041,16,spin leg,tighten leg,case16:frames198-501,case16:frames501-617,501,501
+pre_041,17,spin leg,tighten leg,case17:frames263-563,case17:frames1582-1664,563,1582
+pre_041,17,spin leg,tighten leg,case17:frames263-563,case17:frames2086-2216,563,2086
+pre_041,18,spin leg,tighten leg,case18:frames233-461,case18:frames461-517,461,461
+pre_041,18,spin leg,tighten leg,case18:frames233-461,case18:frames861-967,461,861
+pre_041,18,spin leg,tighten leg,case18:frames233-461,case18:frames1290-1344,461,1290
+pre_041,18,spin leg,tighten leg,case18:frames233-461,case18:frames1664-1723,461,1664
+pre_041,2,spin leg,tighten leg,case2:frames138-541,case2:frames2058-2183,541,2058
+pre_041,20,spin leg,tighten leg,case20:frames213-493,case20:frames493-533,493,493
+pre_041,20,spin leg,tighten leg,case20:frames213-493,case20:frames879-1000,493,879
+pre_041,20,spin leg,tighten leg,case20:frames213-493,case20:frames1974-2051,493,1974
+pre_041,24,spin leg,tighten leg,case24:frames226-652,case24:frames1676-1708,652,1676
+pre_041,25,spin leg,tighten leg,case25:frames197-391,case25:frames391-564,391,391
+pre_041,26,spin leg,tighten leg,case26:frames282-740,case26:frames740-830,740,740
+pre_041,26,spin leg,tighten leg,case26:frames282-740,case26:frames1332-1993,740,1332
+pre_041,26,spin leg,tighten leg,case26:frames282-740,case26:frames3167-3241,740,3167
+pre_041,28,spin leg,tighten leg,case28:frames141-585,case28:frames585-641,585,585
+pre_041,28,spin leg,tighten leg,case28:frames141-585,case28:frames1253-1351,585,1253
+pre_041,31,spin leg,tighten leg,case31:frames365-931,case31:frames931-1091,931,931
+pre_041,34,spin leg,tighten leg,case34:frames242-616,case34:frames2977-3209,616,2977
+pre_041,35,spin leg,tighten leg,case35:frames106-397,case35:frames839-924,397,839
+pre_041,35,spin leg,tighten leg,case35:frames106-397,case35:frames1510-1673,397,1510
+pre_041,35,spin leg,tighten leg,case35:frames106-397,case35:frames2409-2503,397,2409
+pre_041,36,spin leg,tighten leg,case36:frames114-581,case36:frames1798-1827,581,1798
+pre_041,37,spin leg,tighten leg,case37:frames72-399,case37:frames1113-1228,399,1113
+pre_041,37,spin leg,tighten leg,case37:frames72-399,case37:frames1744-1804,399,1744
+pre_041,39,spin leg,tighten leg,case39:frames703-1050,case39:frames1509-1623,1050,1509
+pre_041,39,spin leg,tighten leg,case39:frames703-1050,case39:frames2873-2970,1050,2873
+pre_041,42,spin leg,tighten leg,case42:frames359-819,case42:frames1397-1616,819,1397
+pre_041,42,spin leg,tighten leg,case42:frames359-819,case42:frames2188-2346,819,2188
+pre_041,43,spin leg,tighten leg,case43:frames101-425,case43:frames932-972,425,932
+pre_041,43,spin leg,tighten leg,case43:frames101-425,case43:frames1541-1549,425,1541
+pre_041,43,spin leg,tighten leg,case43:frames101-425,case43:frames1555-1600,425,1555
+pre_041,43,spin leg,tighten leg,case43:frames101-425,case43:frames1613-1616,425,1613
+pre_041,43,spin leg,tighten leg,case43:frames101-425,case43:frames2174-2214,425,2174
+pre_041,44,spin leg,tighten leg,case44:frames227-609,case44:frames609-702,609,609
+pre_041,44,spin leg,tighten leg,case44:frames227-609,case44:frames1278-1327,609,1278
+pre_041,47,spin leg,tighten leg,case47:frames250-647,case47:frames647-656,647,647
+pre_041,5,spin leg,tighten leg,case5:frames267-641,case5:frames1217-1332,641,1217
+pre_041,53,spin leg,tighten leg,case53:frames236-576,case53:frames2953-3049,576,2953
+pre_041,54,spin leg,tighten leg,case54:frames262-618,case54:frames618-663,618,618
+pre_041,54,spin leg,tighten leg,case54:frames262-618,case54:frames2411-2583,618,2411
+pre_041,55,spin leg,tighten leg,case55:frames123-505,case55:frames505-715,505,505
+pre_041,57,spin leg,tighten leg,case57:frames113-529,case57:frames529-548,529,529
+pre_041,57,spin leg,tighten leg,case57:frames113-529,case57:frames2083-2111,529,2083
+pre_041,6,spin leg,tighten leg,case6:frames233-601,case6:frames1000-1051,601,1000
+pre_041,62,spin leg,tighten leg,case62:frames148-418,case62:frames418-566,418,418
+pre_041,62,spin leg,tighten leg,case62:frames148-418,case62:frames1061-1131,418,1061
+pre_041,62,spin leg,tighten leg,case62:frames148-418,case62:frames1662-1820,418,1662
+pre_041,62,spin leg,tighten leg,case62:frames148-418,case62:frames2354-2537,418,2354
+pre_041,66,spin leg,tighten leg,case66:frames132-664,case66:frames1224-1297,664,1224
+pre_041,66,spin leg,tighten leg,case66:frames132-664,case66:frames1975-2019,664,1975
+pre_041,66,spin leg,tighten leg,case66:frames132-664,case66:frames2719-2863,664,2719
+pre_041,7,spin leg,tighten leg,case7:frames258-680,case7:frames2246-2335,680,2246
+pre_041,7,spin leg,tighten leg,case7:frames258-680,case7:frames2353-2468,680,2353
+pre_041,7,spin leg,tighten leg,case7:frames258-680,case7:frames2913-2928,680,2913
+pre_041,7,spin leg,tighten leg,case7:frames258-680,case7:frames2951-3055,680,2951
+pre_041,71,spin leg,tighten leg,case71:frames111-546,case71:frames558-620,546,558
+pre_041,71,spin leg,tighten leg,case71:frames111-546,case71:frames1160-1189,546,1160
+pre_041,71,spin leg,tighten leg,case71:frames111-546,case71:frames2395-2420,546,2395
+pre_041,72,spin leg,tighten leg,case72:frames245-736,case72:frames2470-2589,736,2470
+pre_041,75,spin leg,tighten leg,case75:frames110-402,case75:frames412-487,402,412
+pre_041,76,spin leg,tighten leg,case76:frames223-393,case76:frames393-422,393,393
+pre_041,76,spin leg,tighten leg,case76:frames223-393,case76:frames1565-1610,393,1565
+pre_041,79,spin leg,tighten leg,case79:frames185-460,case79:frames1611-1695,460,1611
+pre_041,79,spin leg,tighten leg,case79:frames185-460,case79:frames1979-2062,460,1979
+pre_041,79,spin leg,tighten leg,case79:frames185-460,case79:frames2820-3025,460,2820
+pre_041,80,spin leg,tighten leg,case80:frames126-438,case80:frames445-474,438,445
+pre_041,80,spin leg,tighten leg,case80:frames126-438,case80:frames911-947,438,911
+pre_041,80,spin leg,tighten leg,case80:frames126-438,case80:frames2126-2175,438,2126
+pre_041,82,spin leg,tighten leg,case82:frames170-609,case82:frames609-690,609,609
+pre_041,82,spin leg,tighten leg,case82:frames170-609,case82:frames1207-1299,609,1207
+pre_041,82,spin leg,tighten leg,case82:frames170-609,case82:frames1989-2067,609,1989
+pre_041,82,spin leg,tighten leg,case82:frames170-609,case82:frames2516-2583,609,2516
+pre_041,83,spin leg,tighten leg,case83:frames287-766,case83:frames1879-1933,766,1879
+pre_041,83,spin leg,tighten leg,case83:frames287-766,case83:frames2385-2459,766,2385
+pre_041,9,spin leg,tighten leg,case9:frames343-492,case9:frames492-643,492,492

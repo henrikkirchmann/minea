@@ -1,0 +1,822 @@
+{
+  "definitions": {
+    "case_durations": {
+      "calculation": "recording=whole case; retained_event=sum of non-NA durations; retained_span=last retained end minus first retained start. These are different durations."
+    },
+    "cohort": {
+      "calculation": "All rows in cases.csv; raw case roster comes from recorded source audit.",
+      "scope": "The 817 removed NA segments concern the 116 retained cases only. The excluded all-NA case has no segment inventory here."
+    },
+    "direct_follows": {
+      "calculation": "One occurrence for each adjacent pair in a retained case; pairs may cross removed NA gaps. Same-label pairs remain included."
+    },
+    "distributions": {
+      "calculation": "Quartile p uses linear interpolation at sorted zero-based position (n-1)*p (Hyndman-Fan type 7). Population SD=sqrt(sum((x-mean)^2)/n), not sample SD. Empty samples yield count0 and null summaries; singleton SD0.",
+      "unit": "Named by each metric; derived statistics are floats, never replacement input scores."
+    },
+    "duration_weighted_segment_agreement": {
+      "calculation": "Sum duration of segments whose single top1 label equals GT, divided by total retained segment duration.",
+      "denominator": "frames in retained non-NA GT segments",
+      "scope": "This labels each entire segment with one prediction; it is NOT raw frame-prediction accuracy."
+    },
+    "groups": {
+      "calculation": "process_group is copied from each retained case record; event and frame shares are based on this retained cohort."
+    },
+    "intervals": {
+      "calculation": "Half-open [start_frame,end_frame_exclusive); duration=end-start; seconds=frames/recorded frame rate.",
+      "unit": "frames"
+    },
+    "original_top3": {
+      "calculation": "For each replacement, remove inserted GT and restore the recorded third label/score. Unreplaced records are already the original top3. Full original GT ranks beyond3 are recorded replacement provenance, not recoverable from three retained scores alone."
+    },
+    "ratios": {
+      "calculation": "Numerator, denominator, exact fraction, decimal value and percent are reported; denominator0 produces null derived ratios."
+    },
+    "repetition": {
+      "calculation": "repeat_events_after_first_occurrence=trace length minus number of distinct labels; adjacent_equal_activity_pairs counts neighboring equal labels in the retained trace."
+    },
+    "score_mass": {
+      "calculation": "Retained mass=sum of three original scores. Discarded non-NA and removed-NA mass are recorded input fields. Residual=abs(retained+removedNA+discarded-1), not forcibly set to zero.",
+      "validation_tolerances": "1e-6 for unit-mass residual;1e-12 for recorded retained mass versus exact sum. Descriptive input checks only; unrelated to exact solver certification."
+    },
+    "scores": {
+      "calculation": "Original decimal score tokens are parsed as exact fractions. No rescaling, normalization or entropy is computed. observations.csv preserves the original scores JSON and input score strings."
+    },
+    "top1_segment_agreement": {
+      "calculation": "Highest original non-NA score per retained observation, with lexicographic activity tie-break; compare label with GT.",
+      "denominator": "retained observations",
+      "scope": "Direct recomputation on GT-aligned segments; GT insertion does not alter top1."
+    },
+    "upstream_frame_accuracy": {
+      "calculation": "Ratios recomputed from recorded correct-frame/total-frame counts in model_selection.json. Per-case subtotals are verified.",
+      "scope": "Recorded upstream predictions on117 raw cases; raw frame predictions are not included or re-evaluated by this module."
+    },
+    "variants": {
+      "calculation": "Exact ordered GT activity tuples after NA removal, ordered by start/end/event ID; adjacent equal labels are never collapsed. Frequencies sort descending, ties by lexicographic tuple.",
+      "denominator": "retained cases"
+    }
+  },
+  "ground_truth": {
+    "activity_count": 32,
+    "activity_vocabulary": [
+      "align leg screw with table thread",
+      "align side panel holes with front panel dowels",
+      "attach drawer back panel",
+      "attach drawer side panel",
+      "attach shelf to table",
+      "flip shelf",
+      "flip table",
+      "flip table top",
+      "insert drawer pin",
+      "lay down back panel",
+      "lay down bottom panel",
+      "lay down front panel",
+      "lay down leg",
+      "lay down shelf",
+      "lay down side panel",
+      "lay down table top",
+      "other",
+      "pick up back panel",
+      "pick up bottom panel",
+      "pick up front panel",
+      "pick up leg",
+      "pick up pin",
+      "pick up shelf",
+      "pick up side panel",
+      "pick up table top",
+      "position the drawer right side up",
+      "push table",
+      "push table top",
+      "rotate table",
+      "slide bottom of drawer",
+      "spin leg",
+      "tighten leg"
+    ],
+    "cases_in_singleton_variants": 93,
+    "cases_with_repetition": 116,
+    "direct_follow_occurrences": 1740,
+    "distinct_direct_follow_pairs": 133,
+    "distributions": {
+      "case_adjacent_equal_pairs": {
+        "count": 116,
+        "maximum": 4.0,
+        "mean": 0.08620689655172414,
+        "median": 0.0,
+        "minimum": 0.0,
+        "population_sd": 0.44661496024098685,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "case_distinct_activities": {
+        "count": 116,
+        "maximum": 16.0,
+        "mean": 7.620689655172414,
+        "median": 7.0,
+        "minimum": 3.0,
+        "population_sd": 2.24628111213191,
+        "q1": 6.0,
+        "q3": 9.0
+      },
+      "case_event_count": {
+        "count": 116,
+        "maximum": 34.0,
+        "mean": 16.0,
+        "median": 16.0,
+        "minimum": 8.0,
+        "population_sd": 3.595974761140381,
+        "q1": 14.0,
+        "q3": 18.0
+      },
+      "case_recording_frames": {
+        "count": 116,
+        "maximum": 5595.0,
+        "mean": 2740.189655172414,
+        "median": 2758.5,
+        "minimum": 1042.0,
+        "population_sd": 886.8050354657822,
+        "q1": 2151.5,
+        "q3": 3199.75
+      },
+      "case_recording_seconds": {
+        "count": 116,
+        "maximum": 223.8,
+        "mean": 109.60758620689656,
+        "median": 110.34,
+        "minimum": 41.68,
+        "population_sd": 35.47220141863129,
+        "q1": 86.06,
+        "q3": 127.99
+      },
+      "case_removed_na_segments": {
+        "count": 116,
+        "maximum": 22.0,
+        "mean": 7.043103448275862,
+        "median": 6.0,
+        "minimum": 0.0,
+        "population_sd": 4.562576860721155,
+        "q1": 3.0,
+        "q3": 10.25
+      },
+      "case_repeat_events": {
+        "count": 116,
+        "maximum": 18.0,
+        "mean": 8.379310344827585,
+        "median": 9.0,
+        "minimum": 2.0,
+        "population_sd": 3.128443406083191,
+        "q1": 6.0,
+        "q3": 10.0
+      },
+      "case_retained_event_frames": {
+        "count": 116,
+        "maximum": 4395.0,
+        "mean": 2379.810344827586,
+        "median": 2469.0,
+        "minimum": 558.0,
+        "population_sd": 817.955471701295,
+        "q1": 1804.25,
+        "q3": 2949.25
+      },
+      "case_retained_span_frames": {
+        "count": 116,
+        "maximum": 5488.0,
+        "mean": 2593.5258620689656,
+        "median": 2647.5,
+        "minimum": 927.0,
+        "population_sd": 878.8671730994639,
+        "q1": 2010.25,
+        "q3": 3065.5
+      },
+      "case_uncovered_na_frames": {
+        "count": 116,
+        "maximum": 2744.0,
+        "mean": 360.37931034482756,
+        "median": 312.5,
+        "minimum": 0.0,
+        "population_sd": 327.77911652073044,
+        "q1": 166.5,
+        "q3": 432.25
+      },
+      "event_duration_frames": {
+        "count": 1856,
+        "maximum": 1119.0,
+        "mean": 148.73814655172413,
+        "median": 70.0,
+        "minimum": 1.0,
+        "population_sd": 164.9706817265521,
+        "q1": 38.0,
+        "q3": 210.25
+      },
+      "event_duration_seconds": {
+        "count": 1856,
+        "maximum": 44.76,
+        "mean": 5.949525862068966,
+        "median": 2.8,
+        "minimum": 0.04,
+        "population_sd": 6.598827269062084,
+        "q1": 1.52,
+        "q3": 8.41
+      },
+      "variant_case_frequency": {
+        "count": 103,
+        "maximum": 4.0,
+        "mean": 1.1262135922330097,
+        "median": 1.0,
+        "minimum": 1.0,
+        "population_sd": 0.4335361856653613,
+        "q1": 1.0,
+        "q3": 1.0
+      }
+    },
+    "eighty_percent_variant_coverage": {
+      "case_coverage_with_cutoff_ties": {
+        "denominator": 116,
+        "fraction": "1",
+        "numerator": 116,
+        "percent": 100.0,
+        "value": 1.0
+      },
+      "cutoff_frequency": 1,
+      "minimum_variants_without_tie_expansion": 80,
+      "target_cases": 93,
+      "variants_with_cutoff_ties": 103
+    },
+    "end_activity_counts": {
+      "attach shelf to table": 50,
+      "flip table": 27,
+      "insert drawer pin": 4,
+      "lay down bottom panel": 6,
+      "other": 6,
+      "pick up shelf": 1,
+      "position the drawer right side up": 18,
+      "rotate table": 2,
+      "tighten leg": 2
+    },
+    "exact_variant_count": 103,
+    "same_activity_direct_follow_occurrences": 10,
+    "singleton_variant_count": 93,
+    "start_activity_counts": {
+      "align leg screw with table thread": 1,
+      "attach drawer side panel": 2,
+      "flip table": 1,
+      "flip table top": 29,
+      "lay down front panel": 1,
+      "lay down table top": 2,
+      "other": 4,
+      "pick up back panel": 1,
+      "pick up bottom panel": 1,
+      "pick up front panel": 7,
+      "pick up leg": 40,
+      "pick up side panel": 16,
+      "pick up table top": 7,
+      "push table top": 1,
+      "rotate table": 2,
+      "spin leg": 1
+    },
+    "top_variant_case_shares": {
+      "1": {
+        "denominator": 116,
+        "fraction": "1/29",
+        "numerator": 4,
+        "percent": 3.4482758620689653,
+        "value": 0.034482758620689655
+      },
+      "10": {
+        "denominator": 116,
+        "fraction": "23/116",
+        "numerator": 23,
+        "percent": 19.82758620689655,
+        "value": 0.19827586206896552
+      },
+      "20": {
+        "denominator": 116,
+        "fraction": "33/116",
+        "numerator": 33,
+        "percent": 28.448275862068964,
+        "value": 0.28448275862068967
+      },
+      "3": {
+        "denominator": 116,
+        "fraction": "9/116",
+        "numerator": 9,
+        "percent": 7.758620689655173,
+        "value": 0.07758620689655173
+      },
+      "5": {
+        "denominator": 116,
+        "fraction": "13/116",
+        "numerator": 13,
+        "percent": 11.206896551724139,
+        "value": 0.11206896551724138
+      }
+    }
+  },
+  "input_hashes": {
+    "inputs/reference/candidate_replacements.csv": {
+      "bytes": 37677,
+      "sha256": "1166ee15ad92dcd50d467d8fc6f1cfdc290708dabad41579ecd43f3a6aba9e1d"
+    },
+    "inputs/reference/full/candidate_coverage.csv": {
+      "bytes": 94498,
+      "sha256": "f10e7d4fca456f83ea50ed5cb88f9ccf982172a9450ccef052bede14f1b140e0"
+    },
+    "inputs/reference/full/candidate_policy.json": {
+      "bytes": 1170,
+      "sha256": "ce80e2563eca134f18b69d75ac5f29e9b7f7f7c537a799fef5937329663b9244"
+    },
+    "inputs/reference/full/cases.csv": {
+      "bytes": 9924,
+      "sha256": "3c67dbed6a405f9887075b9f78f5070d825b0402f5cff4d569ac115071dd796c"
+    },
+    "inputs/reference/full/ground_truth.csv": {
+      "bytes": 209695,
+      "sha256": "57296c4286d203216b42a975f68d6d404c2ae82f054442ee72cadd24f68080df"
+    },
+    "inputs/reference/full/occurrence_bounds.csv": {
+      "bytes": 82932,
+      "sha256": "8509186913d9992a12f7e1c519840433da4ddb7baafaa0ab345d93ec57bb6fe8"
+    },
+    "inputs/reference/full/occurrence_counts_by_case.csv": {
+      "bytes": 15084,
+      "sha256": "0bc5ecbe2af3b21788593189ab2ac9b1d918de7d99d814dd91e6f10275728bad"
+    },
+    "inputs/reference/full/uncertain_log.csv.gz": {
+      "bytes": 151170,
+      "sha256": "dfbc6b1a7b3b36880e16c887bd98f4afef6e23d3c840059ea9c9a71d519d5af1"
+    },
+    "inputs/reference/model_selection.csv": {
+      "bytes": 2045,
+      "sha256": "8d7fcb149d66d456f95a85afde942706c00572e58b10650dad6b83e33c5e3aa7"
+    },
+    "inputs/reference/model_selection.json": {
+      "bytes": 217138,
+      "sha256": "317bf700280c18312c81bf89b3b84a64eb270d024ffdcfeb629cd85a2970e56f"
+    },
+    "inputs/reference/protocol.json": {
+      "bytes": 1656,
+      "sha256": "549bd967f826dfa77864ff15a14789498043d6acdbe83cc4babf828a24132798"
+    },
+    "inputs/reference/source_audit.json": {
+      "bytes": 2218,
+      "sha256": "436b502c82e927fe3d7f13901cb7d74c5f8ccb92d38c57a8eb3d90e45c35962f"
+    },
+    "inputs/reference/summary.json": {
+      "bytes": 3440,
+      "sha256": "b51455dd2dec34d28742672d296cf03d9510664f32c2beda99359cc43e7770ff"
+    }
+  },
+  "model_selection": {
+    "criterion": "non_na",
+    "models_compared": 10,
+    "provenance": "inputs/reference/model_selection.json; recorded upstream count data, ratios and subtotals recomputed.",
+    "recorded_selected_raw_all_frame_accuracy": {
+      "denominator": 320390,
+      "fraction": "40255/64078",
+      "numerator": 201275,
+      "percent": 62.8218733418646,
+      "value": 0.628218733418646
+    },
+    "recorded_selected_raw_non_na_frame_accuracy": {
+      "denominator": 276058,
+      "fraction": "91819/138029",
+      "numerator": 183638,
+      "percent": 66.52152808467785,
+      "value": 0.6652152808467786
+    },
+    "recorded_selected_segment_agreement_with_na_allowed": {
+      "denominator": 1856,
+      "fraction": "19/32",
+      "numerator": 1102,
+      "percent": 59.375,
+      "value": 0.59375
+    },
+    "selected_model": "clip_based__c3d_and_p3d__p3d__pretrained",
+    "tie_breaking": "Lexicographic model ID on equal integer correct-frame count."
+  },
+  "population": {
+    "excluded_case_frames_recorded": 2528,
+    "excluded_case_ids": [
+      "38"
+    ],
+    "frames_per_second_recorded": 25,
+    "original_segments_in_retained_cases": 2673,
+    "process_group_count": 4,
+    "raw_case_count_recorded": 117,
+    "raw_case_frames_recorded": 320390,
+    "removed_na_segments_in_all_raw_cases": null,
+    "removed_na_segments_in_retained_cases": 817,
+    "retained_candidate_count": 5568,
+    "retained_case_count": 116,
+    "retained_case_recording_frames": 317862,
+    "retained_case_uncovered_na_frames": 41804,
+    "retained_empty_case_count": 0,
+    "retained_non_na_event_frames": 276058,
+    "retained_nonempty_case_count": 116,
+    "retained_observation_count": 1856
+  },
+  "quality": {
+    "aligned_observations_checked": 1856,
+    "candidate_count_exactly_three": true,
+    "case_intervals_nonoverlapping": true,
+    "cross_checks": {
+      "candidate_coverage.csv": {
+        "observations": 1856,
+        "status": "PASS"
+      },
+      "model_selection.csv": {
+        "models": 10,
+        "status": "PASS"
+      },
+      "occurrence_bounds.csv": {
+        "activities": 32,
+        "status": "PASS"
+      },
+      "occurrence_counts_by_case.csv": {
+        "cases": 116,
+        "status": "PASS"
+      },
+      "summary.json": {
+        "fields": [
+          "case_count",
+          "event_count",
+          "activity_count",
+          "candidate_count",
+          "gt_replacement_count",
+          "removed_na_segments",
+          "process_groups",
+          "total_variant_count"
+        ],
+        "status": "PASS"
+      }
+    },
+    "gt_present_after_insertion": true,
+    "maximum_absolute_score_unit_mass_residual": 1.458716236754e-07,
+    "maximum_absolute_score_unit_mass_residual_exact": "729358118377/5000000000000000000",
+    "maximum_reported_retained_mass_error": 1.78e-16,
+    "maximum_reported_retained_mass_error_exact": "89/500000000000000000",
+    "positive_half_open_durations": true,
+    "raw_score_tokens_preserved": true,
+    "replacement_records_checked": 353,
+    "reported_retained_mass_tolerance": "1/1000000000000",
+    "score_unit_mass_tolerance": "1/1000000",
+    "status": "PASS"
+  },
+  "schema_version": 1,
+  "scope": "Descriptive statistics of the included GT-assisted test-cohort inputs. No held-out accuracy claim, normalization, matching run or frozen-input modification.",
+  "tables": {
+    "activities.csv": {
+      "description": "One row per GT or pre/post-insertion candidate activity; occurrences, coverage, durations and group breakdowns.",
+      "rows": 32,
+      "sha256": "7ec98f21519a0d54046cda437f562db0d7f843d19415db8df6b655ca9370607e"
+    },
+    "cases.csv": {
+      "description": "One row per retained case; trace, interval, repetition and prediction statistics.",
+      "rows": 116,
+      "sha256": "373b01b0473ebc4b2d3dc230135718bd88a29b5985a76fb51356899b664d3863"
+    },
+    "groups.csv": {
+      "description": "One row per furniture/process group in the retained cohort.",
+      "rows": 4,
+      "sha256": "e7818bcf203c4a469574bd825d0c6c4012ce2a200a424de33d1606487f4aef59"
+    },
+    "model_comparison.csv": {
+      "description": "Recorded upstream model counts and recomputed ratios; distinct from segment-weighted agreement.",
+      "rows": 10,
+      "sha256": "ee29a3e7dfb34d235910d19ba439a3b79bd5c1cf3414232bcee259094eeb3044"
+    },
+    "observations.csv": {
+      "description": "Aligned observations with original score tokens and reconstructed pre-insertion top3.",
+      "rows": 1856,
+      "sha256": "8fe1a32ad04aa449cac4e106e224138409d3054919f92d30afca8a0c0555d3d1"
+    },
+    "score_distributions.csv": {
+      "description": "Original-score, mass and rank distributions; no renormalization or entropy.",
+      "rows": 12,
+      "sha256": "bb6db5890a39bae96fdb8d6981cb55195f286593648affeeda32b83fcce000fb"
+    },
+    "transitions.csv": {
+      "description": "Directly adjacent retained GT activity pairs, including self pairs.",
+      "rows": 133,
+      "sha256": "80d8d82a5804a6fd4c7ec90769620d913e42ed19dfb587c74a79018c5ddfbe89"
+    },
+    "variants.csv": {
+      "description": "GT case variants: ordered activity sequences, including repeated adjacent labels, with case memberships.",
+      "rows": 103,
+      "sha256": "0d9e4b60ff7723251d6783cfd208ada045b3a081dae2531a7559fbdcf0f8961b"
+    }
+  },
+  "uncertain": {
+    "candidate_count_frequency": {
+      "3": 1856
+    },
+    "candidate_vocabulary": [
+      "align leg screw with table thread",
+      "align side panel holes with front panel dowels",
+      "attach drawer back panel",
+      "attach drawer side panel",
+      "attach shelf to table",
+      "flip shelf",
+      "flip table",
+      "flip table top",
+      "insert drawer pin",
+      "lay down back panel",
+      "lay down bottom panel",
+      "lay down front panel",
+      "lay down leg",
+      "lay down shelf",
+      "lay down side panel",
+      "lay down table top",
+      "other",
+      "pick up back panel",
+      "pick up bottom panel",
+      "pick up front panel",
+      "pick up leg",
+      "pick up pin",
+      "pick up shelf",
+      "pick up side panel",
+      "pick up table top",
+      "position the drawer right side up",
+      "push table",
+      "push table top",
+      "rotate table",
+      "slide bottom of drawer",
+      "spin leg",
+      "tighten leg"
+    ],
+    "candidate_vocabulary_size": 32,
+    "cases_with_gt_insertion": 90,
+    "distributions": {
+      "candidate_count_per_observation": {
+        "count": 1856,
+        "maximum": 3.0,
+        "mean": 3.0,
+        "median": 3.0,
+        "minimum": 3.0,
+        "population_sd": 0.0,
+        "q1": 3.0,
+        "q3": 3.0
+      },
+      "discarded_non_na_score_mass": {
+        "count": 1856,
+        "maximum": 0.6033444277863937,
+        "mean": 0.07901043106259084,
+        "median": 0.0392266409678161,
+        "minimum": 6.046865863790402e-05,
+        "population_sd": 0.09474829006972071,
+        "q1": 0.010470297233741167,
+        "q3": 0.11658986502129055
+      },
+      "gt_original_non_na_rank": {
+        "count": 1856,
+        "maximum": 32.0,
+        "mean": 3.1255387931034484,
+        "median": 1.0,
+        "minimum": 1.0,
+        "population_sd": 4.947774091417473,
+        "q1": 1.0,
+        "q3": 2.0
+      },
+      "gt_retained_rank": {
+        "count": 1856,
+        "maximum": 3.0,
+        "mean": 1.6099137931034482,
+        "median": 1.0,
+        "minimum": 1.0,
+        "population_sd": 0.8558802644360539,
+        "q1": 1.0,
+        "q3": 2.0
+      },
+      "gt_score": {
+        "count": 1856,
+        "maximum": 0.9968345331654669,
+        "mean": 0.45960433978525334,
+        "median": 0.47304714548429755,
+        "minimum": 7.589561865397807e-07,
+        "population_sd": 0.3337298449659191,
+        "q1": 0.1265265656169504,
+        "q3": 0.7685097884326367
+      },
+      "inserted_gt_original_non_na_rank": {
+        "count": 353,
+        "maximum": 32.0,
+        "mean": 10.968838526912181,
+        "median": 9.0,
+        "minimum": 4.0,
+        "population_sd": 7.161167159170017,
+        "q1": 5.0,
+        "q3": 15.0
+      },
+      "pre_insertion_top3_score_mass": {
+        "count": 1856,
+        "maximum": 0.9991914121737767,
+        "mean": 0.7785739284483246,
+        "median": 0.827400402501408,
+        "minimum": 0.0711883025476709,
+        "population_sd": 0.1877865699979856,
+        "q1": 0.6513659877670969,
+        "q3": 0.9379436643352116
+      },
+      "removed_na_score": {
+        "count": 1856,
+        "maximum": 0.8589370093255673,
+        "mean": 0.15651030846930783,
+        "median": 0.11268181673184653,
+        "minimum": 0.0007165683851017222,
+        "population_sd": 0.14864739569129262,
+        "q1": 0.044229765554311976,
+        "q3": 0.2197219702896181
+      },
+      "retained_candidate_score": {
+        "count": 5568,
+        "maximum": 0.9968345331654669,
+        "mean": 0.2548264205094798,
+        "median": 0.14263468870086585,
+        "minimum": 7.589561865397807e-07,
+        "population_sd": 0.27710512261364945,
+        "q1": 0.038843975874449446,
+        "q3": 0.37802881428173607
+      },
+      "retained_score_mass": {
+        "count": 1856,
+        "maximum": 0.9991914121737767,
+        "mean": 0.7644792615284394,
+        "median": 0.8202919041094818,
+        "minimum": 0.055792704017949286,
+        "population_sd": 0.19958459037627768,
+        "q1": 0.627489705384747,
+        "q3": 0.9358235977580036
+      },
+      "top1_minus_top2_margin": {
+        "count": 1856,
+        "maximum": 0.9955502589946097,
+        "mean": 0.4332443314736024,
+        "median": 0.4068312464135843,
+        "minimum": 0.00035228350798023,
+        "population_sd": 0.3025069980297522,
+        "q1": 0.1544410206872705,
+        "q3": 0.7026061798254332
+      },
+      "top_score": {
+        "count": 1856,
+        "maximum": 0.9968345331654669,
+        "mean": 0.5762033026903021,
+        "median": 0.5726346280430616,
+        "minimum": 0.027554298867471516,
+        "population_sd": 0.24315907994084937,
+        "q1": 0.3693404101521764,
+        "q3": 0.7918170635407661
+      }
+    },
+    "duration_weighted_segment_agreement": {
+      "denominator": 276058,
+      "fraction": "107648/138029",
+      "numerator": 215296,
+      "percent": 77.9894080229517,
+      "value": 0.779894080229517
+    },
+    "gt_insertion_count": 353,
+    "gt_insertion_share": {
+      "denominator": 1856,
+      "fraction": "353/1856",
+      "numerator": 353,
+      "percent": 19.01939655172414,
+      "value": 0.19019396551724138
+    },
+    "gt_insertions_by_group": {
+      "Kallax_Shelf_Drawer": 207,
+      "Lack_Coffee_Table": 49,
+      "Lack_Side_Table": 47,
+      "Lack_TV_Bench": 50
+    },
+    "gt_original_non_na_rank_frequency": {
+      "1": 1183,
+      "10": 18,
+      "11": 24,
+      "12": 19,
+      "13": 6,
+      "14": 10,
+      "15": 9,
+      "16": 5,
+      "17": 9,
+      "18": 8,
+      "19": 8,
+      "2": 214,
+      "20": 8,
+      "21": 5,
+      "22": 7,
+      "23": 3,
+      "24": 1,
+      "25": 4,
+      "26": 4,
+      "27": 6,
+      "28": 2,
+      "29": 3,
+      "3": 106,
+      "30": 1,
+      "31": 5,
+      "32": 2,
+      "4": 64,
+      "5": 35,
+      "6": 40,
+      "7": 16,
+      "8": 14,
+      "9": 17
+    },
+    "gt_retained_rank_frequency": {
+      "1": 1183,
+      "2": 214,
+      "3": 459
+    },
+    "post_insertion_gt_coverage": {
+      "denominator": 1856,
+      "fraction": "1",
+      "numerator": 1856,
+      "percent": 100.0,
+      "value": 1.0
+    },
+    "pre_insertion_candidate_vocabulary": [
+      "align leg screw with table thread",
+      "align side panel holes with front panel dowels",
+      "attach drawer back panel",
+      "attach drawer side panel",
+      "attach shelf to table",
+      "flip shelf",
+      "flip table",
+      "flip table top",
+      "insert drawer pin",
+      "lay down bottom panel",
+      "lay down leg",
+      "lay down shelf",
+      "lay down table top",
+      "other",
+      "pick up back panel",
+      "pick up bottom panel",
+      "pick up front panel",
+      "pick up leg",
+      "pick up pin",
+      "pick up shelf",
+      "pick up side panel",
+      "position the drawer right side up",
+      "push table top",
+      "rotate table",
+      "slide bottom of drawer",
+      "spin leg",
+      "tighten leg"
+    ],
+    "pre_insertion_duration_weighted_gt_coverage": {
+      "denominator": 276058,
+      "fraction": "121895/138029",
+      "numerator": 243790,
+      "percent": 88.31115200428896,
+      "value": 0.8831115200428895
+    },
+    "pre_insertion_top3_gt_coverage": {
+      "denominator": 1856,
+      "fraction": "1503/1856",
+      "numerator": 1503,
+      "percent": 80.98060344827586,
+      "value": 0.8098060344827587
+    },
+    "recorded_non_na_model_vocabulary": [
+      "align leg screw with table thread",
+      "align side panel holes with front panel dowels",
+      "attach drawer back panel",
+      "attach drawer side panel",
+      "attach shelf to table",
+      "flip shelf",
+      "flip table",
+      "flip table top",
+      "insert drawer pin",
+      "lay down back panel",
+      "lay down bottom panel",
+      "lay down front panel",
+      "lay down leg",
+      "lay down shelf",
+      "lay down side panel",
+      "lay down table top",
+      "other",
+      "pick up back panel",
+      "pick up bottom panel",
+      "pick up front panel",
+      "pick up leg",
+      "pick up pin",
+      "pick up shelf",
+      "pick up side panel",
+      "pick up table top",
+      "position the drawer right side up",
+      "push table",
+      "push table top",
+      "rotate table",
+      "slide bottom of drawer",
+      "spin leg",
+      "tighten leg"
+    ],
+    "top1_segment_agreement": {
+      "denominator": 1856,
+      "fraction": "1183/1856",
+      "numerator": 1183,
+      "percent": 63.73922413793103,
+      "value": 0.6373922413793104
+    }
+  }
+}

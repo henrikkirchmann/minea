@@ -1,0 +1,26 @@
+{
+  "candidate_records": 5568,
+  "given_coefficient_terms": 174,
+  "given_exclusion_rows": 87,
+  "per_source": {
+    "0": {
+      "candidate_records": 1395,
+      "given_exclusion_rows": 22
+    },
+    "1": {
+      "candidate_records": 1392,
+      "given_exclusion_rows": 22
+    },
+    "2": {
+      "candidate_records": 1392,
+      "given_exclusion_rows": 21
+    },
+    "3": {
+      "candidate_records": 1389,
+      "given_exclusion_rows": 22
+    }
+  },
+  "scope": "One logical upload per source: all candidate records and scores, plus given exclusions. Fixed templates and case roster are common configuration. No GT labels, raw frames, packets or byte counts.",
+  "score_values": 5568,
+  "upload_messages": 4
+}

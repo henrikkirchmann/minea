@@ -1,0 +1,56 @@
+{
+  "files": {
+    "REPORT.md": {
+      "bytes": 6623,
+      "sha256": "533a339b4a508b512fe0c9564d92bd5cd62e4d5319745474bb275ced0649c223"
+    },
+    "components.csv": {
+      "bytes": 275959,
+      "sha256": "a36311ec440c3b14f51f6e4c94f0ebeaa0f8d7a11d4a4e2e5826af57f4d83e30"
+    },
+    "construction.csv": {
+      "bytes": 4224,
+      "sha256": "5feb48b1e2e3d13f9be7a76adf88e2ddef1489f159d287bf7b737f469c9458f0"
+    },
+    "evaluation.tex": {
+      "bytes": 3394,
+      "sha256": "6179f13d34373ad714989529333c8740f26f392c0079cbf482d8e3d4ee5d2dc8"
+    },
+    "figure_provenance.json": {
+      "bytes": 1835,
+      "sha256": "fca66362dff7d72eeedf42d342c1173ae9d8d971cd3d5ec054715a2857e55675"
+    },
+    "figure_reproduction.json": {
+      "bytes": 1514,
+      "sha256": "e321a53befa0392fd3e0060416267e00ee60b7c16b1430316a930146ccee83b9"
+    },
+    "figures/ikea-overview.pdf": {
+      "bytes": 179776,
+      "sha256": "3ba6f903866694195c190a965a24afe9475aefd7cc0b143df371fa93c25703a8"
+    },
+    "figures/ikea-overview.pgf": {
+      "bytes": 53386,
+      "sha256": "7101bb65b63a3498762d1c501e5d50c8ae53200d066264159d5543b514d201c9"
+    },
+    "matching.csv": {
+      "bytes": 13345,
+      "sha256": "00930e55ca281dc86ff5db81de6c59ca0e28e59ec5a2e7fb5cdee1405defb36a"
+    },
+    "numbers.tex": {
+      "bytes": 208,
+      "sha256": "2839dc8a6f7636192b870458bd0b3c177ba951d6424e3dee82db14d67258c11e"
+    },
+    "overview_data.json": {
+      "bytes": 6872,
+      "sha256": "404587263e89f53c2b04c2d8033f1a023e0a8d663e10e21380e1c402c1df8e97"
+    },
+    "summary.json": {
+      "bytes": 114030,
+      "sha256": "ca132ed0122accec93a842498fa7c737c7936596a59cc41cc3a0e13512b4ddd9"
+    },
+    "verification.json": {
+      "bytes": 27070,
+      "sha256": "1fe09ee6e77bc2bea06846a8fcb99689d1604f9b04f566e785dd079ee805d1b2"
+    }
+  }
+}

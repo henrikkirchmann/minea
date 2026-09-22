@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1088" viewBox="0 0 1200 1088" role="img" aria-labelledby="title description">
+<title id="title">An inter-case constraint restricts activity interpretations</title>
+<desc id="description">Actual saved exclusion bridge:000000. Each candidate is listed once with a fixed GT or non-GT label. The two columns represent complete selections for the same observations, not different logs. Checked boxes mean selected; empty boxes mean not selected. In the GT selection, Case 86&#x27;s spin leg and Case 9&#x27;s pick up leg are selected. In the second selection, spin leg remains selected, pick up leg is deselected, and Case 9&#x27;s non-GT alternative align leg screw with table thread is selected instead. All other observations keep their GT candidate. The exclusion allows at most one of spin leg (g) and the alternative (f). It allows GT with value 1 and excludes the changed selection with value 2. Both selections satisfy all original constraints and every other added exclusion. Only relevant candidates are shown; each observation has three candidates.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8799AC"/></marker></defs>
+<rect width="1200" height="1088" fill="#F7F9FC"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="53" font-size="32" fill="#172B42" font-weight="700" text-anchor="start">An inter-case constraint restricts activity interpretations</text>
+<text x="40" y="89" font-size="22" fill="#526579" font-weight="400" text-anchor="start">The same observations: compare GT with one different activity interpretation in case 9.</text>
+<rect x="40" y="112" width="1120" height="109" rx="12" fill="white" stroke="#D7E1EB"/>
+<text x="64" y="148" font-size="22" fill="#172B42" font-weight="700" text-anchor="start">Candidate = a proposed activity interpretation</text>
+<text x="64" y="179" font-size="19" fill="#526579" font-weight="400" text-anchor="start">The GT candidate proposes the annotated activity.</text>
+<text x="64" y="205" font-size="19" fill="#526579" font-weight="400" text-anchor="start">A non-GT candidate proposes another activity.</text>
+<text x="627" y="148" font-size="22" fill="#172B42" font-weight="700" text-anchor="start">Selection = which candidates are accepted</text>
+<text x="627" y="179" font-size="19" fill="#526579" font-weight="400" text-anchor="start">A checked box selects that candidate (x = 1).</text>
+<text x="627" y="205" font-size="19" fill="#526579" font-weight="400" text-anchor="start">An empty box leaves it unselected (x = 0).</text>
+<rect x="40" y="242" width="1120" height="77" rx="12" fill="#EAF0F8" stroke="#C8D9EB"/>
+<text x="64" y="272" font-size="17" fill="#155E9A" font-weight="700" text-anchor="start">ADDED ROW · encodes the exclusion of candidates g and f from different cases</text>
+<text x="64" y="302" font-size="23" fill="#172B42" font-weight="700" text-anchor="start">At most one of g and f may be selected.</text>
+<text x="1133" y="296" font-size="27" fill="#172B42" font-weight="700" text-anchor="end">x_g + x_f ≤ 1</text>
+<rect x="40" y="341" width="1120" height="582" rx="12" fill="white" stroke="#D7E1EB"/>
+<text x="64" y="380" font-size="20" fill="#172B42" font-weight="700" text-anchor="start">CANDIDATES · unchanged</text>
+<text x="64" y="410" font-size="17" fill="#526579" font-weight="400" text-anchor="start">Only relevant candidates are shown.</text>
+<text x="740" y="380" font-size="23" fill="#172B42" font-weight="700" text-anchor="middle">GT selection</text>
+<text x="740" y="410" font-size="17" fill="#526579" font-weight="400" text-anchor="middle">Choose GT throughout</text>
+<text x="1020" y="380" font-size="23" fill="#172B42" font-weight="700" text-anchor="middle">Changed selection</text>
+<text x="1020" y="410" font-size="17" fill="#526579" font-weight="400" text-anchor="middle">Change only case 9 below</text>
+<rect x="41" y="432" width="1118" height="37" rx="0" fill="#F0F3F7" stroke="none"/>
+<text x="64" y="457" font-size="17" fill="#172B42" font-weight="700" text-anchor="start">CASE 86 · one observation</text>
+<rect x="41" y="561" width="1118" height="37" rx="0" fill="#F0F3F7" stroke="none"/>
+<text x="64" y="586" font-size="17" fill="#172B42" font-weight="700" text-anchor="start">CASE 9 · one observation, two candidates shown</text>
+<path d="M 600 348 L 600 921" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 880 348 L 880 921" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 41 695 L 1159 695" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M 41 824 L 1159 824" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="64" y="483" width="32" height="32" rx="6" fill="white" stroke="#172B42"/>
+<text x="80" y="506" font-size="22" fill="#172B42" font-weight="700" text-anchor="middle">g</text>
+<text x="110" y="505" font-size="24" fill="#172B42" font-weight="700" text-anchor="start">spin leg</text>
+<text x="110" y="537" font-size="18" fill="#172B42" font-weight="400" text-anchor="start">GT candidate · annotated activity</text>
+<text x="110" y="630" font-size="24" fill="#172B42" font-weight="700" text-anchor="start">pick up leg</text>
+<text x="110" y="663" font-size="18" fill="#172B42" font-weight="400" text-anchor="start">GT candidate · annotated activity</text>
+<rect x="64" y="711" width="32" height="32" rx="6" fill="white" stroke="#172B42"/>
+<text x="80" y="734" font-size="22" fill="#172B42" font-weight="700" text-anchor="middle">f</text>
+<text x="110" y="733" font-size="24" fill="#172B42" font-weight="700" text-anchor="start">align leg screw with table thread</text>
+<text x="110" y="773" font-size="18" fill="#172B42" font-weight="400" text-anchor="start">NON-GT candidate · alternative activity</text>
+<rect x="630" y="482" width="220" height="59" rx="10" fill="#EAF0F8" stroke="#ABC4DF"/>
+<rect x="647" y="499" width="24" height="24" rx="3" fill="#155E9A" stroke="#155E9A"/>
+<path d="M 652 511 l 5 5 l 10 -11" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="684" y="518" font-size="20" fill="#155E9A" font-weight="700" text-anchor="start">SELECTED</text>
+<rect x="630" y="614" width="220" height="59" rx="10" fill="#EAF0F8" stroke="#ABC4DF"/>
+<rect x="647" y="631" width="24" height="24" rx="3" fill="#155E9A" stroke="#155E9A"/>
+<path d="M 652 643 l 5 5 l 10 -11" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="684" y="650" font-size="20" fill="#155E9A" font-weight="700" text-anchor="start">SELECTED</text>
+<rect x="630" y="725" width="220" height="59" rx="10" fill="white" stroke="#CDD5DF"/>
+<rect x="647" y="742" width="24" height="24" rx="3" fill="white" stroke="#526579"/>
+<text x="684" y="761" font-size="20" fill="#172B42" font-weight="400" text-anchor="start">Not selected</text>
+<text x="740" y="862" font-size="24" fill="#172B42" font-weight="700" text-anchor="middle">1 + 0 = 1 ≤ 1</text>
+<text x="740" y="900" font-size="21" fill="#172B42" font-weight="700" text-anchor="middle">ROW SATISFIED</text>
+<rect x="910" y="482" width="220" height="59" rx="10" fill="#EAF0F8" stroke="#ABC4DF"/>
+<rect x="927" y="499" width="24" height="24" rx="3" fill="#155E9A" stroke="#155E9A"/>
+<path d="M 932 511 l 5 5 l 10 -11" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="964" y="518" font-size="20" fill="#155E9A" font-weight="700" text-anchor="start">SELECTED</text>
+<rect x="910" y="614" width="220" height="59" rx="10" fill="white" stroke="#CDD5DF"/>
+<rect x="927" y="631" width="24" height="24" rx="3" fill="white" stroke="#526579"/>
+<text x="964" y="650" font-size="20" fill="#172B42" font-weight="400" text-anchor="start">Not selected</text>
+<rect x="910" y="725" width="220" height="59" rx="10" fill="#EAF0F8" stroke="#ABC4DF"/>
+<rect x="927" y="742" width="24" height="24" rx="3" fill="#155E9A" stroke="#155E9A"/>
+<path d="M 932 754 l 5 5 l 10 -11" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="964" y="761" font-size="20" fill="#155E9A" font-weight="700" text-anchor="start">SELECTED</text>
+<text x="1020" y="862" font-size="24" fill="#172B42" font-weight="700" text-anchor="middle">1 + 1 = 2 &gt; 1</text>
+<text x="1020" y="900" font-size="21" fill="#172B42" font-weight="700" text-anchor="middle">ROW VIOLATED</text>
+<text x="64" y="862" font-size="23" fill="#172B42" font-weight="700" text-anchor="start">Check the added row</text>
+<text x="64" y="896" font-size="19" fill="#526579" font-weight="400" text-anchor="start">Count selected candidates g and f only.</text>
+<text x="40" y="960" font-size="24" fill="#172B42" font-weight="700" text-anchor="start">One observation’s activity interpretation changes; cases and times stay fixed.</text>
+<text x="40" y="995" font-size="20" fill="#526579" font-weight="400" text-anchor="start">Every other observation keeps its GT choice; all original rules and all other exclusions still hold.</text>
+<text x="40" y="1027" font-size="20" fill="#172B42" font-weight="400" text-anchor="start">GT remains feasible. The changed selection becomes feasible only if this added row is removed.</text>
+<text x="40" y="1064" font-size="17" fill="#526579" font-weight="400" text-anchor="start">Saved example: bridge:000000 · Each observation has three candidates; only those needed here are shown.</text>
+</g>
+</svg>

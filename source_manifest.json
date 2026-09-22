@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/henrikkirchmann/IKEA_ASM_UncertainEventLogs",
+  "commit": "f8403649a508584d661edee3b8fb0c231f6c7a78",
+  "split": "test",
+  "fps": 25,
+  "file_hash_origin": "SHA-256 calculated from the pinned Git checkout; transport checksums, not proof of upstream scientific validity.",
+  "files": [
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__clip_based__c3d_and_p3d__c3d__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "clip_based__c3d_and_p3d__c3d__pretrained",
+      "sha256": "f1ecb2eeb6cfa0a6934222df1e7ac651e7a35dcc4eda9ec875c76d2ab37ccd60",
+      "bytes": 4157227
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__clip_based__c3d_and_p3d__c3d__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "clip_based__c3d_and_p3d__c3d__pretrained",
+      "sha256": "7e12391d9c5e3c9d64852711ff2eab52e3b5c6e9295ae74f9c73e3f136a7ab24",
+      "bytes": 2560055
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__clip_based__c3d_and_p3d__p3d__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "clip_based__c3d_and_p3d__p3d__pretrained",
+      "sha256": "3b8dfa2d2526a1aaa787842be6c03735171e69fc81bd378df80df8286ddf3c47",
+      "bytes": 4176303
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__clip_based__c3d_and_p3d__p3d__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "clip_based__c3d_and_p3d__p3d__pretrained",
+      "sha256": "d7a0b8f22d8b33204aed3f43a892eac45ef9b7e5c82264389c10055c63ce0217",
+      "bytes": 2097318
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__clip_based__i3d__depth__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "clip_based__i3d__depth__pretrained",
+      "sha256": "f56c798aadcf2a9e0b2ea6ab2bd1fb7e94b1946fd69b344998377de02df3140e",
+      "bytes": 4127501
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__clip_based__i3d__depth__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "clip_based__i3d__depth__pretrained",
+      "sha256": "09947e2026c6c792bd7b147b143cb7ea8d473f3c9790934f21d542d80f9541c4",
+      "bytes": 3004368
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__clip_based__i3d__dev1__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "clip_based__i3d__dev1__pretrained",
+      "sha256": "88bd01c1f5ef84d8fe0231f3e8938bae959a90002388f59d32c7ae3b89cd046b",
+      "bytes": 4141476
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__clip_based__i3d__dev1__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "clip_based__i3d__dev1__pretrained",
+      "sha256": "00407d6c7deaa53d960a1bbc866c450ae8419f77fc2dedae24bc0adb703861a0",
+      "bytes": 2877439
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__clip_based__i3d__dev2__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "clip_based__i3d__dev2__pretrained",
+      "sha256": "840d2974854ae54992ceed58dfb3041ff6df264b518bf69bfff2e278f7ad4d25",
+      "bytes": 4147077
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__clip_based__i3d__dev2__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "clip_based__i3d__dev2__pretrained",
+      "sha256": "71d90d03bb695e50b2d537df75368c8c970417c11f2a65bdd7dac504ef0bf55c",
+      "bytes": 2326545
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__clip_based__i3d__dev3__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "clip_based__i3d__dev3__pretrained",
+      "sha256": "51e56f98974995d9c4ee461e30496dfa938855da6d4e5cc1502e13199a73430f",
+      "bytes": 4139230
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__clip_based__i3d__dev3__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "clip_based__i3d__dev3__pretrained",
+      "sha256": "a24656d148f6518027b83304983e9dd2661dba8be23e344c32614f1cb9f39312",
+      "bytes": 2501747
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__frame_based__resnet18__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "frame_based__resnet18__pretrained",
+      "sha256": "b7766882f246b6b690261656006ce02193313323aedcaa2fe92ee98a283d1e57",
+      "bytes": 4179326
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__frame_based__resnet18__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "frame_based__resnet18__pretrained",
+      "sha256": "d79c559e2e96a3003df76c9ee0da62d7d079817fb857d1f250190984fdda9f2e",
+      "bytes": 19113435
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__frame_based__resnet50__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "frame_based__resnet50__pretrained",
+      "sha256": "5044d74354975417b9b646c793ed07c8af5add0673bca6ff232754dc6710bf2d",
+      "bytes": 4165037
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__frame_based__resnet50__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "frame_based__resnet50__pretrained",
+      "sha256": "8ac45a17576248060ca609b5d29690c37c482026fd5a4638cc0a460d37861a85",
+      "bytes": 17906550
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__pose_based__HCN_32__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "pose_based__HCN_32__pretrained",
+      "sha256": "ff0eab2fe2219b328768d2f2c566e5565eee51b5240ad526161142c05edc7cce",
+      "bytes": 4159443
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__pose_based__HCN_32__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "pose_based__HCN_32__pretrained",
+      "sha256": "bafd505c2259d534d7e2f2226e00e5354313048c21b1c4ca0b9badc7f2d9a6bc",
+      "bytes": 2172494
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_aligned/ikea_asm__test__pose_based__ST_GCN_64__pretrained__gt_segments.csv",
+      "role": "gt_aligned",
+      "model_id": "pose_based__ST_GCN_64__pretrained",
+      "sha256": "424879ba74f7c446f8f4d30e03c6d1d50ed66e10ba082cbb810bedcf37e6cb3b",
+      "bytes": 4172496
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/pred_merged/ikea_asm__test__pose_based__ST_GCN_64__pretrained__segments_pred.csv.gz",
+      "role": "pred_merged",
+      "model_id": "pose_based__ST_GCN_64__pretrained",
+      "sha256": "93c1859b94029dbdb372060895eac486e9bcf78019c6b7815a1a090098db4e15",
+      "bytes": 1061627
+    },
+    {
+      "path": "README.md",
+      "role": "documentation",
+      "sha256": "027240e3707c22cdcac8e5601c9c4995e3da8250978a33a5cb11ace9b88c1b53",
+      "bytes": 13013
+    },
+    {
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "58eb4469f0a56968b0e3da5354270dbcfcf859eae2b846a3b967ed0df8638aaf",
+      "bytes": 1273
+    },
+    {
+      "path": "action/aggregate_consecutive_gt_segments.py",
+      "role": "aggregation_source",
+      "sha256": "f58ee9b26d75834fbc3917268abc300650923137935738e436e9653cce1023de",
+      "bytes": 9518
+    },
+    {
+      "path": "action/aggregate_consecutive_pred_segments.py",
+      "role": "aggregation_source",
+      "sha256": "914690dfcde82f2fc7b7303a8fe1fc2fcf1596c5fb29e5e551513e3ddefc6ca5",
+      "bytes": 7602
+    },
+    {
+      "path": "frame_accuracy_stats.py",
+      "role": "accuracy_source",
+      "sha256": "cd56b9efd091ac29046cf1f3b6feb7c28fd6f488ce296466cc301534d90a628a",
+      "bytes": 5704
+    },
+    {
+      "path": "paper_event_logs/ikea_asm/split=test/gt_realisation/ikea_asm__test__gt_realisation__no_na.xes",
+      "role": "ground_truth_reference",
+      "sha256": "5cb8bd551eb189a0a615b78041d48f7db9128225928a194e004f664e770b04cf",
+      "bytes": 524704
+    }
+  ]
+}

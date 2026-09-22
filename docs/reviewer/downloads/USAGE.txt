@@ -1,0 +1,66 @@
+IKEA ASM event-log downloads
+
+Each log contains the same 1,856 observations in 116 cases, after removal of
+GT-NA segments. One case is one assembly recording. An observation is one
+GT-aligned activity segment, not one video frame.
+
+Files
+  ground_truth.xes / ground_truth.csv: reference (GT) activity per observation.
+  uncertain_log.xes.gz / uncertain_log.csv: the same uncertain log in two
+    formats. The activity is the highest-scoring candidate; all three
+    candidate scores remain in the probs_json event attribute. A conventional
+    activity-based analysis sees the highest-score view, not solved matching.
+
+Fields are already mapped
+  Case: trace concept:name in XES; case:concept:name in CSV / PM4Py data frames.
+  Activity: event concept:name (GT or highest-scoring candidate).
+  Completion: time:timestamp, at the exclusive segment end.
+  Start: start_timestamp, the PM4Py interval convention (additional XES date
+    attribute, not a standard XES Time-extension attribute).
+  Lifecycle: lifecycle:transition = complete; one event per observation.
+  Scores: probs_json, a JSON string mapping candidate activity names to their
+    original scores. This reuses the payload name from our earlier repository.
+  Other attributes: event_id, frame boundaries, duration, case name and
+    score-mass bookkeeping. The uncertain files have no separate GT label.
+
+XES records case, activity and timestamp roles explicitly, so XES importers
+do not need manual column mapping. CSV uses the default PM4Py column names;
+other CSV importers may still ask users to confirm their roles.
+
+PM4Py example (run in the extracted download folder; requires pm4py)
+  import json
+  import pm4py
+  log = pm4py.read_xes("uncertain_log.xes.gz")
+  candidates = json.loads(log.iloc[0]["probs_json"])
+
+Alternatively, load either CSV without custom column mappings:
+  import pandas as pd
+  log = pm4py.format_dataframe(pd.read_csv("uncertain_log.csv"))
+  candidates = json.loads(log.iloc[0]["probs_json"])
+
+probs_json preserves the prepared score text without rounding or
+renormalization. Ordinary process-mining algorithms use concept:name;
+uncertainty-aware analysis must explicitly read the score payload.
+The prepared inputs use GT segmentation and GT-assisted candidate retention;
+these logs are not an unassisted recognition evaluation.
+
+Timing
+Both formats use a synthetic 1970-01-01 UTC origin and 25 frames/second:
+each frame equals exactly 40 milliseconds. end_frame_exclusive is the first
+frame outside the segment, and time:timestamp uses that exclusive endpoint.
+duration_seconds equals (end_frame_exclusive - start_frame) / 25 exactly.
+Clocks are relative to each recording. Equal dates across cases do not show
+actual concurrency or shared-resource use between recordings.
+
+Download representation versus frozen experiment inputs
+The frozen XES stores the segment start in time:timestamp, its end in the
+custom time:end_timestamp, and scores in scores_json. These downloads map
+the SAME intervals to start_timestamp / time:timestamp (completion), and
+rename the payload to probs_json. Frozen experiment files are not changed.
+The original retained score values, activity labels, cases and observations
+are unchanged. No preparation, rule mining or matching is rerun.
+
+PM4Py field conventions:
+https://processintelligence.solutions/app/static/api/2.7.17/api/pm4py.utils.html
+PM4Py XES import:
+https://github.com/process-intelligence-solutions/pm4py/blob/release/docs/source/api.rst

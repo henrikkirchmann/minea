@@ -1,0 +1,1857 @@
+event_id,case_id,gt_activity,gt_retained,retained_rank
+case0:frames58-171,0,flip table top,True,1
+case0:frames183-204,0,pick up leg,True,1
+case0:frames204-251,0,align leg screw with table thread,True,1
+case0:frames251-708,0,spin leg,True,1
+case0:frames752-780,0,other,True,3
+case0:frames803-831,0,pick up leg,True,1
+case0:frames831-870,0,align leg screw with table thread,True,1
+case0:frames870-1308,0,spin leg,True,1
+case0:frames1338-1357,0,pick up leg,True,1
+case0:frames1357-1397,0,align leg screw with table thread,True,1
+case0:frames1397-1764,0,spin leg,True,1
+case0:frames1774-1846,0,tighten leg,True,2
+case0:frames1846-1880,0,other,True,3
+case0:frames1893-1903,0,rotate table,True,3
+case0:frames1903-2022,0,spin leg,True,2
+case0:frames2057-2081,0,pick up leg,True,1
+case0:frames2081-2121,0,align leg screw with table thread,True,1
+case0:frames2121-2514,0,spin leg,True,1
+case0:frames2543-2770,0,flip table,True,1
+case0:frames2803-2858,0,pick up shelf,True,1
+case0:frames2858-3151,0,attach shelf to table,True,1
+case0:frames3181-3211,0,other,True,2
+case1:frames53-86,1,pick up leg,True,2
+case1:frames99-366,1,spin leg,True,1
+case1:frames366-419,1,tighten leg,True,1
+case1:frames432-471,1,pick up leg,True,2
+case1:frames475-959,1,spin leg,True,1
+case1:frames1032-1052,1,tighten leg,True,1
+case1:frames1071-1124,1,pick up leg,True,2
+case1:frames1124-1418,1,spin leg,True,1
+case1:frames1451-1467,1,pick up leg,True,3
+case1:frames1467-1678,1,spin leg,True,1
+case1:frames1823-1909,1,flip table,True,2
+case1:frames1909-1978,1,pick up shelf,True,1
+case1:frames2041-2400,1,attach shelf to table,True,1
+case10:frames58-110,10,pick up leg,True,1
+case10:frames110-127,10,align leg screw with table thread,True,1
+case10:frames127-993,10,spin leg,True,1
+case10:frames993-1137,10,pick up leg,True,2
+case10:frames1137-1252,10,align leg screw with table thread,True,1
+case10:frames1252-1870,10,spin leg,True,1
+case10:frames1916-2008,10,pick up leg,True,3
+case10:frames2008-2049,10,align leg screw with table thread,True,1
+case10:frames2049-2643,10,spin leg,True,1
+case10:frames2643-2753,10,pick up leg,True,1
+case10:frames2753-2885,10,align leg screw with table thread,True,1
+case10:frames2885-3520,10,spin leg,True,1
+case10:frames3757-3907,10,flip table,True,1
+case10:frames4120-4490,10,attach shelf to table,True,1
+case100:frames32-112,100,pick up front panel,True,3
+case100:frames112-200,100,lay down front panel,True,3
+case100:frames247-286,100,pick up side panel,True,2
+case100:frames286-496,100,align side panel holes with front panel dowels,True,1
+case100:frames496-593,100,attach drawer side panel,True,1
+case100:frames596-628,100,pick up side panel,True,1
+case100:frames716-769,100,align side panel holes with front panel dowels,True,1
+case100:frames769-808,100,attach drawer side panel,True,1
+case100:frames808-852,100,pick up bottom panel,True,1
+case100:frames852-1062,100,slide bottom of drawer,True,1
+case100:frames1079-1104,100,pick up back panel,True,3
+case100:frames1104-1563,100,attach drawer back panel,True,1
+case100:frames1563-1597,100,pick up pin,True,3
+case100:frames1597-1648,100,insert drawer pin,True,1
+case100:frames1658-1683,100,pick up pin,True,1
+case100:frames1683-1788,100,insert drawer pin,True,1
+case100:frames1797-1888,100,position the drawer right side up,True,1
+case101:frames121-132,101,lay down front panel,True,3
+case101:frames189-215,101,pick up side panel,True,3
+case101:frames216-287,101,align side panel holes with front panel dowels,True,3
+case101:frames330-354,101,pick up side panel,True,3
+case101:frames360-395,101,align side panel holes with front panel dowels,True,3
+case101:frames456-477,101,pick up bottom panel,True,3
+case101:frames510-584,101,slide bottom of drawer,True,3
+case101:frames820-950,101,attach drawer back panel,True,3
+case101:frames1087-1196,101,insert drawer pin,True,3
+case101:frames1226-1283,101,position the drawer right side up,True,3
+case102:frames42-102,102,pick up side panel,True,1
+case102:frames102-224,102,attach drawer side panel,True,1
+case102:frames230-252,102,pick up side panel,True,1
+case102:frames252-338,102,attach drawer side panel,True,1
+case102:frames356-390,102,pick up bottom panel,True,1
+case102:frames414-581,102,slide bottom of drawer,True,1
+case102:frames597-629,102,pick up back panel,True,3
+case102:frames634-754,102,attach drawer back panel,True,3
+case102:frames774-811,102,pick up pin,True,2
+case102:frames814-847,102,insert drawer pin,True,3
+case102:frames851-883,102,pick up pin,True,1
+case102:frames888-919,102,insert drawer pin,True,1
+case102:frames924-969,102,position the drawer right side up,True,1
+case103:frames71-81,103,pick up front panel,True,3
+case103:frames81-100,103,lay down front panel,True,3
+case103:frames100-139,103,pick up side panel,True,1
+case103:frames139-275,103,align side panel holes with front panel dowels,True,1
+case103:frames275-348,103,attach drawer side panel,True,1
+case103:frames348-401,103,pick up side panel,True,1
+case103:frames401-424,103,align side panel holes with front panel dowels,True,2
+case103:frames424-501,103,attach drawer side panel,True,1
+case103:frames501-570,103,other,True,3
+case103:frames570-595,103,pick up pin,True,3
+case103:frames611-688,103,pick up bottom panel,True,2
+case103:frames688-988,103,slide bottom of drawer,True,1
+case103:frames1047-1082,103,pick up back panel,True,3
+case103:frames1082-1265,103,attach drawer back panel,True,3
+case103:frames1265-1310,103,pick up pin,True,1
+case103:frames1310-1424,103,insert drawer pin,True,1
+case103:frames1424-1516,103,position the drawer right side up,True,1
+case104:frames69-125,104,pick up side panel,True,3
+case104:frames125-178,104,align side panel holes with front panel dowels,True,3
+case104:frames178-209,104,attach drawer side panel,True,3
+case104:frames209-243,104,pick up side panel,True,3
+case104:frames243-264,104,align side panel holes with front panel dowels,True,3
+case104:frames264-381,104,attach drawer side panel,True,3
+case104:frames381-459,104,pick up bottom panel,True,3
+case104:frames459-576,104,slide bottom of drawer,True,3
+case104:frames576-620,104,pick up back panel,True,3
+case104:frames620-788,104,attach drawer back panel,True,3
+case104:frames788-808,104,pick up pin,True,3
+case104:frames808-852,104,insert drawer pin,True,3
+case104:frames852-888,104,pick up pin,True,3
+case104:frames888-936,104,insert drawer pin,True,3
+case104:frames936-1017,104,position the drawer right side up,True,3
+case105:frames179-206,105,pick up side panel,True,1
+case105:frames206-294,105,other,True,3
+case105:frames294-329,105,align side panel holes with front panel dowels,True,1
+case105:frames329-371,105,attach drawer side panel,True,1
+case105:frames415-447,105,pick up side panel,True,1
+case105:frames447-498,105,align side panel holes with front panel dowels,True,1
+case105:frames498-535,105,attach drawer side panel,True,1
+case105:frames550-577,105,pick up bottom panel,True,1
+case105:frames577-826,105,slide bottom of drawer,True,1
+case105:frames840-872,105,pick up back panel,True,1
+case105:frames872-968,105,attach drawer back panel,True,1
+case105:frames968-1015,105,pick up pin,True,2
+case105:frames1015-1056,105,insert drawer pin,True,1
+case105:frames1067-1096,105,pick up pin,True,3
+case105:frames1096-1155,105,insert drawer pin,True,3
+case105:frames1176-1246,105,position the drawer right side up,True,3
+case106:frames70-90,106,pick up front panel,True,3
+case106:frames90-127,106,lay down front panel,True,3
+case106:frames127-157,106,pick up side panel,True,3
+case106:frames166-273,106,align side panel holes with front panel dowels,True,3
+case106:frames273-317,106,attach drawer side panel,True,3
+case106:frames325-351,106,pick up side panel,True,3
+case106:frames402-467,106,align side panel holes with front panel dowels,True,3
+case106:frames467-476,106,attach drawer side panel,True,3
+case106:frames491-526,106,pick up bottom panel,True,3
+case106:frames546-714,106,slide bottom of drawer,True,3
+case106:frames801-832,106,pick up back panel,True,3
+case106:frames882-1124,106,slide bottom of drawer,True,3
+case106:frames1124-1148,106,pick up pin,True,3
+case106:frames1148-1296,106,insert drawer pin,True,3
+case106:frames1303-1423,106,position the drawer right side up,True,3
+case107:frames85-348,107,attach drawer side panel,True,1
+case107:frames348-366,107,pick up side panel,True,1
+case107:frames366-507,107,attach drawer side panel,True,3
+case107:frames507-542,107,pick up bottom panel,True,2
+case107:frames542-716,107,slide bottom of drawer,True,1
+case107:frames716-762,107,pick up back panel,True,3
+case107:frames762-1022,107,attach drawer back panel,True,3
+case107:frames1039-1073,107,pick up pin,True,3
+case107:frames1073-1109,107,insert drawer pin,True,2
+case107:frames1109-1165,107,pick up pin,True,2
+case107:frames1165-1228,107,insert drawer pin,True,1
+case107:frames1228-1273,107,lay down bottom panel,True,3
+case108:frames106-134,108,pick up side panel,True,2
+case108:frames134-284,108,attach drawer side panel,True,2
+case108:frames296-345,108,pick up side panel,True,3
+case108:frames345-584,108,attach drawer side panel,True,3
+case108:frames584-936,108,other,True,3
+case108:frames936-1003,108,attach drawer side panel,True,2
+case108:frames1003-1066,108,pick up side panel,True,3
+case108:frames1066-1151,108,attach drawer side panel,True,3
+case108:frames1151-1221,108,pick up bottom panel,True,3
+case108:frames1221-1429,108,slide bottom of drawer,True,1
+case108:frames1429-2548,108,attach drawer back panel,True,1
+case108:frames2548-2591,108,pick up pin,True,3
+case108:frames2591-2619,108,insert drawer pin,True,2
+case108:frames2619-2649,108,pick up pin,True,2
+case108:frames2649-2694,108,insert drawer pin,True,1
+case108:frames2694-2730,108,position the drawer right side up,True,3
+case109:frames94-131,109,pick up bottom panel,True,3
+case109:frames131-145,109,lay down bottom panel,True,3
+case109:frames145-188,109,pick up side panel,True,3
+case109:frames188-319,109,attach drawer side panel,True,3
+case109:frames319-375,109,pick up side panel,True,3
+case109:frames375-584,109,attach drawer side panel,True,3
+case109:frames584-659,109,pick up bottom panel,True,3
+case109:frames659-852,109,slide bottom of drawer,True,3
+case109:frames965-1005,109,pick up front panel,True,3
+case109:frames1005-1603,109,align side panel holes with front panel dowels,True,3
+case109:frames1718-1739,109,pick up pin,True,3
+case109:frames1739-1994,109,insert drawer pin,True,3
+case11:frames82-130,11,pick up leg,True,1
+case11:frames130-202,11,align leg screw with table thread,True,3
+case11:frames202-521,11,spin leg,True,1
+case11:frames521-556,11,pick up leg,True,1
+case11:frames556-621,11,align leg screw with table thread,True,2
+case11:frames621-1001,11,spin leg,True,1
+case11:frames1001-1080,11,pick up leg,True,1
+case11:frames1080-1145,11,align leg screw with table thread,True,2
+case11:frames1145-1560,11,spin leg,True,1
+case11:frames1560-1632,11,pick up leg,True,1
+case11:frames1632-1701,11,align leg screw with table thread,True,3
+case11:frames1701-2006,11,spin leg,True,1
+case11:frames2078-2191,11,flip table,True,1
+case11:frames2191-2260,11,pick up shelf,True,1
+case11:frames2260-2623,11,attach shelf to table,True,1
+case110:frames139-140,110,pick up back panel,True,3
+case110:frames140-296,110,pick up side panel,True,1
+case110:frames296-427,110,pick up front panel,True,3
+case110:frames427-583,110,pick up side panel,True,1
+case110:frames583-629,110,align side panel holes with front panel dowels,True,2
+case110:frames629-689,110,attach drawer side panel,True,3
+case110:frames750-895,110,pick up side panel,True,1
+case110:frames895-1005,110,align side panel holes with front panel dowels,True,2
+case110:frames1005-1085,110,attach drawer side panel,True,1
+case110:frames1209-1313,110,pick up bottom panel,True,2
+case110:frames1313-1567,110,slide bottom of drawer,True,1
+case110:frames1604-1836,110,pick up back panel,True,2
+case110:frames1836-2387,110,attach drawer back panel,True,1
+case110:frames2407-2685,110,pick up pin,True,1
+case110:frames2685-2715,110,insert drawer pin,True,1
+case110:frames2715-2925,110,position the drawer right side up,True,3
+case111:frames43-78,111,pick up side panel,True,3
+case111:frames78-165,111,align side panel holes with front panel dowels,True,3
+case111:frames165-207,111,attach drawer side panel,True,3
+case111:frames207-242,111,pick up side panel,True,3
+case111:frames242-384,111,align side panel holes with front panel dowels,True,3
+case111:frames384-418,111,attach drawer side panel,True,3
+case111:frames418-470,111,pick up bottom panel,True,1
+case111:frames470-613,111,slide bottom of drawer,True,1
+case111:frames613-642,111,pick up back panel,True,1
+case111:frames642-784,111,attach drawer back panel,True,1
+case111:frames784-823,111,pick up pin,True,1
+case111:frames823-964,111,insert drawer pin,True,1
+case111:frames1032-1110,111,position the drawer right side up,True,1
+case112:frames55-108,112,pick up side panel,True,3
+case112:frames120-224,112,attach drawer side panel,True,2
+case112:frames231-299,112,pick up side panel,True,3
+case112:frames299-377,112,attach drawer side panel,True,1
+case112:frames377-489,112,pick up bottom panel,True,1
+case112:frames489-577,112,slide bottom of drawer,True,1
+case112:frames577-619,112,pick up back panel,True,3
+case112:frames619-820,112,attach drawer back panel,True,1
+case112:frames847-873,112,pick up pin,True,2
+case112:frames873-980,112,insert drawer pin,True,1
+case112:frames980-1065,112,lay down bottom panel,True,3
+case113:frames173-210,113,pick up side panel,True,3
+case113:frames210-360,113,align side panel holes with front panel dowels,True,3
+case113:frames370-400,113,pick up side panel,True,3
+case113:frames400-520,113,align side panel holes with front panel dowels,True,3
+case113:frames570-600,113,pick up bottom panel,True,3
+case113:frames640-700,113,position the drawer right side up,True,3
+case113:frames700-870,113,slide bottom of drawer,True,3
+case113:frames870-880,113,pick up back panel,True,3
+case113:frames910-1130,113,attach drawer back panel,True,3
+case113:frames1247-1388,113,insert drawer pin,True,3
+case113:frames1425-2117,113,other,True,3
+case113:frames2117-2153,113,pick up side panel,True,3
+case113:frames2153-2193,113,align side panel holes with front panel dowels,True,3
+case113:frames2193-2283,113,attach drawer side panel,True,3
+case113:frames2303-2333,113,pick up side panel,True,3
+case113:frames2343-2373,113,align side panel holes with front panel dowels,True,3
+case113:frames2373-2443,113,attach drawer side panel,True,3
+case113:frames2463-2473,113,pick up bottom panel,True,3
+case113:frames2473-2703,113,slide bottom of drawer,True,3
+case113:frames2723-2743,113,pick up back panel,True,3
+case113:frames2783-2933,113,attach drawer back panel,True,3
+case113:frames2983-3153,113,insert drawer pin,True,3
+case114:frames57-112,114,pick up side panel,True,3
+case114:frames112-147,114,align side panel holes with front panel dowels,True,1
+case114:frames147-167,114,attach drawer side panel,True,1
+case114:frames167-222,114,pick up side panel,True,2
+case114:frames222-262,114,align side panel holes with front panel dowels,True,1
+case114:frames262-286,114,attach drawer side panel,True,1
+case114:frames286-343,114,pick up bottom panel,True,1
+case114:frames343-483,114,slide bottom of drawer,True,1
+case114:frames483-657,114,pick up back panel,True,3
+case114:frames657-1395,114,attach drawer back panel,True,1
+case114:frames1395-1464,114,pick up pin,True,1
+case114:frames1464-1491,114,insert drawer pin,True,1
+case114:frames1491-1544,114,pick up pin,True,1
+case114:frames1544-1620,114,insert drawer pin,True,2
+case114:frames1620-1672,114,position the drawer right side up,True,1
+case115:frames78-137,115,pick up side panel,True,3
+case115:frames142-162,115,pick up back panel,True,3
+case115:frames174-249,115,pick up front panel,True,3
+case115:frames249-408,115,pick up side panel,True,3
+case115:frames408-499,115,align side panel holes with front panel dowels,True,3
+case115:frames499-536,115,attach drawer side panel,True,3
+case115:frames541-582,115,pick up side panel,True,3
+case115:frames582-642,115,align side panel holes with front panel dowels,True,3
+case115:frames642-734,115,attach drawer side panel,True,3
+case115:frames793-900,115,pick up bottom panel,True,3
+case115:frames900-1079,115,slide bottom of drawer,True,3
+case115:frames1085-1142,115,pick up back panel,True,3
+case115:frames1142-1432,115,attach drawer back panel,True,3
+case115:frames1432-1461,115,pick up pin,True,3
+case115:frames1461-1485,115,insert drawer pin,True,3
+case115:frames1485-1526,115,pick up pin,True,3
+case115:frames1526-1561,115,insert drawer pin,True,3
+case115:frames1561-1694,115,position the drawer right side up,True,3
+case116:frames75-117,116,pick up side panel,True,1
+case116:frames256-434,116,attach drawer side panel,True,1
+case116:frames439-470,116,pick up side panel,True,1
+case116:frames731-812,116,attach drawer side panel,True,1
+case116:frames834-887,116,pick up bottom panel,True,2
+case116:frames912-1374,116,slide bottom of drawer,True,1
+case116:frames1393-1438,116,pick up back panel,True,1
+case116:frames1502-1788,116,attach drawer back panel,True,1
+case116:frames1788-1827,116,pick up pin,True,1
+case116:frames1827-1877,116,insert drawer pin,True,2
+case116:frames1891-1952,116,pick up pin,True,2
+case116:frames1955-2069,116,insert drawer pin,True,1
+case116:frames2072-2139,116,lay down bottom panel,True,3
+case12:frames66-197,12,flip table top,True,1
+case12:frames197-224,12,pick up leg,True,1
+case12:frames224-274,12,align leg screw with table thread,True,1
+case12:frames274-688,12,spin leg,True,1
+case12:frames688-721,12,pick up leg,True,1
+case12:frames721-779,12,align leg screw with table thread,True,1
+case12:frames779-1204,12,spin leg,True,1
+case12:frames1254-1280,12,pick up leg,True,1
+case12:frames1280-1318,12,align leg screw with table thread,True,1
+case12:frames1318-1718,12,spin leg,True,1
+case12:frames1757-1806,12,align leg screw with table thread,True,1
+case12:frames1806-2244,12,spin leg,True,1
+case12:frames2244-2490,12,flip table,True,1
+case12:frames2490-2643,12,other,True,3
+case12:frames2643-2693,12,pick up shelf,True,2
+case12:frames2693-2979,12,attach shelf to table,True,1
+case12:frames2979-3033,12,other,True,3
+case13:frames57-83,13,pick up leg,True,1
+case13:frames92-134,13,align leg screw with table thread,True,1
+case13:frames134-501,13,spin leg,True,1
+case13:frames511-528,13,pick up leg,True,3
+case13:frames544-560,13,align leg screw with table thread,True,2
+case13:frames560-863,13,spin leg,True,1
+case13:frames878-908,13,pick up leg,True,1
+case13:frames934-1394,13,spin leg,True,1
+case13:frames1408-1439,13,pick up leg,True,1
+case13:frames1455-1461,13,align leg screw with table thread,True,2
+case13:frames1461-1861,13,spin leg,True,1
+case13:frames1901-2008,13,flip table,True,1
+case13:frames2043-2095,13,pick up shelf,True,1
+case13:frames2136-2290,13,attach shelf to table,True,1
+case14:frames59-96,14,pick up leg,True,3
+case14:frames96-145,14,align leg screw with table thread,True,1
+case14:frames145-360,14,spin leg,True,1
+case14:frames360-597,14,tighten leg,True,3
+case14:frames600-624,14,pick up leg,True,1
+case14:frames630-663,14,align leg screw with table thread,True,1
+case14:frames663-1062,14,spin leg,True,1
+case14:frames1072-1105,14,pick up leg,True,1
+case14:frames1122-1165,14,align leg screw with table thread,True,1
+case14:frames1165-1465,14,spin leg,True,1
+case14:frames1495-1528,14,pick up leg,True,1
+case14:frames1541-1590,14,align leg screw with table thread,True,2
+case14:frames1590-1986,14,spin leg,True,1
+case14:frames1986-2092,14,flip table,True,1
+case14:frames2115-2178,14,pick up shelf,True,2
+case14:frames2178-2346,14,attach shelf to table,True,1
+case15:frames70-87,15,pick up leg,True,1
+case15:frames87-120,15,align leg screw with table thread,True,1
+case15:frames120-360,15,spin leg,True,1
+case15:frames380-427,15,tighten leg,True,3
+case15:frames443-461,15,pick up leg,True,1
+case15:frames461-516,15,align leg screw with table thread,True,2
+case15:frames516-533,15,tighten leg,True,3
+case15:frames533-827,15,spin leg,True,1
+case15:frames827-853,15,push table,True,3
+case15:frames865-890,15,pick up leg,True,1
+case15:frames890-928,15,align leg screw with table thread,True,1
+case15:frames928-1123,15,spin leg,True,1
+case15:frames1135-1160,15,tighten leg,True,2
+case15:frames1171-1195,15,pick up leg,True,1
+case15:frames1195-1223,15,align leg screw with table thread,True,1
+case15:frames1223-1484,15,spin leg,True,1
+case15:frames1500-1528,15,tighten leg,True,1
+case15:frames1594-1693,15,flip table,True,1
+case15:frames1724-1781,15,pick up shelf,True,1
+case15:frames1810-2001,15,attach shelf to table,True,3
+case16:frames65-150,16,flip table top,True,1
+case16:frames150-198,16,pick up leg,True,2
+case16:frames198-501,16,spin leg,True,1
+case16:frames501-617,16,tighten leg,True,2
+case16:frames686-774,16,pick up leg,True,2
+case16:frames774-1034,16,spin leg,True,1
+case16:frames1269-1620,16,pick up leg,True,3
+case16:frames1767-2139,16,spin leg,True,1
+case16:frames2183-2306,16,flip table,True,1
+case16:frames2306-2364,16,pick up shelf,True,1
+case16:frames2364-2610,16,attach shelf to table,True,1
+case17:frames0-148,17,other,True,3
+case17:frames148-183,17,pick up leg,True,3
+case17:frames183-263,17,align leg screw with table thread,True,1
+case17:frames263-563,17,spin leg,True,1
+case17:frames563-671,17,pick up leg,True,3
+case17:frames671-723,17,align leg screw with table thread,True,2
+case17:frames723-1112,17,spin leg,True,1
+case17:frames1112-1127,17,push table,True,3
+case17:frames1127-1197,17,pick up leg,True,1
+case17:frames1197-1264,17,align leg screw with table thread,True,1
+case17:frames1264-1582,17,spin leg,True,1
+case17:frames1582-1664,17,tighten leg,True,3
+case17:frames1664-1727,17,pick up leg,True,2
+case17:frames1727-1782,17,align leg screw with table thread,True,1
+case17:frames1782-2086,17,spin leg,True,1
+case17:frames2086-2216,17,tighten leg,True,3
+case17:frames2216-2438,17,flip table,True,1
+case17:frames2438-2568,17,pick up shelf,True,2
+case17:frames2568-2850,17,attach shelf to table,True,1
+case17:frames2850-2909,17,other,True,3
+case18:frames91-151,18,flip table top,True,3
+case18:frames160-188,18,pick up leg,True,2
+case18:frames211-233,18,align leg screw with table thread,True,1
+case18:frames233-461,18,spin leg,True,1
+case18:frames461-517,18,tighten leg,True,2
+case18:frames526-547,18,pick up leg,True,1
+case18:frames584-601,18,align leg screw with table thread,True,3
+case18:frames601-861,18,spin leg,True,2
+case18:frames861-967,18,tighten leg,True,2
+case18:frames979-1000,18,pick up leg,True,1
+case18:frames1025-1040,18,align leg screw with table thread,True,2
+case18:frames1040-1290,18,spin leg,True,1
+case18:frames1290-1344,18,tighten leg,True,3
+case18:frames1346-1359,18,pick up leg,True,1
+case18:frames1370-1405,18,align leg screw with table thread,True,1
+case18:frames1405-1664,18,spin leg,True,1
+case18:frames1664-1723,18,tighten leg,True,2
+case18:frames1746-1854,18,flip table,True,3
+case18:frames1874-1903,18,pick up shelf,True,2
+case18:frames1960-2111,18,attach shelf to table,True,3
+case18:frames2117-2175,18,rotate table,True,3
+case19:frames71-167,19,pick up table top,True,3
+case19:frames182-196,19,pick up leg,True,1
+case19:frames196-243,19,align leg screw with table thread,True,1
+case19:frames243-747,19,spin leg,True,1
+case19:frames771-800,19,pick up leg,True,1
+case19:frames800-891,19,spin leg,True,1
+case19:frames891-953,19,pick up leg,True,2
+case19:frames953-959,19,align leg screw with table thread,True,1
+case19:frames959-1670,19,spin leg,True,1
+case19:frames1694-1757,19,pick up leg,True,1
+case19:frames1757-1778,19,align leg screw with table thread,True,1
+case19:frames1778-2364,19,spin leg,True,1
+case19:frames2389-2436,19,pick up leg,True,1
+case19:frames2436-2464,19,align leg screw with table thread,True,1
+case19:frames2464-2997,19,spin leg,True,1
+case19:frames3049-3158,19,flip table,True,1
+case19:frames3180-3244,19,pick up shelf,True,1
+case19:frames3244-3511,19,attach shelf to table,True,1
+case2:frames0-75,2,other,True,3
+case2:frames75-104,2,pick up leg,True,1
+case2:frames104-138,2,align leg screw with table thread,True,2
+case2:frames138-541,2,spin leg,True,1
+case2:frames541-577,2,pick up leg,True,3
+case2:frames577-645,2,align leg screw with table thread,True,1
+case2:frames645-1051,2,spin leg,True,1
+case2:frames1051-1134,2,pick up leg,True,1
+case2:frames1134-1199,2,align leg screw with table thread,True,1
+case2:frames1199-1656,2,spin leg,True,1
+case2:frames1656-1693,2,pick up leg,True,1
+case2:frames1693-1749,2,align leg screw with table thread,True,1
+case2:frames1749-2058,2,spin leg,True,1
+case2:frames2058-2183,2,tighten leg,True,1
+case2:frames2183-2362,2,flip table,True,1
+case2:frames2362-2483,2,pick up shelf,True,1
+case2:frames2483-2849,2,attach shelf to table,True,1
+case20:frames62-122,20,flip table top,True,3
+case20:frames186-213,20,align leg screw with table thread,True,1
+case20:frames213-493,20,spin leg,True,1
+case20:frames493-533,20,tighten leg,True,1
+case20:frames533-568,20,pick up leg,True,2
+case20:frames568-610,20,align leg screw with table thread,True,2
+case20:frames610-879,20,spin leg,True,1
+case20:frames879-1000,20,tighten leg,True,2
+case20:frames1000-1051,20,pick up leg,True,1
+case20:frames1051-1081,20,align leg screw with table thread,True,1
+case20:frames1081-1416,20,spin leg,True,1
+case20:frames1417-1499,20,pick up leg,True,2
+case20:frames1499-1540,20,align leg screw with table thread,True,2
+case20:frames1540-1974,20,spin leg,True,1
+case20:frames1974-2051,20,tighten leg,True,3
+case20:frames2051-2143,20,flip table,True,1
+case20:frames2146-2268,20,pick up shelf,True,1
+case20:frames2268-2474,20,attach shelf to table,True,1
+case21:frames40-90,21,pick up leg,True,1
+case21:frames90-159,21,align leg screw with table thread,True,1
+case21:frames159-607,21,spin leg,True,1
+case21:frames607-657,21,pick up leg,True,1
+case21:frames657-711,21,align leg screw with table thread,True,1
+case21:frames711-1227,21,spin leg,True,1
+case21:frames1227-1267,21,pick up leg,True,1
+case21:frames1267-1329,21,align leg screw with table thread,True,2
+case21:frames1329-1700,21,spin leg,True,1
+case21:frames1700-1739,21,pick up leg,True,1
+case21:frames1739-1794,21,align leg screw with table thread,True,1
+case21:frames1794-2264,21,spin leg,True,1
+case21:frames2264-2339,21,rotate table,True,3
+case21:frames2339-2466,21,flip table,True,1
+case21:frames2466-2538,21,pick up shelf,True,1
+case21:frames2538-2805,21,attach shelf to table,True,1
+case22:frames4-166,22,flip table top,True,1
+case22:frames166-229,22,pick up leg,True,1
+case22:frames229-261,22,align leg screw with table thread,True,1
+case22:frames261-755,22,spin leg,True,1
+case22:frames755-814,22,pick up leg,True,1
+case22:frames814-1331,22,spin leg,True,1
+case22:frames1331-1394,22,pick up leg,True,1
+case22:frames1394-1452,22,align leg screw with table thread,True,1
+case22:frames1452-1983,22,spin leg,True,1
+case22:frames1983-2050,22,pick up leg,True,1
+case22:frames2050-2099,22,align leg screw with table thread,True,1
+case22:frames2099-2661,22,spin leg,True,1
+case22:frames2661-2994,22,flip table,True,1
+case22:frames2994-3120,22,pick up shelf,True,1
+case22:frames3120-3165,22,flip shelf,True,3
+case22:frames3165-3529,22,attach shelf to table,True,1
+case23:frames69-97,23,pick up leg,True,1
+case23:frames97-144,23,align leg screw with table thread,True,1
+case23:frames144-441,23,spin leg,True,1
+case23:frames441-469,23,pick up leg,True,1
+case23:frames520-601,23,align leg screw with table thread,True,1
+case23:frames601-939,23,spin leg,True,1
+case23:frames958-980,23,pick up leg,True,1
+case23:frames1014-1067,23,align leg screw with table thread,True,1
+case23:frames1067-1405,23,spin leg,True,1
+case23:frames1427-1462,23,pick up leg,True,2
+case23:frames1499-1509,23,align leg screw with table thread,True,1
+case23:frames1509-1818,23,spin leg,True,1
+case23:frames1818-1959,23,flip table,True,1
+case23:frames1966-2091,23,pick up shelf,True,1
+case23:frames2091-2369,23,attach shelf to table,True,1
+case24:frames87-145,24,flip table top,True,1
+case24:frames160-188,24,pick up leg,True,1
+case24:frames188-226,24,align leg screw with table thread,True,1
+case24:frames226-652,24,spin leg,True,1
+case24:frames664-706,24,pick up leg,True,1
+case24:frames706-756,24,align leg screw with table thread,True,1
+case24:frames756-1169,24,spin leg,True,1
+case24:frames1190-1221,24,pick up leg,True,1
+case24:frames1221-1275,24,align leg screw with table thread,True,1
+case24:frames1275-1672,24,spin leg,True,1
+case24:frames1676-1708,24,tighten leg,True,1
+case24:frames1720-1768,24,pick up leg,True,2
+case24:frames1768-1853,24,align leg screw with table thread,True,1
+case24:frames1853-2378,24,spin leg,True,1
+case24:frames2421-2572,24,pick up shelf,True,3
+case24:frames2572-2708,24,attach shelf to table,True,2
+case24:frames2775-2899,24,flip table,True,1
+case24:frames2899-2932,24,pick up shelf,True,3
+case24:frames2932-3133,24,attach shelf to table,True,1
+case25:frames54-112,25,flip table top,True,3
+case25:frames126-150,25,pick up leg,True,1
+case25:frames173-197,25,align leg screw with table thread,True,1
+case25:frames197-391,25,spin leg,True,1
+case25:frames391-564,25,tighten leg,True,3
+case25:frames592-619,25,pick up leg,True,1
+case25:frames629-673,25,align leg screw with table thread,True,1
+case25:frames673-989,25,spin leg,True,1
+case25:frames1006-1034,25,pick up leg,True,1
+case25:frames1057-1442,25,spin leg,True,1
+case25:frames1452-1554,25,rotate table,True,1
+case25:frames1554-1578,25,pick up leg,True,1
+case25:frames1612-1615,25,align leg screw with table thread,True,1
+case25:frames1615-1979,25,spin leg,True,1
+case25:frames2040-2149,25,flip table,True,1
+case25:frames2159-2281,25,pick up shelf,True,1
+case25:frames2281-2601,25,attach shelf to table,True,1
+case26:frames23-152,26,flip table top,True,1
+case26:frames164-203,26,pick up leg,True,1
+case26:frames220-282,26,align leg screw with table thread,True,2
+case26:frames282-740,26,spin leg,True,1
+case26:frames740-830,26,tighten leg,True,3
+case26:frames853-886,26,pick up leg,True,1
+case26:frames909-960,26,align leg screw with table thread,True,2
+case26:frames960-1332,26,spin leg,True,1
+case26:frames1332-1993,26,tighten leg,True,3
+case26:frames2027-2055,26,pick up leg,True,1
+case26:frames2055-2123,26,align leg screw with table thread,True,1
+case26:frames2123-2591,26,spin leg,True,1
+case26:frames2597-2642,26,pick up leg,True,1
+case26:frames2659-2710,26,align leg screw with table thread,True,1
+case26:frames2710-3167,26,spin leg,True,1
+case26:frames3167-3241,26,tighten leg,True,3
+case26:frames3292-3472,26,flip table,True,1
+case26:frames3506-3568,26,pick up shelf,True,1
+case26:frames3568-4392,26,attach shelf to table,True,1
+case27:frames66-99,27,pick up leg,True,1
+case27:frames99-128,27,align leg screw with table thread,True,1
+case27:frames128-581,27,spin leg,True,1
+case27:frames601-634,27,pick up leg,True,2
+case27:frames634-671,27,align leg screw with table thread,True,2
+case27:frames671-1083,27,spin leg,True,1
+case27:frames1103-1136,27,pick up leg,True,1
+case27:frames1157-1206,27,align leg screw with table thread,True,2
+case27:frames1206-1845,27,spin leg,True,1
+case27:frames1853-1898,27,pick up leg,True,1
+case27:frames1923-1952,27,align leg screw with table thread,True,2
+case27:frames1952-2491,27,spin leg,True,1
+case27:frames2511-2759,27,flip table,True,1
+case27:frames2775-2808,27,pick up shelf,True,1
+case27:frames2808-3232,27,attach shelf to table,True,1
+case28:frames74-98,28,pick up leg,True,1
+case28:frames105-141,28,align leg screw with table thread,True,1
+case28:frames141-585,28,spin leg,True,1
+case28:frames585-641,28,tighten leg,True,3
+case28:frames641-681,28,pick up leg,True,1
+case28:frames681-746,28,align leg screw with table thread,True,1
+case28:frames746-1253,28,spin leg,True,1
+case28:frames1253-1351,28,tighten leg,True,2
+case28:frames1351-1428,28,pick up leg,True,1
+case28:frames1428-1492,28,align leg screw with table thread,True,1
+case28:frames1492-1965,28,spin leg,True,1
+case28:frames1965-2037,28,pick up leg,True,3
+case28:frames2037-2757,28,spin leg,True,1
+case28:frames2814-2967,28,flip table,True,1
+case28:frames3049-3159,28,pick up shelf,True,1
+case28:frames3163-3546,28,attach shelf to table,True,1
+case29:frames127-156,29,pick up leg,True,3
+case29:frames157-181,29,lay down leg,True,3
+case29:frames193-275,29,flip table top,True,3
+case29:frames279-311,29,pick up leg,True,3
+case29:frames312-350,29,align leg screw with table thread,True,1
+case29:frames351-799,29,spin leg,True,1
+case29:frames826-846,29,pick up leg,True,2
+case29:frames846-884,29,align leg screw with table thread,True,1
+case29:frames884-1201,29,spin leg,True,1
+case29:frames1209-1241,29,pick up leg,True,1
+case29:frames1241-1326,29,align leg screw with table thread,True,2
+case29:frames1326-1589,29,spin leg,True,2
+case29:frames1596-1631,29,pick up leg,True,1
+case29:frames1631-1701,29,align leg screw with table thread,True,2
+case29:frames1701-2049,29,spin leg,True,1
+case29:frames2082-2180,29,flip shelf,True,3
+case29:frames2180-2223,29,pick up shelf,True,1
+case29:frames2243-2297,29,lay down shelf,True,3
+case29:frames2297-2464,29,flip table,True,1
+case29:frames2464-2533,29,flip shelf,True,3
+case29:frames2533-2858,29,attach shelf to table,True,1
+case3:frames176-251,3,pick up table top,True,3
+case3:frames251-387,3,flip table top,True,3
+case3:frames387-468,3,lay down table top,True,3
+case3:frames468-513,3,pick up leg,True,1
+case3:frames513-593,3,align leg screw with table thread,True,3
+case3:frames593-1006,3,spin leg,True,1
+case3:frames1006-1091,3,pick up leg,True,1
+case3:frames1091-1262,3,align leg screw with table thread,True,2
+case3:frames1262-1725,3,spin leg,True,1
+case3:frames1725-1906,3,align leg screw with table thread,True,3
+case3:frames1961-2012,3,pick up leg,True,1
+case3:frames2012-2087,3,align leg screw with table thread,True,2
+case3:frames2087-2409,3,spin leg,True,1
+case3:frames2409-2570,3,pick up leg,True,1
+case3:frames2570-2650,3,align leg screw with table thread,True,1
+case3:frames2650-3018,3,spin leg,True,1
+case3:frames3249-3460,3,flip table,True,2
+case3:frames3460-3556,3,pick up shelf,True,1
+case3:frames3556-3908,3,attach shelf to table,True,1
+case30:frames55-210,30,flip table top,True,3
+case30:frames210-273,30,pick up leg,True,2
+case30:frames273-593,30,spin leg,True,1
+case30:frames593-673,30,pick up leg,True,3
+case30:frames673-1085,30,spin leg,True,1
+case30:frames1085-1190,30,pick up leg,True,3
+case30:frames1190-1514,30,spin leg,True,1
+case30:frames1514-1590,30,pick up leg,True,1
+case30:frames1590-1922,30,spin leg,True,1
+case30:frames2082-2204,30,flip table,True,1
+case30:frames2545-2696,30,pick up shelf,True,1
+case30:frames2696-3193,30,attach shelf to table,True,1
+case31:frames65-275,31,flip table top,True,2
+case31:frames275-330,31,pick up leg,True,1
+case31:frames330-365,31,align leg screw with table thread,True,1
+case31:frames365-931,31,spin leg,True,1
+case31:frames931-1091,31,tighten leg,True,3
+case31:frames1091-1126,31,pick up leg,True,1
+case31:frames1126-1186,31,align leg screw with table thread,True,1
+case31:frames1186-1716,31,spin leg,True,1
+case31:frames1716-1776,31,pick up leg,True,1
+case31:frames1776-1841,31,align leg screw with table thread,True,1
+case31:frames1841-2512,31,spin leg,True,1
+case31:frames2517-2562,31,pick up leg,True,1
+case31:frames2562-2622,31,align leg screw with table thread,True,2
+case31:frames2622-3117,31,spin leg,True,1
+case31:frames3117-3363,31,flip table,True,1
+case31:frames3363-3453,31,pick up shelf,True,3
+case31:frames3453-3928,31,attach shelf to table,True,3
+case32:frames103-171,32,pick up leg,True,3
+case32:frames171-179,32,align leg screw with table thread,True,3
+case32:frames179-538,32,spin leg,True,1
+case32:frames538-621,32,pick up leg,True,1
+case32:frames621-686,32,align leg screw with table thread,True,1
+case32:frames686-1023,32,spin leg,True,1
+case32:frames1112-1156,32,pick up leg,True,2
+case32:frames1156-1174,32,align leg screw with table thread,True,1
+case32:frames1174-1531,32,spin leg,True,1
+case32:frames1531-1665,32,pick up leg,True,1
+case32:frames1665-1691,32,align leg screw with table thread,True,1
+case32:frames1691-2278,32,spin leg,True,1
+case32:frames2278-2420,32,flip table,True,1
+case32:frames2420-2671,32,pick up shelf,True,1
+case32:frames2671-3163,32,attach shelf to table,True,1
+case33:frames57-97,33,pick up leg,True,3
+case33:frames97-401,33,spin leg,True,1
+case33:frames401-493,33,pick up leg,True,3
+case33:frames515-731,33,spin leg,True,1
+case33:frames748-924,33,rotate table,True,2
+case33:frames924-1228,33,spin leg,True,1
+case33:frames1338-1386,33,rotate table,True,1
+case33:frames1386-1426,33,pick up leg,True,3
+case33:frames1426-1620,33,spin leg,True,1
+case33:frames1831-1919,33,rotate table,True,1
+case33:frames1919-2108,33,flip table,True,2
+case33:frames2108-2975,33,attach shelf to table,True,1
+case34:frames74-168,34,flip table top,True,2
+case34:frames182-197,34,pick up leg,True,1
+case34:frames242-616,34,spin leg,True,1
+case34:frames651-670,34,pick up leg,True,1
+case34:frames720-1134,34,spin leg,True,1
+case34:frames1178-1188,34,pick up leg,True,1
+case34:frames1267-1612,34,spin leg,True,1
+case34:frames1651-1695,34,pick up leg,True,1
+case34:frames1730-2243,34,spin leg,True,1
+case34:frames2262-2395,34,flip table,True,1
+case34:frames2440-2548,34,pick up shelf,True,1
+case34:frames2799-2942,34,flip table,True,1
+case34:frames2977-3209,34,tighten leg,True,3
+case34:frames3243-3381,34,flip table,True,1
+case34:frames3396-3509,34,pick up shelf,True,1
+case34:frames3524-3810,34,attach shelf to table,True,1
+case35:frames16-45,35,pick up leg,True,1
+case35:frames70-106,35,align leg screw with table thread,True,1
+case35:frames106-397,35,spin leg,True,1
+case35:frames425-454,35,pick up leg,True,1
+case35:frames454-498,35,align leg screw with table thread,True,1
+case35:frames498-839,35,spin leg,True,1
+case35:frames839-924,35,tighten leg,True,3
+case35:frames938-1023,35,spin leg,True,3
+case35:frames1104-1149,35,pick up leg,True,1
+case35:frames1149-1182,35,align leg screw with table thread,True,2
+case35:frames1182-1510,35,spin leg,True,1
+case35:frames1510-1673,35,tighten leg,True,3
+case35:frames1693-1730,35,pick up leg,True,1
+case35:frames1730-1788,35,align leg screw with table thread,True,1
+case35:frames1788-2409,35,spin leg,True,1
+case35:frames2409-2503,35,tighten leg,True,1
+case35:frames2593-2749,35,flip table,True,1
+case35:frames2773-2859,35,pick up shelf,True,3
+case35:frames2859-3170,35,attach shelf to table,True,1
+case36:frames0-72,36,pick up leg,True,1
+case36:frames72-114,36,align leg screw with table thread,True,1
+case36:frames114-581,36,spin leg,True,1
+case36:frames608-690,36,pick up leg,True,1
+case36:frames690-727,36,align leg screw with table thread,True,1
+case36:frames737-1116,36,spin leg,True,1
+case36:frames1221-1253,36,pick up leg,True,2
+case36:frames1253-1291,36,align leg screw with table thread,True,1
+case36:frames1291-1798,36,spin leg,True,2
+case36:frames1798-1827,36,tighten leg,True,3
+case36:frames1915-1944,36,pick up leg,True,1
+case36:frames1944-2047,36,align leg screw with table thread,True,3
+case36:frames2047-2580,36,spin leg,True,1
+case36:frames2709-2871,36,flip table,True,1
+case36:frames3000-3170,36,pick up shelf,True,1
+case36:frames3170-3747,36,attach shelf to table,True,1
+case37:frames48-72,37,pick up leg,True,1
+case37:frames72-399,37,spin leg,True,1
+case37:frames399-444,37,pick up leg,True,1
+case37:frames444-750,37,spin leg,True,1
+case37:frames750-789,37,pick up leg,True,2
+case37:frames789-1113,37,spin leg,True,1
+case37:frames1113-1228,37,tighten leg,True,3
+case37:frames1258-1327,37,pick up leg,True,2
+case37:frames1327-1549,37,spin leg,True,1
+case37:frames1744-1804,37,tighten leg,True,3
+case37:frames1804-1987,37,flip table,True,2
+case37:frames1987-2059,37,pick up shelf,True,3
+case37:frames2059-2347,37,attach shelf to table,True,1
+case39:frames22-76,39,pick up leg,True,2
+case39:frames260-541,39,flip table top,True,3
+case39:frames595-638,39,pick up leg,True,1
+case39:frames703-1050,39,spin leg,True,1
+case39:frames1098-1158,39,pick up leg,True,1
+case39:frames1190-1509,39,spin leg,True,1
+case39:frames1509-1623,39,tighten leg,True,1
+case39:frames1623-1650,39,pick up leg,True,1
+case39:frames1726-2197,39,spin leg,True,1
+case39:frames2197-2267,39,pick up leg,True,1
+case39:frames2326-2873,39,spin leg,True,1
+case39:frames2873-2970,39,tighten leg,True,3
+case39:frames3051-3246,39,flip table,True,1
+case39:frames3295-3565,39,pick up shelf,True,1
+case39:frames3565-4128,39,attach shelf to table,True,3
+case4:frames123-178,4,flip table top,True,3
+case4:frames178-243,4,pick up leg,True,3
+case4:frames243-302,4,align leg screw with table thread,True,2
+case4:frames302-590,4,spin leg,True,1
+case4:frames590-633,4,pick up leg,True,3
+case4:frames633-673,4,align leg screw with table thread,True,1
+case4:frames673-964,4,spin leg,True,1
+case4:frames964-1069,4,pick up leg,True,1
+case4:frames1069-1089,4,align leg screw with table thread,True,1
+case4:frames1089-1430,4,spin leg,True,1
+case4:frames1430-1515,4,pick up leg,True,1
+case4:frames1515-1548,4,align leg screw with table thread,True,3
+case4:frames1548-1941,4,spin leg,True,1
+case4:frames1941-2069,4,flip table,True,2
+case4:frames2069-2220,4,pick up shelf,True,3
+case40:frames103-173,40,flip table top,True,3
+case40:frames223-251,40,pick up leg,True,3
+case40:frames280-301,40,align leg screw with table thread,True,2
+case40:frames301-630,40,spin leg,True,1
+case40:frames630-666,40,pick up leg,True,1
+case40:frames666-712,40,align leg screw with table thread,True,1
+case40:frames712-1016,40,spin leg,True,1
+case40:frames1016-1062,40,pick up leg,True,1
+case40:frames1080-1119,40,align leg screw with table thread,True,1
+case40:frames1119-1483,40,spin leg,True,1
+case40:frames1483-1519,40,pick up leg,True,1
+case40:frames1519-1597,40,align leg screw with table thread,True,1
+case40:frames1597-1898,40,spin leg,True,1
+case40:frames1898-2046,40,flip table,True,1
+case40:frames2103-2174,40,pick up shelf,True,1
+case40:frames2174-2726,40,attach shelf to table,True,1
+case41:frames27-188,41,flip table top,True,1
+case41:frames188-206,41,pick up leg,True,1
+case41:frames220-260,41,align leg screw with table thread,True,1
+case41:frames260-695,41,spin leg,True,1
+case41:frames722-754,41,pick up leg,True,1
+case41:frames754-830,41,align leg screw with table thread,True,2
+case41:frames830-1278,41,spin leg,True,2
+case41:frames1319-1350,41,pick up leg,True,1
+case41:frames1350-1386,41,align leg screw with table thread,True,1
+case41:frames1386-1947,41,spin leg,True,1
+case41:frames1947-1974,41,pick up leg,True,1
+case41:frames1974-2023,41,align leg screw with table thread,True,1
+case41:frames2023-2489,41,spin leg,True,1
+case41:frames2516-2579,41,pick up shelf,True,3
+case41:frames2763-2839,41,lay down shelf,True,3
+case41:frames2857-3086,41,flip table,True,1
+case41:frames3086-3454,41,attach shelf to table,True,1
+case42:frames0-275,42,flip table top,True,3
+case42:frames275-314,42,pick up leg,True,1
+case42:frames314-359,42,align leg screw with table thread,True,1
+case42:frames359-819,42,spin leg,True,1
+case42:frames847-898,42,pick up leg,True,1
+case42:frames898-965,42,align leg screw with table thread,True,2
+case42:frames965-1397,42,spin leg,True,1
+case42:frames1397-1616,42,tighten leg,True,3
+case42:frames1695-1740,42,pick up leg,True,3
+case42:frames1740-1824,42,align leg screw with table thread,True,2
+case42:frames1824-2188,42,spin leg,True,1
+case42:frames2188-2346,42,tighten leg,True,3
+case42:frames2435-2480,42,pick up leg,True,1
+case42:frames2480-2548,42,align leg screw with table thread,True,2
+case42:frames2548-2621,42,rotate table,True,1
+case42:frames2621-2665,42,align leg screw with table thread,True,2
+case42:frames2665-3126,42,spin leg,True,1
+case42:frames3193-3496,42,flip table,True,1
+case42:frames3524-3603,42,pick up shelf,True,1
+case42:frames3603-4332,42,attach shelf to table,True,1
+case43:frames28-51,43,pick up leg,True,1
+case43:frames51-96,43,align leg screw with table thread,True,1
+case43:frames101-425,43,spin leg,True,1
+case43:frames447-477,43,pick up leg,True,1
+case43:frames477-569,43,align leg screw with table thread,True,2
+case43:frames578-928,43,spin leg,True,1
+case43:frames932-972,43,tighten leg,True,3
+case43:frames1013-1048,43,pick up leg,True,1
+case43:frames1048-1114,43,align leg screw with table thread,True,2
+case43:frames1114-1520,43,spin leg,True,1
+case43:frames1541-1549,43,tighten leg,True,1
+case43:frames1549-1555,43,rotate table,True,3
+case43:frames1555-1600,43,tighten leg,True,3
+case43:frames1600-1613,43,rotate table,True,3
+case43:frames1613-1616,43,tighten leg,True,1
+case43:frames1641-1671,43,pick up leg,True,1
+case43:frames1671-1685,43,align leg screw with table thread,True,2
+case43:frames1685-1698,43,rotate table,True,3
+case43:frames1698-1712,43,align leg screw with table thread,True,1
+case43:frames1712-2092,43,spin leg,True,1
+case43:frames2152-2174,43,rotate table,True,3
+case43:frames2174-2214,43,tighten leg,True,3
+case43:frames2242-2250,43,rotate table,True,2
+case43:frames2261-2424,43,flip table,True,1
+case43:frames2456-2496,43,pick up shelf,True,1
+case43:frames2496-2766,43,attach shelf to table,True,1
+case44:frames227-609,44,spin leg,True,1
+case44:frames609-702,44,tighten leg,True,3
+case44:frames702-775,44,pick up leg,True,1
+case44:frames775-840,44,align leg screw with table thread,True,3
+case44:frames840-1278,44,spin leg,True,1
+case44:frames1278-1327,44,tighten leg,True,3
+case44:frames1327-1432,44,other,True,3
+case44:frames1463-1497,44,pick up leg,True,3
+case44:frames1497-1534,44,align leg screw with table thread,True,3
+case44:frames1534-1858,44,spin leg,True,1
+case44:frames1858-1903,44,pick up leg,True,1
+case44:frames1903-1931,44,align leg screw with table thread,True,1
+case44:frames1931-2260,44,spin leg,True,1
+case44:frames2325-2475,44,flip table,True,1
+case44:frames2511-2572,44,pick up shelf,True,1
+case44:frames2572-3100,44,attach shelf to table,True,1
+case45:frames53-207,45,flip table top,True,1
+case45:frames215-252,45,pick up leg,True,1
+case45:frames252-288,45,align leg screw with table thread,True,1
+case45:frames288-658,45,spin leg,True,1
+case45:frames658-723,45,pick up leg,True,1
+case45:frames723-784,45,align leg screw with table thread,True,2
+case45:frames784-1185,45,spin leg,True,2
+case45:frames1185-1234,45,pick up leg,True,1
+case45:frames1234-1275,45,align leg screw with table thread,True,1
+case45:frames1275-1689,45,spin leg,True,1
+case45:frames1689-1750,45,pick up leg,True,1
+case45:frames1750-1803,45,align leg screw with table thread,True,1
+case45:frames1803-2087,45,spin leg,True,1
+case45:frames2099-2233,45,flip table,True,1
+case45:frames2237-2347,45,pick up shelf,True,3
+case45:frames2347-3142,45,attach shelf to table,True,1
+case46:frames46-103,46,pick up leg,True,1
+case46:frames123-414,46,spin leg,True,1
+case46:frames424-468,46,pick up leg,True,1
+case46:frames511-829,46,spin leg,True,1
+case46:frames832-865,46,pick up leg,True,1
+case46:frames928-1340,46,spin leg,True,1
+case46:frames1366-1432,46,rotate table,True,1
+case46:frames1432-1456,46,pick up leg,True,1
+case46:frames1456-1459,46,rotate table,True,3
+case46:frames1482-1883,46,spin leg,True,1
+case46:frames1883-2063,46,flip table,True,1
+case46:frames2142-2172,46,pick up shelf,True,1
+case46:frames2212-2600,46,attach shelf to table,True,1
+case47:frames47-194,47,flip table top,True,1
+case47:frames198-212,47,pick up leg,True,1
+case47:frames222-250,47,align leg screw with table thread,True,1
+case47:frames250-647,47,spin leg,True,1
+case47:frames647-656,47,tighten leg,True,3
+case47:frames666-689,47,pick up leg,True,1
+case47:frames708-760,47,align leg screw with table thread,True,1
+case47:frames760-1124,47,spin leg,True,1
+case47:frames1152-1308,47,spin leg,True,1
+case47:frames1322-1374,47,spin leg,True,1
+case47:frames1374-1520,47,rotate table,True,1
+case47:frames1525-1553,47,pick up leg,True,1
+case47:frames1572-1615,47,align leg screw with table thread,True,2
+case47:frames1615-2091,47,spin leg,True,1
+case47:frames2106-2139,47,pick up leg,True,1
+case47:frames2139-2181,47,align leg screw with table thread,True,1
+case47:frames2181-2648,47,spin leg,True,1
+case47:frames2648-2922,47,flip table,True,1
+case47:frames2922-3017,47,pick up shelf,True,1
+case47:frames3017-3649,47,attach shelf to table,True,1
+case48:frames56-112,48,pick up leg,True,2
+case48:frames112-583,48,spin leg,True,1
+case48:frames688-737,48,rotate table,True,1
+case48:frames737-1404,48,spin leg,True,2
+case48:frames1460-1572,48,rotate table,True,1
+case48:frames1572-1614,48,pick up leg,True,3
+case48:frames1614-2183,48,spin leg,True,1
+case48:frames2288-2471,48,pick up leg,True,2
+case48:frames2471-3510,48,spin leg,True,1
+case48:frames3510-4043,48,flip table,True,1
+case48:frames4043-4717,48,attach shelf to table,True,1
+case49:frames45-154,49,push table top,True,3
+case49:frames154-199,49,pick up leg,True,3
+case49:frames199-315,49,align leg screw with table thread,True,2
+case49:frames315-656,49,spin leg,True,1
+case49:frames656-712,49,align leg screw with table thread,True,1
+case49:frames712-1061,49,spin leg,True,1
+case49:frames1068-1117,49,pick up leg,True,1
+case49:frames1117-1188,49,align leg screw with table thread,True,2
+case49:frames1188-1447,49,spin leg,True,1
+case49:frames1488-1563,49,pick up leg,True,3
+case49:frames1575-1916,49,spin leg,True,1
+case49:frames1935-1991,49,flip table,True,1
+case49:frames2081-2189,49,spin leg,True,2
+case49:frames2201-2298,49,flip table,True,2
+case49:frames2321-2396,49,pick up shelf,True,2
+case49:frames2396-2748,49,attach shelf to table,True,1
+case5:frames95-180,5,flip table top,True,1
+case5:frames180-220,5,pick up leg,True,1
+case5:frames220-267,5,align leg screw with table thread,True,1
+case5:frames267-641,5,spin leg,True,1
+case5:frames641-746,5,pick up leg,True,1
+case5:frames746-813,5,align leg screw with table thread,True,3
+case5:frames813-1217,5,spin leg,True,1
+case5:frames1217-1332,5,tighten leg,True,3
+case5:frames1332-1377,5,push table,True,3
+case5:frames1377-1404,5,pick up leg,True,1
+case5:frames1404-1472,5,align leg screw with table thread,True,1
+case5:frames1472-2025,5,spin leg,True,1
+case5:frames2025-2188,5,pick up leg,True,3
+case5:frames2188-2243,5,align leg screw with table thread,True,1
+case5:frames2243-2979,5,spin leg,True,1
+case5:frames2979-3263,5,flip table,True,1
+case5:frames3263-3411,5,pick up shelf,True,1
+case5:frames3411-3880,5,attach shelf to table,True,1
+case50:frames53-99,50,pick up leg,True,2
+case50:frames99-345,50,spin leg,True,1
+case50:frames394-423,50,pick up leg,True,2
+case50:frames423-784,50,spin leg,True,1
+case50:frames821-858,50,pick up leg,True,1
+case50:frames874-1309,50,spin leg,True,1
+case50:frames1371-1416,50,pick up leg,True,1
+case50:frames1416-1790,50,spin leg,True,1
+case50:frames1818-1954,50,flip table,True,2
+case50:frames1954-1999,50,pick up shelf,True,3
+case50:frames2885-3107,50,attach shelf to table,True,1
+case51:frames62-85,51,rotate table,True,3
+case51:frames94-138,51,pick up leg,True,1
+case51:frames139-175,51,align leg screw with table thread,True,2
+case51:frames177-458,51,spin leg,True,1
+case51:frames472-495,51,pick up leg,True,1
+case51:frames496-551,51,align leg screw with table thread,True,2
+case51:frames552-860,51,spin leg,True,1
+case51:frames886-910,51,lay down leg,True,3
+case51:frames931-982,51,align leg screw with table thread,True,1
+case51:frames983-1298,51,spin leg,True,1
+case51:frames1355-1384,51,pick up leg,True,1
+case51:frames1398-1449,51,align leg screw with table thread,True,1
+case51:frames1450-1781,51,spin leg,True,1
+case51:frames1813-1963,51,flip table,True,1
+case51:frames1983-2091,51,pick up shelf,True,1
+case51:frames2092-2173,51,other,True,3
+case51:frames2174-2782,51,attach shelf to table,True,1
+case52:frames86-294,52,flip table top,True,2
+case52:frames294-364,52,pick up leg,True,1
+case52:frames364-417,52,align leg screw with table thread,True,1
+case52:frames417-840,52,spin leg,True,1
+case52:frames888-926,52,pick up leg,True,1
+case52:frames926-958,52,align leg screw with table thread,True,2
+case52:frames958-1616,52,spin leg,True,1
+case52:frames1664-1744,52,pick up leg,True,1
+case52:frames1744-1792,52,align leg screw with table thread,True,3
+case52:frames1792-2408,52,spin leg,True,1
+case52:frames2440-2472,52,pick up leg,True,1
+case52:frames2525-2600,52,align leg screw with table thread,True,3
+case52:frames2600-3157,52,spin leg,True,1
+case52:frames3232-3355,52,flip table,True,1
+case52:frames3355-3435,52,pick up shelf,True,1
+case52:frames3435-4146,52,attach shelf to table,True,3
+case53:frames0-178,53,lay down table top,True,3
+case53:frames178-219,53,pick up leg,True,1
+case53:frames219-236,53,align leg screw with table thread,True,1
+case53:frames236-576,53,spin leg,True,1
+case53:frames576-675,53,pick up leg,True,2
+case53:frames675-699,53,align leg screw with table thread,True,1
+case53:frames699-1112,53,spin leg,True,1
+case53:frames1112-1226,53,pick up leg,True,2
+case53:frames1226-1239,53,align leg screw with table thread,True,1
+case53:frames1239-1764,53,spin leg,True,1
+case53:frames1764-1918,53,pick up leg,True,2
+case53:frames1918-1936,53,align leg screw with table thread,True,1
+case53:frames1936-2356,53,spin leg,True,1
+case53:frames2356-2445,53,pick up shelf,True,3
+case53:frames2445-2608,53,flip table,True,1
+case53:frames2608-2709,53,pick up shelf,True,1
+case53:frames2709-2953,53,attach shelf to table,True,1
+case53:frames2953-3049,53,tighten leg,True,3
+case54:frames53-172,54,flip table top,True,3
+case54:frames172-213,54,pick up leg,True,1
+case54:frames213-262,54,align leg screw with table thread,True,1
+case54:frames262-618,54,spin leg,True,1
+case54:frames618-663,54,tighten leg,True,3
+case54:frames663-684,54,pick up leg,True,1
+case54:frames684-733,54,align leg screw with table thread,True,1
+case54:frames733-1162,54,spin leg,True,1
+case54:frames1162-1244,54,pick up leg,True,1
+case54:frames1244-1297,54,align leg screw with table thread,True,1
+case54:frames1297-1891,54,spin leg,True,1
+case54:frames1936-1956,54,pick up leg,True,1
+case54:frames1956-2001,54,align leg screw with table thread,True,1
+case54:frames2001-2411,54,spin leg,True,1
+case54:frames2411-2583,54,tighten leg,True,3
+case54:frames2583-2800,54,flip table,True,1
+case54:frames2832-2873,54,pick up shelf,True,1
+case54:frames2873-3172,54,attach shelf to table,True,1
+case55:frames48-79,55,pick up leg,True,1
+case55:frames79-123,55,align leg screw with table thread,True,1
+case55:frames123-505,55,spin leg,True,1
+case55:frames505-715,55,tighten leg,True,2
+case55:frames715-795,55,pick up leg,True,1
+case55:frames795-827,55,align leg screw with table thread,True,1
+case55:frames827-1204,55,spin leg,True,1
+case55:frames1204-1264,55,pick up leg,True,1
+case55:frames1264-1300,55,align leg screw with table thread,True,1
+case55:frames1300-1610,55,spin leg,True,1
+case55:frames1610-1697,55,pick up leg,True,1
+case55:frames1697-1749,55,align leg screw with table thread,True,1
+case55:frames1749-2103,55,spin leg,True,1
+case55:frames2103-2321,55,flip table,True,1
+case55:frames2321-2428,55,pick up shelf,True,1
+case55:frames2428-3001,55,attach shelf to table,True,1
+case56:frames27-181,56,flip table top,True,1
+case56:frames181-239,56,pick up leg,True,1
+case56:frames239-642,56,spin leg,True,1
+case56:frames642-697,56,pick up leg,True,1
+case56:frames697-768,56,align leg screw with table thread,True,1
+case56:frames768-1253,56,spin leg,True,1
+case56:frames1253-1382,56,pick up leg,True,1
+case56:frames1382-1445,56,align leg screw with table thread,True,1
+case56:frames1445-1911,56,spin leg,True,1
+case56:frames1911-1944,56,pick up leg,True,1
+case56:frames1944-2028,56,align leg screw with table thread,True,2
+case56:frames2028-2357,56,spin leg,True,1
+case56:frames2357-2502,56,flip table,True,1
+case56:frames2502-2600,56,pick up shelf,True,1
+case56:frames2600-2988,56,attach shelf to table,True,1
+case57:frames55-84,57,pick up leg,True,1
+case57:frames92-113,57,align leg screw with table thread,True,1
+case57:frames113-529,57,spin leg,True,1
+case57:frames529-548,57,tighten leg,True,1
+case57:frames548-608,57,spin leg,True,1
+case57:frames635-661,57,pick up leg,True,1
+case57:frames673-699,57,align leg screw with table thread,True,2
+case57:frames699-984,57,spin leg,True,1
+case57:frames1007-1038,57,pick up leg,True,1
+case57:frames1069-1096,57,align leg screw with table thread,True,1
+case57:frames1096-1506,57,spin leg,True,1
+case57:frames1545-1568,57,pick up leg,True,1
+case57:frames1599-1669,57,align leg screw with table thread,True,2
+case57:frames1669-2083,57,spin leg,True,1
+case57:frames2083-2111,57,tighten leg,True,3
+case57:frames2191-2430,57,flip table,True,1
+case57:frames2477-2552,57,pick up shelf,True,1
+case57:frames2675-3082,57,attach shelf to table,True,1
+case58:frames31-184,58,flip table top,True,3
+case58:frames225-262,58,align leg screw with table thread,True,1
+case58:frames262-694,58,spin leg,True,1
+case58:frames702-716,58,spin leg,True,3
+case58:frames716-778,58,pick up leg,True,2
+case58:frames778-820,58,align leg screw with table thread,True,1
+case58:frames820-1242,58,spin leg,True,3
+case58:frames1310-1341,58,spin leg,True,2
+case58:frames1360-1374,58,spin leg,True,1
+case58:frames1397-1420,58,pick up leg,True,1
+case58:frames1420-1456,58,align leg screw with table thread,True,1
+case58:frames1456-1900,58,spin leg,True,1
+case58:frames1948-1990,58,align leg screw with table thread,True,1
+case58:frames1990-2477,58,spin leg,True,1
+case58:frames2510-2552,58,spin leg,True,3
+case58:frames2552-2644,58,rotate table,True,3
+case59:frames50-90,59,pick up leg,True,1
+case59:frames103-467,59,spin leg,True,1
+case59:frames530-929,59,spin leg,True,1
+case59:frames941-969,59,pick up leg,True,1
+case59:frames981-1275,59,spin leg,True,1
+case59:frames1305-1323,59,pick up leg,True,1
+case59:frames1348-1636,59,spin leg,True,1
+case59:frames1701-1902,59,flip table,True,1
+case6:frames108-164,6,flip table top,True,3
+case6:frames173-192,6,pick up leg,True,2
+case6:frames203-233,6,align leg screw with table thread,True,1
+case6:frames233-601,6,spin leg,True,1
+case6:frames623-648,6,pick up leg,True,1
+case6:frames671-706,6,align leg screw with table thread,True,1
+case6:frames706-1000,6,spin leg,True,1
+case6:frames1000-1051,6,tighten leg,True,3
+case6:frames1149-1153,6,pick up leg,True,2
+case6:frames1165-1187,6,align leg screw with table thread,True,2
+case6:frames1187-1450,6,spin leg,True,1
+case6:frames1462-1491,6,pick up leg,True,3
+case6:frames1506-1524,6,align leg screw with table thread,True,2
+case6:frames1524-1818,6,spin leg,True,1
+case6:frames1839-1946,6,flip table,True,3
+case6:frames1961-2051,6,pick up shelf,True,1
+case6:frames2074-2406,6,attach shelf to table,True,3
+case60:frames0-143,60,pick up table top,True,3
+case60:frames143-185,60,lay down table top,True,3
+case60:frames185-223,60,pick up leg,True,1
+case60:frames223-276,60,align leg screw with table thread,True,1
+case60:frames276-695,60,spin leg,True,1
+case60:frames695-732,60,pick up leg,True,1
+case60:frames732-804,60,align leg screw with table thread,True,1
+case60:frames804-1355,60,spin leg,True,1
+case60:frames1355-1453,60,rotate table,True,1
+case60:frames1453-1491,60,pick up leg,True,1
+case60:frames1491-1536,60,align leg screw with table thread,True,1
+case60:frames1536-2144,60,spin leg,True,1
+case60:frames2144-2201,60,pick up leg,True,1
+case60:frames2201-2250,60,align leg screw with table thread,True,1
+case60:frames2250-2842,60,spin leg,True,1
+case60:frames2842-2948,60,flip table,True,1
+case61:frames55-94,61,pick up leg,True,1
+case61:frames94-154,61,align leg screw with table thread,True,1
+case61:frames154-531,61,spin leg,True,1
+case61:frames547-590,61,pick up leg,True,1
+case61:frames590-649,61,lay down leg,True,3
+case61:frames649-775,61,spin leg,True,1
+case61:frames775-799,61,pick up leg,True,1
+case61:frames811-850,61,align leg screw with table thread,True,1
+case61:frames850-1460,61,spin leg,True,1
+case61:frames1480-1512,61,pick up leg,True,1
+case61:frames1531-1559,61,align leg screw with table thread,True,2
+case61:frames1559-2141,61,spin leg,True,1
+case61:frames2173-2196,61,pick up leg,True,1
+case61:frames2224-2279,61,align leg screw with table thread,True,1
+case61:frames2279-2767,61,spin leg,True,1
+case61:frames2795-3059,61,flip table,True,1
+case62:frames56-102,62,pick up leg,True,1
+case62:frames102-148,62,align leg screw with table thread,True,2
+case62:frames148-418,62,spin leg,True,1
+case62:frames418-566,62,tighten leg,True,3
+case62:frames580-632,62,pick up leg,True,1
+case62:frames632-692,62,align leg screw with table thread,True,1
+case62:frames692-1061,62,spin leg,True,1
+case62:frames1061-1131,62,tighten leg,True,3
+case62:frames1135-1230,62,rotate table,True,1
+case62:frames1247-1275,62,pick up leg,True,1
+case62:frames1275-1318,62,align leg screw with table thread,True,1
+case62:frames1318-1662,62,spin leg,True,1
+case62:frames1662-1820,62,tighten leg,True,1
+case62:frames1820-1880,62,rotate table,True,1
+case62:frames1880-1925,62,pick up leg,True,1
+case62:frames1925-1975,62,align leg screw with table thread,True,1
+case62:frames1975-2354,62,spin leg,True,1
+case62:frames2354-2537,62,tighten leg,True,3
+case62:frames2561-2751,62,flip table,True,1
+case63:frames61-103,63,pick up leg,True,3
+case63:frames123-449,63,spin leg,True,1
+case63:frames462-491,63,pick up leg,True,2
+case63:frames508-834,63,spin leg,True,1
+case63:frames854-883,63,rotate table,True,2
+case63:frames892-938,63,pick up leg,True,3
+case63:frames944-1510,63,spin leg,True,1
+case63:frames1513-1604,63,rotate table,True,1
+case63:frames1607-1636,63,pick up leg,True,2
+case63:frames1659-1979,63,spin leg,True,1
+case63:frames2001-2121,63,flip table,True,1
+case64:frames85-141,64,flip table top,True,3
+case64:frames158-185,64,pick up leg,True,2
+case64:frames185-226,64,align leg screw with table thread,True,1
+case64:frames226-552,64,spin leg,True,1
+case64:frames566-585,64,push table,True,3
+case64:frames585-608,64,pick up leg,True,1
+case64:frames608-649,64,align leg screw with table thread,True,1
+case64:frames649-986,64,spin leg,True,1
+case64:frames998-1029,64,rotate table,True,1
+case64:frames1031-1040,64,rotate table,True,3
+case64:frames1040-1070,64,pick up leg,True,1
+case64:frames1070-1119,64,align leg screw with table thread,True,2
+case64:frames1119-1526,64,spin leg,True,1
+case64:frames1537-1561,64,rotate table,True,1
+case64:frames1561-1593,64,pick up leg,True,2
+case64:frames1593-1633,64,align leg screw with table thread,True,1
+case64:frames1633-1994,64,spin leg,True,1
+case64:frames2004-2102,64,flip table,True,1
+case65:frames59-217,65,flip table,True,3
+case65:frames217-264,65,pick up leg,True,1
+case65:frames264-308,65,align leg screw with table thread,True,1
+case65:frames308-665,65,spin leg,True,1
+case65:frames665-690,65,pick up leg,True,1
+case65:frames705-734,65,align leg screw with table thread,True,1
+case65:frames734-1215,65,spin leg,True,1
+case65:frames1230-1351,65,rotate table,True,1
+case65:frames1351-1380,65,pick up leg,True,1
+case65:frames1413-1435,65,align leg screw with table thread,True,1
+case65:frames1439-2137,65,spin leg,True,1
+case65:frames2137-2203,65,pick up leg,True,1
+case65:frames2203-2229,65,align leg screw with table thread,True,1
+case65:frames2229-2713,65,spin leg,True,1
+case65:frames2713-2882,65,flip table,True,1
+case66:frames84-132,66,align leg screw with table thread,True,1
+case66:frames132-664,66,spin leg,True,1
+case66:frames675-701,66,pick up leg,True,1
+case66:frames718-780,66,align leg screw with table thread,True,1
+case66:frames780-1224,66,spin leg,True,1
+case66:frames1224-1297,66,tighten leg,True,3
+case66:frames1301-1339,66,rotate table,True,1
+case66:frames1349-1371,66,pick up leg,True,1
+case66:frames1448-1525,66,align leg screw with table thread,True,1
+case66:frames1525-1975,66,spin leg,True,1
+case66:frames1975-2019,66,tighten leg,True,3
+case66:frames2117-2168,66,rotate table,True,1
+case66:frames2197-2212,66,pick up leg,True,1
+case66:frames2221-2272,66,align leg screw with table thread,True,1
+case66:frames2272-2719,66,spin leg,True,1
+case66:frames2719-2863,66,tighten leg,True,3
+case66:frames2937-3131,66,flip table,True,1
+case67:frames48-101,67,pick up leg,True,1
+case67:frames101-157,67,align leg screw with table thread,True,1
+case67:frames157-717,67,spin leg,True,1
+case67:frames717-758,67,pick up leg,True,1
+case67:frames758-814,67,align leg screw with table thread,True,1
+case67:frames814-1398,67,spin leg,True,1
+case67:frames1434-1475,67,pick up leg,True,2
+case67:frames1475-1503,67,align leg screw with table thread,True,2
+case67:frames1503-2152,67,spin leg,True,1
+case67:frames2184-2236,67,pick up leg,True,1
+case67:frames2236-2273,67,align leg screw with table thread,True,1
+case67:frames2273-2913,67,spin leg,True,1
+case67:frames2913-3135,67,flip table,True,1
+case68:frames79-117,68,pick up leg,True,1
+case68:frames133-401,68,spin leg,True,1
+case68:frames416-457,68,pick up leg,True,1
+case68:frames482-799,68,spin leg,True,1
+case68:frames830-860,68,rotate table,True,2
+case68:frames894-919,68,pick up leg,True,1
+case68:frames947-1264,68,spin leg,True,1
+case68:frames1289-1340,68,rotate table,True,1
+case68:frames1348-1381,68,pick up leg,True,1
+case68:frames1384-1700,68,spin leg,True,1
+case68:frames1716-1820,68,flip table,True,1
+case69:frames33-56,69,pick up leg,True,1
+case69:frames56-104,69,align leg screw with table thread,True,2
+case69:frames104-448,69,spin leg,True,1
+case69:frames448-483,69,pick up leg,True,1
+case69:frames483-510,69,align leg screw with table thread,True,3
+case69:frames510-988,69,spin leg,True,1
+case69:frames988-1018,69,rotate table,True,3
+case69:frames1018-1052,69,pick up leg,True,2
+case69:frames1052-1078,69,align leg screw with table thread,True,2
+case69:frames1078-1616,69,spin leg,True,1
+case69:frames1616-1640,69,rotate table,True,3
+case69:frames1640-1665,69,pick up leg,True,1
+case69:frames1665-1690,69,align leg screw with table thread,True,2
+case69:frames1690-2157,69,spin leg,True,1
+case69:frames2157-2279,69,flip table,True,3
+case7:frames0-31,7,lay down table top,True,3
+case7:frames83-172,7,flip table top,True,1
+case7:frames179-200,7,pick up leg,True,1
+case7:frames201-257,7,align leg screw with table thread,True,1
+case7:frames258-680,7,spin leg,True,1
+case7:frames681-794,7,rotate table,True,3
+case7:frames802-837,7,pick up leg,True,1
+case7:frames838-872,7,align leg screw with table thread,True,1
+case7:frames873-1230,7,spin leg,True,1
+case7:frames1231-1312,7,rotate table,True,3
+case7:frames1318-1345,7,pick up leg,True,1
+case7:frames1346-1407,7,align leg screw with table thread,True,1
+case7:frames1408-2245,7,spin leg,True,1
+case7:frames2246-2335,7,tighten leg,True,3
+case7:frames2335-2353,7,rotate table,True,3
+case7:frames2353-2468,7,tighten leg,True,2
+case7:frames2490-2506,7,rotate table,True,1
+case7:frames2527-2550,7,pick up leg,True,1
+case7:frames2551-2613,7,align leg screw with table thread,True,1
+case7:frames2614-2912,7,spin leg,True,1
+case7:frames2913-2928,7,tighten leg,True,2
+case7:frames2928-2951,7,rotate table,True,3
+case7:frames2951-3055,7,tighten leg,True,3
+case7:frames3096-3324,7,flip table,True,1
+case7:frames3340-3391,7,pick up shelf,True,1
+case7:frames3392-3603,7,attach shelf to table,True,1
+case70:frames86-181,70,pick up table top,True,3
+case70:frames181-286,70,flip table top,True,3
+case70:frames286-357,70,lay down table top,True,3
+case70:frames357-414,70,pick up leg,True,3
+case70:frames414-533,70,align leg screw with table thread,True,2
+case70:frames533-829,70,spin leg,True,1
+case70:frames948-1048,70,pick up leg,True,1
+case70:frames1119-1171,70,align leg screw with table thread,True,2
+case70:frames1171-1957,70,spin leg,True,1
+case70:frames1990-2071,70,pick up leg,True,2
+case70:frames2071-2186,70,align leg screw with table thread,True,3
+case70:frames2186-2695,70,spin leg,True,2
+case70:frames2724-2762,70,pick up leg,True,1
+case70:frames2762-2928,70,align leg screw with table thread,True,2
+case70:frames2928-3395,70,spin leg,True,1
+case70:frames3424-3724,70,flip table,True,1
+case71:frames46-75,71,pick up leg,True,1
+case71:frames83-111,71,align leg screw with table thread,True,1
+case71:frames111-546,71,spin leg,True,1
+case71:frames558-620,71,tighten leg,True,3
+case71:frames658-682,71,pick up leg,True,1
+case71:frames714-749,71,align leg screw with table thread,True,1
+case71:frames749-1160,71,spin leg,True,1
+case71:frames1160-1189,71,tighten leg,True,2
+case71:frames1200-1302,71,rotate table,True,1
+case71:frames1309-1350,71,pick up leg,True,1
+case71:frames1358-1399,71,align leg screw with table thread,True,2
+case71:frames1399-1836,71,spin leg,True,1
+case71:frames1852-1881,71,pick up leg,True,1
+case71:frames1899-1955,71,align leg screw with table thread,True,1
+case71:frames1955-2395,71,spin leg,True,1
+case71:frames2395-2420,71,tighten leg,True,3
+case71:frames2531-2682,71,flip table,True,1
+case72:frames60-161,72,flip table top,True,1
+case72:frames179-203,72,pick up leg,True,1
+case72:frames217-245,72,align leg screw with table thread,True,1
+case72:frames245-736,72,spin leg,True,1
+case72:frames792-848,72,align leg screw with table thread,True,1
+case72:frames848-1251,72,spin leg,True,1
+case72:frames1258-1279,72,pick up leg,True,1
+case72:frames1303-1356,72,align leg screw with table thread,True,1
+case72:frames1356-1892,72,spin leg,True,1
+case72:frames1927-1962,72,pick up leg,True,1
+case72:frames2007-2053,72,align leg screw with table thread,True,1
+case72:frames2053-2470,72,spin leg,True,1
+case72:frames2470-2589,72,tighten leg,True,2
+case72:frames2589-2743,72,flip table,True,1
+case73:frames35-168,73,flip table top,True,1
+case73:frames182-206,73,pick up leg,True,2
+case73:frames218-253,73,align leg screw with table thread,True,1
+case73:frames253-643,73,spin leg,True,1
+case73:frames671-700,73,pick up leg,True,1
+case73:frames709-741,73,align leg screw with table thread,True,1
+case73:frames741-1231,73,spin leg,True,1
+case73:frames1231-1285,73,pick up leg,True,1
+case73:frames1311-1336,73,align leg screw with table thread,True,1
+case73:frames1336-1792,73,spin leg,True,1
+case73:frames1801-1833,73,pick up leg,True,1
+case73:frames1833-1871,73,align leg screw with table thread,True,1
+case73:frames1871-2279,73,spin leg,True,1
+case73:frames2279-2453,73,flip table,True,1
+case74:frames119-167,74,pick up leg,True,2
+case74:frames167-198,74,align leg screw with table thread,True,1
+case74:frames198-482,74,spin leg,True,1
+case74:frames482-552,74,pick up leg,True,1
+case74:frames552-582,74,align leg screw with table thread,True,1
+case74:frames582-823,74,spin leg,True,1
+case74:frames823-910,74,rotate table,True,3
+case74:frames910-940,74,pick up leg,True,2
+case74:frames940-960,74,align leg screw with table thread,True,1
+case74:frames960-1203,74,spin leg,True,1
+case74:frames1271-1286,74,rotate table,True,3
+case74:frames1286-1316,74,pick up leg,True,2
+case74:frames1316-1338,74,align leg screw with table thread,True,1
+case74:frames1338-1542,74,spin leg,True,1
+case74:frames1542-1644,74,flip table,True,1
+case75:frames54-87,75,pick up leg,True,2
+case75:frames110-402,75,spin leg,True,1
+case75:frames412-487,75,tighten leg,True,3
+case75:frames487-499,75,pick up leg,True,2
+case75:frames499-703,75,spin leg,True,1
+case75:frames777-868,75,rotate table,True,3
+case75:frames868-881,75,pick up leg,True,3
+case75:frames881-1117,75,spin leg,True,1
+case75:frames1192-1229,75,pick up leg,True,1
+case75:frames1229-1389,75,spin leg,True,1
+case75:frames1496-1583,75,flip table,True,1
+case76:frames70-91,76,pick up table top,True,3
+case76:frames91-132,76,flip table top,True,3
+case76:frames169-191,76,pick up leg,True,3
+case76:frames191-223,76,align leg screw with table thread,True,3
+case76:frames223-393,76,spin leg,True,1
+case76:frames393-422,76,tighten leg,True,1
+case76:frames481-508,76,pick up leg,True,3
+case76:frames508-518,76,align leg screw with table thread,True,1
+case76:frames518-815,76,spin leg,True,2
+case76:frames833-866,76,pick up leg,True,1
+case76:frames866-896,76,align leg screw with table thread,True,1
+case76:frames896-1195,76,spin leg,True,1
+case76:frames1202-1241,76,rotate table,True,3
+case76:frames1251-1284,76,pick up leg,True,1
+case76:frames1284-1314,76,align leg screw with table thread,True,3
+case76:frames1314-1565,76,spin leg,True,1
+case76:frames1565-1610,76,tighten leg,True,3
+case76:frames1627-1751,76,flip table,True,1
+case77:frames58-131,77,pick up table top,True,3
+case77:frames131-148,77,pick up leg,True,3
+case77:frames148-178,77,align leg screw with table thread,True,1
+case77:frames178-462,77,spin leg,True,1
+case77:frames462-517,77,rotate table,True,3
+case77:frames517-538,77,pick up leg,True,3
+case77:frames538-552,77,align leg screw with table thread,True,1
+case77:frames552-840,77,spin leg,True,1
+case77:frames840-877,77,rotate table,True,3
+case77:frames877-926,77,pick up leg,True,3
+case77:frames926-951,77,align leg screw with table thread,True,2
+case77:frames951-1231,77,spin leg,True,1
+case77:frames1231-1254,77,rotate table,True,3
+case77:frames1259-1297,77,pick up leg,True,3
+case77:frames1297-1321,77,align leg screw with table thread,True,3
+case77:frames1321-1621,77,spin leg,True,1
+case77:frames1621-1739,77,flip table,True,3
+case78:frames78-135,78,flip table top,True,3
+case78:frames190-235,78,align leg screw with table thread,True,1
+case78:frames235-506,78,spin leg,True,1
+case78:frames506-575,78,pick up leg,True,2
+case78:frames575-592,78,align leg screw with table thread,True,1
+case78:frames592-899,78,spin leg,True,1
+case78:frames899-941,78,pick up leg,True,2
+case78:frames941-953,78,align leg screw with table thread,True,1
+case78:frames953-1293,78,spin leg,True,1
+case78:frames1293-1324,78,pick up leg,True,1
+case78:frames1324-1376,78,align leg screw with table thread,True,1
+case78:frames1376-1702,78,spin leg,True,1
+case78:frames1702-1866,78,flip table,True,1
+case79:frames75-121,79,pick up leg,True,1
+case79:frames121-185,79,align leg screw with table thread,True,1
+case79:frames185-460,79,spin leg,True,1
+case79:frames473-501,79,pick up leg,True,1
+case79:frames501-582,79,align leg screw with table thread,True,1
+case79:frames582-798,79,spin leg,True,1
+case79:frames813-846,79,pick up leg,True,1
+case79:frames846-888,79,align leg screw with table thread,True,1
+case79:frames888-1097,79,spin leg,True,1
+case79:frames1119-1145,79,pick up leg,True,1
+case79:frames1145-1202,79,align leg screw with table thread,True,1
+case79:frames1202-1611,79,spin leg,True,1
+case79:frames1611-1695,79,tighten leg,True,3
+case79:frames1707-1979,79,spin leg,True,1
+case79:frames1979-2062,79,tighten leg,True,3
+case79:frames2078-2109,79,rotate table,True,1
+case79:frames2109-2511,79,spin leg,True,1
+case79:frames2516-2572,79,rotate table,True,1
+case79:frames2572-2820,79,spin leg,True,1
+case79:frames2820-3025,79,tighten leg,True,1
+case79:frames3030-3157,79,flip table,True,1
+case8:frames146-168,8,pick up leg,True,2
+case8:frames168-614,8,spin leg,True,1
+case8:frames614-674,8,pick up leg,True,2
+case8:frames674-715,8,align leg screw with table thread,True,2
+case8:frames715-959,8,spin leg,True,1
+case8:frames1111-1133,8,pick up leg,True,1
+case8:frames1133-1171,8,align leg screw with table thread,True,2
+case8:frames1171-1482,8,spin leg,True,1
+case8:frames1482-1611,8,pick up leg,True,1
+case8:frames1611-1640,8,align leg screw with table thread,True,3
+case8:frames1640-1979,8,spin leg,True,1
+case8:frames1979-2143,8,flip table,True,2
+case8:frames2143-2191,8,pick up shelf,True,1
+case8:frames2191-2320,8,attach shelf to table,True,1
+case80:frames60-78,80,pick up leg,True,1
+case80:frames78-126,80,align leg screw with table thread,True,1
+case80:frames126-438,80,spin leg,True,1
+case80:frames445-474,80,tighten leg,True,2
+case80:frames491-528,80,pick up leg,True,1
+case80:frames528-578,80,align leg screw with table thread,True,1
+case80:frames578-911,80,spin leg,True,1
+case80:frames911-947,80,tighten leg,True,2
+case80:frames947-1003,80,rotate table,True,2
+case80:frames1003-1030,80,pick up leg,True,1
+case80:frames1030-1067,80,align leg screw with table thread,True,1
+case80:frames1067-1604,80,spin leg,True,1
+case80:frames1604-1686,80,rotate table,True,1
+case80:frames1706-1727,80,pick up leg,True,1
+case80:frames1727-1770,80,align leg screw with table thread,True,1
+case80:frames1770-2126,80,spin leg,True,1
+case80:frames2126-2175,80,tighten leg,True,3
+case80:frames2175-2216,80,rotate table,True,3
+case80:frames2239-2308,80,flip table,True,1
+case81:frames205-229,81,pick up leg,True,1
+case81:frames229-282,81,align leg screw with table thread,True,2
+case81:frames282-716,81,spin leg,True,1
+case81:frames737-767,81,pick up leg,True,1
+case81:frames767-810,81,align leg screw with table thread,True,1
+case81:frames810-1247,81,spin leg,True,1
+case81:frames1271-1309,81,pick up leg,True,1
+case81:frames1309-1388,81,align leg screw with table thread,True,1
+case81:frames1388-1806,81,spin leg,True,1
+case81:frames1839-1893,81,pick up leg,True,1
+case81:frames1893-1943,81,align leg screw with table thread,True,1
+case81:frames1943-2332,81,spin leg,True,1
+case81:frames2481-2585,81,flip table,True,1
+case82:frames81-120,82,pick up leg,True,1
+case82:frames120-170,82,align leg screw with table thread,True,1
+case82:frames170-609,82,spin leg,True,1
+case82:frames609-690,82,tighten leg,True,3
+case82:frames690-740,82,pick up leg,True,1
+case82:frames740-803,82,align leg screw with table thread,True,1
+case82:frames803-1207,82,spin leg,True,1
+case82:frames1207-1299,82,tighten leg,True,1
+case82:frames1299-1412,82,rotate table,True,1
+case82:frames1412-1465,82,pick up leg,True,1
+case82:frames1465-1546,82,align leg screw with table thread,True,1
+case82:frames1546-1989,82,spin leg,True,2
+case82:frames1989-2067,82,tighten leg,True,3
+case82:frames2067-2130,82,pick up leg,True,1
+case82:frames2130-2169,82,align leg screw with table thread,True,3
+case82:frames2169-2516,82,spin leg,True,3
+case82:frames2516-2583,82,tighten leg,True,3
+case82:frames2583-2753,82,flip table,True,1
+case83:frames61-209,83,flip table top,True,1
+case83:frames209-246,83,pick up leg,True,1
+case83:frames246-287,83,align leg screw with table thread,True,1
+case83:frames287-766,83,spin leg,True,1
+case83:frames779-810,83,pick up leg,True,1
+case83:frames810-857,83,align leg screw with table thread,True,1
+case83:frames857-1332,83,spin leg,True,1
+case83:frames1332-1424,83,rotate table,True,1
+case83:frames1424-1467,83,pick up leg,True,1
+case83:frames1467-1504,83,align leg screw with table thread,True,1
+case83:frames1504-1879,83,spin leg,True,1
+case83:frames1879-1933,83,tighten leg,True,1
+case83:frames1933-2000,83,rotate table,True,1
+case83:frames2000-2044,83,pick up leg,True,1
+case83:frames2044-2088,83,align leg screw with table thread,True,1
+case83:frames2088-2385,83,spin leg,True,1
+case83:frames2385-2459,83,tighten leg,True,1
+case84:frames63-124,84,pick up table top,True,3
+case84:frames124-174,84,flip table top,True,3
+case84:frames174-218,84,pick up leg,True,2
+case84:frames218-247,84,align leg screw with table thread,True,1
+case84:frames247-542,84,spin leg,True,1
+case84:frames542-576,84,pick up leg,True,1
+case84:frames576-615,84,align leg screw with table thread,True,1
+case84:frames615-968,84,spin leg,True,1
+case84:frames968-1012,84,pick up leg,True,1
+case84:frames1012-1054,84,align leg screw with table thread,True,1
+case84:frames1054-1370,84,spin leg,True,1
+case84:frames1370-1412,84,pick up leg,True,1
+case84:frames1412-1457,84,align leg screw with table thread,True,1
+case84:frames1457-1775,84,spin leg,True,2
+case84:frames1775-2053,84,other,True,3
+case85:frames76-125,85,pick up leg,True,2
+case85:frames125-188,85,align leg screw with table thread,True,1
+case85:frames188-541,85,spin leg,True,1
+case85:frames560-604,85,pick up leg,True,3
+case85:frames604-644,85,align leg screw with table thread,True,1
+case85:frames644-1089,85,spin leg,True,1
+case85:frames1105-1146,85,pick up leg,True,2
+case85:frames1146-1195,85,align leg screw with table thread,True,1
+case85:frames1195-1580,85,spin leg,True,1
+case85:frames1617-1639,85,rotate table,True,1
+case85:frames1639-1682,85,pick up leg,True,3
+case85:frames1682-1709,85,align leg screw with table thread,True,1
+case85:frames1709-2020,85,spin leg,True,1
+case85:frames2055-2139,85,flip table,True,1
+case86:frames93-108,86,rotate table,True,3
+case86:frames163-185,86,pick up leg,True,1
+case86:frames186-243,86,align leg screw with table thread,True,1
+case86:frames244-693,86,spin leg,True,1
+case86:frames733-755,86,pick up leg,True,1
+case86:frames756-798,86,align leg screw with table thread,True,1
+case86:frames799-1278,86,spin leg,True,1
+case86:frames1319-1345,86,pick up leg,True,1
+case86:frames1346-1385,86,align leg screw with table thread,True,1
+case86:frames1386-2102,86,spin leg,True,1
+case86:frames2112-2139,86,pick up leg,True,1
+case86:frames2140-2175,86,align leg screw with table thread,True,1
+case86:frames2183-2709,86,spin leg,True,1
+case86:frames2745-2845,86,flip table,True,1
+case87:frames107-128,87,pick up leg,True,2
+case87:frames128-592,87,spin leg,True,1
+case87:frames1297-1362,87,pick up leg,True,1
+case87:frames1362-2281,87,spin leg,True,1
+case87:frames2502-2581,87,rotate table,True,1
+case87:frames2581-2659,87,pick up leg,True,2
+case87:frames2659-3115,87,spin leg,True,2
+case87:frames3728-3800,87,rotate table,True,1
+case87:frames3800-4320,87,spin leg,True,2
+case87:frames5418-5595,87,flip table,True,1
+case88:frames76-151,88,pick up side panel,True,1
+case88:frames151-284,88,align side panel holes with front panel dowels,True,1
+case88:frames284-332,88,attach drawer side panel,True,3
+case88:frames335-372,88,pick up side panel,True,1
+case88:frames372-459,88,align side panel holes with front panel dowels,True,1
+case88:frames459-551,88,attach drawer side panel,True,1
+case88:frames551-619,88,pick up bottom panel,True,1
+case88:frames619-900,88,slide bottom of drawer,True,1
+case88:frames900-944,88,pick up back panel,True,2
+case88:frames944-1119,88,attach drawer back panel,True,1
+case88:frames1119-1167,88,pick up pin,True,1
+case88:frames1167-1296,88,insert drawer pin,True,1
+case88:frames1296-1432,88,position the drawer right side up,True,2
+case89:frames70-125,89,pick up side panel,True,3
+case89:frames125-314,89,attach drawer side panel,True,3
+case89:frames314-360,89,pick up side panel,True,3
+case89:frames360-451,89,attach drawer side panel,True,3
+case89:frames451-533,89,pick up bottom panel,True,3
+case89:frames533-662,89,slide bottom of drawer,True,3
+case89:frames662-705,89,pick up front panel,True,3
+case89:frames705-904,89,align side panel holes with front panel dowels,True,3
+case89:frames904-984,89,pick up pin,True,3
+case89:frames984-1068,89,insert drawer pin,True,3
+case9:frames0-73,9,other,True,3
+case9:frames73-136,9,pick up leg,True,1
+case9:frames136-200,9,pick up table top,True,3
+case9:frames200-240,9,lay down table top,True,3
+case9:frames240-282,9,pick up leg,True,3
+case9:frames282-343,9,align leg screw with table thread,True,1
+case9:frames343-492,9,spin leg,True,1
+case9:frames492-643,9,tighten leg,True,3
+case9:frames643-665,9,pick up leg,True,3
+case9:frames665-696,9,align leg screw with table thread,True,3
+case9:frames696-934,9,spin leg,True,1
+case9:frames934-1020,9,rotate table,True,1
+case9:frames1020-1071,9,pick up leg,True,1
+case9:frames1071-1114,9,align leg screw with table thread,True,1
+case9:frames1114-1386,9,spin leg,True,1
+case9:frames1386-1425,9,pick up leg,True,1
+case9:frames1425-1507,9,align leg screw with table thread,True,2
+case9:frames1507-1758,9,spin leg,True,1
+case9:frames1758-1877,9,flip table,True,3
+case9:frames1877-1962,9,pick up shelf,True,3
+case9:frames1962-2319,9,attach shelf to table,True,1
+case9:frames2319-2379,9,other,True,3
+case90:frames73-175,90,attach drawer side panel,True,3
+case90:frames175-229,90,pick up side panel,True,1
+case90:frames229-340,90,attach drawer side panel,True,2
+case90:frames340-420,90,pick up bottom panel,True,1
+case90:frames420-595,90,slide bottom of drawer,True,1
+case90:frames595-658,90,pick up back panel,True,1
+case90:frames658-746,90,attach drawer back panel,True,1
+case90:frames822-866,90,pick up pin,True,1
+case90:frames886-927,90,insert drawer pin,True,1
+case90:frames938-968,90,pick up pin,True,1
+case90:frames968-1021,90,insert drawer pin,True,1
+case90:frames1037-1068,90,lay down bottom panel,True,3
+case91:frames72-221,91,pick up front panel,True,3
+case91:frames226-267,91,pick up side panel,True,3
+case91:frames339-411,91,lay down front panel,True,3
+case91:frames411-447,91,pick up back panel,True,3
+case91:frames447-499,91,pick up side panel,True,3
+case91:frames627-643,91,lay down back panel,True,3
+case91:frames653-699,91,pick up front panel,True,3
+case91:frames699-777,91,align side panel holes with front panel dowels,True,3
+case91:frames777-859,91,attach drawer side panel,True,2
+case91:frames859-931,91,pick up side panel,True,3
+case91:frames931-1152,91,align side panel holes with front panel dowels,True,3
+case91:frames1152-1219,91,attach drawer side panel,True,3
+case91:frames1219-1275,91,pick up side panel,True,3
+case91:frames1332-1363,91,pick up side panel,True,3
+case91:frames1363-1378,91,lay down side panel,True,3
+case91:frames1378-1481,91,align side panel holes with front panel dowels,True,3
+case91:frames1481-1527,91,attach drawer side panel,True,3
+case91:frames1527-1574,91,pick up side panel,True,1
+case91:frames1574-1882,91,align side panel holes with front panel dowels,True,2
+case91:frames1882-2016,91,attach drawer side panel,True,1
+case91:frames2021-2047,91,pick up back panel,True,3
+case91:frames2052-2103,91,lay down back panel,True,3
+case91:frames2103-2119,91,pick up bottom panel,True,3
+case91:frames2150-2391,91,slide bottom of drawer,True,3
+case91:frames2391-2427,91,pick up bottom panel,True,3
+case91:frames2427-2448,91,lay down bottom panel,True,3
+case91:frames2448-2592,91,other,True,3
+case91:frames2592-2643,91,pick up bottom panel,True,3
+case91:frames2643-2952,91,slide bottom of drawer,True,3
+case91:frames2967-3008,91,pick up back panel,True,3
+case91:frames3029-3646,91,attach drawer back panel,True,3
+case91:frames3646-3713,91,pick up pin,True,3
+case91:frames3713-3934,91,insert drawer pin,True,3
+case91:frames3934-4037,91,position the drawer right side up,True,3
+case92:frames68-94,92,pick up front panel,True,3
+case92:frames95-123,92,lay down front panel,True,3
+case92:frames128-174,92,pick up side panel,True,2
+case92:frames175-291,92,align side panel holes with front panel dowels,True,1
+case92:frames292-318,92,attach drawer side panel,True,1
+case92:frames328-357,92,pick up side panel,True,1
+case92:frames358-407,92,align side panel holes with front panel dowels,True,1
+case92:frames408-458,92,attach drawer side panel,True,1
+case92:frames485-543,92,pick up bottom panel,True,1
+case92:frames544-706,92,slide bottom of drawer,True,1
+case92:frames740-782,92,pick up back panel,True,1
+case92:frames800-918,92,attach drawer back panel,True,1
+case92:frames1011-1035,92,pick up pin,True,2
+case92:frames1036-1077,92,insert drawer pin,True,1
+case92:frames1084-1108,92,pick up pin,True,1
+case92:frames1125-1161,92,insert drawer pin,True,1
+case92:frames1311-1386,92,position the drawer right side up,True,1
+case93:frames65-99,93,pick up front panel,True,3
+case93:frames99-126,93,lay down front panel,True,3
+case93:frames126-322,93,pick up side panel,True,3
+case93:frames322-339,93,align side panel holes with front panel dowels,True,3
+case93:frames339-416,93,attach drawer side panel,True,3
+case93:frames416-486,93,pick up side panel,True,3
+case93:frames486-547,93,align side panel holes with front panel dowels,True,3
+case93:frames547-617,93,attach drawer side panel,True,3
+case93:frames617-666,93,pick up bottom panel,True,3
+case93:frames666-937,93,slide bottom of drawer,True,3
+case93:frames1002-1542,93,attach drawer back panel,True,3
+case93:frames1542-1564,93,pick up pin,True,3
+case93:frames1564-1602,93,insert drawer pin,True,3
+case93:frames1602-1629,93,pick up pin,True,3
+case93:frames1629-1723,93,insert drawer pin,True,3
+case93:frames1755-1837,93,position the drawer right side up,True,3
+case94:frames64-91,94,pick up side panel,True,1
+case94:frames92-172,94,align side panel holes with front panel dowels,True,1
+case94:frames173-208,94,attach drawer side panel,True,2
+case94:frames212-240,94,pick up side panel,True,1
+case94:frames241-317,94,align side panel holes with front panel dowels,True,1
+case94:frames318-351,94,attach drawer side panel,True,1
+case94:frames396-433,94,pick up back panel,True,2
+case94:frames434-447,94,lay down back panel,True,3
+case94:frames447-507,94,pick up bottom panel,True,1
+case94:frames508-737,94,slide bottom of drawer,True,1
+case94:frames772-807,94,pick up back panel,True,1
+case94:frames808-830,94,other,True,3
+case94:frames831-1077,94,attach drawer back panel,True,2
+case94:frames1231-1252,94,pick up pin,True,3
+case94:frames1253-1386,94,other,True,3
+case94:frames1387-1456,94,pick up back panel,True,3
+case94:frames1457-1930,94,other,True,3
+case94:frames1931-2107,94,attach drawer back panel,True,1
+case94:frames2128-2165,94,insert drawer pin,True,3
+case94:frames2189-2211,94,pick up pin,True,3
+case94:frames2212-2266,94,insert drawer pin,True,3
+case94:frames2282-2369,94,position the drawer right side up,True,2
+case95:frames24-73,95,pick up side panel,True,2
+case95:frames73-298,95,align side panel holes with front panel dowels,True,2
+case95:frames298-436,95,attach drawer side panel,True,1
+case95:frames436-523,95,pick up side panel,True,3
+case95:frames523-637,95,align side panel holes with front panel dowels,True,3
+case95:frames637-713,95,attach drawer side panel,True,3
+case95:frames713-765,95,pick up back panel,True,3
+case95:frames765-866,95,lay down back panel,True,3
+case95:frames866-928,95,pick up bottom panel,True,1
+case95:frames928-1742,95,slide bottom of drawer,True,1
+case95:frames1742-1804,95,pick up back panel,True,2
+case95:frames1804-2334,95,attach drawer back panel,True,1
+case95:frames2334-2368,95,pick up pin,True,1
+case95:frames2368-2431,95,insert drawer pin,True,1
+case95:frames2431-2458,95,pick up pin,True,1
+case95:frames2458-2524,95,insert drawer pin,True,2
+case95:frames2524-2683,95,position the drawer right side up,True,1
+case96:frames48-98,96,other,True,3
+case96:frames98-151,96,pick up side panel,True,1
+case96:frames205-308,96,attach drawer side panel,True,2
+case96:frames327-369,96,pick up side panel,True,3
+case96:frames481-675,96,attach drawer side panel,True,3
+case96:frames696-731,96,pick up bottom panel,True,1
+case96:frames1137-1339,96,slide bottom of drawer,True,1
+case96:frames1414-1448,96,pick up back panel,True,1
+case96:frames1709-1791,96,attach drawer back panel,True,1
+case96:frames1799-1834,96,pick up pin,True,3
+case96:frames1834-1868,96,insert drawer pin,True,1
+case96:frames1916-1950,96,insert drawer pin,True,1
+case96:frames1966-2012,96,lay down bottom panel,True,2
+case97:frames84-106,97,pick up side panel,True,1
+case97:frames106-453,97,attach drawer side panel,True,1
+case97:frames453-506,97,pick up side panel,True,1
+case97:frames506-695,97,attach drawer side panel,True,1
+case97:frames695-796,97,pick up back panel,True,3
+case97:frames832-906,97,pick up bottom panel,True,3
+case97:frames906-1333,97,slide bottom of drawer,True,1
+case97:frames1360-1417,97,pick up back panel,True,2
+case97:frames1417-2385,97,attach drawer back panel,True,1
+case97:frames2385-2592,97,pick up pin,True,1
+case97:frames2592-2979,97,insert drawer pin,True,2
+case97:frames2979-3322,97,lay down bottom panel,True,3
+case98:frames54-119,98,pick up side panel,True,1
+case98:frames129-208,98,attach drawer side panel,True,2
+case98:frames208-251,98,pick up side panel,True,3
+case98:frames251-330,98,attach drawer side panel,True,3
+case98:frames438-474,98,pick up bottom panel,True,1
+case98:frames675-722,98,attach drawer side panel,True,2
+case98:frames768-883,98,slide bottom of drawer,True,1
+case98:frames883-944,98,pick up front panel,True,3
+case98:frames1164-1584,98,align side panel holes with front panel dowels,True,3
+case98:frames1584-1659,98,pick up pin,True,2
+case98:frames1659-1824,98,insert drawer pin,True,1
+case98:frames2101-2546,98,align side panel holes with front panel dowels,True,3
+case98:frames2546-2586,98,pick up pin,True,3
+case98:frames2586-2643,98,insert drawer pin,True,1
+case98:frames2643-2686,98,pick up pin,True,1
+case98:frames2686-2744,98,insert drawer pin,True,1
+case99:frames0-64,99,pick up front panel,True,3
+case99:frames64-168,99,lay down front panel,True,3
+case99:frames168-280,99,pick up side panel,True,1
+case99:frames280-365,99,attach drawer side panel,True,3
+case99:frames365-429,99,pick up side panel,True,3
+case99:frames429-535,99,attach drawer side panel,True,3
+case99:frames535-634,99,pick up bottom panel,True,1
+case99:frames634-875,99,slide bottom of drawer,True,1
+case99:frames875-926,99,pick up back panel,True,1
+case99:frames926-1020,99,attach drawer back panel,True,1
+case99:frames1020-1093,99,pick up pin,True,1
+case99:frames1093-1138,99,insert drawer pin,True,1
+case99:frames1138-1174,99,pick up pin,True,1
+case99:frames1174-1266,99,insert drawer pin,True,1
+case99:frames1266-1399,99,position the drawer right side up,True,2
+case99:frames1399-1511,99,other,True,3

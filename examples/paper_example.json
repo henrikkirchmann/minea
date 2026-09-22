@@ -1,0 +1,24 @@
+{
+  "cases": ["patient"],
+  "sources": [0, 1],
+  "case_hosts": {"patient": 0},
+  "candidates": [
+    {"id": "r", "observation_id": "first", "case_id": "patient", "activity": "Registration", "start": 0, "end": 1, "score": "2", "owner": 0},
+    {"id": "a", "observation_id": "first", "case_id": "patient", "activity": "Assessment", "start": 0, "end": 1, "score": "3", "owner": 0},
+    {"id": "t", "observation_id": "second", "case_id": "patient", "activity": "Triage", "start": 2, "end": 3, "score": "4", "owner": 1}
+  ],
+  "given_rows": [
+    {"id": "assignment:first", "kind": "assignment", "terms": {"r": 1, "a": 1}, "upper": 1, "case_id": "patient"},
+    {"id": "assignment:second", "kind": "assignment", "terms": {"t": 1}, "upper": 1, "case_id": "patient"}
+  ],
+  "prerequisites": [{"id": "registration_before_triage", "trigger_activity": "Triage", "predecessor_activities": ["Registration"]}],
+  "occurrence_bounds": [],
+  "gt_selected": ["r", "t"],
+  "metadata": {
+    "name": "The paper's five-node matching example",
+    "expected_optimal_objective": "6",
+    "expected_visited_nodes": 5,
+    "expected_queried_nodes": 4,
+    "scope": "A hand-countable algorithm fixture, not an IKEA observation sample. The reference selection is checked but never used as a solver warm start."
+  }
+}

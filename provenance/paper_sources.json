@@ -1,0 +1,54 @@
+{
+  "paper_directory": "ICPM2027-framework-bnb",
+  "scope": "Current compiled paper and active source sections inspected during curation; only Section Evaluation and Figure 3 define the packaged experiment. Origin paths are descriptive, not runtime dependencies.",
+  "files": {
+    "main.tex": {
+      "sha256": "129d3c7b3267fd8d2249219640caeda565d423187bb05a548e58f883ddbcf37f",
+      "bytes": 8462
+    },
+    "main.pdf": {
+      "sha256": "c2852e395df49697351afb64e00fb72592d2ccc6cb1622e4d361136bf937bcea",
+      "bytes": 622661
+    },
+    "sections/01-introduction.tex": {
+      "sha256": "d74e5a25271344a2d4092f7aa1c256198beb0bdbe147a0e23df5fa2e48f56a12",
+      "bytes": 26430
+    },
+    "sections/02-background.tex": {
+      "sha256": "e43c40b91a36a12977e072ed92edbce2fbe050e62ffdc692781ccbdd7b4f72fb",
+      "bytes": 53740
+    },
+    "sections/04-construction.tex": {
+      "sha256": "3aee87c859a8ed9c275c0ddfd0c3ac8b99080f478bb658c7a67fc8d1cf8f295d",
+      "bytes": 36536
+    },
+    "sections/05-matching.tex": {
+      "sha256": "dc18750f06ca0110e152688f8f0dd4b5c6983b094e18816eed2c347f9c9603f3",
+      "bytes": 16786
+    },
+    "sections/06-disclosure.tex": {
+      "sha256": "2cd501d1caf5eb67f5490e38677cdb855c617793e788338067fc2272d7718719",
+      "bytes": 5743
+    },
+    "sections/07-evaluation.tex": {
+      "sha256": "6179f13d34373ad714989529333c8740f26f392c0079cbf482d8e3d4ee5d2dc8",
+      "bytes": 3394
+    },
+    "sections/08-relatedwork.tex": {
+      "sha256": "77076483a549d4c9a79d3beac9d370f877ecfadee18d44dcde18f27da67cdbdc",
+      "bytes": 3554
+    },
+    "sections/09-conclusion.tex": {
+      "sha256": "026ea342ed83987db340dc2fe02e1b696d0d0d24b603e61b71039cc1db64bd07",
+      "bytes": 814
+    },
+    "figures/evaluation-ikea/ikea-overview.pdf": {
+      "sha256": "3ba6f903866694195c190a965a24afe9475aefd7cc0b143df371fa93c25703a8",
+      "bytes": 179776
+    },
+    "figures/evaluation-ikea/numbers.tex": {
+      "sha256": "2839dc8a6f7636192b870458bd0b3c177ba951d6424e3dee82db14d67258c11e",
+      "bytes": 208
+    }
+  }
+}

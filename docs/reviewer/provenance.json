@@ -1,0 +1,13 @@
+{
+  "scope": "Descriptive statistics recomputed from frozen local inputs. No data preparation, optimization or matching rerun.",
+  "producer_sha256": {
+    "review.py": "0062eccd36745e6157573adaaa4868ee0857c375996db678faaf3999ae6f200b",
+    "reviewer/__init__.py": "d5750420f958de38a8d5608f33f6d330eecfbbf9524ae2374b5a67488570f0a3",
+    "reviewer/diagrams.py": "0c67fd6a4ac845d7d11007f77313d4db3e49f160ca86222dab9e7233de1341ad",
+    "reviewer/event_logs.py": "9808dea0a1f8fe97344996a6c94a8bc97d035ff053a48d5eb6569ef9d26040e2",
+    "reviewer/log_stats.py": "7ed23c2ebc53481fbed6b527b871094c950e4bc731ccc0f66b2328ab7bcf89bf",
+    "reviewer/plots.py": "9d850730c7929a8620847c7201c2eb9fdd457ce8c4dd3c437f10b1f614bdf63f",
+    "reviewer/render.py": "0a5304660099438728b2c6820ba58875a285292534adb6dd01d606fa9bd650a8",
+    "reviewer/rule_stats.py": "83aa765d8a9ac93baf9551681c9a7656a6f1e7ef54915a14667816d181b8bd7e"
+  }
+}

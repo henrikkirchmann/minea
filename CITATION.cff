@@ -1,0 +1,77 @@
+cff-version: 1.2.0
+message: "Please cite this artifact, the original IKEA ASM dataset paper, and the earlier uncertain-event-log work when using these inputs; see references below."
+title: "MINEA IKEA ASM construction and matching evaluation"
+type: software
+version: 0.5.0
+date-released: 2026-09-19
+authors:
+  - family-names: Kirchmann
+    given-names: Henrik
+license: MIT
+abstract: "Auditable GT-aligned IKEA ASM inputs, constraint discovery, distributed construction simulation and exact matching compared with a central-upload baseline. Upstream and derived data are not relicensed by the code license."
+references:
+  - type: conference-paper
+    authors:
+      - family-names: Ben-Shabat
+        given-names: Yizhak
+      - family-names: Yu
+        given-names: Xin
+      - family-names: Saleh
+        given-names: Fatemeh
+      - family-names: Campbell
+        given-names: Dylan
+      - family-names: Rodriguez-Opazo
+        given-names: Cristian
+      - family-names: Li
+        given-names: Hongdong
+      - family-names: Gould
+        given-names: Stephen
+    title: "The IKEA ASM Dataset: Understanding People Assembling Furniture Through Actions, Objects and Pose"
+    collection-title: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+    year: 2021
+    start: 847
+    end: 859
+    url: "https://openaccess.thecvf.com/content/WACV2021/html/Ben-Shabat_The_IKEA_ASM_Dataset_Understanding_People_Assembling_Furniture_Through_Actions_WACV_2021_paper.html"
+    scope: "Original recordings, action annotations and recognition benchmark."
+  - type: website
+    authors:
+      - name: "IKEA ASM Dataset Authors"
+    title: "IKEA ASM Dataset: Project Website"
+    url: "https://ikeaasm.github.io/"
+    date-accessed: "2026-09-21"
+  - type: software
+    authors:
+      - name: "IKEA ASM Dataset Authors"
+    title: "IKEA ASM Dataset: Official Code and Model Resources"
+    repository-code: "https://github.com/IkeaASM/IKEA_ASM_Dataset"
+    url: "https://github.com/IkeaASM/IKEA_ASM_Dataset"
+    date-accessed: "2026-09-21"
+  - type: article
+    authors:
+      - family-names: Kirchmann
+        given-names: Henrik
+      - family-names: Fahrenkrog-Petersen
+        given-names: Stephan A.
+      - family-names: Lu
+        given-names: Xixi
+      - family-names: Weidlich
+        given-names: Matthias
+    title: "Distributional similarity between activities in certain and uncertain event data"
+    journal: "Process Science"
+    volume: 3
+    issue: 1
+    year: 2026
+    doi: "10.1007/s44311-026-00055-7"
+    url: "https://doi.org/10.1007/s44311-026-00055-7"
+    notes: "Article 21."
+    scope: "Earlier work introducing the uncertain event-log collection."
+  - type: software
+    authors:
+      - family-names: Kirchmann
+        given-names: Henrik
+    title: "IKEA ASM Uncertain Event Logs"
+    repository-code: "https://github.com/henrikkirchmann/IKEA_ASM_UncertainEventLogs"
+    url: "https://github.com/henrikkirchmann/IKEA_ASM_UncertainEventLogs/tree/f8403649a508584d661edee3b8fb0c231f6c7a78"
+    version: "f8403649a508584d661edee3b8fb0c231f6c7a78"
+    date-accessed: "2026-09-21"
+    scope: "Pinned source of the supplied GT-aligned and prediction-merged exports."

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1485" viewBox="0 0 1200 1485" role="img" aria-labelledby="title description">
+<title id="title">Rule mining: 992 prerequisite pairs and 32 occurrence bounds to five selected templates</title>
+<desc id="description">All rules are mined from the same 116 retained ground-truth cases and 32 activities. Every ordered pair of distinct activities is tested. A prerequisite holds when every trigger has a same-case predecessor ending no later than its start; the predecessor need not be immediately preceding. A case without the trigger satisfies it vacuously. Forty-one prerequisites have no violations and at least one trigger overall; none is active in all 116 cases. Thirty-two empirical minimum/maximum occurrence bounds are computed; all lower bounds are zero. Rules are ranked separately by support cases, then support events, then ID. The fixed selected profile has three prerequisites and two count bounds. The full 41-plus-32 profile reached the 300-second distributed matching limit at two sources and 116 components. The reduced profile retains all cases and candidates and is fixed throughout the sweep.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8799AC"/></marker></defs>
+<rect width="1200" height="1485" fill="#F7F9FC"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="54" font-size="32" fill="#172B42" font-weight="700" text-anchor="start">How five fixed intra-case templates were selected</text>
+<text x="40" y="91" font-size="20" fill="#526579" font-weight="400" text-anchor="start">GT = ground truth (reference activity labels). Mine these same cases, then rank each rule family.</text>
+<rect x="40" y="121" width="1120" height="67" rx="12" fill="#EAF0F8" stroke="#D3E0EF"/>
+<text x="600" y="163" font-size="23" fill="#155E9A" font-weight="700" text-anchor="middle">116 GT cases  ·  1,856 original non-NA segments  ·  32 activities</text>
+<path d="M 600 194 L 600 210 L 310 210 L 310 236" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 600 210 L 890 210 L 890 236" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="40" y="244" width="540" height="374" rx="16" fill="white" stroke="#D7E1EB"/>
+<rect x="60" y="266" width="5" height="25" rx="2" fill="#155E9A" stroke="#155E9A"/>
+<text x="78" y="285" font-size="14" fill="#155E9A" font-weight="700" text-anchor="start">FAMILY 1 · PREREQUISITES</text>
+<text x="64" y="328" font-size="25" fill="#172B42" font-weight="700" text-anchor="start">32 × 31 = 992 ordered pairs</text>
+<text x="64" y="364" font-size="20" fill="#526579" font-weight="400" text-anchor="start">Test each distinct predecessor / trigger pair.</text>
+<text x="64" y="393" font-size="20" fill="#526579" font-weight="400" text-anchor="start">For every trigger, require a same-case</text>
+<text x="64" y="422" font-size="20" fill="#526579" font-weight="400" text-anchor="start">predecessor that has already ended.</text>
+<rect x="69" y="453" width="220" height="47" rx="7" fill="#E8F0FA" stroke="#ABC4DF"/>
+<rect x="289" y="453" width="220" height="47" rx="7" fill="#FFF1E6" stroke="#E6BF9F"/>
+<text x="179" y="483" font-size="20" fill="#155E9A" font-weight="700" text-anchor="middle">predecessor</text>
+<text x="399" y="483" font-size="20" fill="#A85317" font-weight="700" text-anchor="middle">trigger</text>
+<path d="M 70 515 L 530 515" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="288" y="544" font-size="20" fill="#172B42" font-weight="700" text-anchor="middle">end ≤ start, in the same case</text>
+<text x="64" y="578" font-size="18" fill="#526579" font-weight="400" text-anchor="start">Earlier activity need not be immediately prior.</text>
+<text x="64" y="603" font-size="18" fill="#526579" font-weight="400" text-anchor="start">Equality is allowed (as drawn above).</text>
+<rect x="620" y="244" width="540" height="374" rx="16" fill="white" stroke="#D7E1EB"/>
+<rect x="640" y="266" width="5" height="25" rx="2" fill="#146C61" stroke="#146C61"/>
+<text x="658" y="285" font-size="14" fill="#146C61" font-weight="700" text-anchor="start">FAMILY 2 · OCCURRENCE BOUNDS</text>
+<text x="644" y="328" font-size="24" fill="#172B42" font-weight="700" text-anchor="start">32 empirical min–max bounds</text>
+<text x="644" y="364" font-size="19" fill="#526579" font-weight="400" text-anchor="start">Count each activity’s segments in every case.</text>
+<text x="644" y="394" font-size="19" fill="#526579" font-weight="400" text-anchor="start">Include zero counts when the activity is absent.</text>
+<text x="644" y="424" font-size="19" fill="#526579" font-weight="400" text-anchor="start">Take the minimum and maximum across cases.</text>
+<rect x="644" y="461" width="490" height="84" rx="10" fill="#ECF5F2" stroke="#CDE5DD"/>
+<text x="665" y="495" font-size="23" fill="#146C61" font-weight="700" text-anchor="start">All 32 lower bounds are zero.</text>
+<text x="665" y="526" font-size="19" fill="#146C61" font-weight="400" text-anchor="start">No activity is required in every case.</text>
+<text x="644" y="578" font-size="18" fill="#526579" font-weight="400" text-anchor="start">Counts refer to original non-NA GT segments,</text>
+<text x="644" y="603" font-size="18" fill="#526579" font-weight="400" text-anchor="start">not physical objects or resource capacities.</text>
+<rect x="40" y="643" width="540" height="123" rx="12" fill="#EAF0F8" stroke="#D3E0EF"/>
+<text x="64" y="679" font-size="25" fill="#155E9A" font-weight="700" text-anchor="start">41 prerequisites accepted</text>
+<text x="64" y="714" font-size="19" fill="#526579" font-weight="400" text-anchor="start">At least one trigger overall; zero GT violations.</text>
+<text x="64" y="742" font-size="19" fill="#526579" font-weight="400" text-anchor="start">No trigger in a case ⇒ the rule holds vacuously.</text>
+<rect x="620" y="643" width="540" height="123" rx="12" fill="#ECF5F2" stroke="#CDE5DD"/>
+<text x="644" y="679" font-size="25" fill="#146C61" font-weight="700" text-anchor="start">32 occurrence templates</text>
+<text x="644" y="714" font-size="19" fill="#526579" font-weight="400" text-anchor="start">These bounds hold for the mined GT cohort.</text>
+<text x="644" y="742" font-size="19" fill="#526579" font-weight="400" text-anchor="start">They are descriptive limits, not physical laws.</text>
+<text x="40" y="797" font-size="19" fill="#526579" font-weight="400" text-anchor="start">Holding for all cases is not activation in all cases: none of the 41 prerequisites activates in every case.</text>
+<path d="M 310 814 L 310 832 L 600 832 L 600 851" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 890 814 L 890 832 L 600 832" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="40" y="859" width="1120" height="142" rx="14" fill="#FFF2E8" stroke="#F0D9C6"/>
+<text x="64" y="898" font-size="25" fill="#A85317" font-weight="700" text-anchor="start">Why reduce the rule set? The initial full model reached its matching limit.</text>
+<text x="64" y="934" font-size="20" fill="#172B42" font-weight="400" text-anchor="start">Distributed matching with 41 prerequisites + 32 bounds reached 300 s (2 sources; 116 components).</text>
+<text x="64" y="968" font-size="21" fill="#526579" font-weight="400" text-anchor="start">Retain all 116 cases and 5,568 candidates; use a fixed 3 + 2 subset for the sweep.</text>
+<path d="M 600 1008 L 600 1030" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="40" y="1038" width="1120" height="112" rx="14" fill="white" stroke="#D7E1EB"/>
+<text x="64" y="1076" font-size="25" fill="#172B42" font-weight="700" text-anchor="start">Rank separately within each family</text>
+<text x="64" y="1109" font-size="21" fill="#155E9A" font-weight="700" text-anchor="start">More support cases → more support events → ascending template ID</text>
+<text x="64" y="1134" font-size="19" fill="#526579" font-weight="400" text-anchor="start">Prerequisite support counts triggers; bound support counts positive occurrences.</text>
+<path d="M 600 1157 L 600 1178" fill="none" stroke="#8799AC" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="40" y="1187" width="710" height="219" rx="16" fill="white" stroke="#D7E1EB"/>
+<rect x="60" y="1209" width="5" height="25" rx="2" fill="#155E9A" stroke="#155E9A"/>
+<text x="78" y="1228" font-size="14" fill="#155E9A" font-weight="700" text-anchor="start">SELECTED · THREE PREREQUISITES</text>
+<text x="64" y="1271" font-size="23" fill="#172B42" font-weight="700" text-anchor="start">Every trigger needs its earlier activity</text>
+<text x="64" y="1309" font-size="20" fill="#172B42" font-weight="400" text-anchor="start">pre_019:  pick up leg → attach shelf to table</text>
+<text x="64" y="1341" font-size="20" fill="#172B42" font-weight="400" text-anchor="start">pre_036:  spin leg → attach shelf to table</text>
+<text x="64" y="1373" font-size="20" fill="#172B42" font-weight="400" text-anchor="start">pre_023:  pick up leg → pick up shelf</text>
+<rect x="780" y="1187" width="380" height="219" rx="16" fill="white" stroke="#D7E1EB"/>
+<rect x="800" y="1209" width="5" height="25" rx="2" fill="#146C61" stroke="#146C61"/>
+<text x="818" y="1228" font-size="14" fill="#146C61" font-weight="700" text-anchor="start">SELECTED · TWO BOUNDS</text>
+<text x="804" y="1271" font-size="23" fill="#172B42" font-weight="700" text-anchor="start">Per-case segment counts</text>
+<text x="804" y="1309" font-size="21" fill="#172B42" font-weight="400" text-anchor="start">occ_031: spin leg  0…8</text>
+<text x="804" y="1341" font-size="21" fill="#172B42" font-weight="400" text-anchor="start">occ_021: pick up leg  0…5</text>
+<text x="804" y="1376" font-size="17" fill="#526579" font-weight="400" text-anchor="start">Zero lower rows are redundant.</text>
+<text x="600" y="1443" font-size="20" fill="#526579" font-weight="400" text-anchor="middle">These five templates stay fixed. This is an exploratory reduced model, not held-out validation.</text>
+<text x="600" y="1472" font-size="17" fill="#526579" font-weight="400" text-anchor="middle">Evidence: recorded full-model calibration and the frozen selection protocol.</text>
+</g>
+</svg>
