@@ -87,9 +87,10 @@ ordered list; it does not draw a new graph.
 
 ## Choosing candidates for inter-case constraints
 
-We choose each inter-case constraint so that an activity interpretation in one
-case restricts the interpretation of another, while the GT selection remains
-feasible.
+We join two components by adding a constraint that forbids selecting one
+candidate from each component together. We choose the pair so that the GT
+selection remains feasible and the new constraint rules out a previously
+feasible selection.
 
 Matching turns observations into activity-level events in a case's trace.
 Each candidate proposes an activity for one observation; selecting it accepts
@@ -99,27 +100,27 @@ provides a known feasible selection, meaning that it satisfies all rows.
 Matching itself permits at most one candidate per observation, so other
 selections may leave observations unmatched.
 
-We construct each exclusion by finding two activity interpretations that can
-be selected together before adding the new row:
+The generator chooses the candidates in three steps:
 
-1. **Find a permitted change to one case's activity trace.** Starting from the
-   GT selection, replace one observation's GT candidate with a non-GT
-   candidate. Keep the alternative only if the resulting selection still
-   satisfies the assignment rows and all original mined prerequisites and
-   occurrence bounds. The code calls this a *safe replacement*: it is checked
-   for this one change from GT, not for arbitrary combinations of changes.
-2. **Choose observations from the two components being joined.** Each must
-   have a checked replacement and must not have appeared in an earlier added
-   exclusion. The seed-0 generator randomly chooses the observations, which
-   one contributes its GT candidate `g`, and a checked non-GT candidate `f`
-   at the other. Avoiding observations already used in exclusions keeps each
-   later feasibility check separate; it does not remove candidates from
-   matching.
-3. **Forbid selecting this pair together.** Encode the inter-case constraint
-   as `x_g + x_f ≤ 1`. Later exclusions must use other observations. The source
-   placement described below gives both observations the same owner, so this
-   is a local row (type 2). Candidate activities, scores and intervals stay
-   fixed.
+1. **Check alternative candidates.** Start from the GT selection. For one
+   observation, select a non-GT candidate instead of its GT candidate, keeping
+   every other observation at GT. Record the alternative if the assignment
+   rows and all original mined prerequisites and occurrence bounds still
+   hold. Repeat this check separately for every non-GT candidate.
+2. **Choose two observations.** Randomly choose one observation from each
+   component being joined. Both must have at least one alternative checked
+   in step 1. Neither observation may have been used in an earlier added
+   inter-case constraint.
+3. **Add the constraint.** Randomly choose which observation supplies its GT
+   candidate `g`. From the other observation, randomly choose a checked
+   non-GT candidate `f`. Add the row `x_g + x_f ≤ 1`: at most one of these
+   two candidates may be selected.
+
+These choices use the fixed random seed 0. Each observation is used in at
+most one added exclusion, while all its candidates remain available for
+matching. The source placement described below assigns both observations
+to the same source, making the added row local (type 2). Candidate activities,
+scores and intervals stay fixed.
 
 The figure shows how the new constraint restricts the possible activity
 traces. In the GT selection, the illustrated case 9 observation is interpreted
