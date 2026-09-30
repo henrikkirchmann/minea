@@ -131,135 +131,83 @@ identify candidates; checkboxes show which candidates each selection accepts.
 
 ![Two selections for the same observations illustrate an inter-case constraint. GT selects spin leg in case 86 and pick up leg in case 9. Replacing only case 9's GT candidate with align leg screw with table thread selects both candidates in the added row's scope. The GT selection remains feasible; the changed selection violates only this row.](assets/endpoint_choices.svg)
 
-**The GT selection remains feasible because it selects only one of the two
-candidates in the new row:** `x_g = 1` and `x_f = 0`. Using two GT candidates
-for the exclusion would reject the GT selection.
+The GT selection satisfies the new row because it selects `g` but not `f`.
+Selecting `f` instead of its observation's GT candidate selects both `g` and
+`f`, violating `x_g + x_f ≤ 1`. All other rows still hold: step 1 checked the
+original constraints, and no other added constraint uses the changed
+observation. Thus, each added constraint rules out a previously feasible
+selection while keeping GT feasible.
 
-**The row adds a restriction because the single replacement violates this row
-and no other.** After the change, `x_g = x_f = 1`, so the row's left-hand side
-is 2. The original rows still hold because we checked that replacement in
-step 1. All other added exclusions still hold because none involves the
-changed observation. Removing this row would therefore make the changed
-selection feasible. The saved plan records the removed and replacement
-candidate IDs so this check, called a *nonredundancy witness*, can be
-reconstructed from GT.
+GT is used to prepare and check the experiment. Each matcher starts without
+a GT selection. The effect of the added constraints on the optimal score and
+matching time is a separate empirical question.
 
-**This check establishes that each row excludes an otherwise feasible
-selection.** Its effect on the optimal score or matching time is an empirical
-question; the feasibility check does not measure these effects.
-The exclusions are synthetic and do not imply that these IKEA activities
-actually compete for a resource. GT is used to construct and check the
-instances, not supplied as a warm start to either matcher.
+<details>
+<summary>Check the illustrated example in the saved data</summary>
 
-**The recorded experiment reuses the exclusions built with the full mined
-rule set.** The initial checks used all 41 prerequisites and 32 occurrence
-bounds: 3,178 of 3,712 non-GT candidates were permitted single replacements,
-covering 1,723 observations, with at least seven such observations per case.
-The 115 exclusions use 230 distinct observations. The sweep retains the same
-exclusions when reducing the mined rules to three prerequisites and two
-occurrence bounds, and checks every witness again. No cases or candidates
-are removed by these checks.
+Row `bridge:000000` uses these candidates:
 
-### IDs for checking the illustrated example
+| Role | Case | Candidate | Activity |
+| --- | ---: | --- | --- |
+| GT candidate `g` | 86 | `v004874` | spin leg |
+| Non-GT candidate `f` | 9 | `v005001` | align leg screw with table thread |
+| GT candidate replaced by `f` | 9 | `v005002` | pick up leg |
 
-The first shuffled pair is cases 9 and 86. Row `bridge:000000` uses the
-right-to-left orientation, taking the GT endpoint from case 86:
+The row is `x_v004874 + x_v005001 ≤ 1`. Its left-hand side is 1 for GT and
+2 after the replacement. The other rows remain satisfied. Both observations
+belong to source 3 at K=8.
 
-| Role | Case | Observation | Candidate | Activity |
-| --- | ---: | --- | --- | --- |
-| GT candidate `g` in the added row | 86 | `case86:frames2183-2709` | `v004874` | spin leg |
-| Non-GT candidate `f` in the added row | 9 | `case9:frames643-665` | `v005001` | align leg screw with table thread |
-| GT candidate removed for the check | 9 | `case9:frames643-665` | `v005002` | pick up leg |
+The [manual review guide](../MANUAL_REVIEW.md#3-check-one-synthetic-link-and-an-ownership-change)
+links to the saved records. The [illustration generator](../../reviewer/coupling.py)
+checks the example before drawing it; run `python -m reviewer.coupling` to
+regenerate the figure.
 
-Its row is `x_v004874 + x_v005001 ≤ 1`. GT gives left-hand side 1.
-The witness removes `v005002` and selects `v005001`, giving left-hand side 2.
-All other original and synthetic rows still hold. The frame numbers locate
-observations within their respective recordings; the exclusion does not
-compare the recordings' times.
+</details>
 
-See the plan's first `bridges` entry and the
-[K8/C58 instance](../../results/benchmark_sweep/preparation/instances/seed0_K8_C58.json.gz).
-Both endpoint observations, including all three alternatives at each, belong
-to source 3 at K=8. The next section explains why this stays local at every K.
+## Assigning observations to sources
 
-The [illustration generator](../../reviewer/coupling.py) checks this example
-against the saved full model and the instance with all 115 exclusions before
-drawing it. Regenerate the SVG with `python -m reviewer.coupling`.
+We assign observations to eight sources after constructing the complete set
+of 115 inter-case constraints. The two observations involved in each added
+constraint are assigned together. Every other observation is assigned
+individually. All candidates of an observation stay with that observation.
+This makes every added inter-case constraint a local row involving several
+cases (type 2).
 
-## Fixed candidate placement and source coarsening
+The generator processes these pairs and individual observations in random
+order. Each is assigned to the source currently holding the fewest candidates;
+ties go to the lowest source ID. For fewer sources, we combine the original
+eight sources, whose IDs run from 0 to 7:
 
-Placement uses the **entire 115-row plan**, including rows absent from shorter
-prefixes. Each pair of endpoint observations forms one ownership block.
-Every remaining observation forms a singleton block: 115 pairs plus 1,626
-singletons give 1,741 blocks covering all 1,856 observations.
+| Source count K | Groups of original sources combined |
+| ---: | --- |
+| 4 | 0–1, 2–3, 4–5, 6–7 |
+| 2 | 0–3, 4–7 |
+| 1 | 0–7 |
 
-The generator shuffles the blocks with the same seeded random generator,
-then places each block at the source currently holding the fewest candidates;
-ties go to the lowest source ID. All alternatives of an observation stay
-together. A paired block contains six candidates and a singleton contains
-three, so balancing counts candidates rather than blocks. Saved K=8 loads,
-in source-ID order, are `696, 699, 696, 696, 696, 696, 696, 693`.
+The paired observations always stay together. At a fixed K, reducing the
+component count C adds constraints without moving observations. Even C=116,
+which has no inter-case constraints, uses the placement prepared for the full
+set of 115 constraints. This placement is synthetic.
 
-Source IDs start at zero. Smaller source layouts combine contiguous groups
-of the eight saved sources using `owner_K = owner_8 // (8 // K)`:
+**Case agents are assigned separately.** A candidate's owner stores that
+candidate; a case-agent host runs the agent responsible for the case. The
+hosts are assigned independently of candidate ownership and remain fixed
+across C. A local row therefore does not imply that all construction messages
+stay at one source.
 
-| Saved source at K=8 | Source at K=4 | Source at K=2 | Source at K=1 |
-| ---: | ---: | ---: | ---: |
-| 0 | 0 | 0 | 0 |
-| 1 | 0 | 0 | 0 |
-| 2 | 1 | 0 | 0 |
-| 3 | 1 | 0 | 0 |
-| 4 | 2 | 1 | 0 |
-| 5 | 2 | 1 | 0 |
-| 6 | 3 | 1 | 0 |
-| 7 | 3 | 1 | 0 |
+## Reusing the generated inter-case constraints
 
-The example's owner therefore becomes 3, 1, 0 and 0 at K=8,4,2,1.
-Both endpoints always move together. Within any K, changing C moves no
-candidates: even C=116 retains the placement determined by the full plan.
-This allocation is synthetic, not a reconstruction of an IKEA deployment.
+We construct and check the inter-case constraints using all 41 mined
+prerequisites and 32 occurrence bounds. The evaluation then uses only three
+prerequisites and two occurrence bounds, selected for practical runtime as
+explained in the [data guide](../reviewer/README.md#why-only-five-rules-are-used-for-matching).
+The inter-case constraints, candidate scores and source assignments are
+retained. We check again that GT remains feasible and that each added row
+excludes a selection satisfying all other rows.
 
-## Case-agent hosts are a separate assignment
-
-A candidate's owner stores that candidate. A case-agent host runs the agent
-responsible for a case; it is not the owner of every candidate in that case.
-The plan cycles lexicographically sorted case IDs through eight hosts, then
-coarsens hosts with the same integer-division rule as sources. Hosting remains
-fixed across C and is assigned independently of candidate placement.
-
-In the example at K=8, case 86's agent is on host 5 and case 9's agent on
-host 1, although the exclusion's candidates are both on source 3. The case
-edge still connects those agents. Component election chooses the smallest
-`(host, case ID)` rank, so this two-case component's coordinator is on host 1.
-Local storage of the exclusion does not imply that all associated protocol
-messages stay on one host.
-
-## What is frozen for the five-template sweep
-
-The plan and its safe swaps were originally checked against all 41 mined
-prerequisites and 32 occurrence bounds. Preparation first validates that
-original plan, builds its prefixes and source layouts, then retains only
-`pre_019`, `pre_036`, `pre_023`, `occ_031` and `occ_021` from the saved
-[selection protocol](../../inputs/provenance/selection_protocol.json).
-It does not regenerate endpoints, bridges, witnesses, placement or scores.
-Removing templates preserves the original witnesses; preparation also checks
-all 115 witnesses explicitly against the reduced model.
-
-The [preparation audit](../../results/benchmark_sweep/preparation/validation.json)
-records all 32 conditions, GT feasibility, `116 − C` edges, identical numerical
-models across K, fixed ownership across C and the witness checks. The code
-recorded with the executed sweep contains
-[`generate_plan`, `validate_plan` and `build_instance`](../../results/benchmark_sweep/implementation_snapshot/minea_ikea/instances.py)
-and [sweep preparation](../../results/benchmark_sweep/implementation_snapshot/sweep_instances.py).
-The standalone [instance generator](../../minea_ikea/instances.py) is identical;
-the [sweep preparation runner](../../sweep_instances.py) changes only five input
-paths for this project folder. The input plan and preparation's
-[saved plan copy](../../results/benchmark_sweep/preparation/plan_seed0.json.gz)
-are byte-identical.
-
-For a manual check, trace the three candidate IDs above, evaluate its row under
-GT and the recorded single swap, and inspect the unchanged other rows. Compare
-K2/C116 with K2/C58 for unchanged ownership, then K2/C58 with K8/C58 for the
-division-by-four mapping. The [manual review guide](../MANUAL_REVIEW.md#3-check-one-synthetic-link-and-an-ownership-change)
-provides the corresponding artifact links; the [data guide](../reviewer/README.md)
-explains the observations, GT assistance and mined templates underlying them.
+The [preparation checks](../../results/benchmark_sweep/preparation/validation.json)
+cover all 32 configurations, including unchanged candidate ownership across C
+and identical numerical matching problems across K. The recorded
+[instance-construction code](../../results/benchmark_sweep/implementation_snapshot/minea_ikea/instances.py)
+and [sweep preparation](../../results/benchmark_sweep/implementation_snapshot/sweep_instances.py)
+provide the full implementation details.
