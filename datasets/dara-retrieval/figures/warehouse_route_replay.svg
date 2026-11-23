@@ -1,0 +1,925 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 742" width="1160" height="742" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">A retrieval order through the DaRA warehouse</title>
+  <desc id="desc">Worker S04 retrieves order 2904. Nine colored areas act as sources and contain 24 location zones. The active zone and current ground truth activity change at recorded video frame boundaries.</desc>
+  <rect width="1160" height="742" fill="#ffffff" />
+  <text x="40" y="57" font-size="36" font-weight="700" fill="#203438" text-anchor="start">A retrieval order through the DaRA warehouse</text>
+  <text x="40" y="88" font-size="17" font-weight="400" fill="#445b5c" text-anchor="start">Worker S04   ·   Session 2   ·   Order 2904, execution 3   ·   97 observations   ·   20:26 elapsed</text>
+  <line x1="744" x2="744" y1="113" y2="678" stroke="#d6dfdd" />
+  <polygon points="39.76,581.52 723.12,581.52 723.12,152.8 594.36,152.8 594.36,183.24 39.76,183.24" fill="#f3f3ef" />
+  <polygon points="291.16,303.2 517.08,303.2 517.08,183.24 291.16,183.24" fill="#dbe4f3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="594.36,581.52 723.12,581.52 723.12,431.24 594.36,431.24" fill="#e4e3d8" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="594.36,431.24 723.12,431.24 723.12,303.2 594.36,303.2" fill="#efddd0" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="283.96,546.88 328.08,546.88 328.08,385.32 283.96,385.32" fill="#d2e5dd" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="328.08,546.88 517.08,546.88 517.08,385.32 328.08,385.32" fill="#cde5e3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="594.36,303.2 723.12,303.2 723.12,152.8 594.36,152.8" fill="#e8deec" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="291.16,385.32 446,385.32 446,303.2 291.16,303.2" fill="#f8eacb" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="446,385.32 594.36,385.32 594.36,303.2 446,303.2" fill="#f8eacb" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="517.08,546.88 594.36,546.88 594.36,385.32 517.08,385.32" fill="#f8eacb" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="517.08,303.2 594.36,303.2 594.36,183.24 517.08,183.24" fill="#f8eacb" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="222.44,546.88 283.96,546.88 283.96,452.12 222.44,452.12" fill="#dae8d3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="222.44,452.12 283.96,452.12 283.96,385.32 291.16,385.32 291.16,371.52 222.44,371.52" fill="#dae8d3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="222.44,371.52 291.16,371.52 291.16,289 222.44,289" fill="#dae8d3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="222.44,289 291.16,289 291.16,183.24 222.44,183.24" fill="#dae8d3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="142.24,546.88 222.44,546.88 222.44,509.04 142.24,509.04" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,546.88 142.24,546.88 142.24,509.04 39.76,509.04" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,509.04 62.04,509.04 62.04,492.12 39.76,492.12" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="142.24,475.2 222.44,475.2 222.44,427.52 142.24,427.52" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,475.2 142.24,475.2 142.24,427.52 39.76,427.52" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,492.12 62.04,492.12 62.04,475.2 39.76,475.2" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,427.52 62.04,427.52 62.04,410.6 39.76,410.6" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="142.24,393.72 222.44,393.72 222.44,346.04 142.24,346.04" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,393.72 142.24,393.72 142.24,346.04 39.76,346.04" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,410.6 62.04,410.6 62.04,393.72 39.76,393.72" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,346.04 62.04,346.04 62.04,329.2 39.76,329.2" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="142.24,312.4 222.44,312.4 222.44,264.52 142.24,264.52" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,312.4 142.24,312.4 142.24,264.52 39.76,264.52" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,329.2 62.04,329.2 62.04,312.4 39.76,312.4" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,264.52 62.04,264.52 62.04,247.64 39.76,247.64" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="142.24,230.76 222.44,230.76 222.44,183.24 142.24,183.24" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,230.76 142.24,230.76 142.24,183.24 39.76,183.24" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,247.64 62.04,247.64 62.04,230.76 39.76,230.76" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="62.04,509.04 222.44,509.04 222.44,475.2 62.04,475.2" fill="#b4bcb7" stroke="#89968f" stroke-width="1" />
+  <path d="M102.14 475.2 V509.04" stroke="#e3e7e1" />
+  <path d="M142.24 475.2 V509.04" stroke="#e3e7e1" />
+  <path d="M182.34 475.2 V509.04" stroke="#e3e7e1" />
+  <polygon points="62.04,427.52 222.44,427.52 222.44,393.72 62.04,393.72" fill="#b4bcb7" stroke="#89968f" stroke-width="1" />
+  <path d="M102.14 393.72 V427.52" stroke="#e3e7e1" />
+  <path d="M142.24 393.72 V427.52" stroke="#e3e7e1" />
+  <path d="M182.34 393.72 V427.52" stroke="#e3e7e1" />
+  <polygon points="62.04,346.04 222.44,346.04 222.44,312.4 62.04,312.4" fill="#b4bcb7" stroke="#89968f" stroke-width="1" />
+  <path d="M102.14 312.4 V346.04" stroke="#e3e7e1" />
+  <path d="M142.24 312.4 V346.04" stroke="#e3e7e1" />
+  <path d="M182.34 312.4 V346.04" stroke="#e3e7e1" />
+  <polygon points="62.04,264.52 222.44,264.52 222.44,230.76 62.04,230.76" fill="#b4bcb7" stroke="#89968f" stroke-width="1" />
+  <path d="M102.14 230.76 V264.52" stroke="#e3e7e1" />
+  <path d="M142.24 230.76 V264.52" stroke="#e3e7e1" />
+  <path d="M182.34 230.76 V264.52" stroke="#e3e7e1" />
+  <path d="M142.24 509.04 V546.88" stroke="#ffffff" stroke-width="2" />
+  <path d="M142.24 427.52 V475.2" stroke="#ffffff" stroke-width="2" />
+  <path d="M142.24 346.04 V393.72" stroke="#ffffff" stroke-width="2" />
+  <path d="M142.24 264.52 V312.4" stroke="#ffffff" stroke-width="2" />
+  <path d="M142.24 183.24 V230.76" stroke="#ffffff" stroke-width="2" />
+  <polygon points="39.76,581.52 723.12,581.52 723.12,152.8 594.36,152.8 594.36,183.24 39.76,183.24" fill="none" stroke="#738984" stroke-width="1.6" />
+  <text x="40" y="132" font-size="22" font-weight="700" fill="#203438" text-anchor="start">Recorded zone visits</text>
+  <text x="40" y="155" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">The outline follows the active zone at 30× recording speed.</text>
+  <text x="773" y="132" font-size="22" font-weight="700" fill="#203438" text-anchor="start">Worker S04</text>
+  <text x="773" y="155" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">One full retrieval order in about 41 seconds</text>
+  <text x="773" y="229" font-size="16" font-weight="700" fill="#445b5c" text-anchor="start">Ground truth activity</text>
+  <text x="773" y="405" font-size="16" font-weight="700" fill="#445b5c" text-anchor="start">Current zone</text>
+  <text x="773" y="492" font-size="16" font-weight="700" fill="#445b5c" text-anchor="start">Source at observation end</text>
+  <g id="observation-1" opacity="1">
+    <animate attributeName="opacity" calcMode="discrete" values="1;0;0" keyTimes="0.000000000;0.019922162;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Collecting Order and</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Hardware</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 1 of 97  ·  starts at 0:00</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Office</text>
+  </g>
+  <g id="observation-2" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.019922162;0.029338922;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Transporting a Cart to</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">the Base</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 2 of 97  ·  starts at 0:24</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-3" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.029338922;0.038565169;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 3 of 97  ·  starts at 0:36</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-4" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.038565169;0.078953814;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 4 of 97  ·  starts at 0:47</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-5" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.078953814;0.082246959;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 5 of 97  ·  starts at 1:37</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-6" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.082246959;0.091064965;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 6 of 97  ·  starts at 1:41</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-7" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.091064965;0.096344882;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 7 of 97  ·  starts at 1:52</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-8" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.096344882;0.099692458;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 8 of 97  ·  starts at 1:58</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-9" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.099692458;0.102414065;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 9 of 97  ·  starts at 2:02</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-10" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.102414065;0.106578124;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 10 of 97  ·  starts at 2:06</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-11" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.106578124;0.118471546;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 11 of 97  ·  starts at 2:11</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-12" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.118471546;0.122118499;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 12 of 97  ·  starts at 2:25</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-13" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.122118499;0.125683804;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 13 of 97  ·  starts at 2:30</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-14" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.125683804;0.129521269;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 14 of 97  ·  starts at 2:34</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-15" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.129521269;0.135917045;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 15 of 97  ·  starts at 2:39</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-16" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.135917045;0.138420924;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 16 of 97  ·  starts at 2:47</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-17" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.138420924;0.145306589;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 17 of 97  ·  starts at 2:50</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-18" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.145306589;0.153607490;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 18 of 97  ·  starts at 2:58</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-19" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.153607490;0.163650219;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 19 of 97  ·  starts at 3:08</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-20" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.163650219;0.167923142;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 20 of 97  ·  starts at 3:21</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-21" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.167923142;0.169447242;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 21 of 97  ·  starts at 3:26</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-22" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.169447242;0.180959639;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Reporting and</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Clarifying the</text>
+    <text x="773" y="335" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Incident</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 22 of 97  ·  starts at 3:28</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-23" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.180959639;0.184661024;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 23 of 97  ·  starts at 3:42</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-24" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.184661024;0.187409847;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 24 of 97  ·  starts at 3:46</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-25" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.187409847;0.193043573;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 25 of 97  ·  starts at 3:50</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-26" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.193043573;0.194867050;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 26 of 97  ·  starts at 3:57</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-27" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.194867050;0.204637618;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 27 of 97  ·  starts at 3:59</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-28" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.204637618;0.210924530;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 28 of 97  ·  starts at 4:11</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-29" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.210924530;0.213319544;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 29 of 97  ·  starts at 4:19</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-30" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.213319544;0.217265874;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 30 of 97  ·  starts at 4:22</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-31" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.217265874;0.223198977;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 31 of 97  ·  starts at 4:26</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-32" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.223198977;0.227009226;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 32 of 97  ·  starts at 4:34</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-33" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.227009226;0.229322592;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 33 of 97  ·  starts at 4:38</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-34" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.229322592;0.231635958;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 34 of 97  ·  starts at 4:41</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-35" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.231635958;0.235527856;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 35 of 97  ·  starts at 4:44</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-36" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.235527856;0.239528618;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 36 of 97  ·  starts at 4:49</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-37" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.239528618;0.248455488;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 37 of 97  ·  starts at 4:54</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-38" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.248455488;0.250741638;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 38 of 97  ·  starts at 5:05</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-39" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.250741638;0.279536238;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Reporting and</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Clarifying the</text>
+    <text x="773" y="335" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Incident</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 39 of 97  ·  starts at 5:07</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Base</text>
+  </g>
+  <g id="observation-40" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.279536238;0.282666086;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 40 of 97  ·  starts at 5:43</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-41" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.282666086;0.287456114;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 41 of 97  ·  starts at 5:47</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-42" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.287456114;0.292382222;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 42 of 97  ·  starts at 5:52</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-43" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.292382222;0.309201753;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 43 of 97  ·  starts at 5:58</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-44" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.309201753;0.312903138;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 44 of 97  ·  starts at 6:19</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-45" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.312903138;0.318890673;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 45 of 97  ·  starts at 6:24</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-46" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.318890673;0.323517405;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 46 of 97  ·  starts at 6:31</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-47" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.323517405;0.329232779;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 47 of 97  ·  starts at 6:37</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-48" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.329232779;0.332607572;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 48 of 97  ·  starts at 6:44</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-49" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.332607572;0.336417821;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 49 of 97  ·  starts at 6:48</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-50" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.336417821;0.339847046;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 50 of 97  ·  starts at 6:52</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-51" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.339847046;0.345181395;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 51 of 97  ·  starts at 6:57</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-52" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.345181395;0.367416923;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 52 of 97  ·  starts at 7:03</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-53" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.367416923;0.371118308;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 53 of 97  ·  starts at 7:30</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-54" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.371118308;0.376098849;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 54 of 97  ·  starts at 7:35</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Base</text>
+  </g>
+  <g id="observation-55" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.376098849;0.384236453;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 55 of 97  ·  starts at 7:41</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-56" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.384236453;0.388727104;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 56 of 97  ·  starts at 7:51</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-57" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.388727104;0.393163324;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 57 of 97  ·  starts at 7:57</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-58" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.393163324;0.397572327;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 58 of 97  ·  starts at 8:02</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-59" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.397572327;0.404566856;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 59 of 97  ·  starts at 8:07</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-60" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.404566856;0.410173366;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 60 of 97  ·  starts at 8:16</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-61" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.410173366;0.414827314;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 61 of 97  ·  starts at 8:23</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-62" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.414827314;0.417766649;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 62 of 97  ·  starts at 8:29</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-63" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.417766649;0.425087772;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 63 of 97  ·  starts at 8:32</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-64" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.425087772;0.430068312;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 64 of 97  ·  starts at 8:41</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-65" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.430068312;0.436191928;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 65 of 97  ·  starts at 8:47</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-66" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.436191928;0.441090820;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 66 of 97  ·  starts at 8:55</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-67" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.441090820;0.461747816;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 67 of 97  ·  starts at 9:01</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cross Aisle Path</text>
+  </g>
+  <g id="observation-68" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.461747816;0.467163814;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to the Next</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Position</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 68 of 97  ·  starts at 9:26</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-69" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.467163814;0.486051765;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 69 of 97  ·  starts at 9:33</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Aisle Path</text>
+  </g>
+  <g id="observation-70" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.486051765;0.492855782;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Moving to a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 70 of 97  ·  starts at 9:56</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Base</text>
+  </g>
+  <g id="observation-71" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.492855782;0.506735977;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 71 of 97  ·  starts at 10:04</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Base</text>
+  </g>
+  <g id="observation-72" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.506735977;0.524698582;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Reporting and</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Clarifying the</text>
+    <text x="773" y="335" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Incident</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 72 of 97  ·  starts at 10:21</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Office</text>
+  </g>
+  <g id="observation-73" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.524698582;0.531339303;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 73 of 97  ·  starts at 10:43</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Office</text>
+  </g>
+  <g id="observation-74" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.531339303;0.542715619;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Transporting to the</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Packaging/Sorting Area</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 74 of 97  ·  starts at 10:51</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-75" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.542715619;0.576490760;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Waiting</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 75 of 97  ·  starts at 11:05</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-76" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.576490760;0.628255722;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Printing Shipping</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Label and Return Slip</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 76 of 97  ·  starts at 11:47</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-77" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.628255722;0.635223036;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Preparing or Adding</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Return Label</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 77 of 97  ·  starts at 12:50</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-78" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.635223036;0.800125194;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Waiting</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 78 of 97  ·  starts at 12:59</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-79" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.800125194;0.809242577;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item on a Table</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 79 of 97  ·  starts at 16:21</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-80" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.809242577;0.811991400;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Removing Elastic Band</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 80 of 97  ·  starts at 16:32</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-81" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.811991400;0.823585445;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Preparing or Adding</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Return Label</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 81 of 97  ·  starts at 16:35</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-82" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.823585445;0.836921318;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Filling Cardboard Box</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">with Filling Material</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 82 of 97  ·  starts at 16:50</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-83" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.836921318;0.838880875;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Preparing or Adding</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Return Label</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 83 of 97  ·  starts at 17:06</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-84" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.838880875;0.854366818;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Sealing Cardboard Box</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 84 of 97  ·  starts at 17:08</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-85" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.854366818;0.867648260;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Attaching Shipping</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Label</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 85 of 97  ·  starts at 17:27</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-86" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.867648260;0.870315434;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 86 of 97  ·  starts at 17:44</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-87" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.870315434;0.874833302;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item on a Table</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 87 of 97  ·  starts at 17:47</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-88" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.874833302;0.877527692;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Removing Elastic Band</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 88 of 97  ·  starts at 17:53</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-89" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.877527692;0.899980949;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Filling Cardboard Box</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">with Filling Material</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 89 of 97  ·  starts at 17:56</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-90" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.899980949;0.904743761;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Preparing or Adding</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Return Label</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 90 of 97  ·  starts at 18:23</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-91" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.904743761;0.919957543;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Sealing Cardboard Box</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 91 of 97  ·  starts at 18:29</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-92" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.919957543;0.929047710;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Attaching Shipping</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Label</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 92 of 97  ·  starts at 18:48</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-93" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.929047710;0.931497156;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Disposing of Filling</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Material or Shipping</text>
+    <text x="773" y="335" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Label</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 93 of 97  ·  starts at 18:59</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-94" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.931497156;0.936287184;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Placing Cardboard</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Box/Item in a Cart</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 94 of 97  ·  starts at 19:02</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Packing/Sorting Area</text>
+  </g>
+  <g id="observation-95" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.936287184;0.959965163;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Handing Over Packed</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Cardboard Boxes</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 95 of 97  ·  starts at 19:08</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Issuing/Receiving Area</text>
+  </g>
+  <g id="observation-96" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.959965163;0.974498544;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Collecting Empty</text>
+    <text x="773" y="302" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Cardboard Boxes</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 96 of 97  ·  starts at 19:37</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Cardboard Box Area</text>
+  </g>
+  <g id="observation-97" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0.000000000;0.974498544;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <text x="773" y="269" font-size="27" font-weight="600" fill="#203438" text-anchor="start">Returning Hardware</text>
+    <text x="773" y="363" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Observation 97 of 97  ·  starts at 19:55</text>
+    <text x="773" y="530" font-size="23" font-weight="600" fill="#203438" text-anchor="start">Office</text>
+  </g>
+  <g id="zone-z155" opacity="1">
+    <animate attributeName="opacity" calcMode="discrete" values="1;0;1;0;1;0;1;0;1;0" keyTimes="0.000000000;0.022371608;0.172794818;0.178782353;0.257191846;0.274201889;0.516697058;0.534387502;0.984133032;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="291.16,303.2 517.08,303.2 517.08,183.24 291.16,183.24" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Office</text>
+  </g>
+  <g id="zone-z164" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.022371608;0.026236290;0.171842256;0.172794818;0.178782353;0.179408323;0.256348148;0.257191846;0.274201889;0.274855074;0.514928013;0.516697058;0.534387502;0.540402253;0.942900689;0.944370356;0.981112049;0.984133032;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="291.16,385.32 446,385.32 446,303.2 291.16,303.2" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Office path</text>
+  </g>
+  <g id="zone-z170" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.026236290;0.027352149;0.171406799;0.171842256;0.179408323;0.180007076;0.225784503;0.226464905;0.255939907;0.256348148;0.274855074;0.275372180;0.288653621;0.291048635;0.365348502;0.366927034;0.372533544;0.375010206;0.385270664;0.386821980;0.395340609;0.396919141;0.407370111;0.408839779;0.416024821;0.417793865;0.426475791;0.428054323;0.438069836;0.439566720;0.462782027;0.463952317;0.489644286;0.490923441;0.510682307;0.514928013;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="222.44,371.52 291.16,371.52 291.16,289 222.44,289" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Cross-aisle 3–4</text>
+  </g>
+  <g id="zone-z169" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.027352149;0.030128188;0.127616145;0.128786436;0.149579512;0.150477642;0.169828267;0.171406799;0.180007076;0.186647797;0.208202923;0.208692812;0.224097107;0.225784503;0.229894129;0.232724601;0.237324116;0.239392537;0.248782081;0.255939907;0.275372180;0.276324742;0.279536238;0.281223634;0.291048635;0.295729799;0.304030700;0.311079661;0.321802792;0.323544621;0.329804316;0.331464497;0.337914705;0.339683749;0.363851618;0.365348502;0.375010206;0.375745040;0.378684375;0.385270664;0.396919141;0.407370111;0.417793865;0.426475791;0.439566720;0.441090820;0.457447677;0.462782027;0.490923441;0.492257029;0.507770188;0.510682307;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="222.44,452.12 283.96,452.12 283.96,385.32 291.16,385.32 291.16,371.52 222.44,371.52" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Cross-aisle 2–3</text>
+  </g>
+  <g id="zone-z168" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.030128188;0.037095501;0.080423482;0.094058732;0.101543151;0.104074245;0.120948208;0.127616145;0.136624663;0.138420924;0.142775495;0.149579512;0.150477642;0.151321340;0.166290178;0.169828267;0.193560678;0.194867050;0.200419127;0.208202923;0.216095583;0.224097107;0.232724601;0.237324116;0.295729799;0.297471627;0.302996489;0.304030700;0.323544621;0.329804316;0.339683749;0.340445799;0.341806603;0.363851618;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="222.44,546.88 283.96,546.88 283.96,452.12 222.44,452.12" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Cross-aisle 1–2</text>
+  </g>
+  <g id="zone-z172-177" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.037095501;0.080423482;0.094058732;0.095365104;0.100536157;0.101543151;0.104074245;0.105298969;0.119614620;0.120948208;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="142.24,546.88 222.44,546.88 222.44,509.04 142.24,509.04" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 1 (Front)</text>
+  </g>
+  <g id="zone-z172-178" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0.000000000;0.095365104;0.100536157;0.105298969;0.119614620;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="39.76,546.88 142.24,546.88 142.24,509.04 39.76,509.04" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <polygon points="39.76,509.04 62.04,509.04 62.04,492.12 39.76,492.12" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 1 (Back)</text>
+  </g>
+  <g id="zone-z173-177" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.128786436;0.136624663;0.151321340;0.152437199;0.164874942;0.166290178;0.186647797;0.193560678;0.208692812;0.209890319;0.214625915;0.216095583;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="142.24,475.2 222.44,475.2 222.44,427.52 142.24,427.52" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 2 (Front)</text>
+  </g>
+  <g id="zone-z158" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.138420924;0.142775495;0.194867050;0.200419127;0.276324742;0.279536238;0.297471627;0.302996489;0.340445799;0.341806603;0.375745040;0.378684375;0.441090820;0.457447677;0.492257029;0.507770188;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="283.96,546.88 328.08,546.88 328.08,385.32 283.96,385.32" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Base</text>
+  </g>
+  <g id="zone-z173-178" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0.000000000;0.152437199;0.164874942;0.209890319;0.214625915;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="39.76,475.2 142.24,475.2 142.24,427.52 39.76,427.52" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <polygon points="39.76,492.12 62.04,492.12 62.04,475.2 39.76,475.2" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <polygon points="39.76,427.52 62.04,427.52 62.04,410.6 39.76,410.6" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 2 (Back)</text>
+  </g>
+  <g id="zone-z174-177" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.226464905;0.229894129;0.239392537;0.248782081;0.281223634;0.288653621;0.311079661;0.312440465;0.319843235;0.321802792;0.331464497;0.337914705;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="142.24,393.72 222.44,393.72 222.44,346.04 142.24,346.04" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 3 (Front)</text>
+  </g>
+  <g id="zone-z174-178" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.312440465;0.319843235;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="39.76,393.72 142.24,393.72 142.24,346.04 39.76,346.04" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <polygon points="39.76,410.6 62.04,410.6 62.04,393.72 39.76,393.72" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <polygon points="39.76,346.04 62.04,346.04 62.04,329.2 39.76,329.2" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 3 (Back)</text>
+  </g>
+  <g id="zone-z175-177" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.366927034;0.372533544;0.386821980;0.388346080;0.393843725;0.395340609;0.408839779;0.416024821;0.428054323;0.429578423;0.436681817;0.438069836;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="142.24,312.4 222.44,312.4 222.44,264.52 142.24,264.52" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 4 (Front)</text>
+  </g>
+  <g id="zone-z175-178" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0.000000000;0.388346080;0.393843725;0.429578423;0.436681817;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="39.76,312.4 142.24,312.4 142.24,264.52 39.76,264.52" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <polygon points="39.76,329.2 62.04,329.2 62.04,312.4 39.76,312.4" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <polygon points="39.76,264.52 62.04,264.52 62.04,247.64 39.76,247.64" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 4 (Back)</text>
+  </g>
+  <g id="zone-z171" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0.000000000;0.463952317;0.465585282;0.487875242;0.489644286;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="222.44,289 291.16,289 291.16,183.24 222.44,183.24" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Cross-aisle 4–5</text>
+  </g>
+  <g id="zone-z176-177" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0.000000000;0.465585282;0.466891653;0.486487222;0.487875242;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="142.24,230.76 222.44,230.76 222.44,183.24 142.24,183.24" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 5 (Front)</text>
+  </g>
+  <g id="zone-z176-178" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.466891653;0.486487222;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="39.76,230.76 142.24,230.76 142.24,183.24 39.76,183.24" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <polygon points="39.76,247.64 62.04,247.64 62.04,230.76 39.76,230.76" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Aisle 5 (Back)</text>
+  </g>
+  <g id="zone-z159" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.540402253;0.942900689;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="328.08,546.88 517.08,546.88 517.08,385.32 328.08,385.32" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Packing / sorting area</text>
+  </g>
+  <g id="zone-z165" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.944370356;0.947309692;0.963938709;0.968810386;0.975396674;0.981112049;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="446,385.32 594.36,385.32 594.36,303.2 446,303.2" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Cardboard box path</text>
+  </g>
+  <g id="zone-z167" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;0" keyTimes="0.000000000;0.947309692;0.951609830;0.955528944;0.957379637;0.960972158;0.963938709;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="517.08,303.2 594.36,303.2 594.36,183.24 517.08,183.24" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Issuing path</text>
+  </g>
+  <g id="zone-z160" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;0" keyTimes="0.000000000;0.951609830;0.955528944;0.957379637;0.960972158;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="594.36,303.2 723.12,303.2 723.12,152.8 594.36,152.8" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Issuing / receiving area</text>
+  </g>
+  <g id="zone-z157" opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0" keyTimes="0.000000000;0.968810386;0.975396674;1.000000000" dur="40.866422s" repeatCount="indefinite" />
+    <polygon points="594.36,431.24 723.12,431.24 723.12,303.2 594.36,303.2" stroke="#9b294c" stroke-width="3" fill="#9b294c" fill-opacity="0.12" />
+    <text x="773" y="442" font-size="24" font-weight="600" fill="#203438" text-anchor="start">Cardboard box area</text>
+  </g>
+  <text x="773" y="597" font-size="15" font-weight="700" fill="#445b5c" text-anchor="start">Elapsed recording time</text>
+  <rect x="773" y="611" width="349" height="6" fill="#dce6e3" rx="3" />
+  <rect x="773" y="611" width="0" height="6" fill="#9b294c" rx="3">
+    <animate attributeName="width" values="0;349" dur="40.866422s" repeatCount="indefinite" />
+  </rect>
+  <text x="773" y="640" font-size="14" font-weight="400" fill="#445b5c" text-anchor="start">0:00</text>
+  <text x="1122" y="640" font-size="14" font-weight="400" fill="#445b5c" text-anchor="end">20:26</text>
+  <g transform="translate(87.6 527.96) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">1 back</text>
+  </g>
+  <g transform="translate(182.32 527.96) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">1 front</text>
+  </g>
+  <g transform="translate(87.6 451.36) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">2 back</text>
+  </g>
+  <g transform="translate(182.32 451.36) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">2 front</text>
+  </g>
+  <g transform="translate(87.6 369.88) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">3 back</text>
+  </g>
+  <g transform="translate(182.32 369.88) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">3 front</text>
+  </g>
+  <g transform="translate(87.6 288.44) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">4 back</text>
+  </g>
+  <g transform="translate(182.32 288.44) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">4 front</text>
+  </g>
+  <g transform="translate(87.6 207) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">5 back</text>
+  </g>
+  <g transform="translate(182.32 207) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">5 front</text>
+  </g>
+  <g transform="translate(260.8 499.48) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">1–2</text>
+  </g>
+  <g transform="translate(261.12 411.8) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">2–3</text>
+  </g>
+  <g transform="translate(264.4 330.24) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">3–4</text>
+  </g>
+  <g transform="translate(264.4 236.12) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">4–5</text>
+  </g>
+  <g transform="translate(404 225) rotate(0)">
+    <text x="0" y="5.0" font-size="20" font-weight="600" fill="#203438" text-anchor="middle">Office</text>
+  </g>
+  <g transform="translate(659.6 506.2) rotate(0)">
+    <text x="0" y="5.0" font-size="18" font-weight="600" fill="#203438" text-anchor="middle">Cart area</text>
+  </g>
+  <g transform="translate(660 367) rotate(0)">
+    <text x="0" y="-4.0" font-size="17" font-weight="600" fill="#203438" text-anchor="middle">Cardboard</text>
+    <text x="0" y="14.0" font-size="17" font-weight="600" fill="#203438" text-anchor="middle">box area</text>
+  </g>
+  <g transform="translate(306 465.8) rotate(-90)">
+    <text x="0" y="5.0" font-size="16" font-weight="600" fill="#203438" text-anchor="middle">Base</text>
+  </g>
+  <g transform="translate(424 466.2) rotate(0)">
+    <text x="0" y="-4.5" font-size="18" font-weight="600" fill="#203438" text-anchor="middle">Packing /</text>
+    <text x="0" y="14.5" font-size="18" font-weight="600" fill="#203438" text-anchor="middle">sorting area</text>
+  </g>
+  <g transform="translate(659.6 229) rotate(0)">
+    <text x="0" y="-3.5" font-size="16" font-weight="600" fill="#203438" text-anchor="middle">Issuing /</text>
+    <text x="0" y="13.5" font-size="16" font-weight="600" fill="#203438" text-anchor="middle">receiving area</text>
+  </g>
+  <g transform="translate(368.4 329.4) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">To office</text>
+  </g>
+  <g transform="translate(521.2 343) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">To boxes</text>
+  </g>
+  <g transform="translate(556 466.2) rotate(-90)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">To carts</text>
+  </g>
+  <g transform="translate(556 244.6) rotate(-90)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">To issuing</text>
+  </g>
+  <text x="40" y="621" font-size="18" font-weight="700" fill="#203438" text-anchor="start">Nine source areas  ·  three contain finer zones</text>
+  <rect x="40" y="639" width="17" height="17" rx="2" fill="#d8e8f1" stroke="#6d8282" stroke-width="1" />
+  <text x="65" y="653" font-size="16" font-weight="700" fill="#203438" text-anchor="start">Aisle path</text>
+  <text x="65" y="675" font-size="14" font-weight="400" fill="#445b5c" text-anchor="start">5 aisles, front and back</text>
+  <rect x="286" y="639" width="17" height="17" rx="2" fill="#dae8d3" stroke="#6d8282" stroke-width="1" />
+  <text x="311" y="653" font-size="16" font-weight="700" fill="#203438" text-anchor="start">Cross-aisle path</text>
+  <text x="311" y="675" font-size="14" font-weight="400" fill="#445b5c" text-anchor="start">4 aisle-pair zones</text>
+  <rect x="504" y="639" width="17" height="17" rx="2" fill="#f8eacb" stroke="#6d8282" stroke-width="1" />
+  <text x="529" y="653" font-size="16" font-weight="700" fill="#203438" text-anchor="start">Connecting path</text>
+  <text x="529" y="675" font-size="14" font-weight="400" fill="#445b5c" text-anchor="start">4 destination zones</text>
+  <line x1="40" x2="1122" y1="693" y2="693" stroke="#d6dfdd" />
+  <text x="40" y="720" font-size="14" font-weight="400" fill="#445b5c" text-anchor="start">Layout adapted from Niemann &amp; Moya Rueda, DaRA Documentation, Fig. 2.42 (CC BY-NC 4.0).</text>
+  <text x="1122" y="720" font-size="14" font-weight="400" fill="#445b5c" text-anchor="end">Movement follows annotated zones.</text>
+</svg>

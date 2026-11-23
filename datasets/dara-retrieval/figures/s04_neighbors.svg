@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="figure-title figure-description" font-family="Inter, Arial, sans-serif" width="1060" height="539" viewBox="0 0 1060 539">
+  <title id="figure-title">How S04’s 15 nearest neighbors voted</title>
+  <desc id="figure-description">Each column is one training observation, ranked by its classifier distance to S04’s observation. Each mark casts one vote for its row’s ground truth activity.</desc>
+  <rect width="100%" height="100%" fill="white" />
+  <text x="30" y="43" font-size="30" fill="#1b3037" font-weight="700" text-anchor="start">How the 15 nearest neighbors voted</text>
+  <text x="30" y="71" font-size="17" fill="#4c6067" font-weight="400" text-anchor="start">Worker S04  ·  Session 2  ·  Order 2904  ·  Execution 3</text>
+  <text x="30" y="101" font-size="17" fill="#1b3037" font-weight="400" text-anchor="start">Read from left to right. Each column is one neighbor, from closest (1) to farthest (15).</text>
+  <g>
+    <text x="30" y="150" font-size="23" fill="#1b3037" font-weight="700" text-anchor="start">Observation 1  ·  Office</text>
+    <text x="30" y="175" font-size="16" fill="#4c6067" font-weight="400" text-anchor="start">Ground truth for S04  ·  Collecting Order and Hardware</text>
+    <text x="30" y="216" font-size="15" fill="#4c6067" font-weight="700" text-anchor="start">Ground truth activity of neighbor</text>
+    <text x="898" y="216" font-size="15" fill="#4c6067" font-weight="700" text-anchor="middle">Votes</text>
+    <text x="356" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">1</text>
+    <text x="391" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">2</text>
+    <text x="426" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">3</text>
+    <text x="461" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">4</text>
+    <text x="496" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">5</text>
+    <text x="531" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">6</text>
+    <text x="566" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">7</text>
+    <text x="601" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">8</text>
+    <text x="636" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">9</text>
+    <text x="671" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">10</text>
+    <text x="706" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">11</text>
+    <text x="741" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">12</text>
+    <text x="776" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">13</text>
+    <text x="811" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">14</text>
+    <text x="846" y="216" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">15</text>
+    <rect x="20" y="230" width="1020" height="30" fill="#f1f5f5" />
+    <text x="30" y="250" font-size="16" fill="#1b3037" font-weight="400" text-anchor="start">Returning Hardware</text>
+    <text x="898" y="250" font-size="18" fill="#1b3037" font-weight="700" text-anchor="middle">6</text>
+    <text x="933" y="250" font-size="15" fill="#1b3037" font-weight="700" text-anchor="start">First choice</text>
+    <rect x="20" y="263" width="1020" height="30" fill="#fafbfb" />
+    <text x="30" y="283" font-size="16" fill="#1b3037" font-weight="400" text-anchor="start">Reporting and Clarifying the Incident</text>
+    <text x="898" y="283" font-size="18" fill="#1b3037" font-weight="700" text-anchor="middle">5</text>
+    <rect x="20" y="296" width="1020" height="30" fill="#f1f5f5" />
+    <text x="30" y="316" font-size="16" fill="#1b3037" font-weight="400" text-anchor="start">Collecting Order and Hardware</text>
+    <text x="898" y="316" font-size="18" fill="#1b3037" font-weight="700" text-anchor="middle">4</text>
+    <line x1="356" x2="356" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="391" x2="391" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="426" x2="426" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="461" x2="461" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="496" x2="496" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="531" x2="531" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="566" x2="566" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="601" x2="601" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="636" x2="636" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="671" x2="671" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="706" x2="706" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="741" x2="741" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="776" x2="776" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="811" x2="811" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <line x1="846" x2="846" y1="228" y2="324" stroke="#d5ddde" stroke-width="1" />
+    <g>
+      <title>Rank 1 · Collecting Order and Hardware · Distance 135.968 · session06_order2905_execution03__activation0002</title>
+      <circle cx="356" cy="311" r="8" fill="#087767" />
+    </g>
+    <g>
+      <title>Rank 2 · Returning Hardware · Distance 153.917 · session06_order2904_execution03__activation0088</title>
+      <rect x="383.5" y="237.5" width="15" height="15" rx="1.7" fill="#a94718" />
+    </g>
+    <g>
+      <title>Rank 3 · Reporting and Clarifying the Incident · Distance 160.679 · session03_order2904_execution01__activation0079</title>
+      <polygon points="426,269 435,285 417,285" fill="#345f9b" />
+    </g>
+    <g>
+      <title>Rank 4 · Collecting Order and Hardware · Distance 163.048 · session05_order2906_execution02__activation0001</title>
+      <circle cx="461" cy="311" r="8" fill="#087767" />
+    </g>
+    <g>
+      <title>Rank 5 · Collecting Order and Hardware · Distance 163.141 · session01_order2905_execution03__activation0002</title>
+      <circle cx="496" cy="311" r="8" fill="#087767" />
+    </g>
+    <g>
+      <title>Rank 6 · Returning Hardware · Distance 168.319 · session03_order2904_execution01__activation0099</title>
+      <rect x="523.5" y="237.5" width="15" height="15" rx="1.7" fill="#a94718" />
+    </g>
+    <g>
+      <title>Rank 7 · Collecting Order and Hardware · Distance 168.379 · session03_order2904_execution03__activation0001</title>
+      <circle cx="566" cy="311" r="8" fill="#087767" />
+    </g>
+    <g>
+      <title>Rank 8 · Reporting and Clarifying the Incident · Distance 168.581 · session03_order2906_execution02__activation0047</title>
+      <polygon points="601,269 610,285 592,285" fill="#345f9b" />
+    </g>
+    <g>
+      <title>Rank 9 · Returning Hardware · Distance 171.833 · session03_order2906_execution03__activation0081</title>
+      <rect x="628.5" y="237.5" width="15" height="15" rx="1.7" fill="#a94718" />
+    </g>
+    <g>
+      <title>Rank 10 · Returning Hardware · Distance 177.311 · session06_order2906_execution01__activation0081</title>
+      <rect x="663.5" y="237.5" width="15" height="15" rx="1.7" fill="#a94718" />
+    </g>
+    <g>
+      <title>Rank 11 · Reporting and Clarifying the Incident · Distance 177.589 · session06_order2906_execution01__activation0042</title>
+      <polygon points="706,269 715,285 697,285" fill="#345f9b" />
+    </g>
+    <g>
+      <title>Rank 12 · Returning Hardware · Distance 177.739 · session01_order2906_execution03__activation0091</title>
+      <rect x="733.5" y="237.5" width="15" height="15" rx="1.7" fill="#a94718" />
+    </g>
+    <g>
+      <title>Rank 13 · Returning Hardware · Distance 181.851 · session01_order2906_execution02__activation0095</title>
+      <rect x="768.5" y="237.5" width="15" height="15" rx="1.7" fill="#a94718" />
+    </g>
+    <g>
+      <title>Rank 14 · Reporting and Clarifying the Incident · Distance 181.921 · session03_order2906_execution03__activation0041</title>
+      <polygon points="811,269 820,285 802,285" fill="#345f9b" />
+    </g>
+    <g>
+      <title>Rank 15 · Reporting and Clarifying the Incident · Distance 182.664 · session03_order2904_execution03__activation0037</title>
+      <polygon points="846,269 855,285 837,285" fill="#345f9b" />
+    </g>
+  </g>
+  <g>
+    <text x="30" y="374" font-size="23" fill="#1b3037" font-weight="700" text-anchor="start">Observation 4  ·  Aisle Path</text>
+    <text x="30" y="399" font-size="16" fill="#4c6067" font-weight="400" text-anchor="start">Ground truth for S04  ·  Retrieving Items</text>
+    <text x="30" y="440" font-size="15" fill="#4c6067" font-weight="700" text-anchor="start">Ground truth activity of neighbor</text>
+    <text x="898" y="440" font-size="15" fill="#4c6067" font-weight="700" text-anchor="middle">Votes</text>
+    <text x="356" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">1</text>
+    <text x="391" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">2</text>
+    <text x="426" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">3</text>
+    <text x="461" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">4</text>
+    <text x="496" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">5</text>
+    <text x="531" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">6</text>
+    <text x="566" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">7</text>
+    <text x="601" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">8</text>
+    <text x="636" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">9</text>
+    <text x="671" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">10</text>
+    <text x="706" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">11</text>
+    <text x="741" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">12</text>
+    <text x="776" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">13</text>
+    <text x="811" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">14</text>
+    <text x="846" y="440" font-size="15" fill="#4c6067" font-weight="400" text-anchor="middle">15</text>
+    <rect x="20" y="454" width="1020" height="30" fill="#f1f5f5" />
+    <text x="30" y="474" font-size="16" fill="#1b3037" font-weight="400" text-anchor="start">Retrieving Items</text>
+    <text x="898" y="474" font-size="18" fill="#1b3037" font-weight="700" text-anchor="middle">13</text>
+    <text x="933" y="474" font-size="15" fill="#1b3037" font-weight="700" text-anchor="start">First choice</text>
+    <rect x="20" y="487" width="1020" height="30" fill="#fafbfb" />
+    <text x="30" y="507" font-size="16" fill="#1b3037" font-weight="400" text-anchor="start">Moving to the Next Position</text>
+    <text x="898" y="507" font-size="18" fill="#1b3037" font-weight="700" text-anchor="middle">2</text>
+    <line x1="356" x2="356" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="391" x2="391" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="426" x2="426" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="461" x2="461" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="496" x2="496" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="531" x2="531" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="566" x2="566" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="601" x2="601" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="636" x2="636" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="671" x2="671" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="706" x2="706" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="741" x2="741" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="776" x2="776" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="811" x2="811" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <line x1="846" x2="846" y1="452" y2="515" stroke="#d5ddde" stroke-width="1" />
+    <g>
+      <title>Rank 1 · Retrieving Items · Distance 342.942 · session04_order2905_execution01__activation0009</title>
+      <circle cx="356" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 2 · Retrieving Items · Distance 357.524 · session03_order2905_execution03__activation0005</title>
+      <circle cx="391" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 3 · Retrieving Items · Distance 363.793 · session03_order2906_execution02__activation0009</title>
+      <circle cx="426" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 4 · Retrieving Items · Distance 365.997 · session04_order2904_execution03__activation0005</title>
+      <circle cx="461" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 5 · Retrieving Items · Distance 369.483 · session04_order2904_execution03__activation0009</title>
+      <circle cx="496" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 6 · Retrieving Items · Distance 387.616 · session04_order2904_execution01__activation0007</title>
+      <circle cx="531" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 7 · Retrieving Items · Distance 404.103 · session06_order2904_execution03__activation0004</title>
+      <circle cx="566" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 8 · Moving to the Next Position · Distance 413.364 · session04_order2904_execution01__activation0010</title>
+      <polygon points="601,493 610,502 601,511 592,502" fill="#916221" />
+    </g>
+    <g>
+      <title>Rank 9 · Retrieving Items · Distance 414.750 · session06_order2905_execution03__activation0006</title>
+      <circle cx="636" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 10 · Retrieving Items · Distance 423.357 · session06_order2906_execution01__activation0016</title>
+      <circle cx="671" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 11 · Retrieving Items · Distance 427.374 · session04_order2905_execution03__activation0018</title>
+      <circle cx="706" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 12 · Retrieving Items · Distance 428.359 · session03_order2904_execution01__activation0010</title>
+      <circle cx="741" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 13 · Retrieving Items · Distance 429.925 · session04_order2905_execution03__activation0004</title>
+      <circle cx="776" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 14 · Retrieving Items · Distance 436.084 · session05_order2905_execution02__activation0011</title>
+      <circle cx="811" cy="469" r="8" fill="#794e89" />
+    </g>
+    <g>
+      <title>Rank 15 · Moving to the Next Position · Distance 436.418 · session04_order2905_execution02__activation0013</title>
+      <polygon points="846,493 855,502 846,511 837,502" fill="#916221" />
+    </g>
+  </g>
+</svg>

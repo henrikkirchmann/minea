@@ -1,15 +1,13 @@
-# File inventory and validation
+# Earlier IKEA ASM evaluation records
 
-This folder records the origin and verification of the material accompanying
-the paper evaluation. Start with the [main README](../README.md) to review the
-setup, Figure 3, result tables and code.
+This directory archives the September 2026 inventory and validation of the IKEA ASM evaluation. Its hashes and test outputs describe that snapshot. To reproduce the current DaRA warehouse retrieval results, follow the [DaRA experiment guide](../experiments/dara/README.md).
 
 | File | What it establishes |
 | --- | --- |
-| [release_validation.json](release_validation.json) | Checks run on the cleaned release: tests, prepared inputs, saved results, figures, links and file integrity. |
-| [release_tests.log](release_tests.log) | Output of the release's automated test suite. |
-| [file_manifest.json](file_manifest.json) | Every retained file's purpose, byte size and SHA-256, excluding the inventory itself. |
-| [extraction.json](extraction.json) | Origin and original hash of files copied when this standalone project was created. These source paths are historical, not runtime dependencies. |
+| [release_validation.json](release_validation.json) | September 2026 checks of tests, prepared inputs, saved results, figures, links and file integrity. |
+| [release_tests.log](release_tests.log) | Output of the automated tests for that snapshot. |
+| [file_manifest.json](file_manifest.json) | Purpose, byte size and SHA-256 of each file in the IKEA ASM snapshot, excluding the inventory itself. |
+| [extraction.json](extraction.json) | Original paths and hashes of files copied when the IKEA ASM package was assembled. |
 | [paper_sources.json](paper_sources.json) | The manuscript and figure versions used when the standalone folder was assembled. |
 | [recorded_endpoint_audit.json](recorded_endpoint_audit.json) | Comparison with the recorded code and checks of all 115 synthetic exclusions and their stored single replacements. |
 | [standard_event_log_validation.json](standard_event_log_validation.json) | Actual PM4Py import checks of the four downloadable event logs, including every observation, interval and score payload. |
@@ -26,8 +24,4 @@ alongside it. The [source manifest](../source_manifest.json) identifies the
 pinned upstream exports. The data guide and downloads have their own input
 and output hashes under [docs/reviewer/](../docs/reviewer/).
 
-Superseded documentation-check reports and development logs were removed from
-the upload folder after a complete local backup. The current release report
-consolidates the applicable checks. Automated checks do not constitute human
-review; the [manual walkthrough](../docs/MANUAL_REVIEW.md) provides that review
-procedure.
+The [September 2026 release report](release_validation.json) consolidates the checks for the IKEA ASM snapshot. To inspect those results by hand, use the [IKEA ASM reviewer walkthrough](../docs/MANUAL_REVIEW.md).

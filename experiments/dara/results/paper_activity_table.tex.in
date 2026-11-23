@@ -1,0 +1,38 @@
+\par\smallskip\noindent
+\begin{minipage}{\linewidth}
+\captionsetup{type=table,skip=3pt}
+\caption{With common tie-breaking, \tool{} and the centralized solver
+selected identical labels on all 53 orders. $F_1$ ranges from 0 to 1 (best).
+For micro-$F_1$, we sum correct assignments, incorrect assignments and missed occurrences
+across all ten activities.}
+\label{tab:dara-retrieval}
+{\centering\small
+\setlength{\tabcolsep}{3pt}
+\setlength{\aboverulesep}{1.5pt}
+\setlength{\belowrulesep}{2pt}
+\renewcommand{\arraystretch}{0.93}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & \multicolumn{3}{c}{Activity $F_1$} &
+ \multicolumn{2}{c}{\shortstack{Events assigned this label\\Source-local checks $\to$ \tool{}}} \\
+\cmidrule(lr){2-4}\cmidrule(l){5-6}
+Activity &
+\shortstack[r]{Classifier\\only} &
+\shortstack[r]{Source-local\\checks only} &
+\shortstack[r]{\tool{} $=$ central\\(all checks)} & Correctly & Incorrectly \\
+\midrule
+\emph{Transport to packing/sorting} & @CL129@ \\
+\emph{Printing the shipping label and return slip} & @CL146@ \\
+\emph{Collecting order and hardware} & @CL124@ \\
+\emph{Placing a box or item in a cart} & @CL151@ \\
+\emph{Moving to the next position} & @CL137@ \\
+\emph{Attaching the shipping label} & @CL148@ \\
+\emph{Retrieving items} & @CL139@ \\
+\emph{Moving to a cart} & @CL140@ \\
+\emph{Reporting an incident} & @CL135@ \\
+\emph{Packed-box handover} & @CL130@ \\
+\midrule
+All ten activities combined & @ALL@ \\
+\bottomrule
+\end{tabular}\par}
+\end{minipage}\par\smallskip\noindent

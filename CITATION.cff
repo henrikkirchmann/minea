@@ -1,15 +1,103 @@
 cff-version: 1.2.0
-message: "Please cite this artifact, the original IKEA ASM dataset paper, and the earlier uncertain-event-log work when using these inputs; see references below."
-title: "MINEA IKEA ASM construction and matching evaluation"
+message: "Please cite this software when using MINEA. For the DaRA evaluation, also cite the version 1 dataset and its companion paper. References for the earlier IKEA ASM evaluation follow."
+title: "MINEA evaluation artifacts for DaRA warehouse retrieval and IKEA ASM assembly"
 type: software
-version: 0.5.0
-date-released: 2026-09-19
 authors:
   - family-names: Kirchmann
     given-names: Henrik
 license: MIT
-abstract: "Auditable GT-aligned IKEA ASM inputs, constraint discovery, distributed construction simulation and exact matching compared with a central-upload baseline. Upstream and derived data are not relicensed by the code license."
+repository-code: "https://github.com/henrikkirchmann/minea"
+abstract: "Software and reference results for matching observations to process activities across distributed sources in DaRA warehouse retrieval and IKEA ASM assembly. Dataset-specific licenses accompany the derived data."
 references:
+  - type: data
+    authors:
+      - family-names: Niemann
+        given-names: Friedrich
+      - family-names: Moya Rueda
+        given-names: Fernando
+      - family-names: Nair
+        given-names: Nilah Ravi
+      - family-names: Orth
+        given-names: Alexander
+      - family-names: Al Kfari
+        given-names: Moh'd Khier
+      - family-names: Frichert
+        given-names: Michael
+      - family-names: Abdulaal
+        given-names: Ahmad
+      - family-names: Abu Seer
+        given-names: Mutaz
+      - family-names: Almatalka
+        given-names: Hashem
+      - family-names: Asskar
+        given-names: Hussam
+      - family-names: Bork
+        given-names: Eileen
+      - family-names: Dobariya
+        given-names: Bhavadip
+      - family-names: Ghroubi
+        given-names: Eya
+      - family-names: Kersting
+        given-names: Fabio Fritz
+      - family-names: König
+        given-names: Fabian
+      - family-names: Qadri
+        given-names: Syed Abdul Haseeb
+      - family-names: Reining
+        given-names: Christopher
+      - family-names: Riedel
+        given-names: Tobias
+      - family-names: Schauten
+        given-names: Dustin
+      - family-names: Seval
+        given-names: Kamil
+      - family-names: Youssef
+        given-names: Mohammad
+      - family-names: Zurkuhl
+        given-names: Kai
+      - family-names: Grzeszick
+        given-names: René
+      - family-names: Lüdtke
+        given-names: Stefan
+      - family-names: Kirchheim
+        given-names: Alice
+    title: "Data Fusion for advanced Research in industrial Applications (DaRA) – A Multi-Sensor, Multi-Level Annotated Dataset for Human Activity and Human Context Recognition in Warehousing"
+    publisher:
+      name: Zenodo
+    version: "1"
+    date-released: "2026-01-21"
+    year: 2026
+    doi: "10.5281/zenodo.10468175"
+    url: "https://doi.org/10.5281/zenodo.10468175"
+    license: CC-BY-NC-4.0
+    scope: "Original warehouse recordings, ground truth activity sequences and documentation."
+  - type: article
+    authors:
+      - family-names: Niemann
+        given-names: Friedrich
+      - family-names: Moya Rueda
+        given-names: Fernando
+      - family-names: Al Kfari
+        given-names: Moh'd Khier
+      - family-names: Nair
+        given-names: Nilah Ravi
+      - family-names: Schauten
+        given-names: Dustin
+      - family-names: Kretschmer
+        given-names: Veronika
+      - family-names: Lüdtke
+        given-names: Stefan
+      - family-names: Kirchheim
+        given-names: Alice
+    title: "DaRA Dataset: Combining Wearable Sensors, Location Tracking, and Process Knowledge for Enhanced Human Activity and Human Context Recognition in Warehousing"
+    journal: "Sensors"
+    volume: 26
+    issue: 2
+    year: 2026
+    doi: "10.3390/s26020739"
+    url: "https://doi.org/10.3390/s26020739"
+    notes: "Article 739."
+    scope: "Companion paper describing the DaRA dataset."
   - type: conference-paper
     authors:
       - family-names: Ben-Shabat

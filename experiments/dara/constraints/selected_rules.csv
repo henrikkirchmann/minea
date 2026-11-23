@@ -1,0 +1,11 @@
+rule_id,query_type,prerequisite_id,prerequisite,trigger_or_capped_id,trigger_or_capped_activity,maximum,eligible,support_orders,total_edits_saved,fold_1_gain,fold_1_support_orders,fold_1_observed_max,fold_2_gain,fold_2_support_orders,fold_2_observed_max,fold_3_gain,fold_3_support_orders,fold_3_observed_max,fold_4_gain,fold_4_support_orders,fold_4_observed_max,fold_5_gain,fold_5_support_orders,fold_5_observed_max,fold_6_gain,fold_6_support_orders,fold_6_observed_max
+upper_CL137,upper,,,CL137,Moving to the Next Position,22,True,53,258,49,44,22,44,44,22,49,44,22,34,45,22,48,44,20,34,44,22
+transport_to_pack_upper,upper,,,CL129,Transporting to the Packaging/Sorting Area,2,True,53,181,24,44,2,27,44,2,34,44,2,27,45,2,32,44,2,37,44,2
+prereq_CL146_before_CL130,prerequisite,CL146,Printing Shipping Label and Return Slip,CL130,Handing Over Packed Cardboard Boxes,,True,53,109,24,44,,9,44,,19,44,,18,45,,17,44,,22,44,
+prereq_CL151_before_CL129,prerequisite,CL151,Placing Cardboard Box/Item in a Cart,CL129,Transporting to the Packaging/Sorting Area,,True,53,76,13,44,,11,44,,18,44,,10,45,,11,44,,13,44,
+prereq_CL124_before_CL135,prerequisite,CL124,Collecting Order and Hardware,CL135,Reporting and Clarifying the Incident,,True,52,63,9,44,,11,43,,9,43,,11,44,,11,43,,12,43,
+prereq_CL124_before_CL140,prerequisite,CL124,Collecting Order and Hardware,CL140,Moving to a Cart,,True,53,61,9,44,,10,44,,10,44,,11,45,,9,44,,12,44,
+prereq_CL124_before_CL151,prerequisite,CL124,Collecting Order and Hardware,CL151,Placing Cardboard Box/Item in a Cart,,True,53,61,10,44,,11,44,,9,44,,12,45,,7,44,,12,44,
+prereq_CL124_before_CL137,prerequisite,CL124,Collecting Order and Hardware,CL137,Moving to the Next Position,,True,53,60,8,44,,10,44,,10,44,,11,45,,9,44,,12,44,
+prereq_CL148_before_CL130,prerequisite,CL148,Attaching Shipping Label,CL130,Handing Over Packed Cardboard Boxes,,True,53,60,13,44,,4,44,,10,44,,10,45,,10,44,,13,44,
+retrieve_requires_assignment,prerequisite,CL124,Collecting Order and Hardware,CL139,Retrieving Items,,True,53,60,8,44,,10,44,,10,44,,11,45,,9,44,,12,44,
