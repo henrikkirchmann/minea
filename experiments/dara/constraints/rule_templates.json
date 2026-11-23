@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "cardinality",
+    "labels": [
+      "CL137"
+    ],
+    "upper": 22,
+    "id": "upper_CL137"
+  },
+  {
+    "kind": "cardinality",
+    "labels": [
+      "CL129"
+    ],
+    "upper": 2,
+    "id": "transport_to_pack_upper"
+  },
+  {
+    "kind": "prerequisite",
+    "trigger": "CL130",
+    "labels": [
+      "CL146"
+    ],
+    "id": "prereq_CL146_before_CL130"
+  },
+  {
+    "kind": "prerequisite",
+    "trigger": "CL129",
+    "labels": [
+      "CL151"
+    ],
+    "id": "prereq_CL151_before_CL129"
+  },
+  {
+    "kind": "prerequisite",
+    "trigger": "CL135",
+    "labels": [
+      "CL124"
+    ],
+    "id": "prereq_CL124_before_CL135"
+  },
+  {
+    "kind": "prerequisite",
+    "trigger": "CL140",
+    "labels": [
+      "CL124"
+    ],
+    "id": "prereq_CL124_before_CL140"
+  },
+  {
+    "kind": "prerequisite",
+    "trigger": "CL151",
+    "labels": [
+      "CL124"
+    ],
+    "id": "prereq_CL124_before_CL151"
+  },
+  {
+    "kind": "prerequisite",
+    "trigger": "CL137",
+    "labels": [
+      "CL124"
+    ],
+    "id": "prereq_CL124_before_CL137"
+  },
+  {
+    "kind": "prerequisite",
+    "trigger": "CL130",
+    "labels": [
+      "CL148"
+    ],
+    "id": "prereq_CL148_before_CL130"
+  },
+  {
+    "kind": "prerequisite",
+    "trigger": "CL139",
+    "labels": [
+      "CL124"
+    ],
+    "id": "retrieve_requires_assignment"
+  }
+]

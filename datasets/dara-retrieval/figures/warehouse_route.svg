@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 742" width="1160" height="742" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="title">A retrieval order through the DaRA warehouse</title>
+  <desc id="desc">Worker S04 retrieves order 2904. Nine colored areas act as sources and contain 24 location zones. The first walk goes from the office along the connecting path and cross-aisle to aisle 1 front. Selected activities follow picking, packing, handover and the return to the office.</desc>
+  <rect width="1160" height="742" fill="#ffffff" />
+  <text x="40" y="57" font-size="36" font-weight="700" fill="#203438" text-anchor="start">A retrieval order through the DaRA warehouse</text>
+  <text x="40" y="88" font-size="17" font-weight="400" fill="#445b5c" text-anchor="start">Worker S04   ·   Session 2   ·   Order 2904, execution 3   ·   97 observations   ·   20:26 elapsed</text>
+  <line x1="744" x2="744" y1="113" y2="678" stroke="#d6dfdd" />
+  <polygon points="39.76,581.52 723.12,581.52 723.12,152.8 594.36,152.8 594.36,183.24 39.76,183.24" fill="#f3f3ef" />
+  <polygon points="291.16,303.2 517.08,303.2 517.08,183.24 291.16,183.24" fill="#dbe4f3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="594.36,581.52 723.12,581.52 723.12,431.24 594.36,431.24" fill="#e4e3d8" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="594.36,431.24 723.12,431.24 723.12,303.2 594.36,303.2" fill="#efddd0" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="283.96,546.88 328.08,546.88 328.08,385.32 283.96,385.32" fill="#d2e5dd" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="328.08,546.88 517.08,546.88 517.08,385.32 328.08,385.32" fill="#cde5e3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="594.36,303.2 723.12,303.2 723.12,152.8 594.36,152.8" fill="#e8deec" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="291.16,385.32 446,385.32 446,303.2 291.16,303.2" fill="#f8eacb" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="446,385.32 594.36,385.32 594.36,303.2 446,303.2" fill="#f8eacb" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="517.08,546.88 594.36,546.88 594.36,385.32 517.08,385.32" fill="#f8eacb" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="517.08,303.2 594.36,303.2 594.36,183.24 517.08,183.24" fill="#f8eacb" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="222.44,546.88 283.96,546.88 283.96,452.12 222.44,452.12" fill="#dae8d3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="222.44,452.12 283.96,452.12 283.96,385.32 291.16,385.32 291.16,371.52 222.44,371.52" fill="#dae8d3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="222.44,371.52 291.16,371.52 291.16,289 222.44,289" fill="#dae8d3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="222.44,289 291.16,289 291.16,183.24 222.44,183.24" fill="#dae8d3" stroke="#ffffff" stroke-width="1.5" />
+  <polygon points="142.24,546.88 222.44,546.88 222.44,509.04 142.24,509.04" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,546.88 142.24,546.88 142.24,509.04 39.76,509.04" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,509.04 62.04,509.04 62.04,492.12 39.76,492.12" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="142.24,475.2 222.44,475.2 222.44,427.52 142.24,427.52" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,475.2 142.24,475.2 142.24,427.52 39.76,427.52" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,492.12 62.04,492.12 62.04,475.2 39.76,475.2" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,427.52 62.04,427.52 62.04,410.6 39.76,410.6" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="142.24,393.72 222.44,393.72 222.44,346.04 142.24,346.04" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,393.72 142.24,393.72 142.24,346.04 39.76,346.04" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,410.6 62.04,410.6 62.04,393.72 39.76,393.72" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,346.04 62.04,346.04 62.04,329.2 39.76,329.2" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="142.24,312.4 222.44,312.4 222.44,264.52 142.24,264.52" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,312.4 142.24,312.4 142.24,264.52 39.76,264.52" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,329.2 62.04,329.2 62.04,312.4 39.76,312.4" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,264.52 62.04,264.52 62.04,247.64 39.76,247.64" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="142.24,230.76 222.44,230.76 222.44,183.24 142.24,183.24" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,230.76 142.24,230.76 142.24,183.24 39.76,183.24" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="39.76,247.64 62.04,247.64 62.04,230.76 39.76,230.76" fill="#d8e8f1" stroke="#d8e8f1" stroke-width="1.5" />
+  <polygon points="62.04,509.04 222.44,509.04 222.44,475.2 62.04,475.2" fill="#b4bcb7" stroke="#89968f" stroke-width="1" />
+  <path d="M102.14 475.2 V509.04" stroke="#e3e7e1" />
+  <path d="M142.24 475.2 V509.04" stroke="#e3e7e1" />
+  <path d="M182.34 475.2 V509.04" stroke="#e3e7e1" />
+  <polygon points="62.04,427.52 222.44,427.52 222.44,393.72 62.04,393.72" fill="#b4bcb7" stroke="#89968f" stroke-width="1" />
+  <path d="M102.14 393.72 V427.52" stroke="#e3e7e1" />
+  <path d="M142.24 393.72 V427.52" stroke="#e3e7e1" />
+  <path d="M182.34 393.72 V427.52" stroke="#e3e7e1" />
+  <polygon points="62.04,346.04 222.44,346.04 222.44,312.4 62.04,312.4" fill="#b4bcb7" stroke="#89968f" stroke-width="1" />
+  <path d="M102.14 312.4 V346.04" stroke="#e3e7e1" />
+  <path d="M142.24 312.4 V346.04" stroke="#e3e7e1" />
+  <path d="M182.34 312.4 V346.04" stroke="#e3e7e1" />
+  <polygon points="62.04,264.52 222.44,264.52 222.44,230.76 62.04,230.76" fill="#b4bcb7" stroke="#89968f" stroke-width="1" />
+  <path d="M102.14 230.76 V264.52" stroke="#e3e7e1" />
+  <path d="M142.24 230.76 V264.52" stroke="#e3e7e1" />
+  <path d="M182.34 230.76 V264.52" stroke="#e3e7e1" />
+  <path d="M142.24 509.04 V546.88" stroke="#ffffff" stroke-width="2" />
+  <path d="M142.24 427.52 V475.2" stroke="#ffffff" stroke-width="2" />
+  <path d="M142.24 346.04 V393.72" stroke="#ffffff" stroke-width="2" />
+  <path d="M142.24 264.52 V312.4" stroke="#ffffff" stroke-width="2" />
+  <path d="M142.24 183.24 V230.76" stroke="#ffffff" stroke-width="2" />
+  <polygon points="39.76,581.52 723.12,581.52 723.12,152.8 594.36,152.8 594.36,183.24 39.76,183.24" fill="none" stroke="#738984" stroke-width="1.6" />
+  <g transform="translate(87.6 527.96) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">1 back</text>
+  </g>
+  <g transform="translate(182.32 527.96) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">1 front</text>
+  </g>
+  <g transform="translate(87.6 451.36) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">2 back</text>
+  </g>
+  <g transform="translate(182.32 451.36) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">2 front</text>
+  </g>
+  <g transform="translate(87.6 369.88) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">3 back</text>
+  </g>
+  <g transform="translate(182.32 369.88) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">3 front</text>
+  </g>
+  <g transform="translate(87.6 288.44) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">4 back</text>
+  </g>
+  <g transform="translate(182.32 288.44) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">4 front</text>
+  </g>
+  <g transform="translate(87.6 207) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">5 back</text>
+  </g>
+  <g transform="translate(182.32 207) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">5 front</text>
+  </g>
+  <g transform="translate(260.8 499.48) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">1–2</text>
+  </g>
+  <g transform="translate(261.12 411.8) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">2–3</text>
+  </g>
+  <g transform="translate(264.4 330.24) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">3–4</text>
+  </g>
+  <g transform="translate(264.4 236.12) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">4–5</text>
+  </g>
+  <g transform="translate(404 225) rotate(0)">
+    <text x="0" y="5.0" font-size="20" font-weight="600" fill="#203438" text-anchor="middle">Office</text>
+  </g>
+  <g transform="translate(659.6 506.2) rotate(0)">
+    <text x="0" y="5.0" font-size="18" font-weight="600" fill="#203438" text-anchor="middle">Cart area</text>
+  </g>
+  <g transform="translate(660 367) rotate(0)">
+    <text x="0" y="-4.0" font-size="17" font-weight="600" fill="#203438" text-anchor="middle">Cardboard</text>
+    <text x="0" y="14.0" font-size="17" font-weight="600" fill="#203438" text-anchor="middle">box area</text>
+  </g>
+  <g transform="translate(306 465.8) rotate(-90)">
+    <text x="0" y="5.0" font-size="16" font-weight="600" fill="#203438" text-anchor="middle">Base</text>
+  </g>
+  <g transform="translate(424 466.2) rotate(0)">
+    <text x="0" y="-4.5" font-size="18" font-weight="600" fill="#203438" text-anchor="middle">Packing /</text>
+    <text x="0" y="14.5" font-size="18" font-weight="600" fill="#203438" text-anchor="middle">sorting area</text>
+  </g>
+  <g transform="translate(659.6 229) rotate(0)">
+    <text x="0" y="-3.5" font-size="16" font-weight="600" fill="#203438" text-anchor="middle">Issuing /</text>
+    <text x="0" y="13.5" font-size="16" font-weight="600" fill="#203438" text-anchor="middle">receiving area</text>
+  </g>
+  <g transform="translate(368.4 329.4) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">To office</text>
+  </g>
+  <g transform="translate(521.2 343) rotate(0)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">To boxes</text>
+  </g>
+  <g transform="translate(556 466.2) rotate(-90)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">To carts</text>
+  </g>
+  <g transform="translate(556 244.6) rotate(-90)">
+    <text x="0" y="5.0" font-size="15" font-weight="600" fill="#203438" text-anchor="middle">To issuing</text>
+  </g>
+  <polyline points="325.2,267.8 325.2,361.8 232.8,361.8 232.8,417.0 232.8,515.8 169.6,515.8" fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round" />
+  <polyline points="325.2,267.8 325.2,361.8 232.8,361.8 232.8,417.0 232.8,515.8 169.6,515.8" fill="none" stroke="#9b294c" stroke-width="2.9" stroke-linejoin="round" />
+  <circle cx="325.2" cy="267.8" r="5" fill="#ffffff" stroke="#9b294c" stroke-width="3" />
+  <path d="M169.6 515.8 l10 -6 v12 z" fill="#9b294c" />
+  <text x="40" y="132" font-size="22" font-weight="700" fill="#203438" text-anchor="start">First walk  ·  office to aisle 1</text>
+  <text x="40" y="155" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">The arrow follows the recorded order of zone visits in observations 1–4.</text>
+  <text x="773" y="132" font-size="22" font-weight="700" fill="#203438" text-anchor="start">Activities during the order</text>
+  <text x="773" y="155" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">Start time · source at observation end</text>
+  <line x1="773" x2="1122" y1="180" y2="180" stroke="#d6dfdd" stroke-width="1" />
+  <rect x="773" y="191" width="12" height="12" rx="2" fill="#dbe4f3" stroke="#758582" stroke-width="0.8" />
+  <text x="793" y="202" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">0:00   ·   Office</text>
+  <text x="1122" y="202" font-size="15" font-weight="400" fill="#445b5c" text-anchor="end">#1</text>
+  <text x="773" y="229" font-size="19" font-weight="600" fill="#203438" text-anchor="start">Collecting Order and Hardware</text>
+  <line x1="773" x2="1122" y1="261" y2="261" stroke="#d6dfdd" stroke-width="1" />
+  <rect x="773" y="272" width="12" height="12" rx="2" fill="#d8e8f1" stroke="#758582" stroke-width="0.8" />
+  <text x="793" y="283" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">0:47   ·   Aisle Path</text>
+  <text x="1122" y="283" font-size="15" font-weight="400" fill="#445b5c" text-anchor="end">#4</text>
+  <text x="773" y="310" font-size="19" font-weight="600" fill="#203438" text-anchor="start">Retrieving Items</text>
+  <line x1="773" x2="1122" y1="342" y2="342" stroke="#d6dfdd" stroke-width="1" />
+  <rect x="773" y="353" width="12" height="12" rx="2" fill="#cde5e3" stroke="#758582" stroke-width="0.8" />
+  <text x="793" y="364" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">10:51   ·   Packing/Sorting Area</text>
+  <text x="1122" y="364" font-size="15" font-weight="400" fill="#445b5c" text-anchor="end">#74</text>
+  <text x="773" y="391" font-size="19" font-weight="600" fill="#203438" text-anchor="start">Transporting to the</text>
+  <text x="773" y="412" font-size="19" font-weight="600" fill="#203438" text-anchor="start">Packaging/Sorting Area</text>
+  <line x1="773" x2="1122" y1="423" y2="423" stroke="#d6dfdd" stroke-width="1" />
+  <rect x="773" y="434" width="12" height="12" rx="2" fill="#cde5e3" stroke="#758582" stroke-width="0.8" />
+  <text x="793" y="445" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">17:27   ·   Packing/Sorting Area</text>
+  <text x="1122" y="445" font-size="15" font-weight="400" fill="#445b5c" text-anchor="end">#85</text>
+  <text x="773" y="472" font-size="19" font-weight="600" fill="#203438" text-anchor="start">Attaching Shipping Label</text>
+  <line x1="773" x2="1122" y1="504" y2="504" stroke="#d6dfdd" stroke-width="1" />
+  <rect x="773" y="515" width="12" height="12" rx="2" fill="#e8deec" stroke="#758582" stroke-width="0.8" />
+  <text x="793" y="526" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">19:08   ·   Issuing/Receiving Area</text>
+  <text x="1122" y="526" font-size="15" font-weight="400" fill="#445b5c" text-anchor="end">#95</text>
+  <text x="773" y="553" font-size="19" font-weight="600" fill="#203438" text-anchor="start">Handing Over Packed Cardboard</text>
+  <text x="773" y="574" font-size="19" font-weight="600" fill="#203438" text-anchor="start">Boxes</text>
+  <line x1="773" x2="1122" y1="585" y2="585" stroke="#d6dfdd" stroke-width="1" />
+  <rect x="773" y="596" width="12" height="12" rx="2" fill="#dbe4f3" stroke="#758582" stroke-width="0.8" />
+  <text x="793" y="607" font-size="15" font-weight="400" fill="#445b5c" text-anchor="start">19:55   ·   Office</text>
+  <text x="1122" y="607" font-size="15" font-weight="400" fill="#445b5c" text-anchor="end">#97</text>
+  <text x="773" y="634" font-size="19" font-weight="600" fill="#203438" text-anchor="start">Returning Hardware</text>
+  <text x="40" y="621" font-size="18" font-weight="700" fill="#203438" text-anchor="start">Nine source areas  ·  three contain finer zones</text>
+  <rect x="40" y="639" width="17" height="17" rx="2" fill="#d8e8f1" stroke="#6d8282" stroke-width="1" />
+  <text x="65" y="653" font-size="16" font-weight="700" fill="#203438" text-anchor="start">Aisle path</text>
+  <text x="65" y="675" font-size="14" font-weight="400" fill="#445b5c" text-anchor="start">5 aisles, front and back</text>
+  <rect x="286" y="639" width="17" height="17" rx="2" fill="#dae8d3" stroke="#6d8282" stroke-width="1" />
+  <text x="311" y="653" font-size="16" font-weight="700" fill="#203438" text-anchor="start">Cross-aisle path</text>
+  <text x="311" y="675" font-size="14" font-weight="400" fill="#445b5c" text-anchor="start">4 aisle-pair zones</text>
+  <rect x="504" y="639" width="17" height="17" rx="2" fill="#f8eacb" stroke="#6d8282" stroke-width="1" />
+  <text x="529" y="653" font-size="16" font-weight="700" fill="#203438" text-anchor="start">Connecting path</text>
+  <text x="529" y="675" font-size="14" font-weight="400" fill="#445b5c" text-anchor="start">4 destination zones</text>
+  <line x1="40" x2="1122" y1="693" y2="693" stroke="#d6dfdd" />
+  <text x="40" y="720" font-size="14" font-weight="400" fill="#445b5c" text-anchor="start">Layout adapted from Niemann &amp; Moya Rueda, DaRA Documentation, Fig. 2.42 (CC BY-NC 4.0).</text>
+  <text x="1122" y="720" font-size="14" font-weight="400" fill="#445b5c" text-anchor="end">Movement follows annotated zones.</text>
+</svg>

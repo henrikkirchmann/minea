@@ -2,7 +2,9 @@
 
 ## DaRA warehouse retrieval
 
-The event logs and run windows in `datasets/dara-retrieval/` use DaRA v1 under CC BY-NC 4.0. Creator attribution, the scope of the data license and a description of the adaptation accompany the files. [DaRA data notice](datasets/dara-retrieval/DATA-LICENSE.md)
+The ground truth event logs, run windows, example figures and figure data in `datasets/dara-retrieval/` derive from the DaRA v1 dataset. The same attribution and CC BY-NC 4.0 terms apply to the DaRA-derived records in `experiments/dara/`, including observation-level candidate activities and scores, mined rules and their rankings, and activity selections for the evaluated runs. The data notice credits the creators and describes the adaptations. [DaRA data notice](datasets/dara-retrieval/DATA-LICENSE.md) · [DaRA v1 dataset](https://doi.org/10.5281/zenodo.10468175) · [Companion paper](https://doi.org/10.3390/s26020739)
+
+The original MINEA software for generating the event logs and running the experiment is released under the MIT license. [Software license](LICENSE)
 
 ## IKEA ASM
 
