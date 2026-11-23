@@ -1,5 +1,11 @@
 # Upstream provenance and notices
 
+## DaRA warehouse retrieval
+
+The event logs and run windows in `datasets/dara-retrieval/` use DaRA v1 under CC BY-NC 4.0. Creator attribution, the scope of the data license and a description of the adaptation accompany the files. [DaRA data notice](datasets/dara-retrieval/DATA-LICENSE.md)
+
+## IKEA ASM
+
 The original recordings, annotations and recognition benchmark are credited to
 Yizhak Ben-Shabat, Xin Yu, Fatemeh Saleh, Dylan Campbell,
 Cristian Rodriguez-Opazo, Hongdong Li and Stephen Gould:

@@ -1,4 +1,8 @@
-# IKEA ASM evaluation for MINEA
+# MINEA evaluation artifacts
+
+The [DaRA retrieval event log](datasets/dara-retrieval/README.md) provides the reference traces for the warehouse evaluation, in CSV and XES, with a Python exporter and instructions for regeneration. The logs and run windows carry the [DaRA data license](datasets/dara-retrieval/DATA-LICENSE.md).
+
+## IKEA ASM evaluation for MINEA
 
 This project contains the data, code and recorded results for the IKEA ASM
 evaluation and Figure 3 of the **ICPM 2027 submission “Keep the Reads at Home:
