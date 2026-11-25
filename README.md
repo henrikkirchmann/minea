@@ -1,5 +1,15 @@
 # MINEA evaluation artifacts
 
+**Table of contents**
+
+| Section | Jump to |
+|---|---|
+| [DaRA retrieval event log](#dara-retrieval-event-log) | [Warehouse layout and example run](#follow-one-retrieval-order-through-the-warehouse) · [Regenerate the log](#regenerate-the-log) |
+| [How the classifier generates scored activity candidates](#how-the-classifier-generates-scored-activity-candidates) | [Training and test sessions](#train-on-five-sessions-and-predict-the-sixth) · [Align sensor readings with video](#align-the-wearable-readings-with-video-frames) · [Encode the readings](#encode-the-readings-as-397-numbers) · [Measure distance and vote](#measure-distance-and-vote) · [Exact distance and tie-breaking](#exact-distance-and-tie-breaking) |
+| [How we mined and selected the process constraints](#how-we-mined-and-selected-the-process-constraints) | [Which constraints qualified?](#which-constraints-qualified) · [Gain from each constraint](#how-much-did-each-constraint-improve-the-classifiers-predictions) |
+| [How we evaluated the abstracted traces](#how-we-evaluated-the-abstracted-traces) | [Reproduce the DaRA results](#reproduce-the-dara-results) |
+| [Earlier IKEA ASM evaluation](#earlier-ikea-asm-evaluation) | [Experimental setup](#experimental-setup) · [Download event logs](#download-event-logs) · [Project folder](#project-folder) · [Code entry points](#code-entry-points)<br>[Install](#install) · [Check the data and results](#check-the-included-data-and-results) · [Rerun the experiment](#rebuild-and-rerun-the-experiment)<br>[Regenerate the data guide and statistics](#regenerate-the-data-guide-and-statistics) · [Regenerate Figure 3](#regenerate-figure-3) · [License and citation](#license-and-citation) |
+
 ## DaRA retrieval event log
 
 **[Open the XES event log](datasets/dara-retrieval/logs/dara_retrieval_gt.xes) · [Download the CSV](datasets/dara-retrieval/logs/dara_retrieval_gt.csv) · [Dataset and attribute guide](datasets/dara-retrieval/README.md) · [Reproduce the paper’s results](experiments/dara/README.md)**
@@ -28,9 +38,9 @@ The two comparisons finish silently when both files match. The logs and run wind
 
 ## How the classifier generates scored activity candidates
 
-We evaluate the **matching step of event abstraction**. In DaRA, each activity interval is one **observation**. DaRA supplies its boundaries, order and ending area. For matching, we also need possible activities and a score for each. We use a simple **15-nearest-neighbor classifier** to generate these **scored activity candidates** from wearable sensor readings and interval duration. Each score measures how strongly the readings support interpreting that observation as that activity.
+MINEA can work with **any classifier that gives each observation a set of candidate activities and a numerical score for each candidate**. A higher score indicates stronger evidence for that interpretation. MINEA takes these scored candidates as input and selects activities subject to the process constraints.
 
-We precomputed the ten highest-scoring candidates per observation and gave the same candidates and scores to all four methods. The classifier-only baseline takes the top candidate independently for each observation. We can then measure how enforcing process constraints changes the activity sequence produced for each order (its **abstracted trace**).
+In the DaRA experiment, each ground truth activity interval is one **observation**. DaRA supplies its boundaries, order and ending area. We chose a simple **15-nearest-neighbor classifier** to supply candidates from wearable sensor readings and interval duration. Our evaluation asks how the **matching step of event abstraction** changes the resulting activity sequence. We therefore gave all four methods the same ten highest-scoring candidates per observation. The classifier-only baseline takes the first choice at each observation. Comparing that baseline with constrained matching shows how the **abstracted trace** changes for each order.
 
 ### Train on five sessions and predict the sixth
 
@@ -38,9 +48,23 @@ To generate candidates for observations from an unseen recording session, we kee
 
 For example, to generate candidates for **session 2**, we trained on **sessions 1, 3, 4, 5 and 6**. Those five sessions provided 4,092 labeled observations from 44 runs. The classifier then ranked candidate activities for all 892 observations from the nine runs in session 2. We gave each of the six sessions one turn as the test session. This is called **leave-one-session-out evaluation**. It gives six overlapping training sets and one final list of scored candidates per observation.
 
+### Align the wearable readings with video frames
+
+The ground truth intervals are in video frames (29.97 frames per second). The wearables recorded Bluetooth Low Energy (BLE) signal strength at 10 Hz and inertial measurement unit (IMU) readings at 100 Hz. At the beginning and end of each recording, the worker performed a synchronization routine that could include waving both hands overhead. DaRA’s authors marked the onset of the opening and closing movements and published the corresponding video frame and sensor sample indices in Table 8.1. For each worker, we used the first available wearable set listed there and read both sensor streams from that set for all of the worker’s runs. [Synchronization gestures, Figure 2.2](https://zenodo.org/records/10468175/files/Documentation.pdf#page=14) · [DaRA synchronization method, Chapter 8](https://zenodo.org/records/10468175/files/Documentation.pdf#page=82) · [Original indices, Table 8.1](https://zenodo.org/records/10468175/files/Documentation.pdf#page=83) · [Set and indices used for each worker](experiments/dara/classifier/sync_anchors.csv)
+
+We mapped each observation’s start and end frame to each sensor CSV by linear interpolation. A frame 20% of the way from the opening to the closing video marker maps to 20% of the sample span between the corresponding sensor markers. The sensor CSVs start at the opening marker, so we count data rows from zero there. We round both mapped boundaries up, then take the rows from the start up to, but excluding, the end. [Alignment code in `sample_range`](experiments/dara/classifier/features.py) · [BLE and IMU archives on Zenodo](https://zenodo.org/records/10468175#files)
+
+For example, we used set `44-E` for S04’s session 2 retrieval run. Its first office observation spans video frames `[41458, 42190)`. Applying the two markers for that recording gives **244 BLE samples** and **2,443 IMU samples** for the same 24.42-second interval.
+
+| S04 recording | Opening marker | Closing marker | Interval used for the office observation (end excluded) |
+|---|---:|---:|---|
+| Video | 1,036 | 245,230 | Frames `[41458, 42190)` |
+| BLE | 8,004 | 89,487 | CSV data rows `[13489, 13733)` |
+| IMU | 80,044 | 894,873 | CSV data rows `[134881, 137324)` |
+
 ### Encode the readings as 397 numbers
 
-We use one wearable set per worker and align each sensor clock to video frames using the two documented synchronization movements. For each observation, we summarize the Bluetooth Low Energy (BLE) and inertial measurement unit (IMU) readings recorded during its interval. We use the same encoding for training and testing.
+For each observation, we summarize the sensor readings in its aligned interval and add its duration. We use the same encoding for training and testing.
 
 | Input | Features | Encoding |
 |---|---:|---|
@@ -65,6 +89,8 @@ The closest observation to S04 was recorded for worker S18 in session 6 during *
 ![Votes by neighbor rank for two observations from S04’s run. The office vote split 6, 5 and 4 across three activities. In the aisle, 13 of 15 neighbors voted for Retrieving Items.](datasets/dara-retrieval/figures/s04_neighbors.svg)
 
 To obtain the candidate scores, we add 0.1 to each of the 31 activities’ vote counts. In the office example, six votes for *Returning Hardware* give $6.1/(15+31\times0.1)=61/181$. The ground truth activity, *Collecting Order and Hardware*, received four votes (41/181) and remains available to matching in third place. Seven activities with zero votes fill the remaining places in the top ten, each with score 1/181.
+
+<a name="exact-distance-and-tie-breaking"></a>
 
 <details>
 <summary>Exact distance and tie-breaking</summary>
